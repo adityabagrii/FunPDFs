@@ -25,6 +25,12 @@ Performed EDA to understand the dataset:
 - Token and character length per section.
 - Checked for imbalance and noise in the data.
 
+### Class Distribution in Dataset
+![Class Distribution](class_distribution.png)
+
+### Distribution of length of different classes visualised using KDE
+![KDE Distribution](length_distributions.png)
+
 ---
 ## ⚙️ Preprocessing
 
