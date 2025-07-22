@@ -28,8 +28,12 @@ Performed EDA to understand the dataset:
 ### Class Distribution in Dataset
 ![Class Distribution](class_distribution.png)
 
+We can visualise the class imbalance as Title and H3 counts are much lesser than the H1 and H2 counts.
+
 ### Distribution of length of different classes visualised using KDE
 ![KDE Distribution](length_distribution.png)
+
+We can notice that the title somewhat follows a normal distribution in terms of lengths of the text but H1, H2 and H3 are very skewed towards the right hence features like text length are not good identifiers as there is a huge overlap in distribution of length of H1, H2 and H3.
 
 ---
 ## ⚙️ Preprocessing
