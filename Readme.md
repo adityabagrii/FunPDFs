@@ -29,7 +29,7 @@ Performed EDA to understand the dataset:
 ![Class Distribution](class_distribution.png)
 
 ### Distribution of length of different classes visualised using KDE
-![KDE Distribution](length_distributions.png)
+![KDE Distribution](length_distribution.png)
 
 ---
 ## ⚙️ Preprocessing
