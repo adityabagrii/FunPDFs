@@ -1,0 +1,4638 @@
+[
+  {
+    "title": "Observing Fine-Grained Changes in Jupyter Notebooks During Development Time",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Designing Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "Data Analysis Task"
+      },
+      {
+        "level": "H3",
+        "text": "Machine Learning Task"
+      },
+      {
+        "level": "H2",
+        "text": "Choosing Participants"
+      },
+      {
+        "level": "H2",
+        "text": "Executing the Experiment"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Empirical Analysis Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1: Nature of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2: The Purposes of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3: Changes in Data Science Steps"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Tooling"
+      },
+      {
+        "level": "H2",
+        "text": "Activity Plugin"
+      },
+      {
+        "level": "H2",
+        "text": "Server"
+      },
+      {
+        "level": "H2",
+        "text": "Post-processing Scripts"
+      },
+      {
+        "level": "H2",
+        "text": "Browsing the Notebook Versions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Findings"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ1:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ2:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ3:"
+      },
+      {
+        "level": "H3",
+        "text": "Stages of different data science steps"
+      },
+      {
+        "level": "H3",
+        "text": "Transitions between data science steps"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Code Evolution in Software Engineering"
+      },
+      {
+        "level": "H2",
+        "text": "Coding in Jupyter Notebooks"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Threats to Validity"
+      },
+      {
+        "level": "H2",
+        "text": "Implications"
+      },
+      {
+        "level": "H1",
+        "text": "Possible Future Research"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Analysis of the Workflow"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Code Dynamics"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15831v1",
+    "url": "http://arxiv.org/abs/2507.15831v1"
+  },
+  {
+    "title": "Learning Null Geodesics for Gravitational Lensing Rendering in General Relativity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Geodesic Approximation"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Distribution"
+      },
+      {
+        "level": "H3",
+        "text": "Geodesic Visualization"
+      },
+      {
+        "level": "H2",
+        "text": "Rendering Results"
+      },
+      {
+        "level": "H3",
+        "text": "Convergence Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H3",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Impact Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Physics-informed Neural Network"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Superposed Black Hole Metric"
+      },
+      {
+        "level": "H1",
+        "text": "Proof for $l^{\\text{straight"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Classical Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Learning Geodesics"
+      },
+      {
+        "level": "H2",
+        "text": "Ray Tracing in Curved Spacetime"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15775v1",
+    "url": "http://arxiv.org/abs/2507.15775v1"
+  },
+  {
+    "title": "Supernova: Achieving More with Less in Transformer Architectures",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient Transformer Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Tokenization and Representation Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Compact and Efficient Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Scaling Laws and Data Efficiency"
+      },
+      {
+        "level": "H1",
+        "text": "Architecture Design"
+      },
+      {
+        "level": "H2",
+        "text": "Design Philosophy and Principles"
+      },
+      {
+        "level": "H2",
+        "text": "Model Configuration"
+      },
+      {
+        "level": "H2",
+        "text": "Rotary Positional Embeddings"
+      },
+      {
+        "level": "H3",
+        "text": "Mathematical Foundation"
+      },
+      {
+        "level": "H3",
+        "text": "Implementation and Advantages"
+      },
+      {
+        "level": "H2",
+        "text": "Grouped Query Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Design Motivation and Architecture"
+      },
+      {
+        "level": "H3",
+        "text": "Attention Computation Process"
+      },
+      {
+        "level": "H3",
+        "text": "Efficiency Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "RMSNorm: Computational Efficiency in Normalization"
+      },
+      {
+        "level": "H2",
+        "text": "SwiGLU: Enhanced Feed-Forward Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Transformer Block Integration"
+      },
+      {
+        "level": "H1",
+        "text": "Tokenizer Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Design Philosophy"
+      },
+      {
+        "level": "H2",
+        "text": "Byte-Level BPE Algorithm"
+      },
+      {
+        "level": "H3",
+        "text": "Training Process"
+      },
+      {
+        "level": "H3",
+        "text": "Tokenization Process"
+      },
+      {
+        "level": "H2",
+        "text": "Vocabulary Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "English-Specific Optimizations"
+      },
+      {
+        "level": "H3",
+        "text": "Special Token Design"
+      },
+      {
+        "level": "H2",
+        "text": "Compression Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Comparative Performance on WikiText-103"
+      },
+      {
+        "level": "H3",
+        "text": "Domain-Specific Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Optimizations"
+      },
+      {
+        "level": "H3",
+        "text": "Trie-Based Encoding"
+      },
+      {
+        "level": "H3",
+        "text": "Parallel Tokenization"
+      },
+      {
+        "level": "H1",
+        "text": "Training Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset: Nemotron-CC"
+      },
+      {
+        "level": "H3",
+        "text": "Composition"
+      },
+      {
+        "level": "H3",
+        "text": "Quality Control Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Training Configuration"
+      },
+      {
+        "level": "H3",
+        "text": "Hyperparameters"
+      },
+      {
+        "level": "H3",
+        "text": "Learning Rate Schedule"
+      },
+      {
+        "level": "H2",
+        "text": "Training Efficiency"
+      },
+      {
+        "level": "H3",
+        "text": "Hardware Utilization"
+      },
+      {
+        "level": "H3",
+        "text": "Optimization Techniques"
+      },
+      {
+        "level": "H2",
+        "text": "Training Dynamics"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Progression"
+      },
+      {
+        "level": "H3",
+        "text": "Gradient Norms"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark Evaluation"
+      },
+      {
+        "level": "H3",
+        "text": "Zero-Shot Performance"
+      },
+      {
+        "level": "H3",
+        "text": "Benchmark Descriptions and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Inference Performance"
+      },
+      {
+        "level": "H3",
+        "text": "Memory Breakdown Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Data Efficiency Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Attention Pattern Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Token Utilization Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Architectural Insights"
+      },
+      {
+        "level": "H3",
+        "text": "The Synergy of Components"
+      },
+      {
+        "level": "H3",
+        "text": "Scaling Laws Revisited"
+      },
+      {
+        "level": "H2",
+        "text": "Tokenization as Critical Infrastructure"
+      },
+      {
+        "level": "H3",
+        "text": "Compression and Capacity"
+      },
+      {
+        "level": "H3",
+        "text": "Morphological Alignment"
+      },
+      {
+        "level": "H2",
+        "text": "Economic Implications and Deployment Scenarios"
+      },
+      {
+        "level": "H3",
+        "text": "Total Cost of Training"
+      },
+      {
+        "level": "H3",
+        "text": "Deployment Flexibility"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations and Future Directions"
+      },
+      {
+        "level": "H3",
+        "text": "Current Limitations"
+      },
+      {
+        "level": "H3",
+        "text": "Future Research Directions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Disclosure of Funding"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15773v1",
+    "url": "http://arxiv.org/abs/2507.15773v1"
+  },
+  {
+    "title": "GasAgent: A Multi-Agent Framework for Automated Gas Optimization in Smart Contracts",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs and Multi-Agent Systems"
+      },
+      {
+        "level": "H2",
+        "text": "Smart Contracts and Gas Optimizations"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Design Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "System Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Seeker"
+      },
+      {
+        "level": "H2",
+        "text": "Innovator"
+      },
+      {
+        "level": "H2",
+        "text": "Executor"
+      },
+      {
+        "level": "H2",
+        "text": "Manager"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Research Questions (RQs)"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1 - Effectiveness"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2 - Pattern Incorporation"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3 - Design Rationality (Ablation Study)"
+      },
+      {
+        "level": "H2",
+        "text": "RQ4 - Broader Usability"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conculsion"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15761v1",
+    "url": "http://arxiv.org/abs/2507.15761v1"
+  },
+  {
+    "title": "Interaction as Intelligence: Deep Research With Human-AI Partnership",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Human-AI Interaction"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Research Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Deep Cognition"
+      },
+      {
+        "level": "H2",
+        "text": "The Deep Cognition Framework"
+      },
+      {
+        "level": "H3",
+        "text": "Research Agent"
+      },
+      {
+        "level": "H3",
+        "text": "Browsing Agent"
+      },
+      {
+        "level": "H3",
+        "text": "Preference Agent"
+      },
+      {
+        "level": "H2",
+        "text": "Interaction Design for Human-AI Collaboration"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setups"
+      },
+      {
+        "level": "H2",
+        "text": "User Evaluation"
+      },
+      {
+        "level": "H3",
+        "text": "Protocol"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Metrics Design"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Observations from User Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Observation from Benchmark Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Autonomy in Human-AI Deep Research System"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Contribution"
+      },
+      {
+        "level": "H1",
+        "text": "User Behavior Data Point"
+      },
+      {
+        "level": "H1",
+        "text": "User Study Protocol"
+      },
+      {
+        "level": "H2",
+        "text": "Pre-Study"
+      },
+      {
+        "level": "H2",
+        "text": "In-Study"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Framework"
+      },
+      {
+        "level": "H3",
+        "text": "System Design Evaluation (-2 to +2 Scale)"
+      },
+      {
+        "level": "H3",
+        "text": "Deep Cognition Specific Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Post-Study-2"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15759v1",
+    "url": "http://arxiv.org/abs/2507.15759v1"
+  },
+  {
+    "title": "Estimating Rate-Distortion Functions Using the Energy-Based Model",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Models"
+      },
+      {
+        "level": "H2",
+        "text": "Rate-Distortion Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Connection between Rate-Distortion Problem and Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Energy-Based Model of Rate-Distortion Function"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Rate-Distortion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Relation with Classical Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results and Discussions"
+      },
+      {
+        "level": "H2",
+        "text": "Cases with Scalar Classical Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation for Vector Gaussian Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Conditional Sampling"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Estimation of rate and distortion"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15700v1",
+    "url": "http://arxiv.org/abs/2507.15700v1"
+  },
+  {
+    "title": "Super-resolution AWGs based on the Moirè effect",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Super-resolution spectrometer"
+      },
+      {
+        "level": "H1",
+        "text": "Super-resolution AWG"
+      },
+      {
+        "level": "H1",
+        "text": "Accurate model and design guidelines"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15674v1",
+    "url": "http://arxiv.org/abs/2507.15674v1"
+  },
+  {
+    "title": "HW-MLVQA: Elucidating Multilingual Handwritten Document Understanding with a Comprehensive VQA Benchmark",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related works"
+      },
+      {
+        "level": "H1",
+        "text": "HW-MLVQA Benchmark"
+      },
+      {
+        "level": "H2",
+        "text": "Evidence-Based Grounded VQA"
+      },
+      {
+        "level": "H3",
+        "text": "Task-formulation"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset creation and Annotation"
+      },
+      {
+        "level": "H3",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H3",
+        "text": "Annotation"
+      },
+      {
+        "level": "H2",
+        "text": "Annotation Verification"
+      },
+      {
+        "level": "H2",
+        "text": "Data Statistics and Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Baseline Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Language Model"
+      },
+      {
+        "level": "H2",
+        "text": "Vision-Language Model"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Protocol"
+      },
+      {
+        "level": "H3",
+        "text": "Using Ground Truth Transcript"
+      },
+      {
+        "level": "H3",
+        "text": "Using OCR Prediction"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental setup and Result analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Results of Linguistic-based Model"
+      },
+      {
+        "level": "H3",
+        "text": "Results of Vision based Models"
+      },
+      {
+        "level": "H3",
+        "text": "Results of Vision-Linguistic Models"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Modalities on Vision-Language Model Performance"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation of Handwriting Localization in Vision-Language Model"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15655v1",
+    "url": "http://arxiv.org/abs/2507.15655v1"
+  },
+  {
+    "title": "DynImg: Key Frames with Visual Prompts are Good Representation for Multi-Modal Video Understanding",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Video Temporal Representation"
+      },
+      {
+        "level": "H2",
+        "text": "Video Understanding"
+      },
+      {
+        "level": "H2",
+        "text": "Visual Prompt"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with State-of-the-Art"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Prompts"
+      },
+      {
+        "level": "H2",
+        "text": "4-Dimensional Position Embedding"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15569v1",
+    "url": "http://arxiv.org/abs/2507.15569v1"
+  },
+  {
+    "title": "Strategy Evolution in the Adoption of Conservation Tillage Technology under Time Preference Heterogeneity and Lemon Market: Insights from Evolutionary Dynamics",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Model and method"
+      },
+      {
+        "level": "H2",
+        "text": "Game of adoption of conservation tillage technology"
+      },
+      {
+        "level": "H2",
+        "text": "Replicator equations"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Stability analysis of the equilibrium points in System (\\ref{eqsys"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical simulation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Boundary and internal equilibrium points"
+      },
+      {
+        "level": "H1",
+        "text": "Conditions for the stability of equilibrium points"
+      },
+      {
+        "level": "H1",
+        "text": "The theoretical analysis results for the 13 cases"
+      },
+      {
+        "level": "H1",
+        "text": "CRediT authorship contribution statement"
+      },
+      {
+        "level": "H1",
+        "text": "Declaration of Competing Interest"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15497v1",
+    "url": "http://arxiv.org/abs/2507.15497v1"
+  },
+  {
+    "title": "The Emergence of Deep Reinforcement Learning for Path Planning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "INTRODUCTION"
+      },
+      {
+        "level": "H1",
+        "text": "A LITERATURE REVIEW OF PATH PLANNING"
+      },
+      {
+        "level": "H2",
+        "text": "A* and its variants"
+      },
+      {
+        "level": "H2",
+        "text": "Integer/linear programming for PP"
+      },
+      {
+        "level": "H2",
+        "text": "Evolutionary computation for PP"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Reinforecement Learning (DRL) for PP"
+      },
+      {
+        "level": "H1",
+        "text": "MERITS AND DEMERITS OF PP ALGORITHMS"
+      },
+      {
+        "level": "H1",
+        "text": "FUTURE RESEARCH DIRECTIONS"
+      },
+      {
+        "level": "H2",
+        "text": "Combining heuristics with DRL"
+      },
+      {
+        "level": "H2",
+        "text": "Sim-to-real transfer"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive solutions during the course of the mission"
+      },
+      {
+        "level": "H2",
+        "text": "Hybrid approach combining individual methods"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison between heuristics, evolutionary computation and DRL"
+      },
+      {
+        "level": "H2",
+        "text": "Combine heuristics with DRL"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSIONS"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15469v1",
+    "url": "http://arxiv.org/abs/2507.15469v1"
+  },
+  {
+    "title": "Active Product Development",
+    "outline": [
+      {
+        "level": "H1",
+        "text": ""
+      },
+      {
+        "level": "H2",
+        "text": ""
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H1",
+        "text": "The model"
+      },
+      {
+        "level": "H2",
+        "text": "Development process."
+      },
+      {
+        "level": "H1",
+        "text": "Solving the model"
+      },
+      {
+        "level": "H2",
+        "text": "Simplifying the problem"
+      },
+      {
+        "level": "H2",
+        "text": "Candidate Value Function."
+      },
+      {
+        "level": "H2",
+        "text": "The impact of market size"
+      },
+      {
+        "level": "H1",
+        "text": "Active product development"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Main proofs"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Proposition \\eqref{Prop: Ito's lemma"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Proposition \\ref{proposition monotonicity"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma \\ref{Lemma comparative results c"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma \\ref{Prop: lemma viable"
+      },
+      {
+        "level": "H1",
+        "text": "The running Maximum"
+      },
+      {
+        "level": "H2",
+        "text": "Definition"
+      },
+      {
+        "level": "H2",
+        "text": "Distribution(s)"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15438v1",
+    "url": "http://arxiv.org/abs/2507.15438v1"
+  },
+  {
+    "title": "Does the draw matter in an incomplete round-robin tournament? The case of the UEFA Champions League",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related literature"
+      },
+      {
+        "level": "H1",
+        "text": "The UEFA Champions League tournament redesign"
+      },
+      {
+        "level": "H2",
+        "text": "Participating teams"
+      },
+      {
+        "level": "H2",
+        "text": "Tournament format"
+      },
+      {
+        "level": "H2",
+        "text": "Seeding"
+      },
+      {
+        "level": "H2",
+        "text": "Draw"
+      },
+      {
+        "level": "H2",
+        "text": "Ranking"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of the 2024/25 reform"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating the old and new Champions League designs"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating match outcomes"
+      },
+      {
+        "level": "H2",
+        "text": "Measuring the effect of the draw and its decomposition"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "The overall effect of the 2024/25 reform"
+      },
+      {
+        "level": "H2",
+        "text": "The decomposition of the impact of the draw"
+      },
+      {
+        "level": "H1",
+        "text": "Concluding remarks"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15320v1",
+    "url": "http://arxiv.org/abs/2507.15320v1"
+  },
+  {
+    "title": "A Novel Two-Dimensional Smoothing Algorithm",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Algorithm Modeling"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of existence and uniqueness of trend sequence"
+      },
+      {
+        "level": "H1",
+        "text": "Modified TDS Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "TDS-\\uppercase\\expandafter{\\romannumeral1"
+      },
+      {
+        "level": "H2",
+        "text": "TDS-\\uppercase\\expandafter{\\romannumeral2"
+      },
+      {
+        "level": "H2",
+        "text": "TDS-\\uppercase\\expandafter{\\romannumeral3"
+      },
+      {
+        "level": "H1",
+        "text": "Example Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical Simulation Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Additive white Gaussian noise (AWGN)"
+      },
+      {
+        "level": "H3",
+        "text": "Complex noise (CN)"
+      },
+      {
+        "level": "H3",
+        "text": "Multiplicative white Gaussian noise (MWGN)"
+      },
+      {
+        "level": "H3",
+        "text": "Salt-and-pepper noise (SPN)"
+      },
+      {
+        "level": "H3",
+        "text": "Comparative analysis based on quality assessment metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Sensitivity analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Application of modified TDS algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Image Filtering Application"
+      },
+      {
+        "level": "H2",
+        "text": "Image Processing"
+      },
+      {
+        "level": "H3",
+        "text": "Image Smoothing"
+      },
+      {
+        "level": "H3",
+        "text": "Image Sharpening"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Appendix A. Proof of Equation \\eqref{14"
+      },
+      {
+        "level": "H2",
+        "text": "Appendix B. Positive Semidefinite Proof of Matrix \\textit{\\textbf{N"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15301v1",
+    "url": "http://arxiv.org/abs/2507.15301v1"
+  },
+  {
+    "title": "FreeCus: Free Lunch Subject-driven Customization in Diffusion Transformers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Compared Methods and Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Details of Compared Methods"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Applications"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminary"
+      },
+      {
+        "level": "H2",
+        "text": "Pivotal Attention Sharing (PAS)"
+      },
+      {
+        "level": "H2",
+        "text": "Time Shifting for Fine Details"
+      },
+      {
+        "level": "H2",
+        "text": "Adjustment of Time Shifting"
+      },
+      {
+        "level": "H2",
+        "text": "Adjustment of Noise Shifting (ANS)"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Caption"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Features Compensation"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Features Compensation (SFC)"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion-based Text-to-Image Models"
+      },
+      {
+        "level": "H2",
+        "text": "Subject-Driven Image Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Zero-shot Image-to-Image Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions and Limitations"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15249v1",
+    "url": "http://arxiv.org/abs/2507.15249v1"
+  },
+  {
+    "title": "How Does Empirical Research Facilitate Creation Tool Design? A Data Video Perspective",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Data Video"
+      },
+      {
+        "level": "H2",
+        "text": "Linking Empirical Insights to Tools"
+      },
+      {
+        "level": "H2",
+        "text": "Citation Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Suggestions and Opportunities"
+      },
+      {
+        "level": "H1",
+        "text": "Discussions and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Empirical Research Landscape"
+      },
+      {
+        "level": "H2",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical Research Organization"
+      },
+      {
+        "level": "H2",
+        "text": "Observations"
+      },
+      {
+        "level": "H1",
+        "text": "Citation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Data Labeling and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Taxonomy of Current Practice"
+      },
+      {
+        "level": "H3",
+        "text": "Background Support"
+      },
+      {
+        "level": "H3",
+        "text": "Problem Framing"
+      },
+      {
+        "level": "H3",
+        "text": "Design Inspiration"
+      },
+      {
+        "level": "H3",
+        "text": "Technical Reference"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Instruction"
+      },
+      {
+        "level": "H3",
+        "text": "Future Work Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Observation"
+      },
+      {
+        "level": "H1",
+        "text": "Expert Interview"
+      },
+      {
+        "level": "H2",
+        "text": "Participants and Procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Findings"
+      },
+      {
+        "level": "H3",
+        "text": "Practices in Creation Tools Research Processes"
+      },
+      {
+        "level": "H3",
+        "text": "Factors Influencing the Use of Empirical Findings"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15244v1",
+    "url": "http://arxiv.org/abs/2507.15244v1"
+  },
+  {
+    "title": "EchoVoices: Preserving Generational Voices and Memories for Seniors and Children",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Whisper and Large-Scale ASR"
+      },
+      {
+        "level": "H2",
+        "text": "k-NN in Language and Speech Models"
+      },
+      {
+        "level": "H2",
+        "text": "k-NN Enhanced ASR for Specialized Demographics"
+      },
+      {
+        "level": "H2",
+        "text": "VITS and Expressive TTS"
+      },
+      {
+        "level": "H2",
+        "text": "RAG and LLM-Driven Agents"
+      },
+      {
+        "level": "H2",
+        "text": "RAG and LLM-Driven Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Digital Human Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Digital Human Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Speech Recognition and Synthesis"
+      },
+      {
+        "level": "H2",
+        "text": "LLM-Driven Digital Personas"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "System Overview"
+      },
+      {
+        "level": "H2",
+        "text": "k-NN Enhanced ASR for Seniors and Children"
+      },
+      {
+        "level": "H2",
+        "text": "k-NN Enhanced ASR for Specialized Demographics"
+      },
+      {
+        "level": "H2",
+        "text": "Age-Adaptive TTS with VITS Fine-tuning"
+      },
+      {
+        "level": "H2",
+        "text": "Age-Adaptive TTS with VITS Fine-tuning"
+      },
+      {
+        "level": "H2",
+        "text": "LLM-Driven Persona Generation"
+      },
+      {
+        "level": "H2",
+        "text": "LLM-Driven Personal Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H3",
+        "text": "ASR Fine-tuning with Whisper"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H3",
+        "text": "ASR Fine-tuning with Whisper"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "TTS Fine-tuning with VITS"
+      },
+      {
+        "level": "H3",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "TTS Fine-tuning with VITS"
+      },
+      {
+        "level": "H3",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H3",
+        "text": "ASR Fine-tuning with Whisper"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "TTS Fine-tuning with VITS"
+      },
+      {
+        "level": "H3",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Limitation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Example"
+      },
+      {
+        "level": "H2",
+        "text": "A Subsection Sample"
+      },
+      {
+        "level": "H3",
+        "text": "Sample Heading (Third Level)"
+      },
+      {
+        "level": "H3",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15221v1",
+    "url": "http://arxiv.org/abs/2507.15221v1"
+  },
+  {
+    "title": "Investigations of the kinetic ion-acoustic soliton by the Bernstein-Greene-Kruskal integral method",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Model and Theory"
+      },
+      {
+        "level": "H2",
+        "text": "General formulas"
+      },
+      {
+        "level": "H2",
+        "text": "Single ion stream with the waterbag distribution"
+      },
+      {
+        "level": "H2",
+        "text": "Two ion streams with the Maxwellian distribution"
+      },
+      {
+        "level": "H1",
+        "text": "The tests of stability by simulations"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "The consistency of the trapped electron distribution in the fluid soliton model"
+      },
+      {
+        "level": "H1",
+        "text": "The sign of \\texorpdfstring{$\\pdv*[2]{f_e"
+      },
+      {
+        "level": "H1",
+        "text": "The solutions of \\texorpdfstring{$u_c^*$"
+      },
+      {
+        "level": "H1",
+        "text": "Derivations of \\texorpdfstring{$\\pdv*[2]{f_e"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15207v1",
+    "url": "http://arxiv.org/abs/2507.15207v1"
+  },
+  {
+    "title": "Planted Solutions in Quantum Chemistry: Generating Non-Trivial Hamiltonians with Known Ground States",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Exactly solvable Hamiltonians"
+      },
+      {
+        "level": "H2",
+        "text": "General features"
+      },
+      {
+        "level": "H2",
+        "text": "Mean-field solvable Hamiltonians"
+      },
+      {
+        "level": "H2",
+        "text": "Linear combination of commuting fermionic operators"
+      },
+      {
+        "level": "H2",
+        "text": "Complete-active-space solvable Hamiltonians"
+      },
+      {
+        "level": "H2",
+        "text": "Seniority-conserving Hamiltonians"
+      },
+      {
+        "level": "H3",
+        "text": "Antisymmetrized Geminal Power"
+      },
+      {
+        "level": "H3",
+        "text": "Pairing Hamiltonians"
+      },
+      {
+        "level": "H1",
+        "text": "Demonstration for Cropped CASS Planted Solutions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "One-electron components"
+      },
+      {
+        "level": "H1",
+        "text": "Commutativity of Pauli products from commuting fermionic operators"
+      },
+      {
+        "level": "H1",
+        "text": "Hamiltonian Data Files and Computational Details"
+      },
+      {
+        "level": "H1",
+        "text": "Planted Solution Construction"
+      },
+      {
+        "level": "H2",
+        "text": "MF"
+      },
+      {
+        "level": "H2",
+        "text": "LICOP"
+      },
+      {
+        "level": "H2",
+        "text": "CASS"
+      },
+      {
+        "level": "H2",
+        "text": "AGP"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15166v1",
+    "url": "http://arxiv.org/abs/2507.15166v1"
+  },
+  {
+    "title": "Causal Mediation Analysis for Zero-inflated Mixture Mediators",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Motivating example - ABCD study"
+      },
+      {
+        "level": "H1",
+        "text": "Definitions of direct and indirect effects"
+      },
+      {
+        "level": "H1",
+        "text": "Model and notation"
+      },
+      {
+        "level": "H2",
+        "text": "Zero-inflated log-normal mixture (ZILoNM) mediators"
+      },
+      {
+        "level": "H2",
+        "text": "Zero-inflated Poisson mixture (ZIPM) mediators"
+      },
+      {
+        "level": "H2",
+        "text": "Zero-inflated negative binomial mixture (ZINBM) mediators"
+      },
+      {
+        "level": "H2",
+        "text": "Probability mechanism for observing false zeros"
+      },
+      {
+        "level": "H2",
+        "text": "Direct and indirect effects for ZILoNM mediators"
+      },
+      {
+        "level": "H2",
+        "text": "Assumptions"
+      },
+      {
+        "level": "H1",
+        "text": "Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Log-likelihood function"
+      },
+      {
+        "level": "H2",
+        "text": "Expectation step (E step)"
+      },
+      {
+        "level": "H2",
+        "text": "Maximization step (M step)"
+      },
+      {
+        "level": "H2",
+        "text": "Model selection"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Data generated from ZILoNM mediators"
+      },
+      {
+        "level": "H2",
+        "text": "Data generated from ZINBM mediators"
+      },
+      {
+        "level": "H2",
+        "text": "Data generated from ZIPM mediators"
+      },
+      {
+        "level": "H1",
+        "text": "Real data applications - ABCD Study"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H2",
+        "text": "Data availability"
+      },
+      {
+        "level": "H2",
+        "text": "Conflict of interest"
+      },
+      {
+        "level": "H1",
+        "text": ""
+      },
+      {
+        "level": "H2",
+        "text": "Detailed derivations for ZILoNM mediators"
+      },
+      {
+        "level": "H3",
+        "text": "Mediation effect and direct effect"
+      },
+      {
+        "level": "H2",
+        "text": "Model for zero-inflated Poisson mixture (ZIPM) mediators"
+      },
+      {
+        "level": "H3",
+        "text": "Mediation effect and direct effect"
+      },
+      {
+        "level": "H3",
+        "text": "Log-likelihood function"
+      },
+      {
+        "level": "H3",
+        "text": "Expectation step (E step)"
+      },
+      {
+        "level": "H2",
+        "text": "Model for Zero-inflated negative binomial mixture (ZINBM) mediators"
+      },
+      {
+        "level": "H3",
+        "text": "Mediation effect and direct effect"
+      },
+      {
+        "level": "H3",
+        "text": "Log-likelihood function"
+      },
+      {
+        "level": "H3",
+        "text": "Expectation step (E step)"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15164v1",
+    "url": "http://arxiv.org/abs/2507.15164v1"
+  },
+  {
+    "title": "Ground and excited-state energies with analytic errors and short time evolution on a quantum computer",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Theory\\label{theory"
+      },
+      {
+        "level": "H2",
+        "text": "From the Schrödinger Equation to Signal Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Filter Diagonalization"
+      },
+      {
+        "level": "H2",
+        "text": "Amplitude Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Prolate Filter Diagonalization"
+      },
+      {
+        "level": "H2",
+        "text": "Sampled Prolate Filter Diagonalization"
+      },
+      {
+        "level": "H2",
+        "text": "Autocorrelation Generation on a Quantum Computer"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Results"
+      },
+      {
+        "level": "H2",
+        "text": "Computational Details"
+      },
+      {
+        "level": "H2",
+        "text": "Multiple Eigenvalue Estimation at Chemical Accuracy"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical Evidence for Heisenberg-limited Scaling"
+      },
+      {
+        "level": "H3",
+        "text": "Ground State Energy Estimation"
+      },
+      {
+        "level": "H3",
+        "text": "Multiple Eigenvalue Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of the Initial Input State"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Subspace Protocols"
+      },
+      {
+        "level": "H1",
+        "text": "Prolate Spheroidal Wave Functions and Essential Dimensionality"
+      },
+      {
+        "level": "H2",
+        "text": "Prolates as Optimal Filtering System and the $2WT$ Theorem"
+      },
+      {
+        "level": "H2",
+        "text": "New Concentration Identities"
+      },
+      {
+        "level": "H2",
+        "text": "A Dual in the Spectrum of an Integral and a Differential Operator"
+      },
+      {
+        "level": "H1",
+        "text": "Prolate Sampling Formula"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15148v1",
+    "url": "http://arxiv.org/abs/2507.15148v1"
+  },
+  {
+    "title": "STL-GO: Spatio-Temporal Logic with Graph Operators for Distributed Systems with Multiple Network Topologies",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Multi-Agent Interactions over Multiple Network Topologies"
+      },
+      {
+        "level": "H1",
+        "text": "STL-GO: Spatio-Temporal Logic with Graph Operators"
+      },
+      {
+        "level": "H2",
+        "text": "STL-GO-S: STL-GO for Individual Agents"
+      },
+      {
+        "level": "H2",
+        "text": "STL-GO for Multiple Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Time Horizon"
+      },
+      {
+        "level": "H2",
+        "text": "Centralized Offline Monitoring under STL-GO"
+      },
+      {
+        "level": "H1",
+        "text": "Distributed Offline Monitoring under STL-GO-S"
+      },
+      {
+        "level": "H2",
+        "text": "Sufficient Conditions for Distributed Monitoring"
+      },
+      {
+        "level": "H2",
+        "text": "Distributed Monitoring of STL-GO-S"
+      },
+      {
+        "level": "H1",
+        "text": "Expressiveness of STL-GO"
+      },
+      {
+        "level": "H2",
+        "text": "Counting"
+      },
+      {
+        "level": "H2",
+        "text": "Inter-agent distance"
+      },
+      {
+        "level": "H2",
+        "text": "Agent-trace distance"
+      },
+      {
+        "level": "H1",
+        "text": "Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Bike-Sharing System"
+      },
+      {
+        "level": "H2",
+        "text": "Drone Surveillance"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15147v1",
+    "url": "http://arxiv.org/abs/2507.15147v1"
+  },
+  {
+    "title": "Are We Overlooking the Dimensions? Learning Latent Hierarchical Channel Structure for High-Dimensional Time Series Forecasting",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "\\method{"
+      },
+      {
+        "level": "H2",
+        "text": "Model Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Optimization Objective"
+      },
+      {
+        "level": "H2",
+        "text": "Computational Complexity"
+      },
+      {
+        "level": "H1",
+        "text": "NeurIPS Paper Checklist"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Opportunities"
+      },
+      {
+        "level": "H1",
+        "text": "\\dataset{"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminary Study"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Analysis of Risk Reduction from CD Models"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with Existing Works"
+      },
+      {
+        "level": "H1",
+        "text": "Future Opportunity"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Social Impact"
+      },
+      {
+        "level": "H1",
+        "text": "Theorem~\\ref{thm:risk_reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Theorem~\\ref{thm:monotonicity"
+      },
+      {
+        "level": "H1",
+        "text": "Theorem~\\ref{thm:fullrank"
+      },
+      {
+        "level": "H1",
+        "text": "Theorem of Information Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Detailed Experimental Setup for Empirical Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Synthetic Data Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Forecasting Task and Data Preparation"
+      },
+      {
+        "level": "H2",
+        "text": "Model Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Training Details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Computational Complexity"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset Description"
+      },
+      {
+        "level": "H2",
+        "text": "Long-Term Time Series Forecasting"
+      },
+      {
+        "level": "H2",
+        "text": "Short-Term Time Series Forecasting"
+      },
+      {
+        "level": "H1",
+        "text": "Channel Correlation Statistic"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Hyperparameter Sensitivity Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Full Attention Score Map from hierarchical latent query network."
+      },
+      {
+        "level": "H1",
+        "text": "Efficiency"
+      },
+      {
+        "level": "H1",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Results and Framework Analysis"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15119v1",
+    "url": "http://arxiv.org/abs/2507.15119v1"
+  },
+  {
+    "title": "AnalogFed: Federated Discovery of Analog Circuit Topologies with Generative AI",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "AnalogFed Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Overview and Domain-specific Challenges"
+      },
+      {
+        "level": "H2",
+        "text": "Developing the Backbone Efficient Generative Model"
+      },
+      {
+        "level": "H3",
+        "text": "Precise and efficient graph modeling"
+      },
+      {
+        "level": "H3",
+        "text": "Subgraph mining and tokenization"
+      },
+      {
+        "level": "H3",
+        "text": "Circuit sequence optimization via Eulerian traversal"
+      },
+      {
+        "level": "H2",
+        "text": "Maximizing Deployment Privacy"
+      },
+      {
+        "level": "H3",
+        "text": "Fine-tunning strategy"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluating the Heterogeneity of Client Private Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Analog Circuits: Design Process and Automated Methods"
+      },
+      {
+        "level": "H3",
+        "text": "Primary design process of analog circuits"
+      },
+      {
+        "level": "H3",
+        "text": "State-of-the-art learning methods for analog topology design"
+      },
+      {
+        "level": "H2",
+        "text": "Federated Learning: Preliminaries and Challenges"
+      },
+      {
+        "level": "H3",
+        "text": "Federated Learning (FedL)"
+      },
+      {
+        "level": "H3",
+        "text": "Challenges of applying FedL to analog circuit design"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Set-up"
+      },
+      {
+        "level": "H3",
+        "text": "Topology dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "Model and training"
+      },
+      {
+        "level": "H3",
+        "text": "Federated learning setup"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation metrics and platform"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H3",
+        "text": "Characterization of topology data heterogeneity"
+      },
+      {
+        "level": "H3",
+        "text": "Assessing the modeling efficiency"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluating the discovery capability in the centralized context"
+      },
+      {
+        "level": "H3",
+        "text": "Assessing the discovery capability in the FedL context"
+      },
+      {
+        "level": "H3",
+        "text": "Robustness against attacks via defense integration"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15104v1",
+    "url": "http://arxiv.org/abs/2507.15104v1"
+  },
+  {
+    "title": "Rethinking Pan-sharpening: Principled Design, Unified Training, and a Universal Loss Surpass Brute-Force Scaling",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Pan-sharpening"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Learning-based Pan-sharpening"
+      },
+      {
+        "level": "H2",
+        "text": "Recent Advances and SOTA Models"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Architecture"
+      },
+      {
+        "level": "H3",
+        "text": "Single Encoder"
+      },
+      {
+        "level": "H3",
+        "text": "Feature Fusion and Processing"
+      },
+      {
+        "level": "H3",
+        "text": "Refinement Module"
+      },
+      {
+        "level": "H2",
+        "text": "Transformer Block"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Comparison and Ablations"
+      },
+      {
+        "level": "H3",
+        "text": "Main Results on Multi-Dataset Training"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of the All-in-One Training Paradigm"
+      },
+      {
+        "level": "H3",
+        "text": "Architectural Design and Efficiency"
+      },
+      {
+        "level": "H3",
+        "text": "Fusion and Refinement Modules"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "On the Limitations of Generalization and the Necessity of All-in-One Training"
+      },
+      {
+        "level": "H2",
+        "text": "The Challenge of Domain Gaps in Pan-sharpening Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "The ``One-Epoch Generalization'' Illusion"
+      },
+      {
+        "level": "H2",
+        "text": "The Overfitting Trap of Separate Training"
+      },
+      {
+        "level": "H2",
+        "text": "Failure Case: Generalization to Jilin-1 Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Detailed Ablation on the Composite Loss"
+      },
+      {
+        "level": "H2",
+        "text": "The Overlooked Potential of Loss Functions"
+      },
+      {
+        "level": "H2",
+        "text": "Our Systematic Two-Stage Search for the Optimal Loss"
+      },
+      {
+        "level": "H1",
+        "text": "Detailed Ablation on Model Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Downsampling Strategy"
+      },
+      {
+        "level": "H2",
+        "text": "Investigating the `DeepFusion' Module"
+      },
+      {
+        "level": "H2",
+        "text": "Single-Encoder vs. Dual-Encoder Design"
+      },
+      {
+        "level": "H2",
+        "text": "Full Ablation Results for Final Model Components"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Visual Results"
+      },
+      {
+        "level": "H1",
+        "text": "Codebase and Reproducibility"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15059v1",
+    "url": "http://arxiv.org/abs/2507.15059v1"
+  },
+  {
+    "title": "OpenBreastUS: Benchmarking Neural Operators for Wave Imaging Using Breast Ultrasound Computed Tomography",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Operators"
+      },
+      {
+        "level": "H2",
+        "text": "Physics Datasets"
+      },
+      {
+        "level": "H1",
+        "text": "OpenBreastUS: A Realistic Application-Driven Benchmark for Wave Imaging"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Definition"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Operators for Wave Imaging"
+      },
+      {
+        "level": "H2",
+        "text": "Imaging Method"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of the Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Physical Settings and Statistics"
+      },
+      {
+        "level": "H3",
+        "text": "Data Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Existing Baselines for Forward and Inverse Neural Operators"
+      },
+      {
+        "level": "H3",
+        "text": "Baselines for Forward Wave Simulation"
+      },
+      {
+        "level": "H3",
+        "text": "Baselines for Inverse Wave Imaging"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmarks for Forward and Inverse Baselines"
+      },
+      {
+        "level": "H2",
+        "text": "Validation on \\textit{in vivo"
+      },
+      {
+        "level": "H2",
+        "text": "Additional Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Data Complexities of Different Breast Types"
+      },
+      {
+        "level": "H3",
+        "text": "Data Complexities of Different Frequencies"
+      },
+      {
+        "level": "H3",
+        "text": "Scaling with Dataset Size"
+      },
+      {
+        "level": "H3",
+        "text": "Generalization Capability"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "VICTRE Generation Implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H3",
+        "text": "Forward Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "Inversion Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "Model size and Inference time evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Public  USCT Clinical dataset"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15035v1",
+    "url": "http://arxiv.org/abs/2507.15035v1"
+  },
+  {
+    "title": "Quantum Capacitance and Electronic Properties of a Hexagonal Boron Nitride based FET Gas Sensor",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Model and Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Surface Green's Function of the Semi-Infinite Leads"
+      },
+      {
+        "level": "H2",
+        "text": "Self-Energy Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Density of States"
+      },
+      {
+        "level": "H2",
+        "text": "Tuning the DOS via bias voltage"
+      },
+      {
+        "level": "H1",
+        "text": "Carrier concentration and Quantum Capacitance"
+      },
+      {
+        "level": "H1",
+        "text": "I-V Characteristics"
+      },
+      {
+        "level": "H1",
+        "text": "Sensitivity and Selectivity"
+      },
+      {
+        "level": "H2",
+        "text": "Sensitivity"
+      },
+      {
+        "level": "H2",
+        "text": "Selectivity"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.15011v1",
+    "url": "http://arxiv.org/abs/2507.15011v1"
+  },
+  {
+    "title": "Unraveling the non-equilibrium chemistry of the temperate sub-Neptune K2-18 b",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Observational data"
+      },
+      {
+        "level": "H2",
+        "text": "Equilibrium chemistry retrieval"
+      },
+      {
+        "level": "H2",
+        "text": "Non-equilibrium chemical model"
+      },
+      {
+        "level": "H2",
+        "text": "Fitting to observation"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Transmission spectra"
+      },
+      {
+        "level": "H2",
+        "text": "Equilibrium chemistry retrieval"
+      },
+      {
+        "level": "H2",
+        "text": "Eddy diffusion coefficient"
+      },
+      {
+        "level": "H2",
+        "text": "Metallicity"
+      },
+      {
+        "level": "H2",
+        "text": "C/O ratio"
+      },
+      {
+        "level": "H2",
+        "text": "Abundances"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Species detection"
+      },
+      {
+        "level": "H2",
+        "text": "Bimodality of the metallicity"
+      },
+      {
+        "level": "H2",
+        "text": "A high C/O ratio"
+      },
+      {
+        "level": "H2",
+        "text": "Unconstrained vertical mixing in the atmosphere"
+      },
+      {
+        "level": "H2",
+        "text": "What can we really learn from the observational data?"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Equilibrium chemistry retrieval results"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14983v1",
+    "url": "http://arxiv.org/abs/2507.14983v1"
+  },
+  {
+    "title": "Latent-attention Based Transformer for Near ML Polar Decoding in Short-code Regime",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Algebraic Decoders for Polar Codes"
+      },
+      {
+        "level": "H2",
+        "text": "\\textcolor{black"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      },
+      {
+        "level": "H2",
+        "text": "Paper Outline"
+      },
+      {
+        "level": "H2",
+        "text": "Notations"
+      },
+      {
+        "level": "H1",
+        "text": "Prerequisites"
+      },
+      {
+        "level": "H2",
+        "text": "System Model"
+      },
+      {
+        "level": "H2",
+        "text": "Polar Coding \\label{polar_code"
+      },
+      {
+        "level": "H1",
+        "text": "Latent-attention Based Transformer Decoder \\label{LAT"
+      },
+      {
+        "level": "H2",
+        "text": "Front-padding"
+      },
+      {
+        "level": "H2",
+        "text": "Embeddings"
+      },
+      {
+        "level": "H3",
+        "text": "Input Embedding"
+      },
+      {
+        "level": "H3",
+        "text": "Value Embedding"
+      },
+      {
+        "level": "H3",
+        "text": "Query Embedding"
+      },
+      {
+        "level": "H2",
+        "text": "Latent-attention Mechanism \\label{LA"
+      },
+      {
+        "level": "H3",
+        "text": "Scaled Dot-product Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-head Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Latent Positional Encoding"
+      },
+      {
+        "level": "H2",
+        "text": "Code-aware Mask"
+      },
+      {
+        "level": "H3",
+        "text": "Row-wise Masking"
+      },
+      {
+        "level": "H3",
+        "text": "Column-wise Masking"
+      },
+      {
+        "level": "H2",
+        "text": "Typical Transformer-based Sub-architectures"
+      },
+      {
+        "level": "H3",
+        "text": "Position-wise FFN"
+      },
+      {
+        "level": "H3",
+        "text": "Add-and-norm Module"
+      },
+      {
+        "level": "H3",
+        "text": "Output Module"
+      },
+      {
+        "level": "H2",
+        "text": "Complexity Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Methodologies"
+      },
+      {
+        "level": "H2",
+        "text": "Mathematical Foundation"
+      },
+      {
+        "level": "H2",
+        "text": "Generalization Analyses"
+      },
+      {
+        "level": "H3",
+        "text": "Varying Code Rates"
+      },
+      {
+        "level": "H3",
+        "text": "Varying Code Lengths"
+      },
+      {
+        "level": "H1",
+        "text": "Training Framework \\label{training framework"
+      },
+      {
+        "level": "H2",
+        "text": "Entropy-aware Importance Sampling \\label{EIC"
+      },
+      {
+        "level": "H2",
+        "text": "Experience Reflow"
+      },
+      {
+        "level": "H2",
+        "text": "Label Smoothing"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Results"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Setup \\label{setup"
+      },
+      {
+        "level": "H2",
+        "text": "Decoding Performance Against Benchmarks \\label{exp1"
+      },
+      {
+        "level": "H2",
+        "text": "\\textcolor{black"
+      },
+      {
+        "level": "H2",
+        "text": "Benefit of the Modified Training Strategy \\label{exp3"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14951v1",
+    "url": "http://arxiv.org/abs/2507.14951v1"
+  },
+  {
+    "title": "A second-order generalized BDF method for the two-dimensional (modified) Fisher-Kolmogorov-Petrovsky-Piskunov equation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Uniform BDF-IMEX scheme for the Fisher-KPP"
+      },
+      {
+        "level": "H2",
+        "text": "Discretization of the Fisher-KPP"
+      },
+      {
+        "level": "H2",
+        "text": "Stability of the uniform BDF-IMEX scheme"
+      },
+      {
+        "level": "H1",
+        "text": "Nonuniform discretization scheme"
+      },
+      {
+        "level": "H2",
+        "text": "Discretization scheme"
+      },
+      {
+        "level": "H2",
+        "text": "The new BDF and IMEx schemes"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Concluding remarks"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of interest"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      },
+      {
+        "level": "H1",
+        "text": "An example appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14939v1",
+    "url": "http://arxiv.org/abs/2507.14939v1"
+  },
+  {
+    "title": "Exact Green's function for fermions in an external Yang-Mills gauge field",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Setting of the problem"
+      },
+      {
+        "level": "H1",
+        "text": "Green's function of fermions in an external Yang-Mills gauge field"
+      },
+      {
+        "level": "H1",
+        "text": "Properties of the Green's function and its applications"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Vanishing Integrals: Four Classes of Zero-Valued Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of a Identity Involving Dirac Gamma Matrices"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14911v1",
+    "url": "http://arxiv.org/abs/2507.14911v1"
+  },
+  {
+    "title": "Exceptional-Point Dynamics",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Pseudo-completeness relations at exceptional points"
+      },
+      {
+        "level": "H2",
+        "text": "Pseudo-completeness relation for a single arbitrary-order exceptional point"
+      },
+      {
+        "level": "H2",
+        "text": "Pseudo-completeness relation for multiple arbitrary-order exceptional points without degeneracy"
+      },
+      {
+        "level": "H2",
+        "text": "Pseudo-completeness relation for multiple arbitrary-order exceptional points with degeneracy"
+      },
+      {
+        "level": "H2",
+        "text": "Pseudo-completeness relations for the presence of more degeneracy"
+      },
+      {
+        "level": "H1",
+        "text": "Flat band and compact localized state of Hermitian stub ribbon"
+      },
+      {
+        "level": "H2",
+        "text": "Flat band"
+      },
+      {
+        "level": "H2",
+        "text": "Compact localized state"
+      },
+      {
+        "level": "H1",
+        "text": "Longer-time spontaneous splitting dynamics of two ratios with different initial states in non-Hermitian stub ribbon"
+      },
+      {
+        "level": "H1",
+        "text": "Eigenstates and generalized eigenstates of system at different exceptional points in non-Hermitian diamond ring"
+      },
+      {
+        "level": "H1",
+        "text": "Identification of exceptional points in the two non-Hermitian models via Petermann factor"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental implementation of nonreciprocal hopping and complex coupling"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14892v1",
+    "url": "http://arxiv.org/abs/2507.14892v1"
+  },
+  {
+    "title": "Simultaneous determination of multiple low-energy eigenstates of many-body systems on a superconducting quantum processor",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Scheme"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation of the $\\mathbf{H_2"
+      },
+      {
+        "level": "H1",
+        "text": "Transverse field Ising Model"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14880v1",
+    "url": "http://arxiv.org/abs/2507.14880v1"
+  },
+  {
+    "title": "The Invisible Leash: Why RLVR May Not Escape Its Origin",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Theoretical Limits of RLVR"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Support Preservation: Why RLVR Rarely Discovers New Modes"
+      },
+      {
+        "level": "H2",
+        "text": "A Variational and Conservative Policy Update"
+      },
+      {
+        "level": "H2",
+        "text": "Entropy–Reward Trade-off: Precision at the Cost of Answer Diversity"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Evidence of Hidden-Support Dynamics"
+      },
+      {
+        "level": "H3",
+        "text": "Results: Predominant Preservation with Limited Expansion"
+      },
+      {
+        "level": "H2",
+        "text": "Entropy Reduction and the \\texttt{pass@k"
+      },
+      {
+        "level": "H3",
+        "text": "Results: Precision Gains, Entropy Dynamics, and Trade-offs"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem~\\ref{thm:support"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Corollary~\\ref{cor:passk_bound"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem~\\ref{thm:soft_support"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Proposition~\\ref{thm:kl"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Corollary~\\ref{cor:kl_free_short"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem~\\ref{thm:entropy"
+      },
+      {
+        "level": "H2",
+        "text": "Estimating the Sampling Threshold $\\epsilon$ from \\texttt{pass@k"
+      },
+      {
+        "level": "H2",
+        "text": "Connection to~\\citet{wen2025reinforcement"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Answer Processing Enhancement in Reasoning Gym"
+      },
+      {
+        "level": "H3",
+        "text": "General Answer Extraction Protocol"
+      },
+      {
+        "level": "H3",
+        "text": "Task-Specific Processing Modifications"
+      },
+      {
+        "level": "H2",
+        "text": "Entropy Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Results"
+      },
+      {
+        "level": "H1",
+        "text": "Practical Algorithmic Patterns Explained by RLVR Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt Filtering and Selection Heuristics"
+      },
+      {
+        "level": "H2",
+        "text": "Self-Supervised Bootstrap Learning"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14843v1",
+    "url": "http://arxiv.org/abs/2507.14843v1"
+  },
+  {
+    "title": "LeAdQA: LLM-Driven Context-Aware Temporal Grounding for Video Question Answering",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Video Temporal Grounding"
+      },
+      {
+        "level": "H2",
+        "text": "Grounded VideoQA"
+      },
+      {
+        "level": "H2",
+        "text": "Multimodal Large Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Video Question Answering"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminary: MLLMs for VideoQA"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Motion-Aware Temporal Grounding"
+      },
+      {
+        "level": "H3",
+        "text": "Unified Formulation"
+      },
+      {
+        "level": "H3",
+        "text": "Motion-Aware Video Temporal Grounding"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Threshold Intervals Fusion"
+      },
+      {
+        "level": "H2",
+        "text": "Video Question Answering with MLLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Video Question Answering with MLLMs"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H3",
+        "text": "Datasets."
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Metrics."
+      },
+      {
+        "level": "H3",
+        "text": "Implementation Details."
+      },
+      {
+        "level": "H2",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison with Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "In-depth Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Computational Cost Analysis"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14784v1",
+    "url": "http://arxiv.org/abs/2507.14784v1"
+  },
+  {
+    "title": "Thermodynamically Consistent Modeling and Stable ALE Approximations of Reactive Semi-Permeable Interfaces",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Model Derivation"
+      },
+      {
+        "level": "H2",
+        "text": "Constitutive relations, interfacial conditions and boundary conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Dimensionless"
+      },
+      {
+        "level": "H1",
+        "text": "Weak Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "ALE weak formulation for fluid dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "ALE weak formulation for substance concentrations"
+      },
+      {
+        "level": "H2",
+        "text": "The mass conservation law and the energy law"
+      },
+      {
+        "level": "H2",
+        "text": "The mass conservation law"
+      },
+      {
+        "level": "H2",
+        "text": "Mass conservation within the weak formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Finite Element Approximations"
+      },
+      {
+        "level": "H2",
+        "text": "Discretization"
+      },
+      {
+        "level": "H2",
+        "text": "Discrete ALE mappings"
+      },
+      {
+        "level": "H2",
+        "text": "ALE-FEM approximations for Navier-Stokes equations"
+      },
+      {
+        "level": "H2",
+        "text": "ALE-FEM approximations for concentrations"
+      },
+      {
+        "level": "H2",
+        "text": "The overall ALE scheme"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Results"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence test and conservation law"
+      },
+      {
+        "level": "H2",
+        "text": "Reaction-induced mass transfer: cholesterol efflux via the ABCG1 pathway"
+      },
+      {
+        "level": "H2",
+        "text": "Reaction-driven droplet motion"
+      },
+      {
+        "level": "H2",
+        "text": "Reaction-Induced Modulation of Permeability"
+      },
+      {
+        "level": "H2",
+        "text": "Reaction-driven permeability gating: toward targeted delivery applications"
+      },
+      {
+        "level": "H2",
+        "text": "Reaction enhanced deformation under shear flow"
+      },
+      {
+        "level": "H2",
+        "text": "The Rising Bubble"
+      },
+      {
+        "level": "H2",
+        "text": "Shear deformation"
+      },
+      {
+        "level": "H2",
+        "text": "The Rising Bubble"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Integral Calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Some inequalities related with the energy dissipation"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14774v1",
+    "url": "http://arxiv.org/abs/2507.14774v1"
+  },
+  {
+    "title": "GCC-Spam: Spam Detection via GAN, Contrastive Learning, and Character Similarity Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Generator"
+      },
+      {
+        "level": "H3",
+        "text": "Masked Replacement Architecture"
+      },
+      {
+        "level": "H3",
+        "text": "Reinforcement Learning with Discriminator Feedback"
+      },
+      {
+        "level": "H3",
+        "text": "Similarity Loss Regularization"
+      },
+      {
+        "level": "H3",
+        "text": "Summary"
+      },
+      {
+        "level": "H2",
+        "text": "Discriminator"
+      },
+      {
+        "level": "H2",
+        "text": "Contrastive Learning"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency and Deployment Considerations"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of Experimental Insights"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Enhanced Discriminator with Data Augmentation"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14679v1",
+    "url": "http://arxiv.org/abs/2507.14679v1"
+  },
+  {
+    "title": "Enabling Efficient Hardware Acceleration of Hybrid Vision Transformer (ViT) Networks at the Edge",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Reconfigurable processing array for hybrid model acceleration"
+      },
+      {
+        "level": "H1",
+        "text": "Pixelwise Temporal Loop Ordering"
+      },
+      {
+        "level": "H1",
+        "text": "Inverted Bottleneck Layer Fusion"
+      },
+      {
+        "level": "H1",
+        "text": "Open-source Parametrized \\\\ Hardware Implementation"
+      },
+      {
+        "level": "H2",
+        "text": "Reconfigurable processing array"
+      },
+      {
+        "level": "H2",
+        "text": "Pixelwise temporal loop support"
+      },
+      {
+        "level": "H2",
+        "text": "Layer fusion support"
+      },
+      {
+        "level": "H2",
+        "text": "Synthesis Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14651v1",
+    "url": "http://arxiv.org/abs/2507.14651v1"
+  },
+  {
+    "title": "Optimizing Legal Document Retrieval in Vietnamese with Semi-Hard Negative Mining",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Retrieval Using Bi-Encoder Models"
+      },
+      {
+        "level": "H2",
+        "text": "Re-ranking with Cross-Encoder Models"
+      },
+      {
+        "level": "H2",
+        "text": "Role of Negative Examples in Training"
+      },
+      {
+        "level": "H2",
+        "text": "Contrastive Loss with Multiple Negatives"
+      },
+      {
+        "level": "H1",
+        "text": "Exploratory Data Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Structure and Characteristics of the Training Data (\\texttt{train.csv"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of the Legal Document Corpus (\\texttt{corpus.csv"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Set Overview (\\texttt{public\\_test.csv"
+      },
+      {
+        "level": "H2",
+        "text": "Key Observations and Preprocessing Implications"
+      },
+      {
+        "level": "H1",
+        "text": "Data Preparation and Processing Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Replacing Truncated Answers with Full Legal Documents"
+      },
+      {
+        "level": "H2",
+        "text": "Separating Multiple Answers per Question"
+      },
+      {
+        "level": "H2",
+        "text": "Vietnamese Word Segmentation with Pyvi"
+      },
+      {
+        "level": "H2",
+        "text": "Splitting Data for Local Validation"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Methodology: A Two-Stage Retrieval and Re-ranking Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Model Selection and Adaptation through Transfer Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Training the Bi-Encoder for Initial Candidate Retrieval"
+      },
+      {
+        "level": "H2",
+        "text": "Fine-tuning the Cross-Encoder for Re-ranking"
+      },
+      {
+        "level": "H2",
+        "text": "Inference Workflow for Legal Question Answering"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup and Evaluation Strategy"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluating Candidate Retrieval Using the \\textit{Exist@m"
+      },
+      {
+        "level": "H2",
+        "text": "Re-ranking Stage with Cross-Encoder and Negative Sampling Strategies"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14619v1",
+    "url": "http://arxiv.org/abs/2507.14619v1"
+  },
+  {
+    "title": "Electron impact ro-vibrational transitions and dissociative recombination of H2+ and HD+: Rate coefficients and astrophysical implications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Theoretical Method"
+      },
+      {
+        "level": "H1",
+        "text": "Results and discussions"
+      },
+      {
+        "level": "H1",
+        "text": "Astrophysical applications"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      },
+      {
+        "level": "H1",
+        "text": "Background galaxy number counts and shear noise-levels"
+      },
+      {
+        "level": "H1",
+        "text": "Title of Second appendix....."
+      },
+      {
+        "level": "H1",
+        "text": "Background galaxy number counts and shear noise-levels"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14602v1",
+    "url": "http://arxiv.org/abs/2507.14602v1"
+  },
+  {
+    "title": "ArtiMuse: Fine-Grained Image Aesthetics Assessment with Joint Scoring and Expert-Level Understanding",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-modality Large Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Image Aesthetics Assessment"
+      },
+      {
+        "level": "H2",
+        "text": "Image Aesthetics Assessment Models"
+      },
+      {
+        "level": "H1",
+        "text": "ArtiMuse-10K Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Image Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Aesthetic Attributes"
+      },
+      {
+        "level": "H2",
+        "text": "Human Annotations"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Collection \\& Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Annotation Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Training Strategy"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Aesthetics Assessment Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Structural Aesthetic Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Aesthetics Scoring"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "ArtiMuse-10K Dataset Details"
+      },
+      {
+        "level": "H2",
+        "text": "Details of Aesthetic Attributes"
+      },
+      {
+        "level": "H2",
+        "text": "Charateristics of ArtiMuse-10K"
+      },
+      {
+        "level": "H1",
+        "text": "Method Details"
+      },
+      {
+        "level": "H1",
+        "text": "Details of Public Dataset Collection \\& Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets w/ Score Caption"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets w/ Partial Text Caption"
+      },
+      {
+        "level": "H1",
+        "text": "Details of Token As Score Strategy"
+      },
+      {
+        "level": "H2",
+        "text": "Level As Score"
+      },
+      {
+        "level": "H2",
+        "text": "Token As Score w/ Expanding Tokens"
+      },
+      {
+        "level": "H2",
+        "text": "Token As Score w/ Existing Tokens"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Training Details"
+      },
+      {
+        "level": "H2",
+        "text": "Inference Details for Aesthetics Scoring"
+      },
+      {
+        "level": "H2",
+        "text": "Inference Details for Textual Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison Details"
+      },
+      {
+        "level": "H1",
+        "text": "More Results"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with SOTA Open-Source \\&  Closed-Source MLLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Further Comparison of Generalization Ability"
+      },
+      {
+        "level": "H2",
+        "text": "Further Comparison of Generalization Ability"
+      },
+      {
+        "level": "H2",
+        "text": "Image Examples in ArtiMuse-10K"
+      },
+      {
+        "level": "H2",
+        "text": "Complete Examples in ArtiMuse-10K"
+      },
+      {
+        "level": "H2",
+        "text": "Further Comparison of Textual Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Results on Real-world Images"
+      },
+      {
+        "level": "H2",
+        "text": "Further Comparison of Textual Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Complete Examples in ArtiMuse-10K"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14533v1",
+    "url": "http://arxiv.org/abs/2507.14533v1"
+  },
+  {
+    "title": "DFQ-ViT: Data-Free Quantization for Vision Transformers without Fine-tuning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Vision Transformer Compression."
+      },
+      {
+        "level": "H2",
+        "text": "Data-Free Quantization."
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Easy to Hard"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Analysis of Easy to Hard Strategy"
+      },
+      {
+        "level": "H3",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H3",
+        "text": "Key Assumptions"
+      },
+      {
+        "level": "H3",
+        "text": "Main Theoretical Results"
+      },
+      {
+        "level": "H2",
+        "text": "Activation Correction Matrix"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Synthetic Samples Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Intermediate Synthesis Processes"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter Quantity Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14481v1",
+    "url": "http://arxiv.org/abs/2507.14481v1"
+  },
+  {
+    "title": "On the direct and inverse electromagnetic scattering in a parallel-plate waveguide",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Model problem"
+      },
+      {
+        "level": "H2",
+        "text": "Sobolev spaces"
+      },
+      {
+        "level": "H1",
+        "text": "Wellposedness analysis of the direct scattering problem"
+      },
+      {
+        "level": "H2",
+        "text": "TBC"
+      },
+      {
+        "level": "H2",
+        "text": "Well-posedness analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Uniqueness result of the inverse obstacle problem"
+      },
+      {
+        "level": "H2",
+        "text": "The dyadic Green's function for the parallel-plate waveguide"
+      },
+      {
+        "level": "H2",
+        "text": "Uniqueness result"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Lemma~\\ref{lem-dual"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14480v1",
+    "url": "http://arxiv.org/abs/2507.14480v1"
+  },
+  {
+    "title": "GPI-Net: Gestalt-Guided Parallel Interaction Network via Orthogonal Geometric Consistency for Robust Point Cloud Registration",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Point Cloud Registration"
+      },
+      {
+        "level": "H2",
+        "text": "Outlier Removal"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Orthogonal Integration (OI)"
+      },
+      {
+        "level": "H2",
+        "text": "Gestalt Feature Attention (GFA)"
+      },
+      {
+        "level": "H2",
+        "text": "Dual-Path Multi-Granularity Parallel Interaction Aggregation (DMG)"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation of Indoor Scenes"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation of Outdoor Scenes"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Contribution Statement"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14452v1",
+    "url": "http://arxiv.org/abs/2507.14452v1"
+  },
+  {
+    "title": "Adaptive 3D Gaussian Splatting Video Streaming",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The Development of Volumetric Video Streaming"
+      },
+      {
+        "level": "H1",
+        "text": "3DGS Volumetric Video Streaming Framework"
+      },
+      {
+        "level": "H1",
+        "text": "Adaptive 3DGS Video Streaming"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic 3DGS Video Construction"
+      },
+      {
+        "level": "H2",
+        "text": "Saliency Fusion and Adaptive Tiling of 3DGS Video"
+      },
+      {
+        "level": "H2",
+        "text": "Differentiated Quality Modeling of 3DGS Video"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Quality Selection for Tiles"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results and Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Open Research Issues and Outlook"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of the First Zonklar Equation"
+      },
+      {
+        "level": "H1",
+        "text": ""
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "ACKNOWLEDGMENT"
+      }
+    ],
+    "query": "green chemistry innovations",
+    "arxiv_id": "2507.14432v1",
+    "url": "http://arxiv.org/abs/2507.14432v1"
+  }
+]

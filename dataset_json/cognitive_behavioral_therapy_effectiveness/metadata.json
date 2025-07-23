@@ -1,0 +1,4430 @@
+[
+  {
+    "title": "Simulating the LOcal Web (SLOW) V. Thermodynamic Properties and Evolution of Local Galaxy Clusters",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Observational data"
+      },
+      {
+        "level": "H1",
+        "text": "Simulations"
+      },
+      {
+        "level": "H2",
+        "text": "Constrained Initial Conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Suite: SLOW"
+      },
+      {
+        "level": "H2",
+        "text": "Identification of Galaxy Clusters"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of the Intracluster Medium"
+      },
+      {
+        "level": "H1",
+        "text": "Local Galaxy Cluster Profiles and their Simulated Replicas"
+      },
+      {
+        "level": "H2",
+        "text": "The Perseus Cluster"
+      },
+      {
+        "level": "H2",
+        "text": "The Coma Cluster"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 0085"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 0119"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 0644"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 1644"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 1795"
+      },
+      {
+        "level": "H2",
+        "text": "Abell A2029"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 2319"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 3158"
+      },
+      {
+        "level": "H2",
+        "text": "Abell 3266"
+      },
+      {
+        "level": "H2",
+        "text": "The Virgo  Cluster"
+      },
+      {
+        "level": "H2",
+        "text": "Successes and Limitations in Reproducing Local Clusters"
+      },
+      {
+        "level": "H1",
+        "text": "Connecting formation histories with late time cluster core states"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Profile dependence on resolution"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15858v1",
+    "url": "http://arxiv.org/abs/2507.15858v1"
+  },
+  {
+    "title": "Latent Denoising Makes Good Visual Tokenizers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Training and Inference Details"
+      },
+      {
+        "level": "H2",
+        "text": "Tokenizer"
+      },
+      {
+        "level": "H2",
+        "text": "Generative Models"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Results"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Main Properties"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of Latent Noising"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of Masking"
+      },
+      {
+        "level": "H3",
+        "text": "Joint Denoising"
+      },
+      {
+        "level": "H2",
+        "text": "Generalization Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmarking with Previous Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries of Generative Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Denoising Tokenizers"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15856v1",
+    "url": "http://arxiv.org/abs/2507.15856v1"
+  },
+  {
+    "title": "The Other Mind: How Language Models Exhibit Human Temporal Cognition",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Similarity Judgment Task"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Coding"
+      },
+      {
+        "level": "H2",
+        "text": "Representational Structure"
+      },
+      {
+        "level": "H2",
+        "text": "Information Exposure"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Similarity Judgment Task"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Coding Mechanism"
+      },
+      {
+        "level": "H2",
+        "text": "Representational Structure"
+      },
+      {
+        "level": "H2",
+        "text": "Information Exposure"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15851v1",
+    "url": "http://arxiv.org/abs/2507.15851v1"
+  },
+  {
+    "title": "The Impact of Language Mixing on Bilingual LLM Reasoning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Can we steer the model toward strategic language mixing?"
+      },
+      {
+        "level": "H2",
+        "text": "Probe-Guided Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of Probe-Guided Decoding"
+      },
+      {
+        "level": "H1",
+        "text": "Do LLMs reason better or worse with language mixing?"
+      },
+      {
+        "level": "H2",
+        "text": "Constrained Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Constrained vs. Unconstrained Decoding"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Where does Language Mixing Occur?"
+      },
+      {
+        "level": "H2",
+        "text": "Detecting Code-Switches"
+      },
+      {
+        "level": "H2",
+        "text": "Tracing the Evolution of Language Mixing in LLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Characterizing Code-Switching Behavior"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Code-Switching"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation datasets"
+      },
+      {
+        "level": "H2",
+        "text": "RLVR Triggers Language Mixing"
+      },
+      {
+        "level": "H2",
+        "text": "Rule-Based Code-Switch Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Detailed Implementation of Constrained Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Probing for Beneficial Code-Switches"
+      },
+      {
+        "level": "H2",
+        "text": "Probe Performance and Utility"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison on AIME2024"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Language Mixing in QwQ-32B-Preview"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Probe-Guided Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Beneficial/ Harmful/ Neutral Code Switches"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of probe-guided vs not guided generation"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15849v1",
+    "url": "http://arxiv.org/abs/2507.15849v1"
+  },
+  {
+    "title": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Gaussian Reward Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning with \\methodname"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "GUI Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Fine-Tuning"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Reward Design Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Spurious Rewards"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Error Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15846v1",
+    "url": "http://arxiv.org/abs/2507.15846v1"
+  },
+  {
+    "title": "Hierarchical Budget Policy Optimization for Adaptive Reasoning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Hierarchical Structure"
+      },
+      {
+        "level": "H2",
+        "text": "Reasoning Pattern Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Hierarchical Budget Exploration"
+      },
+      {
+        "level": "H2",
+        "text": "Budget-Aware Reward Design"
+      },
+      {
+        "level": "H3",
+        "text": "Intra-Budget Reward Function"
+      },
+      {
+        "level": "H3",
+        "text": "Inter-Budget Reward Differentiation"
+      },
+      {
+        "level": "H2",
+        "text": "Training Procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient Reasoning"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Reasoning"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15844v1",
+    "url": "http://arxiv.org/abs/2507.15844v1"
+  },
+  {
+    "title": "Identifying Conditional Causal Effects in MPDAGs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Identification Formula"
+      },
+      {
+        "level": "H2",
+        "text": "Review of the PCO Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Identification Formula"
+      },
+      {
+        "level": "H2",
+        "text": "Special Cases"
+      },
+      {
+        "level": "H2",
+        "text": "Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Identifiability Condition"
+      },
+      {
+        "level": "H1",
+        "text": "Do Calculus for MPDAGs"
+      },
+      {
+        "level": "H2",
+        "text": "The Calculus"
+      },
+      {
+        "level": "H2",
+        "text": "Examples"
+      },
+      {
+        "level": "H1",
+        "text": "Identification Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "The Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Further Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Soundness and Completeness"
+      },
+      {
+        "level": "H2",
+        "text": "An Extension for Non-identifiable Effects"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Further Definitions"
+      },
+      {
+        "level": "H1",
+        "text": "Existing Results"
+      },
+      {
+        "level": "H1",
+        "text": "Broad MPDAG Results"
+      },
+      {
+        "level": "H2",
+        "text": "Results on Possibly Causal Paths"
+      },
+      {
+        "level": "H2",
+        "text": "Remarks on the Ordering of Buckets"
+      },
+      {
+        "level": "H2",
+        "text": "Results on Paths Among Buckets"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section \\ref{sec:id-formula"
+      },
+      {
+        "level": "H2",
+        "text": "Main Result"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting Results"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section \\ref{sec:id-condition"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting Results"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section \\ref{sec:do"
+      },
+      {
+        "level": "H2",
+        "text": "Results for All do Rules"
+      },
+      {
+        "level": "H2",
+        "text": "Results for do Rule 1"
+      },
+      {
+        "level": "H2",
+        "text": "Results for do Rule 2"
+      },
+      {
+        "level": "H2",
+        "text": "Results for do Rule 3"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section \\ref{sec:alg-condition"
+      },
+      {
+        "level": "H2",
+        "text": "Main Result"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting Results"
+      },
+      {
+        "level": "H1",
+        "text": "A Note on Jaber's (2022) \\texttt{CIDP"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15842v1",
+    "url": "http://arxiv.org/abs/2507.15842v1"
+  },
+  {
+    "title": "FASTGEN: Fast and Cost-Effective Synthetic Tabular Data Generation with LLMs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Sampling Script Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Identify Distribution"
+      },
+      {
+        "level": "H2",
+        "text": "Script Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Data Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Lessons, Limitation and Future Works"
+      },
+      {
+        "level": "H2",
+        "text": "Human Feedback for Continuous Improvement"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges and Opportunities in LLM-assisted Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Insights on LLM Behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Limitation on Cross-field Relationship"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Configuration"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity"
+      },
+      {
+        "level": "H3",
+        "text": "Vocabulary"
+      },
+      {
+        "level": "H3",
+        "text": "Inter Sample N-gram Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Realism"
+      },
+      {
+        "level": "H3",
+        "text": "Kullback-Leibler Divergence"
+      },
+      {
+        "level": "H3",
+        "text": "Optimal Transport"
+      },
+      {
+        "level": "H3",
+        "text": "Distance to Closest Record"
+      },
+      {
+        "level": "H2",
+        "text": "Exploratory Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Vocabulary"
+      },
+      {
+        "level": "H3",
+        "text": "Inter Sample N-gram Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15839v1",
+    "url": "http://arxiv.org/abs/2507.15839v1"
+  },
+  {
+    "title": "Optimizing Canaries for Privacy Auditing with Metagradient Descent",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Various notes (remove later)"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-run DP Auditing"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Canary Optimization with Metagradient Descent"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Auditing Differential Privacy"
+      },
+      {
+        "level": "H3",
+        "text": "Last-iterate black-box auditing"
+      },
+      {
+        "level": "H3",
+        "text": "One-run auditing"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15836v1",
+    "url": "http://arxiv.org/abs/2507.15836v1"
+  },
+  {
+    "title": "ACS: An interactive framework for conformal selection",
+    "outline": [
+      {
+        "level": "H2",
+        "text": "Warm-up: CS as a screening procedure"
+      },
+      {
+        "level": "H2",
+        "text": "ACS: the general framework"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical guarantees"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Conformal Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Organization of the paper"
+      },
+      {
+        "level": "H2",
+        "text": "Experiments for question answering (QA) datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Experiments for chest X-ray report generation"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Adaptive conformal selection"
+      },
+      {
+        "level": "H1",
+        "text": "Instantiation of ACS"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical simulations"
+      },
+      {
+        "level": "H1",
+        "text": "Real data application: LLM deployment"
+      },
+      {
+        "level": "H1",
+        "text": "Real data application: Drug discovery"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Reproducibility"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation setup"
+      },
+      {
+        "level": "H2",
+        "text": "ACS with model-refitting: individual base models"
+      },
+      {
+        "level": "H2",
+        "text": "ACS with model-refitting: adaptive model selection"
+      },
+      {
+        "level": "H2",
+        "text": "Diversified selection"
+      },
+      {
+        "level": "H2",
+        "text": "Incorporating new labels"
+      },
+      {
+        "level": "H2",
+        "text": "Boosting power"
+      },
+      {
+        "level": "H2",
+        "text": "Diversifying selection"
+      },
+      {
+        "level": "H3",
+        "text": "Diversity-aware ordering"
+      },
+      {
+        "level": "H2",
+        "text": "Incorporating new labels"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive choice of local tests"
+      },
+      {
+        "level": "H2",
+        "text": "Problem setup"
+      },
+      {
+        "level": "H2",
+        "text": "Background: conformal selection"
+      },
+      {
+        "level": "H2",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs of the main results"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem~\\ref{thm:fdr_control"
+      },
+      {
+        "level": "H1",
+        "text": "Deferred proofs"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma~\\ref{lemma:equal_prob"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Proposition~\\ref{prop:diversity"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Additional Lemmas"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma~\\ref{lemma:equal_prob"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma~\\ref{hypergeom-lemma"
+      },
+      {
+        "level": "H1",
+        "text": "Additional simulation results"
+      },
+      {
+        "level": "H2",
+        "text": "Additional results with individual base models"
+      },
+      {
+        "level": "H2",
+        "text": "Model selection"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity-aware selection"
+      },
+      {
+        "level": "H2",
+        "text": "The effect of $k$"
+      },
+      {
+        "level": "H1",
+        "text": "Additional real data results"
+      },
+      {
+        "level": "H2",
+        "text": "Additional details and results for LLM deployment"
+      },
+      {
+        "level": "H3",
+        "text": "Feature engineering for prediction model training"
+      },
+      {
+        "level": "H3",
+        "text": "Additional experimental results"
+      },
+      {
+        "level": "H2",
+        "text": "Additional drug discovery results"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15825v1",
+    "url": "http://arxiv.org/abs/2507.15825v1"
+  },
+  {
+    "title": "Can Your Model Separate Yolks with a Water Bottle? Benchmarking Physical Commonsense Understanding in Video Generation Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Expanded Comparison with Existing Benchmarks"
+      },
+      {
+        "level": "H1",
+        "text": "Benchmark Design and Evaluation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt Generation and Upsampling"
+      },
+      {
+        "level": "H2",
+        "text": "Physical Commonsense Dimensions and Sample Prompts"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Generation Results and Qualitative Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Difficulty–Based Prompt Stratification"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Model Generation Specifications"
+      },
+      {
+        "level": "H1",
+        "text": "User Study Details and Human Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Effect of Caption Detail on Model Performance: Short vs. Dense Captions"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Benchmark"
+      },
+      {
+        "level": "H2",
+        "text": "Tested Physical Commonsense Concepts"
+      },
+      {
+        "level": "H2",
+        "text": "Construction of Prompts"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H1",
+        "text": "Insights and Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15824v1",
+    "url": "http://arxiv.org/abs/2507.15824v1"
+  },
+  {
+    "title": "Do AI models help produce verified bug fixes?",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "#1"
+      },
+      {
+        "level": "H2",
+        "text": "#1"
+      },
+      {
+        "level": "H3",
+        "text": "#1"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Terminology"
+      },
+      {
+        "level": "H1",
+        "text": "Research questions"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Surveys of automated program repair"
+      },
+      {
+        "level": "H2",
+        "text": "Developer studies and tool adoption"
+      },
+      {
+        "level": "H2",
+        "text": "LLM-based repair techniques"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs and formal verification"
+      },
+      {
+        "level": "H1",
+        "text": "Tool stack"
+      },
+      {
+        "level": "H1",
+        "text": "Threats to validity"
+      },
+      {
+        "level": "H2",
+        "text": "Goal W: In turning a buggy program into a correct one, is it fruitful to use an LLM?"
+      },
+      {
+        "level": "H2",
+        "text": "Goal H: If programmers do use an LLM for debugging, what is an effective process?"
+      },
+      {
+        "level": "H2",
+        "text": "General observations"
+      },
+      {
+        "level": "H2",
+        "text": "Advice for LLM usage"
+      },
+      {
+        "level": "H2",
+        "text": "Lessons on the use of LLMs for debugging"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15822v1",
+    "url": "http://arxiv.org/abs/2507.15822v1"
+  },
+  {
+    "title": "Factorization and Resummation for the Nearside Energy-Energy Correlators",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Di-hadron Fragmentation in a Jet"
+      },
+      {
+        "level": "H1",
+        "text": "IR Behavior at Small Angle and the Factorization in Fourier Transform $b_T$-space"
+      },
+      {
+        "level": "H1",
+        "text": "All Order Resummation and Compare to the fixed-order Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Resummation of EEC and perturbative matching with collinear calculations"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15820v1",
+    "url": "http://arxiv.org/abs/2507.15820v1"
+  },
+  {
+    "title": "Hyperelastic nature of the Hoek-Brown criterion",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Notations"
+      },
+      {
+        "level": "H1",
+        "text": "Hyperelasticity coupled to plasticity"
+      },
+      {
+        "level": "H2",
+        "text": "Thermodynamics of perfect plasticity"
+      },
+      {
+        "level": "H2",
+        "text": "Beyond the linear approximation"
+      },
+      {
+        "level": "H1",
+        "text": "Hyperelastic enrichment of perfect plasticity"
+      },
+      {
+        "level": "H2",
+        "text": "Mapping thermodynamics to observables"
+      },
+      {
+        "level": "H2",
+        "text": "The yield criterion transformation"
+      },
+      {
+        "level": "H1",
+        "text": "Responses on typical tests"
+      },
+      {
+        "level": "H2",
+        "text": "Hydrostatic tests"
+      },
+      {
+        "level": "H2",
+        "text": "Triaxial compression test with a confining pressure"
+      },
+      {
+        "level": "H2",
+        "text": "Cyclic triaxial test"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with the linear elasto-plastic model"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with an experimental uniaxial compression test"
+      },
+      {
+        "level": "H1",
+        "text": "Finite element simulation example"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Hoek--Brown type quadratic yield criteria"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical integration procedure of the model"
+      },
+      {
+        "level": "H3",
+        "text": "Increment of the plastic strain on the smooth portion"
+      },
+      {
+        "level": "H3",
+        "text": "Increment of the plastic strain at the apex"
+      },
+      {
+        "level": "H3",
+        "text": "Expression of the stress and of the consistent tangent operator"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15813v1",
+    "url": "http://arxiv.org/abs/2507.15813v1"
+  },
+  {
+    "title": "Mpemba effect in self-contained quantum refrigerators: accelerated cooling",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "The quantum refrigerator model"
+      },
+      {
+        "level": "H2",
+        "text": "The Mpemba effect"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamics of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamical equations of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Steady state of self-contained refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "Mpemba Effect in quantum refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in absence of cold bath"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in presence of cold bath"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Lindblad operators of quantum refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "\\texorpdfstring{The expression of $D_{i"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15811v1",
+    "url": "http://arxiv.org/abs/2507.15811v1"
+  },
+  {
+    "title": "Empirical Likelihood Based Inference for a Divergence Measure Based on Survival Extropy",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Estimation  of $D$"
+      },
+      {
+        "level": "H2",
+        "text": "U-statistics-based estimator"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical distribution function-based estimator"
+      },
+      {
+        "level": "H2",
+        "text": "Kernel-based estimator"
+      },
+      {
+        "level": "H2",
+        "text": "Normal approximation with Jackknife pseudo-values for C.I. of $D$"
+      },
+      {
+        "level": "H2",
+        "text": "Jackknife empirical likelihood (JEL) based C.I. of $D$"
+      },
+      {
+        "level": "H1",
+        "text": "Monte Carlo Simulations"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison of MSEs for $D$ and estimators of existing measures"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison of estimators for $D$"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison of confidence intervals for $D$"
+      },
+      {
+        "level": "H1",
+        "text": "Concluding Remarks"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15810v1",
+    "url": "http://arxiv.org/abs/2507.15810v1"
+  },
+  {
+    "title": "True Multimodal In-Context Learning Needs Attention to the Visual Context",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "DARA as a constrained version of LoRA"
+      },
+      {
+        "level": "H1",
+        "text": "TrueMICL"
+      },
+      {
+        "level": "H1",
+        "text": "More Details of Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "MLLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "More Experimental Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion on the Performance between DARA and LoRA"
+      },
+      {
+        "level": "H2",
+        "text": "Closed-source model performances"
+      },
+      {
+        "level": "H2",
+        "text": "Amounts of params in DARA"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of Prompt Design"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on TrueMICL"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of the DARA's Reallocation Effects"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on Standard VL Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Attention Reallocation"
+      },
+      {
+        "level": "H2",
+        "text": "TrueMICL, a MICL-dedicated Dataset"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15807v1",
+    "url": "http://arxiv.org/abs/2507.15807v1"
+  },
+  {
+    "title": "ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Experimental Details"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Existing Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of SEEM-Generated Masks in SSSS"
+      },
+      {
+        "level": "H2",
+        "text": "ConformalSAM"
+      },
+      {
+        "level": "H3",
+        "text": "CP-Calibrated Foundation Model for Supervised Training (Stage \\uppercase\\expandafter{\\romannumeral1"
+      },
+      {
+        "level": "H3",
+        "text": "Self-Reliance Training (Stage \\uppercase\\expandafter{\\romannumeral2"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15803v1",
+    "url": "http://arxiv.org/abs/2507.15803v1"
+  },
+  {
+    "title": "Approximating Rockafellians Mitigate Distributional Perturbations: Discontinuous Integrands and Chance-Constrained Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence of Approximating Rockafellians"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion"
+      },
+      {
+        "level": "H3",
+        "text": "Finite Distribution"
+      },
+      {
+        "level": "H3",
+        "text": "Discrete Distribution"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence of Probability Distributions"
+      },
+      {
+        "level": "H2",
+        "text": "Weak Convergence"
+      },
+      {
+        "level": "H3",
+        "text": "Epigraphical  Regularization"
+      },
+      {
+        "level": "H2",
+        "text": "Setwise Convergence"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence in Probability Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Bounded Lipschitz, Fortet-Mourier, and Wasserstein"
+      },
+      {
+        "level": "H3",
+        "text": "Minimal Information, TV, and Other  Discrepancies"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical Approximation"
+      },
+      {
+        "level": "H1",
+        "text": "Chance-Constrained Programs"
+      },
+      {
+        "level": "H2",
+        "text": "Variational Convergence"
+      },
+      {
+        "level": "H3",
+        "text": "Setting (S1): Absence of Approximating Mappings $G^\\nu$"
+      },
+      {
+        "level": "H3",
+        "text": "Setting (S2): With Approximating Mappings $G^\\nu$"
+      },
+      {
+        "level": "H2",
+        "text": "Rate of Convergence"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15801v1",
+    "url": "http://arxiv.org/abs/2507.15801v1"
+  },
+  {
+    "title": "Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Semantic Communication for Emerging Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "List of Notations:"
+      },
+      {
+        "level": "H1",
+        "text": "System Model"
+      },
+      {
+        "level": "H2",
+        "text": "Signal Transmission Model"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Model"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Model"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Measures"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication"
+      },
+      {
+        "level": "H2",
+        "text": "Computing"
+      },
+      {
+        "level": "H1",
+        "text": "Joint Design of FA-enabled NF-ISCSC System"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Joint Beamforming and Computation Optimisation"
+      },
+      {
+        "level": "H2",
+        "text": "FA Position Optimisation"
+      },
+      {
+        "level": "H3",
+        "text": "Benchmark method (second-order Taylor expansion)"
+      },
+      {
+        "level": "H3",
+        "text": "Projected BFGS"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Extraction Ratio Optimisation"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Results"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Computing Performance"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Direction"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of FIM"
+      },
+      {
+        "level": "H1",
+        "text": "Proof and Derivation of Equation \\eqref{fim"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of FIM for a Point Target"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence Analysis"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15800v1",
+    "url": "http://arxiv.org/abs/2507.15800v1"
+  },
+  {
+    "title": "Exploring Superposition and Interference in State-of-the-Art Low-Parameter Vision Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "State-of-the-Art Deep Neural Network Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Prior Definitions"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Method"
+      },
+      {
+        "level": "H3",
+        "text": "Models vessel"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Depthwise convolution should stay in the input dimensional space"
+      },
+      {
+        "level": "H2",
+        "text": "Preventing superposition significantly disrupts neural network representational structure."
+      },
+      {
+        "level": "H2",
+        "text": "Proof of concept: NoDepth Bottleneck"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15798v1",
+    "url": "http://arxiv.org/abs/2507.15798v1"
+  },
+  {
+    "title": "Regularized Low-Rank Adaptation for Few-Shot Organ Segmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15793v1",
+    "url": "http://arxiv.org/abs/2507.15793v1"
+  },
+  {
+    "title": "\\texttt{GWBird}: a toolkit for the characterization of the Stochastic Gravitational Wave Background for Ground, Space, and Pulsar Timing Array detectors",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "\\refname"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Detector response"
+      },
+      {
+        "level": "H2",
+        "text": "Detector Tensor and Angular Pattern Function"
+      },
+      {
+        "level": "H2",
+        "text": "Overlap Reduction Function"
+      },
+      {
+        "level": "H3",
+        "text": "Chiral Overlap Reduction Function"
+      },
+      {
+        "level": "H2",
+        "text": "Angular Response"
+      },
+      {
+        "level": "H2",
+        "text": "Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "SGWB made of Tensor, Vector and Scalar modes"
+      },
+      {
+        "level": "H3",
+        "text": "SGWB made of Tensor and X-polarization modes"
+      },
+      {
+        "level": "H2",
+        "text": "Sensitivity to \\texorpdfstring{$\\ell$"
+      },
+      {
+        "level": "H2",
+        "text": "Pulsar Timing Array Response and Angular Response"
+      },
+      {
+        "level": "H3",
+        "text": "Pulsar Timing Array Noise treatment"
+      },
+      {
+        "level": "H1",
+        "text": "Description of the code"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{detectors.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{skymap.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{overlap.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{pls.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{anisotropy.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{snr.py"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Overlap Reduction Function"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO-Virgo"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Angular Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO-Virgo"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Ground based detectors coordinates"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15791v1",
+    "url": "http://arxiv.org/abs/2507.15791v1"
+  },
+  {
+    "title": "Small LLMs Do Not Learn a Generalizable Theory of Mind via Reinforcement Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "Training Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Reward Function Design"
+      },
+      {
+        "level": "H2",
+        "text": "Training Algorithm: REINFORCE++"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H3",
+        "text": "RL Performance on In-Distribution Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "RL Performance on Out-Of-Distribution Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "Performance on Different ToM Orders"
+      },
+      {
+        "level": "H2",
+        "text": "Performance On Task Variations"
+      },
+      {
+        "level": "H3",
+        "text": "Training Behavior Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15788v1",
+    "url": "http://arxiv.org/abs/2507.15788v1"
+  },
+  {
+    "title": "Graph Attention Specialized Expert Fusion Model for Node Classification: Based on Cora and Pubmed Datasets",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Approaches to Node Classification"
+      },
+      {
+        "level": "H2",
+        "text": "Graph Neural Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Convolutional Networks (GCNs)"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Attention Networks (GATs)"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-hop and Higher-order Graph Neural Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-hop GNNs"
+      },
+      {
+        "level": "H3",
+        "text": "APPNP and SGC"
+      },
+      {
+        "level": "H2",
+        "text": "Ensemble Methods for Node Classification"
+      },
+      {
+        "level": "H3",
+        "text": "Model Ensembles"
+      },
+      {
+        "level": "H3",
+        "text": "Expert Models"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Transport for Representation Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Wasserstein Distance in Machine Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Gromov-Wasserstein Distance"
+      },
+      {
+        "level": "H3",
+        "text": "Applications to Graph Representation Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Cross-domain and Transfer Learning in Graph Neural Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Research Gaps and Our Contribution"
+      },
+      {
+        "level": "H1",
+        "text": "Optimization of GCN"
+      },
+      {
+        "level": "H2",
+        "text": "Model Architecture Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "The Necessity of Introducing Attention Mechanisms"
+      },
+      {
+        "level": "H1",
+        "text": "The Introduction of GAT"
+      },
+      {
+        "level": "H2",
+        "text": "Abstract of Attention Mechanisms in Graphs"
+      },
+      {
+        "level": "H2",
+        "text": "Combination of Graph Convolution and Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Node-level Attention Implemented by GATConv"
+      },
+      {
+        "level": "H3",
+        "text": "Implementation of Multi-hop Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Hop-level Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Enhanced Components for Stable Training"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison of Different Models"
+      },
+      {
+        "level": "H3",
+        "text": "Overall Performance"
+      },
+      {
+        "level": "H3",
+        "text": "Category-specific Differences"
+      },
+      {
+        "level": "H3",
+        "text": "Explanations"
+      },
+      {
+        "level": "H2",
+        "text": "Next Improvement Direction: Expert Fusion Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Expert Division of Labor"
+      },
+      {
+        "level": "H3",
+        "text": "Adaptive Fusion Strategy"
+      },
+      {
+        "level": "H3",
+        "text": "Mechanism Rationale"
+      },
+      {
+        "level": "H3",
+        "text": "Future Outlook"
+      },
+      {
+        "level": "H1",
+        "text": "Optimizing GAT: Introduction of Expert Fusion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Design Principle of Expert Fusion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation of Expert Models"
+      },
+      {
+        "level": "H2",
+        "text": "Design of Fusion Strategies"
+      },
+      {
+        "level": "H3",
+        "text": "Advantages of the Expert Fusion Model"
+      },
+      {
+        "level": "H3",
+        "text": "Generalization Potential"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Balance Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Precision-Recall Tradeoff"
+      },
+      {
+        "level": "H3",
+        "text": "Stability Quantification"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-expert Weighted Fusion Mechanism"
+      },
+      {
+        "level": "H1",
+        "text": "Optimizing Expert Fusion: Introduction of Wasserstein-Rubinstein Distance"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Foundation of Wasserstein-Rubinstein Distance"
+      },
+      {
+        "level": "H2",
+        "text": "WR Distance for Model Representation Alignment"
+      },
+      {
+        "level": "H3",
+        "text": "Representation Alignment Across Models"
+      },
+      {
+        "level": "H3",
+        "text": "Category-Specific Distance Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Enhanced Fusion Architecture with WR Guidance"
+      },
+      {
+        "level": "H3",
+        "text": "WR Distance Computation Module"
+      },
+      {
+        "level": "H3",
+        "text": "Class-Aware Projection Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Dynamic Fusion Weight Adjustment"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Results and Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Performance Improvements"
+      },
+      {
+        "level": "H3",
+        "text": "Stability Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Learned Representations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15784v1",
+    "url": "http://arxiv.org/abs/2507.15784v1"
+  },
+  {
+    "title": "Density control of multi-agent swarms via bio-inspired leader-follower plasticity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Statement"
+      },
+      {
+        "level": "H2",
+        "text": "Problem statement"
+      },
+      {
+        "level": "H1",
+        "text": "Bio-inspired Control"
+      },
+      {
+        "level": "H2",
+        "text": "Design of the leaders' velocity field"
+      },
+      {
+        "level": "H2",
+        "text": "Design of the reacting term"
+      },
+      {
+        "level": "H2",
+        "text": "Stability analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Bimodal regulation"
+      },
+      {
+        "level": "H2",
+        "text": "Robustness analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Agent-based Model"
+      },
+      {
+        "level": "H1",
+        "text": "Higher-Dimensional Extension"
+      },
+      {
+        "level": "H2",
+        "text": "Bio-inspired Control"
+      },
+      {
+        "level": "H2",
+        "text": "Stability Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical validation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Non-plastic followers at steady-state"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15781v1",
+    "url": "http://arxiv.org/abs/2507.15781v1"
+  },
+  {
+    "title": "Stabilizing Knowledge, Promoting Reasoning: Dual-Token Constraints for RLVR",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminary"
+      },
+      {
+        "level": "H2",
+        "text": "Group Relative Policy Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Decouple Clip and Dynamic Sampling Policy Optimization"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Critical Tokens Identification via Response-level Entropy"
+      },
+      {
+        "level": "H3",
+        "text": "Response-Level Entropy Statistics"
+      },
+      {
+        "level": "H2",
+        "text": "Token-Level Disentangled Training"
+      },
+      {
+        "level": "H3",
+        "text": "Participatory Training of Low-Entropy Tokens"
+      },
+      {
+        "level": "H3",
+        "text": "Our Method"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Different KL Weights"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Clip Ranges on Different Token Types"
+      },
+      {
+        "level": "H3",
+        "text": "Visualization of RL Optimization Regions"
+      },
+      {
+        "level": "H3",
+        "text": "Mutual Enhancement Between Math RL and Code RL"
+      },
+      {
+        "level": "H1",
+        "text": "Problem-level accuracy comparison"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning for Large Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Critical Token Analysis in RL for Reasoning"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Details"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Code Domain"
+      },
+      {
+        "level": "H3",
+        "text": "Mathematics Domain"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Impact of Clip Ranges on High-Entropy Tokens"
+      },
+      {
+        "level": "H1",
+        "text": "Problem-level accuracy comparison"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15778v1",
+    "url": "http://arxiv.org/abs/2507.15778v1"
+  },
+  {
+    "title": "Dissociating model architectures from inference computations",
+    "outline": [
+      {
+        "level": "H2",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "General discussion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15776v1",
+    "url": "http://arxiv.org/abs/2507.15776v1"
+  },
+  {
+    "title": "Learning Null Geodesics for Gravitational Lensing Rendering in General Relativity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Geodesic Approximation"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Distribution"
+      },
+      {
+        "level": "H3",
+        "text": "Geodesic Visualization"
+      },
+      {
+        "level": "H2",
+        "text": "Rendering Results"
+      },
+      {
+        "level": "H3",
+        "text": "Convergence Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H3",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Impact Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Physics-informed Neural Network"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Superposed Black Hole Metric"
+      },
+      {
+        "level": "H1",
+        "text": "Proof for $l^{\\text{straight"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Classical Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Learning Geodesics"
+      },
+      {
+        "level": "H2",
+        "text": "Ray Tracing in Curved Spacetime"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15775v1",
+    "url": "http://arxiv.org/abs/2507.15775v1"
+  },
+  {
+    "title": "A Framework for Analyzing Abnormal Emergence in Service Ecosystems Through LLM-based Agent Intention Mining",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Emergence Phenomena in Service Ecosystem"
+      },
+      {
+        "level": "H2",
+        "text": "Thoughts of LLM-based Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Individual Thought Track"
+      },
+      {
+        "level": "H2",
+        "text": "Emergent Intention Extract"
+      },
+      {
+        "level": "H2",
+        "text": "Group Intention Clustering"
+      },
+      {
+        "level": "H2",
+        "text": "System Emergence Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Emergence Analysis (RQ1)"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study(RQ2)"
+      },
+      {
+        "level": "H2",
+        "text": "Universal Scenario Simulation(RQ3)"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Agent Descriptions"
+      },
+      {
+        "level": "H2",
+        "text": "Prompts"
+      },
+      {
+        "level": "H2",
+        "text": "Agent Thoughts"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15770v1",
+    "url": "http://arxiv.org/abs/2507.15770v1"
+  },
+  {
+    "title": "Multi-Modal Sensor Fusion for Proactive Blockage Prediction in mmWave Vehicular Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "System Model and Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Proactive Multi-Modal Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Data Augmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Class Imbalance Handling"
+      },
+      {
+        "level": "H3",
+        "text": "Camera Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "GPS Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "LiDAR Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Radar Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Camera Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "GPS-Based Blockage Prediction Model"
+      },
+      {
+        "level": "H2",
+        "text": "LiDAR Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Radar Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Modal Fusion"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15769v1",
+    "url": "http://arxiv.org/abs/2507.15769v1"
+  },
+  {
+    "title": "Meson mass spectrum in Ising Field Theory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Bethe-Salpeter Equation and Integrability"
+      },
+      {
+        "level": "H2",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "\\texorpdfstring{$Q$"
+      },
+      {
+        "level": "H2",
+        "text": "Spectral sums and spectral determinants"
+      },
+      {
+        "level": "H1",
+        "text": "Solutions of TQ equation"
+      },
+      {
+        "level": "H2",
+        "text": "Small \\texorpdfstring{$\\lambda$"
+      },
+      {
+        "level": "H2",
+        "text": "Large \\texorpdfstring{$\\lambda$"
+      },
+      {
+        "level": "H1",
+        "text": "Relation between \\texorpdfstring{$Q$"
+      },
+      {
+        "level": "H2",
+        "text": "Resolvent and integral relations"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Wronskian and rational relations"
+      },
+      {
+        "level": "H2",
+        "text": "Log-derivative relations"
+      },
+      {
+        "level": "H1",
+        "text": "Analytical results"
+      },
+      {
+        "level": "H2",
+        "text": "Spectral sums"
+      },
+      {
+        "level": "H2",
+        "text": "WKB expansion"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of results in limiting cases"
+      },
+      {
+        "level": "H2",
+        "text": "Near \\texorpdfstring{$E_8$"
+      },
+      {
+        "level": "H2",
+        "text": "Expansion around the free fermion theory: \\texorpdfstring{$\\alpha\\to\\infty$"
+      },
+      {
+        "level": "H1",
+        "text": "Bethe-Salpeter equation in the complex \\texorpdfstring{$\\alpha$"
+      },
+      {
+        "level": "H2",
+        "text": "Analytical continuation"
+      },
+      {
+        "level": "H2",
+        "text": "Critical points on the second sheet"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Supplemental material"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Matrix elements of spectral operator \\texorpdfstring{$\\hat{K"
+      },
+      {
+        "level": "H1",
+        "text": "Asymptotics of the integrals \\texorpdfstring{$\\mathtt{u"
+      },
+      {
+        "level": "H2",
+        "text": "Chiral limit: \\texorpdfstring{$\\alpha \\rightarrow0$"
+      },
+      {
+        "level": "H2",
+        "text": "Heavy quark limit: \\texorpdfstring{$\\alpha\\to\\infty$"
+      },
+      {
+        "level": "H2",
+        "text": "Critical points: \\texorpdfstring{$\\alpha\\to\\alpha^*_k\\ne0$"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15766v1",
+    "url": "http://arxiv.org/abs/2507.15766v1"
+  },
+  {
+    "title": "GasAgent: A Multi-Agent Framework for Automated Gas Optimization in Smart Contracts",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs and Multi-Agent Systems"
+      },
+      {
+        "level": "H2",
+        "text": "Smart Contracts and Gas Optimizations"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Design Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "System Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Seeker"
+      },
+      {
+        "level": "H2",
+        "text": "Innovator"
+      },
+      {
+        "level": "H2",
+        "text": "Executor"
+      },
+      {
+        "level": "H2",
+        "text": "Manager"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Research Questions (RQs)"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1 - Effectiveness"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2 - Pattern Incorporation"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3 - Design Rationality (Ablation Study)"
+      },
+      {
+        "level": "H2",
+        "text": "RQ4 - Broader Usability"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conculsion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15761v1",
+    "url": "http://arxiv.org/abs/2507.15761v1"
+  },
+  {
+    "title": "Interaction as Intelligence: Deep Research With Human-AI Partnership",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Human-AI Interaction"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Research Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Deep Cognition"
+      },
+      {
+        "level": "H2",
+        "text": "The Deep Cognition Framework"
+      },
+      {
+        "level": "H3",
+        "text": "Research Agent"
+      },
+      {
+        "level": "H3",
+        "text": "Browsing Agent"
+      },
+      {
+        "level": "H3",
+        "text": "Preference Agent"
+      },
+      {
+        "level": "H2",
+        "text": "Interaction Design for Human-AI Collaboration"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setups"
+      },
+      {
+        "level": "H2",
+        "text": "User Evaluation"
+      },
+      {
+        "level": "H3",
+        "text": "Protocol"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Metrics Design"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Observations from User Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Observation from Benchmark Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Autonomy in Human-AI Deep Research System"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Contribution"
+      },
+      {
+        "level": "H1",
+        "text": "User Behavior Data Point"
+      },
+      {
+        "level": "H1",
+        "text": "User Study Protocol"
+      },
+      {
+        "level": "H2",
+        "text": "Pre-Study"
+      },
+      {
+        "level": "H2",
+        "text": "In-Study"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Framework"
+      },
+      {
+        "level": "H3",
+        "text": "System Design Evaluation (-2 to +2 Scale)"
+      },
+      {
+        "level": "H3",
+        "text": "Deep Cognition Specific Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Post-Study-2"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15759v1",
+    "url": "http://arxiv.org/abs/2507.15759v1"
+  },
+  {
+    "title": "LAPO: Internalizing Reasoning Efficiency via Length-Adaptive Policy Optimization",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Technical Appendices and Supplementary Material"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Discovery Stage: Learning Natural Reasoning Patterns"
+      },
+      {
+        "level": "H2",
+        "text": "Internalization Stage: Length-Aware Efficient Reasoning"
+      },
+      {
+        "level": "H2",
+        "text": "Training Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Training Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Selection of Training Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study on the Length Guidance for LAPO-I"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study on the Statistical Metrics for Target Length Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Difficulty-Aware Computational Allocation"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Refinement of Reasoning Behaviors"
+      },
+      {
+        "level": "H2",
+        "text": "Test-Time Scaling in Large Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient Long Chain-of-Thought LLM"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15758v1",
+    "url": "http://arxiv.org/abs/2507.15758v1"
+  },
+  {
+    "title": "Inside the Iron Curtain: A Long Term Look at the Iron Stars XX Oph and AS 325",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Observations"
+      },
+      {
+        "level": "H2",
+        "text": "AS 325"
+      },
+      {
+        "level": "H3",
+        "text": "Long-Term photometry"
+      },
+      {
+        "level": "H3",
+        "text": "High-Resolution Imaging"
+      },
+      {
+        "level": "H3",
+        "text": "Historical Spectroscopy"
+      },
+      {
+        "level": "H3",
+        "text": "GHOST Spectroscopy"
+      },
+      {
+        "level": "H2",
+        "text": "XX Oph"
+      },
+      {
+        "level": "H3",
+        "text": "Long Term Photometry"
+      },
+      {
+        "level": "H3",
+        "text": "High-Resolution Imaging"
+      },
+      {
+        "level": "H3",
+        "text": "Historical Spectroscopy"
+      },
+      {
+        "level": "H3",
+        "text": "GHOST spectroscopy"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "AS 325"
+      },
+      {
+        "level": "H3",
+        "text": "Light Curve"
+      },
+      {
+        "level": "H3",
+        "text": "Orbital Period"
+      },
+      {
+        "level": "H3",
+        "text": "Spectral Properties"
+      },
+      {
+        "level": "H2",
+        "text": "Nature and Evolution of the Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15750v1",
+    "url": "http://arxiv.org/abs/2507.15750v1"
+  },
+  {
+    "title": "Stability and bifurcations of resonances in ring's dynamics",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Potential of a homogeneous triaxial ellipsoid"
+      },
+      {
+        "level": "H1",
+        "text": "A Hamiltonian model in epicyclic formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Frequencies and resonances"
+      },
+      {
+        "level": "H2",
+        "text": "Epicyclic Hamiltonian around the resonance"
+      },
+      {
+        "level": "H2",
+        "text": "KAM non--degeneracy of the axisymmetric part"
+      },
+      {
+        "level": "H2",
+        "text": "Resonances in the epicyclic variables"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of three resonances in two test cases"
+      },
+      {
+        "level": "H2",
+        "text": "The resonant radius"
+      },
+      {
+        "level": "H2",
+        "text": "Amplitudes of libration and occurrence of bifurcations"
+      },
+      {
+        "level": "H3",
+        "text": "Corotation"
+      },
+      {
+        "level": "H3",
+        "text": "Resonance $1:2$"
+      },
+      {
+        "level": "H3",
+        "text": "Resonance $1:3$"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Aknowledgement"
+      },
+      {
+        "level": "H2",
+        "text": "Other resonances"
+      },
+      {
+        "level": "H1",
+        "text": "Explicit expression of the coefficients $c_{i,j"
+      },
+      {
+        "level": "H1",
+        "text": "Values of the coefficients associated to the $1:2$ and $1:3$ resonances."
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15745v1",
+    "url": "http://arxiv.org/abs/2507.15745v1"
+  },
+  {
+    "title": "Towards physician-centered oversight of conversational diagnostic AI",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "\\gamie{"
+      },
+      {
+        "level": "H2",
+        "text": "Quality and verbosity of SOAP notes"
+      },
+      {
+        "level": "H2",
+        "text": "Editing and authorisation of the initial consultations by the overseeing PCP"
+      },
+      {
+        "level": "H2",
+        "text": "The high cognitive load of asynchronous oversight"
+      },
+      {
+        "level": "H2",
+        "text": "Oversight does not reliably improve composite performance"
+      },
+      {
+        "level": "H2",
+        "text": "Patient actor preference"
+      },
+      {
+        "level": "H2",
+        "text": "Differences in control group performance"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation via virtual OSCE and auto-raters"
+      },
+      {
+        "level": "H2",
+        "text": "Human-evaluation: OSCE study with oversight"
+      },
+      {
+        "level": "H3",
+        "text": "Step 1: Intake with guardrails"
+      },
+      {
+        "level": "H3",
+        "text": "Step 2: Oversight"
+      },
+      {
+        "level": "H3",
+        "text": "Step 3: Post-evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Auto-raters"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H2",
+        "text": "Code availability"
+      },
+      {
+        "level": "H2",
+        "text": "Competing interests"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "\\gamie{"
+      },
+      {
+        "level": "H2",
+        "text": "\\gamie{"
+      },
+      {
+        "level": "H2",
+        "text": "Actions taken by overseeing PCPs (\\opcp{"
+      },
+      {
+        "level": "H2",
+        "text": "Overseeing PCPs prefer \\gamie{"
+      },
+      {
+        "level": "H2",
+        "text": "Asynchronous oversight can be performed more efficiently than full consultations"
+      },
+      {
+        "level": "H2",
+        "text": "Composite performance with oversight"
+      },
+      {
+        "level": "H2",
+        "text": "Patient actors prefer \\gamie{"
+      },
+      {
+        "level": "H2",
+        "text": "\\gnppa{"
+      },
+      {
+        "level": "H1",
+        "text": "Oversight"
+      },
+      {
+        "level": "H2",
+        "text": "Asynchronous oversight"
+      },
+      {
+        "level": "H2",
+        "text": "SOAP notes for asynchronous oversight"
+      },
+      {
+        "level": "H2",
+        "text": "Clinician cockpit"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "\\gamie{"
+      },
+      {
+        "level": "H2",
+        "text": "Clinical dialogue agent"
+      },
+      {
+        "level": "H2",
+        "text": "Guardrail agent"
+      },
+      {
+        "level": "H2",
+        "text": "SOAP note generation agent"
+      },
+      {
+        "level": "H1",
+        "text": "Participatory design process for the clinician cockpit"
+      },
+      {
+        "level": "H1",
+        "text": "Qualitative interviews with overseeing PCPs"
+      },
+      {
+        "level": "H1",
+        "text": "Rater interfaces"
+      },
+      {
+        "level": "H1",
+        "text": "Post-questionnaire"
+      },
+      {
+        "level": "H1",
+        "text": "Agent details"
+      },
+      {
+        "level": "H2",
+        "text": "Guardrail agent validation"
+      },
+      {
+        "level": "H2",
+        "text": "SOAP note agent"
+      },
+      {
+        "level": "H1",
+        "text": "Auto-evaluation agent"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation criteria and metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Detailed study results"
+      },
+      {
+        "level": "H2",
+        "text": "Intake with guardrails"
+      },
+      {
+        "level": "H2",
+        "text": "Quality of SOAP notes"
+      },
+      {
+        "level": "H2",
+        "text": "Actions taken by overseeing PCPs"
+      },
+      {
+        "level": "H2",
+        "text": "Composite performance"
+      },
+      {
+        "level": "H2",
+        "text": "Patient actor ratings"
+      },
+      {
+        "level": "H2",
+        "text": "\\gnppa{"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative examples"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation rubrics"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15743v1",
+    "url": "http://arxiv.org/abs/2507.15743v1"
+  },
+  {
+    "title": "A Fisher's exact test justification of the TF-IDF term-weighting scheme",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Modeling framework"
+      },
+      {
+        "level": "H2",
+        "text": "TF–IDF family term-weighting schemes"
+      },
+      {
+        "level": "H2",
+        "text": "Fisher's exact test"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "From Fisher's exact test to TF–IDF"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical examples"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contribution statement"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15742v1",
+    "url": "http://arxiv.org/abs/2507.15742v1"
+  },
+  {
+    "title": "The Root of Revenue Continuity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The Basic Model\\label{s:model"
+      },
+      {
+        "level": "H1",
+        "text": "Revenue Approximation\\label{s:approx"
+      },
+      {
+        "level": "H2",
+        "text": "Mechanism Rescaling\\label{sus:rescaling"
+      },
+      {
+        "level": "H1",
+        "text": "Revenue Continuity\\label{s:continuity"
+      },
+      {
+        "level": "H1",
+        "text": "Approximation by Discount\\label{s:rescale"
+      },
+      {
+        "level": "H1",
+        "text": "Classes of Mechanisms\\label{s:classes of mechanisms"
+      },
+      {
+        "level": "H1",
+        "text": "Other Allocation Spaces\\label{s:other Gamma"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15735v1",
+    "url": "http://arxiv.org/abs/2507.15735v1"
+  },
+  {
+    "title": "Towards relativistic inspirals into black holes surrounded by matter",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "The Teukolsky equation and environmental effects"
+      },
+      {
+        "level": "H2",
+        "text": "Phase contribution analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Previous work on extensions of the Teukolsky formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Research goal and organization of this paper"
+      },
+      {
+        "level": "H1",
+        "text": "Teukolsky formalism and its modification"
+      },
+      {
+        "level": "H2",
+        "text": "Perturbation formalism in   type D vacuum spacetimes"
+      },
+      {
+        "level": "H2",
+        "text": "The NP and the GHP formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Teukolsky formalism in Kerr spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Deriving a modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "Terms in the modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "Perturbing a black hole enclosed by a ring"
+      },
+      {
+        "level": "H2",
+        "text": "The pole-dipole ring-hole model"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities in hole-ring background"
+      },
+      {
+        "level": "H2",
+        "text": "Decomposition of the Teukolsky equation in the hole-ring spacetime"
+      },
+      {
+        "level": "H1",
+        "text": "Solution of the modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "The smooth part of the solution"
+      },
+      {
+        "level": "H2",
+        "text": "Reconstruction of the metric \\texorpdfstring{$h^{(0,1)"
+      },
+      {
+        "level": "H2",
+        "text": "The source on the shell"
+      },
+      {
+        "level": "H2",
+        "text": "Solving the \\texorpdfstring{$(1,1)$"
+      },
+      {
+        "level": "H2",
+        "text": "The complete solution"
+      },
+      {
+        "level": "H1",
+        "text": "Summary"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Generating inspiral waveforms"
+      },
+      {
+        "level": "H2",
+        "text": "Technical simplifications?"
+      },
+      {
+        "level": "H2",
+        "text": "Extensions and generalizations"
+      },
+      {
+        "level": "H1",
+        "text": "NP and GHP formalism"
+      },
+      {
+        "level": "H1",
+        "text": "Spin-weighted spherical harmonics"
+      },
+      {
+        "level": "H1",
+        "text": "Full modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "The background spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Justification of the pole-dipole approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion of the thinness condition"
+      },
+      {
+        "level": "H2",
+        "text": "Israel junction conditions for the (1,0) metric"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities on the background"
+      },
+      {
+        "level": "H2",
+        "text": "Multipole expansion of the ring"
+      },
+      {
+        "level": "H2",
+        "text": "The transition from \\texorpdfstring{${"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15720v1",
+    "url": "http://arxiv.org/abs/2507.15720v1"
+  },
+  {
+    "title": "Explainable Anomaly Detection for Electric Vehicles Charging Stations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A summary of Latin grammar"
+      },
+      {
+        "level": "H1",
+        "text": "Some Latin vocabulary"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset and Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Global feature ranking and selection"
+      },
+      {
+        "level": "H2",
+        "text": "Local interpretation of individual predictions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Explainable Anomaly Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Isolation Forest"
+      },
+      {
+        "level": "H2",
+        "text": "DIFFI algorithm"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15718v1",
+    "url": "http://arxiv.org/abs/2507.15718v1"
+  },
+  {
+    "title": "Polarization Vortex for Enhanced Refractive Index Sensing",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "BIC migration"
+      },
+      {
+        "level": "H1",
+        "text": "Sensitivity"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSION"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Funding"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of \\texorpdfstring{$\\Delta\\phi$"
+      },
+      {
+        "level": "H1",
+        "text": "Merging and annihilation of BICs"
+      },
+      {
+        "level": "H1",
+        "text": "Polarization"
+      },
+      {
+        "level": "H1",
+        "text": "Overlap integral"
+      },
+      {
+        "level": "H1",
+        "text": "Band diagram"
+      },
+      {
+        "level": "H1",
+        "text": "Sensitivity"
+      },
+      {
+        "level": "H1",
+        "text": "Reflectance"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Corresponding author"
+      },
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Assessing final manuscript length"
+      },
+      {
+        "level": "H1",
+        "text": "Figures, tables, and supplementary materials"
+      },
+      {
+        "level": "H2",
+        "text": "Figures and tables"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary materials in Optica Publishing Group journals"
+      },
+      {
+        "level": "H2",
+        "text": "Sample Dataset Citation"
+      },
+      {
+        "level": "H2",
+        "text": "Sample Code Citation"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical and scientific notation"
+      },
+      {
+        "level": "H2",
+        "text": "Displayed equations"
+      },
+      {
+        "level": "H1",
+        "text": "Back matter"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H2",
+        "text": "Formatting reference items"
+      },
+      {
+        "level": "H2",
+        "text": "Formatting reference citations"
+      },
+      {
+        "level": "H2",
+        "text": "Bib\\TeX"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15705v1",
+    "url": "http://arxiv.org/abs/2507.15705v1"
+  },
+  {
+    "title": "Estimating Rate-Distortion Functions Using the Energy-Based Model",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Models"
+      },
+      {
+        "level": "H2",
+        "text": "Rate-Distortion Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Connection between Rate-Distortion Problem and Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Energy-Based Model of Rate-Distortion Function"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Rate-Distortion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Relation with Classical Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results and Discussions"
+      },
+      {
+        "level": "H2",
+        "text": "Cases with Scalar Classical Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation for Vector Gaussian Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Conditional Sampling"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Estimation of rate and distortion"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15700v1",
+    "url": "http://arxiv.org/abs/2507.15700v1"
+  },
+  {
+    "title": "A MeerKAT study of a neutral hydrogen rich grouping of galaxies with megaparsec-scale filamentary-like structure",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data, calibration, and ancillary data"
+      },
+      {
+        "level": "H2",
+        "text": "MeerKAT observations"
+      },
+      {
+        "level": "H2",
+        "text": "Calibration and imaging"
+      },
+      {
+        "level": "H2",
+        "text": "MeerKAT data properties"
+      },
+      {
+        "level": "H2",
+        "text": "Ancillary data"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Source finding"
+      },
+      {
+        "level": "H2",
+        "text": "Grouping of galaxies"
+      },
+      {
+        "level": "H2",
+        "text": "\\textsc{H\\,i"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Scaling relations"
+      },
+      {
+        "level": "H2",
+        "text": "Compact group"
+      },
+      {
+        "level": "H2",
+        "text": "Individual sources of interest"
+      },
+      {
+        "level": "H2",
+        "text": "Group properties"
+      },
+      {
+        "level": "H2",
+        "text": "Large-scale structure context with \\textsc{Simba"
+      },
+      {
+        "level": "H3",
+        "text": "Detection criteria"
+      },
+      {
+        "level": "H3",
+        "text": "Analogue criteria"
+      },
+      {
+        "level": "H3",
+        "text": "Lightcone generation"
+      },
+      {
+        "level": "H3",
+        "text": "Scaling relations of \\textsc{Simba"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "\\hi spectra"
+      },
+      {
+        "level": "H1",
+        "text": "Multiwavelength imaging of group galaxies/sources"
+      }
+    ],
+    "query": "cognitive behavioral therapy effectiveness",
+    "arxiv_id": "2507.15699v1",
+    "url": "http://arxiv.org/abs/2507.15699v1"
+  }
+]

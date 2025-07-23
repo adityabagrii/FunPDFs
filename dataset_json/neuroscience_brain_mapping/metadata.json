@@ -1,0 +1,4686 @@
+[
+  {
+    "title": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Gaussian Reward Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning with \\methodname"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "GUI Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Fine-Tuning"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Reward Design Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Spurious Rewards"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Error Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15846v1",
+    "url": "http://arxiv.org/abs/2507.15846v1"
+  },
+  {
+    "title": "A Nash-Kuiper theorem for isometric immersions in a high codimension",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "#1"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction and main results"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Notations and auxiliary estimates"
+      },
+      {
+        "level": "H2",
+        "text": "Decomposition of symmetric matrices"
+      },
+      {
+        "level": "H1",
+        "text": "The proof of Theorem \\ref{Main01"
+      },
+      {
+        "level": "H2",
+        "text": "Mollification"
+      },
+      {
+        "level": "H2",
+        "text": "Constructions of the first $n$ perturbations"
+      },
+      {
+        "level": "H2",
+        "text": "Constructions of the remaining perturbations"
+      },
+      {
+        "level": "H3",
+        "text": "The odd-dimensional case"
+      },
+      {
+        "level": "H3",
+        "text": "The even-dimensional case"
+      },
+      {
+        "level": "H2",
+        "text": "The proof of Theorem \\ref{Main01"
+      },
+      {
+        "level": "H1",
+        "text": "Further analysis for the even-dimensional case"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15808v1",
+    "url": "http://arxiv.org/abs/2507.15808v1"
+  },
+  {
+    "title": "Exploring Superposition and Interference in State-of-the-Art Low-Parameter Vision Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "State-of-the-Art Deep Neural Network Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Prior Definitions"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Method"
+      },
+      {
+        "level": "H3",
+        "text": "Models vessel"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Depthwise convolution should stay in the input dimensional space"
+      },
+      {
+        "level": "H2",
+        "text": "Preventing superposition significantly disrupts neural network representational structure."
+      },
+      {
+        "level": "H2",
+        "text": "Proof of concept: NoDepth Bottleneck"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15798v1",
+    "url": "http://arxiv.org/abs/2507.15798v1"
+  },
+  {
+    "title": "Label tree semantic losses for rich multi-class medical image segmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic segmentation in WBP"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic segmentation in hyperspectral imaging"
+      },
+      {
+        "level": "H2",
+        "text": "Hierarchical loss functions"
+      },
+      {
+        "level": "H2",
+        "text": "Medical image segmentation with sparse annotation"
+      },
+      {
+        "level": "H2",
+        "text": "Out-of-distribution detection and positive-only learning"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Wasserstein distance in label space"
+      },
+      {
+        "level": "H2",
+        "text": "Tree-weighted semantic cross-entropy loss"
+      },
+      {
+        "level": "H2",
+        "text": "Out-of-distribution segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Learning to segment from sparse positive-only annotations"
+      },
+      {
+        "level": "H2",
+        "text": "Learning from sparse positive-only annotations"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental setup"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "WBP with full annotations"
+      },
+      {
+        "level": "H3",
+        "text": "Surgical HSI dataset with sparse positive-only annotations"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation details"
+      },
+      {
+        "level": "H3",
+        "text": "WBP"
+      },
+      {
+        "level": "H3",
+        "text": "HSI"
+      },
+      {
+        "level": "H2",
+        "text": "Hyperparameter tuning"
+      },
+      {
+        "level": "H3",
+        "text": "Choice of tree weights / ground distances"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "WBP with full annotations"
+      },
+      {
+        "level": "H2",
+        "text": "Brain parcellation result"
+      },
+      {
+        "level": "H2",
+        "text": "Surgical HSI with sparse positive-only annotations"
+      },
+      {
+        "level": "H2",
+        "text": "Multiclass sparse annotation result"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative results"
+      },
+      {
+        "level": "H3",
+        "text": "WBP"
+      },
+      {
+        "level": "H3",
+        "text": "HSI"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of error types (confusion matrices)"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15777v1",
+    "url": "http://arxiv.org/abs/2507.15777v1"
+  },
+  {
+    "title": "Dissociating model architectures from inference computations",
+    "outline": [
+      {
+        "level": "H2",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "General discussion"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15776v1",
+    "url": "http://arxiv.org/abs/2507.15776v1"
+  },
+  {
+    "title": "DiffuMeta: Algebraic Language Models for Inverse Design of Metamaterials via Diffusion Transformers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Shell metamaterial design space"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion-based generative modeling framework"
+      },
+      {
+        "level": "H2",
+        "text": "Guided design of shell metamaterials"
+      },
+      {
+        "level": "H2",
+        "text": "Inverse design of shell metamaterials for unseen target properties"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-target conditional generation of shell metamaterials"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental validation"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Denoising diffusion models"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion transformer architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Finite element simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Fabrication and experimental validation"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Information"
+      },
+      {
+        "level": "H1",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Authors contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Declaration of competing interests"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15753v1",
+    "url": "http://arxiv.org/abs/2507.15753v1"
+  },
+  {
+    "title": "Symplectic coherence: a measure of position-momentum correlations in quantum states",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "CV quantum information"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum discord"
+      },
+      {
+        "level": "H2",
+        "text": "Matrix norms"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Resource Theories"
+      },
+      {
+        "level": "H1",
+        "text": "Measure of position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Operational interpretation of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Properties of symplectic coherence"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence and quantum discord"
+      },
+      {
+        "level": "H1",
+        "text": "Maximal symplectic coherence"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence in quantum information processing"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and entanglement"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum metrology"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum channel discrimination"
+      },
+      {
+        "level": "H3",
+        "text": "Single-shot discrimination"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-shot discrimination"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Proof that $\\Tr[V] \\geq 2m$:"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum discord for computational basis measurements"
+      },
+      {
+        "level": "H1",
+        "text": "Properties of symplectic coherence and position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Operational interpretation of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Faithfulness and monotonicity of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Some important non-free operations for symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "A no-go result for the monotonicity of faithful measures of position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum discord"
+      },
+      {
+        "level": "H1",
+        "text": "Robutness under perturbations of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Maximal symplectic coherence of quantum states"
+      },
+      {
+        "level": "H3",
+        "text": "Maximal symplectic coherence of pure Gaussian states"
+      },
+      {
+        "level": "H3",
+        "text": "Structure of states with maximal symplectic coherence"
+      },
+      {
+        "level": "H3",
+        "text": "Maximal symplectic coherence of mixed Gaussian states"
+      },
+      {
+        "level": "H2",
+        "text": "Behavior of symplectic coherence under perturbations of the state"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence under photon loss"
+      },
+      {
+        "level": "H2",
+        "text": "Position-momentum correlations enhances the average entanglement of pure Gaussian states"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence in quantum information processing"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence enhances quantum metrology"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence lower bounds optimal success probability of certain channel discrimination tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence is necessary for computational advantage"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence underlines the efficiency of certain channel discrimination tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence for loss channels discrimination"
+      },
+      {
+        "level": "H2",
+        "text": "Position-momentum correlations determine the distinguishability of certain Gaussian channels"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence upper bounds Fisher information in particular tasks"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15738v1",
+    "url": "http://arxiv.org/abs/2507.15738v1"
+  },
+  {
+    "title": "A Practical Investigation of Spatially-Controlled Image Generation with Transformers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Prefilling -- a Baseline for Transformer-Based Controllable Generation"
+      },
+      {
+        "level": "H1",
+        "text": "The Impact of Sampling Parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Control Guidance (ctrl-G)"
+      },
+      {
+        "level": "H2",
+        "text": "Sampling Distribution Truncation"
+      },
+      {
+        "level": "H1",
+        "text": "Adapters for Spatial Control"
+      },
+      {
+        "level": "H2",
+        "text": "Adapter Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Concluding Remarks"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Distribution Truncation"
+      },
+      {
+        "level": "H2",
+        "text": "Learning with Limited Data"
+      },
+      {
+        "level": "H1",
+        "text": "Example Generations"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15724v1",
+    "url": "http://arxiv.org/abs/2507.15724v1"
+  },
+  {
+    "title": "Simulating Partial Sky Cosmic Microwave Background Maps with 3D Fast Fourier Transforms",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "The Power Spectrum In the Box"
+      },
+      {
+        "level": "H2",
+        "text": "Linear Programming"
+      },
+      {
+        "level": "H2",
+        "text": "Making the Box"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating in the Box"
+      },
+      {
+        "level": "H3",
+        "text": "The 3-D Fourier Method"
+      },
+      {
+        "level": "H3",
+        "text": "The 2-D Fourier Method"
+      },
+      {
+        "level": "H1",
+        "text": "Tests"
+      },
+      {
+        "level": "H2",
+        "text": "Initial tests"
+      },
+      {
+        "level": "H2",
+        "text": "Cholesky Decomposition and Kolmogorov - Smirnov test"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15703v1",
+    "url": "http://arxiv.org/abs/2507.15703v1"
+  },
+  {
+    "title": "Wave-induced drift in third-order deep-water theory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The water wave problem and Hamiltonian formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic analysis and the water wave problem"
+      },
+      {
+        "level": "H2",
+        "text": "Constant magnitude approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Recovery of the third-order solution"
+      },
+      {
+        "level": "H3",
+        "text": "Recovery of the bulk potential"
+      },
+      {
+        "level": "H1",
+        "text": "Particle kinematics for monochromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Linear theory"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear theory"
+      },
+      {
+        "level": "H1",
+        "text": "Bichromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Linear theory"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear theory"
+      },
+      {
+        "level": "H3",
+        "text": "Second order"
+      },
+      {
+        "level": "H3",
+        "text": "Difference harmonics and particle drift"
+      },
+      {
+        "level": "H3",
+        "text": "Third order"
+      },
+      {
+        "level": "H1",
+        "text": "Multichromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Focused linear wave groups"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear focused waves"
+      },
+      {
+        "level": "H2",
+        "text": "Random waves"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "On the non-uniqueness of Stokes expansion"
+      },
+      {
+        "level": "H1",
+        "text": "Coefficients of the higher-order potential"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15688v1",
+    "url": "http://arxiv.org/abs/2507.15688v1"
+  },
+  {
+    "title": "Sensor network localization has a benign landscape after low-dimensional relaxation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of the results"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Historical note"
+      },
+      {
+        "level": "H2",
+        "text": "Euclidean distance matrices"
+      },
+      {
+        "level": "H2",
+        "text": "Benign or not benign?"
+      },
+      {
+        "level": "H2",
+        "text": "Convex approaches"
+      },
+      {
+        "level": "H2",
+        "text": "A unique point to retrieve"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical background for SNL"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H2",
+        "text": "The optimization problem"
+      },
+      {
+        "level": "H2",
+        "text": "Properties of the EDM map"
+      },
+      {
+        "level": "H2",
+        "text": "The EDM map as a structured perturbation of the identity"
+      },
+      {
+        "level": "H2",
+        "text": "Derivatives and optimality conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Rank-deficient configurations are optimal"
+      },
+      {
+        "level": "H1",
+        "text": "\\boldmath Landscape for all ground truths, $\\dimopt \\approx \\sqrt{n"
+      },
+      {
+        "level": "H2",
+        "text": "Exploiting first-order criticality"
+      },
+      {
+        "level": "H2",
+        "text": "Second-order criticality and descent directions"
+      },
+      {
+        "level": "H2",
+        "text": "Controlling the eigenvalues of $P$"
+      },
+      {
+        "level": "H2",
+        "text": "Eigenvalue interlacing and the proof of Theorem~\\ref{th:sqrt-n"
+      },
+      {
+        "level": "H1",
+        "text": "\\boldmath Landscape for Gaussian ground truths, $\\dimopt \\approx \\log n$"
+      },
+      {
+        "level": "H1",
+        "text": "Examples of spurious configurations"
+      },
+      {
+        "level": "H2",
+        "text": "A general construction"
+      },
+      {
+        "level": "H2",
+        "text": "Explicit examples"
+      },
+      {
+        "level": "H2",
+        "text": "In the plane"
+      },
+      {
+        "level": "H2",
+        "text": "In higher dimensions: fewest points for non-benign landscape"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical observations"
+      },
+      {
+        "level": "H2",
+        "text": "Recovering the ground truth"
+      },
+      {
+        "level": "H2",
+        "text": "Driving the cost to zero"
+      },
+      {
+        "level": "H2",
+        "text": "A few comments"
+      },
+      {
+        "level": "H1",
+        "text": "Perspectives"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "An alternative set of properties of the EDM map"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of the revealing formulas"
+      },
+      {
+        "level": "H1",
+        "text": "Eigenvalue interlacing supplementary"
+      },
+      {
+        "level": "H1",
+        "text": "Geometric interpretations of the descent directions"
+      },
+      {
+        "level": "H1",
+        "text": "Robustness to noise"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15662v1",
+    "url": "http://arxiv.org/abs/2507.15662v1"
+  },
+  {
+    "title": "Fixed point results via a new class of Ad-contractions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Main results"
+      },
+      {
+        "level": "H2",
+        "text": "The $\\mathcal{A"
+      },
+      {
+        "level": "H2",
+        "text": "Fixed Point Theorems for Single Mappings"
+      },
+      {
+        "level": "H2",
+        "text": "Fixed Point Theorems for Sequences of Mappings"
+      },
+      {
+        "level": "H2",
+        "text": "Integral Type Results"
+      },
+      {
+        "level": "H2",
+        "text": "A Common Fixed Point Theorem with Two Dislocated Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Examples"
+      },
+      {
+        "level": "H1",
+        "text": "Graphical Illustrations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of Interest"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15635v1",
+    "url": "http://arxiv.org/abs/2507.15635v1"
+  },
+  {
+    "title": "Testing Homogeneity in a heteroscedastic contaminated normal mixture",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Main Results \\label{chap4 con em"
+      },
+      {
+        "level": "H2",
+        "text": "EM-test"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic properties"
+      },
+      {
+        "level": "H2",
+        "text": "Choice of the penalty functions"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "A Real-data Example"
+      },
+      {
+        "level": "H1",
+        "text": "Disclosure statement"
+      },
+      {
+        "level": "H1",
+        "text": "Funding"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15630v1",
+    "url": "http://arxiv.org/abs/2507.15630v1"
+  },
+  {
+    "title": "TrajLens: Visual Analysis for Constructing Cell Developmental Trajectories in Cross-Sample Exploration",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Cell Developmental Trajectory Inference Tools"
+      },
+      {
+        "level": "H2",
+        "text": "Single-cell Data Visualization"
+      },
+      {
+        "level": "H2",
+        "text": "Spatiotemporal Data Visualization"
+      },
+      {
+        "level": "H1",
+        "text": "Design"
+      },
+      {
+        "level": "H2",
+        "text": "Terminology Definitions"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Design Process"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis Tasks"
+      },
+      {
+        "level": "H1",
+        "text": "Data Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Model Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Cross-sample Developmental Path Refinement"
+      },
+      {
+        "level": "H2",
+        "text": "Path Summary Computation"
+      },
+      {
+        "level": "H2",
+        "text": "Gene Function Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "System"
+      },
+      {
+        "level": "H2",
+        "text": "Cell Developmental Path Selection"
+      },
+      {
+        "level": "H3",
+        "text": "Core Cell Selection View"
+      },
+      {
+        "level": "H3",
+        "text": "Path Selection View"
+      },
+      {
+        "level": "H2",
+        "text": "Cell Developmental Path Inspection"
+      },
+      {
+        "level": "H3",
+        "text": "Path Inspection View"
+      },
+      {
+        "level": "H3",
+        "text": "Trajectory Inspection View"
+      },
+      {
+        "level": "H1",
+        "text": "Case Study"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study I: Exploring Cross-sample Developmental Paths in Mouse Embryonic Development Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study II: Identifying Cross-sample Cell Developmental Branch Patterns in Mouse Midbrain Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Gene Function View"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Model Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Expert Interview"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplemental Materials"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix A: Evaluation Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Zoom Operations"
+      },
+      {
+        "level": "H1",
+        "text": "Symbols used"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15620v1",
+    "url": "http://arxiv.org/abs/2507.15620v1"
+  },
+  {
+    "title": "Level sets of prevalent Weierstrass functions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Weierstrass embedding"
+      },
+      {
+        "level": "H1",
+        "text": "Fourier analysis and occupation measures"
+      },
+      {
+        "level": "H1",
+        "text": "Open questions"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15591v1",
+    "url": "http://arxiv.org/abs/2507.15591v1"
+  },
+  {
+    "title": "Gravitational waveforms from inspiraling compact binaries in quadratic gravity and their parameterized post-Einstein characterization",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "INTRODUCTION"
+      },
+      {
+        "level": "H1",
+        "text": "QUADRATIC GRAVITY"
+      },
+      {
+        "level": "H1",
+        "text": "Gravitational waveforms in quadratic gravity"
+      },
+      {
+        "level": "H2",
+        "text": "Time-domain GW waveforms"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of binary systems"
+      },
+      {
+        "level": "H2",
+        "text": "Frequency-domain gravitational waveforms"
+      },
+      {
+        "level": "H3",
+        "text": "GR + massive spin-0 mode"
+      },
+      {
+        "level": "H3",
+        "text": "GR + massive spin-2 mode"
+      },
+      {
+        "level": "H1",
+        "text": "Parametrized post-Einsteinian parameters and observational\nconstraints"
+      },
+      {
+        "level": "H2",
+        "text": "GR + massive spin-0 mode"
+      },
+      {
+        "level": "H2",
+        "text": "GR + massive spin-2 mode"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15571v1",
+    "url": "http://arxiv.org/abs/2507.15571v1"
+  },
+  {
+    "title": "HOLa: Zero-Shot HOI Detection with Low-Rank Decomposed VLM Feature Adaptation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "VLM Feature Decomposition and Adaptation"
+      },
+      {
+        "level": "H2",
+        "text": "Language Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Vision Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Training and Inference"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Zero-Shot HOI Detection Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      },
+      {
+        "level": "H1",
+        "text": "Vision Branch"
+      },
+      {
+        "level": "H1",
+        "text": "Language Branch"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Results"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Controlability"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work Exploration"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15542v1",
+    "url": "http://arxiv.org/abs/2507.15542v1"
+  },
+  {
+    "title": "Procedure Learning via Regularized Gromov-Wasserstein Optimal Transport",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      },
+      {
+        "level": "H2",
+        "text": "Hyperparameter Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results on All Subtasks of the Egocentric and Third-Person Datasets"
+      },
+      {
+        "level": "H1",
+        "text": "Our Approach"
+      },
+      {
+        "level": "H2",
+        "text": "Regularized Gromov-Wasserstein Optimal Transport"
+      },
+      {
+        "level": "H3",
+        "text": "Fused Gromov-Wasserstein Optimal Transport"
+      },
+      {
+        "level": "H3",
+        "text": "Degenerate Solution"
+      },
+      {
+        "level": "H3",
+        "text": "Contrastive Regularization"
+      },
+      {
+        "level": "H2",
+        "text": "Clustering and Key-Step Ordering"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "State-of-the-Art Comparison Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study Results"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15540v1",
+    "url": "http://arxiv.org/abs/2507.15540v1"
+  },
+  {
+    "title": "Inclination Effect on Observational Identification of Outflow Rotation in Magnetohydrodynamics Simulations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Magnetohydrodynamics Simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Radiative Transfer and Synthetic Observation"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Snapshot for CB 26"
+      },
+      {
+        "level": "H2",
+        "text": "Observable Signatures of Outflow Rotation"
+      },
+      {
+        "level": "H2",
+        "text": "Effects of Inclination Angles"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Difference between Outflow and Infall"
+      },
+      {
+        "level": "H2",
+        "text": "Inclination Effects during Protostellar Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Complex Outflow Axes in Observational Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of High Vertical Velocity"
+      },
+      {
+        "level": "H2",
+        "text": "Optical Depth and Mass Estimation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15535v1",
+    "url": "http://arxiv.org/abs/2507.15535v1"
+  },
+  {
+    "title": "RARE-UNet: Resolution-Aligned Routing Entry for Adaptive Medical Image Segmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "RARE-UNet Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Scale Gateway Blocks"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Data"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Data and Processing"
+      },
+      {
+        "level": "H1",
+        "text": "Detailed Results"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15524v1",
+    "url": "http://arxiv.org/abs/2507.15524v1"
+  },
+  {
+    "title": "Switching States: Heteroclinic Cycles as Organising Centres of Neuronal Dynamics",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Conserved bifurcation structure across phenomenological mean-field models of neural activity"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of SNIC$^2$ Bifurcations in Neural Population Models"
+      },
+      {
+        "level": "H3",
+        "text": "Wilson-Cowan: model of cortical dynamics"
+      },
+      {
+        "level": "H3",
+        "text": "Tsodyks-Markram: model of short-term plasticity"
+      },
+      {
+        "level": "H3",
+        "text": "Jansen-Rit model: higher dimensional model of electrical activity in cortical column"
+      },
+      {
+        "level": "H2",
+        "text": "Universality of the phenomenon"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter tables"
+      },
+      {
+        "level": "H2",
+        "text": "Extended bifurcation diagram of Jansen-Rit model"
+      },
+      {
+        "level": "H2",
+        "text": "Eigenvalues of Jansen-Rit saddle nodes and saddle equilibria"
+      },
+      {
+        "level": "H2",
+        "text": "Morris-Lecar model: electrical activity of a single neuron"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15519v1",
+    "url": "http://arxiv.org/abs/2507.15519v1"
+  },
+  {
+    "title": "Superlinear fractional $Φ$-Laplacian type problems via the nonlinear Rayleigh quotient with two parameters",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Assumptions and statement of the main theorems"
+      },
+      {
+        "level": "H2",
+        "text": "Outline"
+      },
+      {
+        "level": "H1",
+        "text": "A brief review about fractional Orlicz-Sobolev and variational setting"
+      },
+      {
+        "level": "H1",
+        "text": "The Nehari and nonlinear Rayleigh Quotient Methods"
+      },
+      {
+        "level": "H1",
+        "text": "The proof of main results"
+      },
+      {
+        "level": "H1",
+        "text": "The asymptotic behavior of solutions"
+      },
+      {
+        "level": "H1",
+        "text": "The extremal cases"
+      },
+      {
+        "level": "H2",
+        "text": "The case $\\mu=\\mu_n$"
+      },
+      {
+        "level": "H2",
+        "text": "Cases $\\lambda=\\lambda_\\ast$ and $\\lambda=\\lambda^\\ast$"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15514v1",
+    "url": "http://arxiv.org/abs/2507.15514v1"
+  },
+  {
+    "title": "Symmetric powers of $S^{(n-1,1)}$ and $D^{(n-1,1)}$",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Outline"
+      },
+      {
+        "level": "H1",
+        "text": "Endomorphisms of symmetric powers"
+      },
+      {
+        "level": "H1",
+        "text": "Applications to $S^{(n-1,1)"
+      },
+      {
+        "level": "H2",
+        "text": "Background on the symmetric group"
+      },
+      {
+        "level": "H2",
+        "text": "Symmetric powers of $S^{(n-1,1)"
+      },
+      {
+        "level": "H2",
+        "text": "Vertices"
+      },
+      {
+        "level": "H1",
+        "text": "Application to calculations of $p$-Kostka numbers"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of \\Cref{le:Smap"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15505v1",
+    "url": "http://arxiv.org/abs/2507.15505v1"
+  },
+  {
+    "title": "Quantifying and Narrowing the Unknown: Interactive Text-to-Video Retrieval via Uncertainty Minimization",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Text-to-Video Retrieval"
+      },
+      {
+        "level": "H2",
+        "text": "Interactive Vision Retrieval"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Generalization"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Text Ambiguity Score via Semantic Entropy"
+      },
+      {
+        "level": "H2",
+        "text": "Mapping Uncertainty Score via JS Divergence"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Quality-based Frame Sampler"
+      },
+      {
+        "level": "H2",
+        "text": "UMIVR: Uncertainty-Minimizing Interactive Text-to-Video Retrieval Framework"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Explanation of UMIVR"
+      },
+      {
+        "level": "H1",
+        "text": "Reproduction of IVR Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of Uncertainty Score Distributions"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion on Quantization Strategies"
+      },
+      {
+        "level": "H1",
+        "text": "Early Stopping Strategy for Interactive Retrieval"
+      },
+      {
+        "level": "H1",
+        "text": "Impact of NR-IQA Methods in TQFS"
+      },
+      {
+        "level": "H1",
+        "text": "Prompt Design for UMIVR"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15504v1",
+    "url": "http://arxiv.org/abs/2507.15504v1"
+  },
+  {
+    "title": "Dense-depth map guided deep Lidar-Visual Odometry with Sparse Point Clouds and Images",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Visual Odometry"
+      },
+      {
+        "level": "H2",
+        "text": "Deep LiDAR Odometry"
+      },
+      {
+        "level": "H2",
+        "text": "Visual-LiDAR Odometry (VLO)"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Depth Completion"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Scale Feature Extraction with Attention Mechanisms"
+      },
+      {
+        "level": "H3",
+        "text": "Attention-Guided Feature Extraction"
+      },
+      {
+        "level": "H2",
+        "text": "Cost Volume Computation"
+      },
+      {
+        "level": "H2",
+        "text": "Depth-Aware Optical Flow Prediction"
+      },
+      {
+        "level": "H3",
+        "text": "Depth-Aware Flow Estimation"
+      },
+      {
+        "level": "H3",
+        "text": "Residual Flow Refinement"
+      },
+      {
+        "level": "H2",
+        "text": "Hierarchical Pose Refinement"
+      },
+      {
+        "level": "H3",
+        "text": "Depth-Aware Residual Pose Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Depth-Aware Pose Estimation"
+      },
+      {
+        "level": "H3",
+        "text": "Uncertainty-Aware Pose Refinement"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "KITTI Odometry Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison with Visual or LiDAR Odometry Methods"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison with Traditional Multimodal Odometry Methods"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison with Learning-Based Multimodal Odometry Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study and Visualization"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15496v1",
+    "url": "http://arxiv.org/abs/2507.15496v1"
+  },
+  {
+    "title": "All-UWB SLAM Using UWB Radar and UWB AOA",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Approach"
+      },
+      {
+        "level": "H2",
+        "text": "System Overview"
+      },
+      {
+        "level": "H2",
+        "text": "UWB Radar"
+      },
+      {
+        "level": "H3",
+        "text": "Signal Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Feature Extraction"
+      },
+      {
+        "level": "H3",
+        "text": "Isolating Prominent Point Features"
+      },
+      {
+        "level": "H2",
+        "text": "UWB AOA Anchor-tag Modules"
+      },
+      {
+        "level": "H3",
+        "text": "Anchor Ring Setup"
+      },
+      {
+        "level": "H3",
+        "text": "Identifying a Feature-deficient Region"
+      },
+      {
+        "level": "H3",
+        "text": "Initializing the Tags"
+      },
+      {
+        "level": "H3",
+        "text": "Acquiring Observations"
+      },
+      {
+        "level": "H3",
+        "text": "Key Insights from the Developer's Documentation"
+      },
+      {
+        "level": "H2",
+        "text": "SLAM Backend"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "All-UWB SLAM in a Feature-deficient Environment"
+      },
+      {
+        "level": "H3",
+        "text": "\\textcolor{black"
+      },
+      {
+        "level": "H3",
+        "text": "\\textcolor{black"
+      },
+      {
+        "level": "H2",
+        "text": "\\textcolor{black"
+      },
+      {
+        "level": "H3",
+        "text": "\\textcolor{black"
+      },
+      {
+        "level": "H3",
+        "text": "\\textcolor{black"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15474v1",
+    "url": "http://arxiv.org/abs/2507.15474v1"
+  },
+  {
+    "title": "One-point functions in AdS/dCFT: MPS and twisted Yangian",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Coordinate Bethe ansatz for XXX Spin Chain"
+      },
+      {
+        "level": "H2",
+        "text": "The XXX Hamiltonian and Scattering phase factor"
+      },
+      {
+        "level": "H2",
+        "text": "Coordinate Bethe Ansatz"
+      },
+      {
+        "level": "H1",
+        "text": "The algebraic Bethe Ansatz"
+      },
+      {
+        "level": "H2",
+        "text": "Lax operator and R-matrix"
+      },
+      {
+        "level": "H2",
+        "text": "Monodromy and transfer matrix"
+      },
+      {
+        "level": "H2",
+        "text": "Algebraic Bethe Ansatz"
+      },
+      {
+        "level": "H1",
+        "text": "The norm and Gaudin matrix"
+      },
+      {
+        "level": "H2",
+        "text": "Inner product between off-shell Bethe state and Bethe state"
+      },
+      {
+        "level": "H2",
+        "text": "Norm in on-shell limit"
+      },
+      {
+        "level": "H1",
+        "text": "$\\mathcal{N"
+      },
+      {
+        "level": "H2",
+        "text": "Action"
+      },
+      {
+        "level": "H2",
+        "text": "Gauge invariant operator in $\\mathcal{N"
+      },
+      {
+        "level": "H1",
+        "text": "One-loop anomalous dimensions"
+      },
+      {
+        "level": "H2",
+        "text": "Two-point functions"
+      },
+      {
+        "level": "H1",
+        "text": "SO(6) spin chain and state-operator correspondence"
+      },
+      {
+        "level": "H1",
+        "text": "D3-D5 defect in AdS/CFT"
+      },
+      {
+        "level": "H2",
+        "text": "$\\mathfrak{su"
+      },
+      {
+        "level": "H2",
+        "text": "$\\mathfrak{su"
+      },
+      {
+        "level": "H2",
+        "text": "$\\mathfrak{so"
+      },
+      {
+        "level": "H1",
+        "text": "Integrable states"
+      },
+      {
+        "level": "H2",
+        "text": "Definition of integrable MPS"
+      },
+      {
+        "level": "H1",
+        "text": "From integrabilty condition to square root relation"
+      },
+      {
+        "level": "H1",
+        "text": "From square root relation to BYB"
+      },
+      {
+        "level": "H1",
+        "text": "Solutions for sq.r.r. and BYB"
+      },
+      {
+        "level": "H2",
+        "text": "Scalar solutions"
+      },
+      {
+        "level": "H2",
+        "text": "Higher dimensional solutions"
+      },
+      {
+        "level": "H1",
+        "text": "Definitions and preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H2",
+        "text": "R-matrices"
+      },
+      {
+        "level": "H2",
+        "text": "Versions of BYB in different transpositions"
+      },
+      {
+        "level": "H1",
+        "text": "Yangian and twisted Yangian"
+      },
+      {
+        "level": "H2",
+        "text": "Representation of Yangian and twisted Yangian"
+      },
+      {
+        "level": "H1",
+        "text": "Highest weight matching in $(SU(3),SO(3))$"
+      },
+      {
+        "level": "H2",
+        "text": "MPS side of calculation"
+      },
+      {
+        "level": "H2",
+        "text": "Scalar solution side of calculation"
+      },
+      {
+        "level": "H1",
+        "text": "Overlap Formula for $(SU(3),SO(3))$"
+      },
+      {
+        "level": "H2",
+        "text": "Odd $k=2s+1$"
+      },
+      {
+        "level": "H2",
+        "text": "Even k=2s+1"
+      },
+      {
+        "level": "H1",
+        "text": "Definitions and preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "R-matrices"
+      },
+      {
+        "level": "H2",
+        "text": "Versions of BYB in different transpositions"
+      },
+      {
+        "level": "H2",
+        "text": "Extended Yangian and extended twisted Yangian"
+      },
+      {
+        "level": "H2",
+        "text": "Representations of extended Yangian and extended twisted Yangian"
+      },
+      {
+        "level": "H1",
+        "text": "Highest weight matching between dressing scalar solution and MPS"
+      },
+      {
+        "level": "H2",
+        "text": "MPS side of calculation"
+      },
+      {
+        "level": "H2",
+        "text": "Scalar solution side of calculation"
+      },
+      {
+        "level": "H3",
+        "text": "$\\mathbf{L(s,s,0,0)"
+      },
+      {
+        "level": "H3",
+        "text": "$\\mathbf{L(s,s,\\frac{1"
+      },
+      {
+        "level": "H1",
+        "text": "Overlap Formula for $(SO(6),SO(3)\\times SO(3))$"
+      },
+      {
+        "level": "H2",
+        "text": "Integer spin case $\\mathbf{s = 0,1,2,\\dots"
+      },
+      {
+        "level": "H2",
+        "text": "Half integer spin case $\\mathbf{s=\\frac{1"
+      },
+      {
+        "level": "H1",
+        "text": "Hamiltonian kernel setup"
+      },
+      {
+        "level": "H1",
+        "text": "One-magnon state"
+      },
+      {
+        "level": "H1",
+        "text": "Two-magnon state and scattering phase"
+      },
+      {
+        "level": "H1",
+        "text": "$su(3)$ fundamental representation"
+      },
+      {
+        "level": "H2",
+        "text": "Hamiltonian kernel setup"
+      },
+      {
+        "level": "H2",
+        "text": "One-magnon state"
+      },
+      {
+        "level": "H2",
+        "text": "Two-magnon state and scattering phase"
+      },
+      {
+        "level": "H1",
+        "text": "$SU(N)$ fundamental scattering matrix"
+      },
+      {
+        "level": "H1",
+        "text": "$SU(3)$"
+      },
+      {
+        "level": "H2",
+        "text": "One-magnon problem"
+      },
+      {
+        "level": "H2",
+        "text": "Two and more magnon states"
+      },
+      {
+        "level": "H1",
+        "text": "SU(N)"
+      },
+      {
+        "level": "H2",
+        "text": "One-magnon problem"
+      },
+      {
+        "level": "H2",
+        "text": "Two and more magnon problem"
+      },
+      {
+        "level": "H2",
+        "text": "Nesting for higher excitations"
+      },
+      {
+        "level": "H1",
+        "text": "Generalizations"
+      },
+      {
+        "level": "H1",
+        "text": "$GL(3)$ nested algebraic Bethe ansatz"
+      },
+      {
+        "level": "H2",
+        "text": "Notion setup"
+      },
+      {
+        "level": "H2",
+        "text": "Action of the operator $D_{\\xi\\alpha"
+      },
+      {
+        "level": "H2",
+        "text": "Action of the operator A(z)"
+      },
+      {
+        "level": "H1",
+        "text": "GL(N)"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum fusion relations"
+      },
+      {
+        "level": "H2",
+        "text": "Notion"
+      },
+      {
+        "level": "H2",
+        "text": "Fusion procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Functional relations (Fusion rules)"
+      },
+      {
+        "level": "H2",
+        "text": "Bilinear form of the fusion rules"
+      },
+      {
+        "level": "H1",
+        "text": "Tableau sum for Type $A_r$"
+      },
+      {
+        "level": "H1",
+        "text": "Calculation of Eq. (\\ref{eqn:eq0000069"
+      },
+      {
+        "level": "H1",
+        "text": "Isomorphism between $\\mathfrak{so"
+      },
+      {
+        "level": "H1",
+        "text": "Homomorphism between $X(\\mathfrak{so"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15462v1",
+    "url": "http://arxiv.org/abs/2507.15462v1"
+  },
+  {
+    "title": "Implementing and Verifying a Fourier Domain Approach to Fast Stochastic X-ray Polarimetry Timing",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Observations"
+      },
+      {
+        "level": "H2",
+        "text": "Data reduction and selection"
+      },
+      {
+        "level": "H2",
+        "text": "Phase-folding"
+      },
+      {
+        "level": "H2",
+        "text": "The current status of X-ray Polarimetry timing"
+      },
+      {
+        "level": "H3",
+        "text": "Polarisation light curves"
+      },
+      {
+        "level": "H3",
+        "text": "Phase-folding"
+      },
+      {
+        "level": "H3",
+        "text": "The problem"
+      },
+      {
+        "level": "H2",
+        "text": "A new look on X-ray Polarimetry Timing: \n%The Fourier-based method"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of the Fourier-based method"
+      },
+      {
+        "level": "H3",
+        "text": "Variability in the modulation function"
+      },
+      {
+        "level": "H3",
+        "text": "Modulation function variability"
+      },
+      {
+        "level": "H3",
+        "text": "The Fourier-based method"
+      },
+      {
+        "level": "H2",
+        "text": "Instrumental effects"
+      },
+      {
+        "level": "H2",
+        "text": "Deadtime"
+      },
+      {
+        "level": "H2",
+        "text": "Spurious Polarisation"
+      },
+      {
+        "level": "H3",
+        "text": "The effect of spurious polarisation"
+      },
+      {
+        "level": "H3",
+        "text": "Correcting for spurious polarisation"
+      },
+      {
+        "level": "H3",
+        "text": "Relevance to polarimetry-timing"
+      },
+      {
+        "level": "H2",
+        "text": "Modulation factor variability"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Null-hypothesis testing"
+      },
+      {
+        "level": "H2",
+        "text": "Analytical calculation"
+      },
+      {
+        "level": "H1",
+        "text": "Simulations"
+      },
+      {
+        "level": "H2",
+        "text": "Null hypothesis simulations"
+      },
+      {
+        "level": "H2",
+        "text": "Injected simulation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Level 1.5 event file pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "The IXPE pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Tests"
+      },
+      {
+        "level": "H1",
+        "text": "Light curve correction for constant spurious polarisation"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15461v1",
+    "url": "http://arxiv.org/abs/2507.15461v1"
+  },
+  {
+    "title": "The calculus of variations of the Transformer on the hyperspherical tangent bundle",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "The Transformer as a flow map"
+      },
+      {
+        "level": "H1",
+        "text": "Geometry background"
+      },
+      {
+        "level": "H1",
+        "text": "Lagrangian background: how Transformers can be seen as Lagrangian optimization"
+      },
+      {
+        "level": "H2",
+        "text": "More motivating generalized functionals: optimization in the token space with loss functions"
+      },
+      {
+        "level": "H1",
+        "text": "The Euler-Lagrange equation for the Transformer"
+      },
+      {
+        "level": "H2",
+        "text": "Subsidiary Euler-Lagrange results"
+      },
+      {
+        "level": "H1",
+        "text": "Other contributions"
+      },
+      {
+        "level": "H2",
+        "text": "Harmonic map energies: Dirac masses minimizing pushforward energy"
+      },
+      {
+        "level": "H2",
+        "text": "The geodesic equation under an error tolerance"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions and limitations"
+      },
+      {
+        "level": "H1",
+        "text": "The Euler-Lagrange equation for the Transformer"
+      },
+      {
+        "level": "H2",
+        "text": "Harmonic map energies under measure pushforwards"
+      },
+      {
+        "level": "H2",
+        "text": "Geodesics and their errors"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15431v1",
+    "url": "http://arxiv.org/abs/2507.15431v1"
+  },
+  {
+    "title": "On Quad Mesh Extraction From Messy Grid Preserving Maps",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Related works"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Inputs"
+      },
+      {
+        "level": "H2",
+        "text": "Output"
+      },
+      {
+        "level": "H2",
+        "text": "Map-Specific Singularities"
+      },
+      {
+        "level": "H2",
+        "text": "Notations:"
+      },
+      {
+        "level": "H1",
+        "text": "Dual Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Dual segmentation of maps corrupted by noise"
+      },
+      {
+        "level": "H3",
+        "text": "Local Noise on Disks"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of the noise on iso-curves"
+      },
+      {
+        "level": "H2",
+        "text": "How far is a robust algorithm ?"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Representation"
+      },
+      {
+        "level": "H2",
+        "text": "Initialization"
+      },
+      {
+        "level": "H3",
+        "text": "Sanitization"
+      },
+      {
+        "level": "H3",
+        "text": "Data structure initialization"
+      },
+      {
+        "level": "H2",
+        "text": "Simplification"
+      },
+      {
+        "level": "H3",
+        "text": "Untangling"
+      },
+      {
+        "level": "H3",
+        "text": "Index Fairing"
+      },
+      {
+        "level": "H2",
+        "text": "Quad Mesh Extraction"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations and Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Representation of the dual segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Sequence of operations"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation details"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15404v1",
+    "url": "http://arxiv.org/abs/2507.15404v1"
+  },
+  {
+    "title": "Rethinking Occlusion in FER: A Semantic-Aware Perspective and Go Beyond",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Learning in FER"
+      },
+      {
+        "level": "H2",
+        "text": "Uncertainly in Real-World FER"
+      },
+      {
+        "level": "H2",
+        "text": "Facial Parsing Development"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries: Incorporating of Dense Semantics Prior and Sparse Geometric Prior"
+      },
+      {
+        "level": "H2",
+        "text": "Method Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Spatial-Semantic Guidance Module"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-scale Cross-interaction Module"
+      },
+      {
+        "level": "H2",
+        "text": "DARELoss"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison With State-of-the-Art"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation study"
+      },
+      {
+        "level": "H1",
+        "text": "Limitation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15401v1",
+    "url": "http://arxiv.org/abs/2507.15401v1"
+  },
+  {
+    "title": "MAP Estimation with Denoisers: Convergence Rates and Guarantees",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Main Result: Convergence Towards the Proximal Operator"
+      },
+      {
+        "level": "H1",
+        "text": "From Approximate Proximal Operators to MAP Estimation"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Visualisations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H2",
+        "text": "From MMSE Averaging to Gradient Descent on Smoothed Proximal Objectives"
+      },
+      {
+        "level": "H2",
+        "text": "Good Conditioning Properties of $F_\\sigma$"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence of the \\ref{MMSE-averaging"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs of  \\Cref{prop:L-smooth"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminary results"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of the \\ref{MMSE-averaging"
+      },
+      {
+        "level": "H2",
+        "text": "Extension to distributions supported on affine subspaces of $\\R^d$"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of approximate PGD \\Cref{alg:approx_pgd"
+      },
+      {
+        "level": "H1",
+        "text": "Controlling $\\sigma \\mapsto x^\\star_\\sigma$"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15397v1",
+    "url": "http://arxiv.org/abs/2507.15397v1"
+  },
+  {
+    "title": "Spin correlations and Bell nonlocality in $Λ\\barΛ$ pair production from $e^+e^-$ collisions with a thrust cut",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Parton model calculation"
+      },
+      {
+        "level": "H2",
+        "text": "Kinematics"
+      },
+      {
+        "level": "H2",
+        "text": "Polarized fragmentation functions"
+      },
+      {
+        "level": "H2",
+        "text": "Fragmenting density matrices"
+      },
+      {
+        "level": "H2",
+        "text": "Spin correlations"
+      },
+      {
+        "level": "H1",
+        "text": "Factorization and resummation with a thrust cut"
+      },
+      {
+        "level": "H2",
+        "text": "Factorization with a thrust cut"
+      },
+      {
+        "level": "H2",
+        "text": "Fragmenting jet functions"
+      },
+      {
+        "level": "H2",
+        "text": "Renormalization group evolution and resummation"
+      },
+      {
+        "level": "H1",
+        "text": "Bell nonlocality and decoherence"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical results"
+      },
+      {
+        "level": "H2",
+        "text": "Resummed cross section"
+      },
+      {
+        "level": "H2",
+        "text": "Spin correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Bell nonlocality"
+      },
+      {
+        "level": "H1",
+        "text": "Summary"
+      },
+      {
+        "level": "H1",
+        "text": "Matching coefficients of FJFs"
+      },
+      {
+        "level": "H1",
+        "text": "Resummation ingredients"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15387v1",
+    "url": "http://arxiv.org/abs/2507.15387v1"
+  },
+  {
+    "title": "Nanosecond-latency all-optical fiber sensing with in-sensor computing",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Principle of AOFS-IC"
+      },
+      {
+        "level": "H2",
+        "text": "Linear regression between measurand and output intensity"
+      },
+      {
+        "level": "H2",
+        "text": "All-optical recognition of discrete sensing states"
+      },
+      {
+        "level": "H2",
+        "text": "Multiplexing of AOFS-IC for multiple positions and multiple measurands"
+      },
+      {
+        "level": "H2",
+        "text": "High-speed and high-accuracy all-optical sensing"
+      },
+      {
+        "level": "H2",
+        "text": "AOFS-IC for robotic arm monitoring and control"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental system"
+      },
+      {
+        "level": "H2",
+        "text": "Training method of ODN"
+      },
+      {
+        "level": "H2",
+        "text": "Generalized sensing capability"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing and computing time analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Noise analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Data, Materials, and Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of interest"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15376v1",
+    "url": "http://arxiv.org/abs/2507.15376v1"
+  },
+  {
+    "title": "Log-Euclidean Frameworks for Smooth Brain Connectivity Trajectories",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "HCP Dataset, Data Processing"
+      },
+      {
+        "level": "H1",
+        "text": "Riemannian Metrics on Full-Rank Correlation Matrices"
+      },
+      {
+        "level": "H2",
+        "text": "The Off-Log Diffeomorphism"
+      },
+      {
+        "level": "H3",
+        "text": "Computation of $\\mathcal{D"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of the Off-Log Mapping"
+      },
+      {
+        "level": "H3",
+        "text": "Off-Log Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "The Log-Scaling Diffeomorphism"
+      },
+      {
+        "level": "H3",
+        "text": "Computation of $\\mathcal{D"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of the Log-Scaling Mapping"
+      },
+      {
+        "level": "H3",
+        "text": "Log-Scaled Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Smooth Approximation of Brain Connectivity Trajectories Using Polynomial Regression"
+      },
+      {
+        "level": "H3",
+        "text": "Methodology"
+      },
+      {
+        "level": "H3",
+        "text": "Visual Comparison of Curves"
+      },
+      {
+        "level": "H3",
+        "text": "Polynomial Regression via Log-Euclidean Pullback"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Perspectives"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15374v1",
+    "url": "http://arxiv.org/abs/2507.15374v1"
+  },
+  {
+    "title": "EEG-based Epileptic Prediction via a Two-stage Channel-aware Set Transformer Network",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Input features"
+      },
+      {
+        "level": "H2",
+        "text": "Deep learning algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Graph or channel selection"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and Configurations"
+      },
+      {
+        "level": "H2",
+        "text": "Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "EEG Sequence Division"
+      },
+      {
+        "level": "H2",
+        "text": "Network Architecture"
+      },
+      {
+        "level": "H3",
+        "text": "Set Transformer"
+      },
+      {
+        "level": "H3",
+        "text": "Temporal Set Transformer"
+      },
+      {
+        "level": "H3",
+        "text": "Channel-Aware Set Transformer"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Settings and Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Prediction Results on Even Division"
+      },
+      {
+        "level": "H2",
+        "text": "Prediction Results on the Seizure-Independent Division"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Other Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation study"
+      },
+      {
+        "level": "H2",
+        "text": "Model Complexity and Computational Time"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15364v1",
+    "url": "http://arxiv.org/abs/2507.15364v1"
+  },
+  {
+    "title": "Revisiting the Effect of Grid-Following Converter on Frequency Dynamics -- Part II: Spatial Variation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction\\label{Sec:Introd"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Formulation\\label{Sec:ProbForm"
+      },
+      {
+        "level": "H2",
+        "text": "Frequency Spatial Variation and Its Quantification"
+      },
+      {
+        "level": "H2",
+        "text": "Tasks for GFL Study\\label{SubSec:Tasks"
+      },
+      {
+        "level": "H1",
+        "text": "Extended FD Formula Including GFLs\\label{Sec:ProFDF"
+      },
+      {
+        "level": "H2",
+        "text": "Equivalent Frequency Source of GFL\\label{SubSec:VirtFreq"
+      },
+      {
+        "level": "H2",
+        "text": "Extended FD Formula\\label{SubSec:ExtFDFV"
+      },
+      {
+        "level": "H2",
+        "text": "Extended FD Formula for Branch Frequency\\label{SubSec:ExtFDFI"
+      },
+      {
+        "level": "H1",
+        "text": "Effect of GFLs on Frequency Spatial Variation\\label{Sec:GflEffc"
+      },
+      {
+        "level": "H2",
+        "text": "Sources of Frequency\\label{SubSec:SourImpt"
+      },
+      {
+        "level": "H2",
+        "text": "Superposition Matrices for Node Frequency\\label{SubSec:DegrVolt"
+      },
+      {
+        "level": "H2",
+        "text": "Superposition Matrices for Branch Frequency\\label{SubSec:DegrCurr"
+      },
+      {
+        "level": "H1",
+        "text": "Case Studies\\label{Sec:CaseIEEE9"
+      },
+      {
+        "level": "H2",
+        "text": "Accuracy Validation\\label{SubSec:AccuVali"
+      },
+      {
+        "level": "H3",
+        "text": "Node Frequency"
+      },
+      {
+        "level": "H3",
+        "text": "Branch Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Revisit Frequency Spatial Variation\\label{SubSec:Revisit"
+      },
+      {
+        "level": "H3",
+        "text": "Source of Frequency"
+      },
+      {
+        "level": "H3",
+        "text": "Superposition Matrices"
+      },
+      {
+        "level": "H3",
+        "text": "Extended FD Formula for Branch Frequency"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion\\label{Sec:Conclu"
+      },
+      {
+        "level": "H1",
+        "text": "Appendixes"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15362v1",
+    "url": "http://arxiv.org/abs/2507.15362v1"
+  },
+  {
+    "title": "RoCoF Constrained Regional Inertia Security Region: Formulation and Application",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction\\label{Sec:Introd"
+      },
+      {
+        "level": "H1",
+        "text": "Definition of R-ISR\\label{Sec:ProbForm"
+      },
+      {
+        "level": "H2",
+        "text": "Secure Inertia from Holistic System RoCoF Perspective\\label{SubSec:ProbFormCOI"
+      },
+      {
+        "level": "H2",
+        "text": "Definition of R-ISR\\label{SubSec:DefiIner"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges of Forming and Applying R-ISR\\label{SubSec:ChalOnli"
+      },
+      {
+        "level": "H1",
+        "text": "R-ISR Boundary Calculation \\label{Sec:AnalBoun"
+      },
+      {
+        "level": "H2",
+        "text": "State-Space Solution of Regional RoCoF Dynamics\\label{SubSec:StatSolu"
+      },
+      {
+        "level": "H2",
+        "text": "Local Linearization Based Maximum RoCoF Calculation\\label{SubSec:MaxCalc"
+      },
+      {
+        "level": "H2",
+        "text": "Searching Based R-ISR Boundary Generation\\label{SubSec:SearBoun"
+      },
+      {
+        "level": "H1",
+        "text": "Convexification of R-ISR and Its Application \\label{Sec:AsseOpti"
+      },
+      {
+        "level": "H2",
+        "text": "Convex Decomposition of R-ISR\\label{SubSec:ConxDeco"
+      },
+      {
+        "level": "H2",
+        "text": "Inertia Security Assessment and Adjustment\\label{SubSec:Appl"
+      },
+      {
+        "level": "H1",
+        "text": "Case Studies\\label{Sec:CaseStud"
+      },
+      {
+        "level": "H2",
+        "text": "Test System Configuration\\label{SubSec:TestSyst"
+      },
+      {
+        "level": "H2",
+        "text": "Accuracy of R-ISR Boundary\\label{SubSec:AccuBoun"
+      },
+      {
+        "level": "H3",
+        "text": "COI-based method"
+      },
+      {
+        "level": "H3",
+        "text": "Conservative method"
+      },
+      {
+        "level": "H3",
+        "text": "Detailed simulation-based method"
+      },
+      {
+        "level": "H2",
+        "text": "Characteristics of R-ISR Boundary \\label{SubSec:CharBoun"
+      },
+      {
+        "level": "H3",
+        "text": "In the view of security assessment"
+      },
+      {
+        "level": "H3",
+        "text": "In the view of inertia dispatch"
+      },
+      {
+        "level": "H2",
+        "text": "Regional Inertia Optimal Adjustment\\label{SubSec:InerDisp"
+      },
+      {
+        "level": "H3",
+        "text": "Proposed method"
+      },
+      {
+        "level": "H3",
+        "text": "COI-based method"
+      },
+      {
+        "level": "H3",
+        "text": "Conservative method"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion\\label{SubSec:Conclu"
+      },
+      {
+        "level": "H2",
+        "text": "Coefficients of RoCoF Dynamics (\\ref{eq:RoCoCos"
+      },
+      {
+        "level": "H2",
+        "text": "Detailed Expression of Local Maximum Time\\label{SubSec:AppeB"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15344v1",
+    "url": "http://arxiv.org/abs/2507.15344v1"
+  },
+  {
+    "title": "QSAF: A Novel Mitigation Framework for Cognitive Degradation in Agentic AI",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review and Open Challenges"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt Injection and Alignment Defenses"
+      },
+      {
+        "level": "H2",
+        "text": "Memory and Tool Integration Risks"
+      },
+      {
+        "level": "H2",
+        "text": "Runtime Monitoring and Drift Detection"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF: Qorvex Security AI Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Gap in Current Literature and Novel Contribution"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Novel Six-Stage Cognitive Degradation Attack Lifecycle"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF Domain 10 Framework Architecture Overview"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF-BC Controls and Targeted Attack Vectors"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Evaluation and Degradation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Attack Pattern Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Unaddressed Risk Domains"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results by Platform"
+      },
+      {
+        "level": "H2",
+        "text": "Platform-Specific Security Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Claude"
+      },
+      {
+        "level": "H3",
+        "text": "LLaMA3"
+      },
+      {
+        "level": "H3",
+        "text": "ChatGPT"
+      },
+      {
+        "level": "H3",
+        "text": "Mixtral 8x7b"
+      },
+      {
+        "level": "H2",
+        "text": "Summary Observations"
+      },
+      {
+        "level": "H2",
+        "text": "Critical Vulnerability Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Example 1: Infinite Planner Loop (Stage 3)"
+      },
+      {
+        "level": "H2",
+        "text": "Example 2: Memory Poisoning via Hallucinated Fact (Stage 4–5)"
+      },
+      {
+        "level": "H2",
+        "text": "Example 3: Output Suppression with False Completion (Stage 6)"
+      },
+      {
+        "level": "H2",
+        "text": "Example 4: Role Override via Delayed Context Entrenchment (Stage 5)"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF Test Case Report: Cognitive Nonsense Resilience (QSAF-BC-003)"
+      },
+      {
+        "level": "H3",
+        "text": "Test Case Summary"
+      },
+      {
+        "level": "H3",
+        "text": "Prompt Evidence"
+      },
+      {
+        "level": "H3",
+        "text": "Observed Behavior"
+      },
+      {
+        "level": "H3",
+        "text": "Analysis and Implications"
+      },
+      {
+        "level": "H3",
+        "text": "Verdict"
+      },
+      {
+        "level": "H3",
+        "text": "Tools and Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Implications for Enterprise Deployment"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations and Future Research"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15330v1",
+    "url": "http://arxiv.org/abs/2507.15330v1"
+  },
+  {
+    "title": "BEAM-Net: A Deep Learning Framework with Bone Enhancement Attention Mechanism for High Resolution High Frame Rate Ultrasound Beamforming",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Pixel Intensity Based Approaches"
+      },
+      {
+        "level": "H2",
+        "text": "Local Phase Based Bone Detection Techniques"
+      },
+      {
+        "level": "H2",
+        "text": "US Imaging"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Learning Approaches for Beamforming"
+      },
+      {
+        "level": "H2",
+        "text": "Contribuitions"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Conventional DASB (C-DASB)"
+      },
+      {
+        "level": "H2",
+        "text": "Proposed Bone Enhancement Attention Mechanism Network (BEAM-Net)"
+      },
+      {
+        "level": "H2",
+        "text": "Bone Enhancement Attention Mechanism (BEAM)"
+      },
+      {
+        "level": "H1",
+        "text": "Datasets and Evaluation metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "In-vivo MSK datasets"
+      },
+      {
+        "level": "H3",
+        "text": "Synthetic RF datasets from clinical US images"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Contrast Ratio (CR)"
+      },
+      {
+        "level": "H3",
+        "text": "Signal to Noise Ratio(SNR)"
+      },
+      {
+        "level": "H3",
+        "text": "Speckle Similarity index (SSI)"
+      },
+      {
+        "level": "H3",
+        "text": "Structural Similarity Index Measure (SSIM)"
+      },
+      {
+        "level": "H3",
+        "text": "Proposed Edge Preservation Index (EPI)"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "Architecture Ablation"
+      },
+      {
+        "level": "H3",
+        "text": "Ablation Analysis of Image Enhancement Methods"
+      },
+      {
+        "level": "H3",
+        "text": "Attention Weights Parameter Ablation"
+      },
+      {
+        "level": "H2",
+        "text": "Fuctional Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Evaluation with MPW-DASB"
+      },
+      {
+        "level": "H2",
+        "text": "Robustness Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison With Other Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with C-DASB"
+      },
+      {
+        "level": "H2",
+        "text": "Generalization and Robustness"
+      },
+      {
+        "level": "H2",
+        "text": "Computational Requirements"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations and Future work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15306v1",
+    "url": "http://arxiv.org/abs/2507.15306v1"
+  },
+  {
+    "title": "Lecture notes on link homologies and knotted surfaces",
+    "outline": [
+      {
+        "level": "H2",
+        "text": "#1"
+      },
+      {
+        "level": "H2",
+        "text": "\\normalfont\\arabic{section"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction and survey"
+      },
+      {
+        "level": "H2",
+        "text": "Link homology theories"
+      },
+      {
+        "level": "H2",
+        "text": "Khovanov homology"
+      },
+      {
+        "level": "H2",
+        "text": "Khovanov homology"
+      },
+      {
+        "level": "H2",
+        "text": "Link cobordisms and functoriality"
+      },
+      {
+        "level": "H2",
+        "text": "Duality"
+      },
+      {
+        "level": "H2",
+        "text": "Closed surfaces"
+      },
+      {
+        "level": "H2",
+        "text": "Surfaces with boundary"
+      },
+      {
+        "level": "H2",
+        "text": "Machine computation"
+      },
+      {
+        "level": "H2",
+        "text": "Open questions"
+      },
+      {
+        "level": "H2",
+        "text": "Exercises"
+      },
+      {
+        "level": "H1",
+        "text": "Basic properties of link cobordism maps"
+      },
+      {
+        "level": "H3",
+        "text": "Categorification"
+      },
+      {
+        "level": "H1",
+        "text": "Khovanov homology"
+      },
+      {
+        "level": "H2",
+        "text": "The Khovanov chain complex"
+      },
+      {
+        "level": "H2",
+        "text": "Cube of resolutions"
+      },
+      {
+        "level": "H2",
+        "text": "Chain complex"
+      },
+      {
+        "level": "H2",
+        "text": "Gradings"
+      },
+      {
+        "level": "H2",
+        "text": "Induced maps on Khovanov homology"
+      },
+      {
+        "level": "H1",
+        "text": "Reidemeister induced chain maps."
+      },
+      {
+        "level": "H2",
+        "text": "Additional applications and exercises"
+      },
+      {
+        "level": "H1",
+        "text": "Bar-Natan's theory and the TQFT approach"
+      },
+      {
+        "level": "H2",
+        "text": "The Bar-Natan deformation"
+      },
+      {
+        "level": "H3",
+        "text": "Distinguishing surfaces via Bar-Natan homology"
+      },
+      {
+        "level": "H2",
+        "text": "The TQFT approach"
+      },
+      {
+        "level": "H3",
+        "text": "The basic setup"
+      },
+      {
+        "level": "H3",
+        "text": "Bar-Natan's frame"
+      },
+      {
+        "level": "H3",
+        "text": "Tangles"
+      },
+      {
+        "level": "H3",
+        "text": "Remarks on the proof of invariance of the cobordism maps"
+      },
+      {
+        "level": "H1",
+        "text": "Further developments in Khovanov homology"
+      },
+      {
+        "level": "H1",
+        "text": "A few words on link Floer homology"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15305v1",
+    "url": "http://arxiv.org/abs/2507.15305v1"
+  },
+  {
+    "title": "Mixture of Autoencoder Experts Guidance using Unlabeled and Incomplete Data for Exploration in Reinforcement Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning Beyond Rewards"
+      },
+      {
+        "level": "H2",
+        "text": "Representation Learning and Intrinsic Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Learning from Demonstrations and Alternative Signals"
+      },
+      {
+        "level": "H2",
+        "text": "Soft Actor-Critic"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Main Evaluation Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H3",
+        "text": "Number of experts"
+      },
+      {
+        "level": "H3",
+        "text": "Demonstration sparsity"
+      },
+      {
+        "level": "H3",
+        "text": "Decay Rates"
+      },
+      {
+        "level": "H3",
+        "text": "Mapping function sensitivity"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion \\& future works"
+      },
+      {
+        "level": "H1",
+        "text": "Properties and pitfalls of state-only intrinsic motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Proof that state-only intrinsic motivation does not change the optimal policy"
+      },
+      {
+        "level": "H2",
+        "text": "Illustrative example of possible pitfalls"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental settings"
+      },
+      {
+        "level": "H2",
+        "text": "Soft Actor-Critic"
+      },
+      {
+        "level": "H2",
+        "text": "Mixture of autoencoders hyperparameters and training details"
+      },
+      {
+        "level": "H2",
+        "text": "RND \\& ICM"
+      },
+      {
+        "level": "H1",
+        "text": "Data Source Selection Rationale"
+      },
+      {
+        "level": "H1",
+        "text": "Environment details"
+      },
+      {
+        "level": "H1",
+        "text": "Traditional intrinsic reward methods baseline"
+      },
+      {
+        "level": "H1",
+        "text": "Grid world"
+      },
+      {
+        "level": "H1",
+        "text": "Tables of final mean results"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15287v1",
+    "url": "http://arxiv.org/abs/2507.15287v1"
+  },
+  {
+    "title": "Gravitational instantons and harmonic maps",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Local theory"
+      },
+      {
+        "level": "H2",
+        "text": "Dimension reduction of the Ricci-flat equation"
+      },
+      {
+        "level": "H2",
+        "text": "Augmented harmonic maps"
+      },
+      {
+        "level": "H2",
+        "text": "Points of non-trivial stabilizer"
+      },
+      {
+        "level": "H1",
+        "text": "Rod structures and toric gravitational instantons"
+      },
+      {
+        "level": "H2",
+        "text": "Rod structures"
+      },
+      {
+        "level": "H2",
+        "text": "Toric gravitational instantons"
+      },
+      {
+        "level": "H2",
+        "text": "Key Examples"
+      },
+      {
+        "level": "H1",
+        "text": "Tame harmonic  maps"
+      },
+      {
+        "level": "H2",
+        "text": "Model maps and tameness"
+      },
+      {
+        "level": "H2",
+        "text": "Local theory"
+      },
+      {
+        "level": "H3",
+        "text": "Near a rod interior"
+      },
+      {
+        "level": "H3",
+        "text": "Near a turning point"
+      },
+      {
+        "level": "H2",
+        "text": "Global theory"
+      },
+      {
+        "level": "H2",
+        "text": "From tame harmonic maps to gravitational instantons"
+      },
+      {
+        "level": "H2",
+        "text": "The case of Asymptotic Type  \\texorpdfstring{$\\Ae$"
+      },
+      {
+        "level": "H1",
+        "text": "Degeneration of rod structures and bubbling of harmonic maps"
+      },
+      {
+        "level": "H2",
+        "text": "Rescaling of model harmonic maps"
+      },
+      {
+        "level": "H2",
+        "text": "Background map in a fixed scale"
+      },
+      {
+        "level": "H2",
+        "text": "Uniform control of tame harmonic maps"
+      },
+      {
+        "level": "H2",
+        "text": "Limiting behavior of the cone angles"
+      },
+      {
+        "level": "H3",
+        "text": "Turning points coming together"
+      },
+      {
+        "level": "H3",
+        "text": "Turning points diverging to infinity"
+      },
+      {
+        "level": "H1",
+        "text": "Applications"
+      },
+      {
+        "level": "H2",
+        "text": "The case of two turning points"
+      },
+      {
+        "level": "H3",
+        "text": "The \\texorpdfstring{$\\AF$"
+      },
+      {
+        "level": "H3",
+        "text": "The \\texorpdfstring{$\\ALFm$"
+      },
+      {
+        "level": "H3",
+        "text": "The \\texorpdfstring{$\\ALFp$"
+      },
+      {
+        "level": "H2",
+        "text": "The general case"
+      },
+      {
+        "level": "H1",
+        "text": "Rod structures of low degrees"
+      },
+      {
+        "level": "H2",
+        "text": "Ricci-flat metrics with special geometry"
+      },
+      {
+        "level": "H3",
+        "text": "Type $\\I$ case"
+      },
+      {
+        "level": "H3",
+        "text": "Type $\\II$ case"
+      },
+      {
+        "level": "H2",
+        "text": "Degree 0 = Type \\texorpdfstring{$\\I$"
+      },
+      {
+        "level": "H2",
+        "text": "Degree 1 = Type \\texorpdfstring{$\\II$"
+      },
+      {
+        "level": "H3",
+        "text": "Openness of $\\mathcal S_{1,\\alpha,\\sharp"
+      },
+      {
+        "level": "H3",
+        "text": "The  \\texorpdfstring{$\\Ae$"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Riemannian black hole uniqueness"
+      },
+      {
+        "level": "H2",
+        "text": "Explicit description"
+      },
+      {
+        "level": "H2",
+        "text": "Classification"
+      },
+      {
+        "level": "H1",
+        "text": "Gauge fixing"
+      },
+      {
+        "level": "H1",
+        "text": "Mars-Simon uniqueness via positive mass theorem"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15284v1",
+    "url": "http://arxiv.org/abs/2507.15284v1"
+  },
+  {
+    "title": "Temporal Basis Function Models for Closed-Loop Neural Stimulation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Optogenetic stimulation dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Data windowing"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal basis function model"
+      },
+      {
+        "level": "H2",
+        "text": "Training method"
+      },
+      {
+        "level": "H2",
+        "text": "Forward stagewise additive modeling"
+      },
+      {
+        "level": "H2",
+        "text": "The closed-loop controller"
+      },
+      {
+        "level": "H3",
+        "text": "Demonstration 1: stimulating based on predicted target brain states."
+      },
+      {
+        "level": "H3",
+        "text": "Demonstration 2: stimulating to drive brain activity towards desired trajectories"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison models"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Is the stimulation response state-dependent?"
+      },
+      {
+        "level": "H2",
+        "text": "Prediction accuracy"
+      },
+      {
+        "level": "H2",
+        "text": "Does the TBFM adapt to the state-dependence of the stimulation response?"
+      },
+      {
+        "level": "H2",
+        "text": "Modeling multiple stimulation parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Sample efficiency"
+      },
+      {
+        "level": "H2",
+        "text": "Training time"
+      },
+      {
+        "level": "H2",
+        "text": "Inference latency"
+      },
+      {
+        "level": "H2",
+        "text": "Forward stagewise additive modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation"
+      },
+      {
+        "level": "H3",
+        "text": "Demonstration 1: stimulating during target brain states"
+      },
+      {
+        "level": "H3",
+        "text": "Demonstration 2: stimulating to drive brain activity towards target trajectories"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Future Work"
+      },
+      {
+        "level": "H2",
+        "text": "Clinical application of neural stimulation may be significantly improved by models of closed-loop, state-dependent stimulation responses"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient model-based controllers may enable the precise targeting of state-dependent stimulation responses, leading to new clinical approaches"
+      },
+      {
+        "level": "H2",
+        "text": "Leveraging TBFMs and machine learning to identify and target novel forms of state dependence"
+      },
+      {
+        "level": "H1",
+        "text": "Code and data availability"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of interest"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and Processing"
+      },
+      {
+        "level": "H2",
+        "text": "TBFM technical detail"
+      },
+      {
+        "level": "H3",
+        "text": "Stimulation descriptor"
+      },
+      {
+        "level": "H3",
+        "text": "Basis function generator"
+      },
+      {
+        "level": "H3",
+        "text": "Training"
+      },
+      {
+        "level": "H3",
+        "text": "Compilation"
+      },
+      {
+        "level": "H2",
+        "text": "Technical detail of simulated applications"
+      },
+      {
+        "level": "H3",
+        "text": "Demonstration 1: stimulating during target brain states"
+      },
+      {
+        "level": "H3",
+        "text": "Demonstration 2: stimulating to drive brain activity towards target trajectories"
+      },
+      {
+        "level": "H2",
+        "text": "Reference models"
+      },
+      {
+        "level": "H3",
+        "text": "Linear state space model"
+      },
+      {
+        "level": "H3",
+        "text": "LSTM-based nonlinear dynamical systems model"
+      },
+      {
+        "level": "H3",
+        "text": "Spectral decomposition reference model"
+      },
+      {
+        "level": "H2",
+        "text": "Hypothesis testing for state dependence"
+      },
+      {
+        "level": "H2",
+        "text": "All results across filtering methods"
+      },
+      {
+        "level": "H2",
+        "text": "Low frequencies dominate dataset, model captures mostly those"
+      },
+      {
+        "level": "H2",
+        "text": "Modeling multiple stimulation parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of non-stationarity on model performance, possibly due to plasticity"
+      },
+      {
+        "level": "H2",
+        "text": "Example basis functions"
+      },
+      {
+        "level": "H2",
+        "text": "Example additive basis functions"
+      },
+      {
+        "level": "H2",
+        "text": "Example trials from Demonstrations 1, 2"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15274v1",
+    "url": "http://arxiv.org/abs/2507.15274v1"
+  },
+  {
+    "title": "Multipartite Markov Gaps and Entanglement Wedge Multiway Cuts",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Review of tripartite Markov Gap and reflected multi-entropy"
+      },
+      {
+        "level": "H2",
+        "text": "Reflected entropy"
+      },
+      {
+        "level": "H2",
+        "text": "Tripartite Markov gap"
+      },
+      {
+        "level": "H2",
+        "text": "R\\'enyi Multi-entropy"
+      },
+      {
+        "level": "H2",
+        "text": "Reflected multi-entropy"
+      },
+      {
+        "level": "H1",
+        "text": "Multipartite Markov Gap: Geometric obstruction to perfect recovery in multipartite systems"
+      },
+      {
+        "level": "H2",
+        "text": "Review of the holographic derivation of the lower bound of reflected entropy in \\texorpdfstring{$\\q$"
+      },
+      {
+        "level": "H2",
+        "text": "Multipartite Markov Gaps"
+      },
+      {
+        "level": "H3",
+        "text": "\\texorpdfstring{$\\q$"
+      },
+      {
+        "level": "H3",
+        "text": "\\texorpdfstring{$\\q$"
+      },
+      {
+        "level": "H3",
+        "text": "\\texorpdfstring{$\\q=5,6$"
+      },
+      {
+        "level": "H2",
+        "text": "Bounding the $\\q$-partite Markov Gap from below by the $(\\q{-"
+      },
+      {
+        "level": "H3",
+        "text": "$\\q=4$ case"
+      },
+      {
+        "level": "H3",
+        "text": "$\\q \\ge 5$ cases"
+      },
+      {
+        "level": "H2",
+        "text": "Multipartite Markov gap for \\texorpdfstring{$\\q=4$"
+      },
+      {
+        "level": "H3",
+        "text": "Review of the Tripartite Markov Gap and Markov Recovery in the \\texorpdfstring{$\\q=3$"
+      },
+      {
+        "level": "H3",
+        "text": "Comments on Holographic Bounds"
+      },
+      {
+        "level": "H3",
+        "text": "Non-Holographic Setting: Qubit Example 1 (GHZ State)"
+      },
+      {
+        "level": "H3",
+        "text": "Non-Holographic Setting: Qubit Example 2 (Other examples)"
+      },
+      {
+        "level": "H2",
+        "text": "Summary and comparison between the conventional Markov Gap and the Multipartite Markov Gap"
+      },
+      {
+        "level": "H1",
+        "text": "Genuine Reflected Multi-Entropy: Capturing genuine multipartite entanglement"
+      },
+      {
+        "level": "H2",
+        "text": "Review of the genuine multi-entropy for $\\q=3,4$"
+      },
+      {
+        "level": "H3",
+        "text": "Relation between \\texorpdfstring{$\\q=3$"
+      },
+      {
+        "level": "H2",
+        "text": "Prescriptions for constructing ``genuine reflected multi-entropy''"
+      },
+      {
+        "level": "H2",
+        "text": "Relation between  R\\'enyi-2 multi-entropy \\texorpdfstring{$S_{2"
+      },
+      {
+        "level": "H2",
+        "text": "The genuine reflected multi-entropy for $\\q=4$"
+      },
+      {
+        "level": "H3",
+        "text": "Case 1: $GS_{R\\, (\\q-1=3)"
+      },
+      {
+        "level": "H3",
+        "text": "Case 2: $GS_{R\\, (\\q-1=3)"
+      },
+      {
+        "level": "H3",
+        "text": "Case 3: $GS_{R\\, (\\q-1=3)"
+      },
+      {
+        "level": "H2",
+        "text": "Computable example: $GS_{R\\, (\\q-1=3)"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "List of identities for entanglement entropy"
+      }
+    ],
+    "query": "neuroscience brain mapping",
+    "arxiv_id": "2507.15262v1",
+    "url": "http://arxiv.org/abs/2507.15262v1"
+  }
+]

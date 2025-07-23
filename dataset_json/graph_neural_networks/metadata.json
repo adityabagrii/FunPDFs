@@ -1,0 +1,5038 @@
+[
+  {
+    "title": "Quantum computational sensing using quantum signal processing, quantum neural networks, and Hamiltonian engineering",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of main results"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum computational sensing using qubit-based sensors"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using a single qubit for binary classification tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Dependence on task complexity"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using multiple qubits: binary and multi-class discrimination of multi-dimensional signals"
+      },
+      {
+        "level": "H2",
+        "text": "QCS of spatiotemporal signals using multiple qubits"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of QCS using qubit-only sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using bosonic sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Function-approximation tasks"
+      },
+      {
+        "level": "H2",
+        "text": "QS approach: linear phase-preserving amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum computational-sensing advantage"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using hybrid sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of our work"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental prospects and future research directions"
+      },
+      {
+        "level": "H1",
+        "text": "Data and code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Classical postprocessing and error scaling with nonlinearity: unbiased estimation of nonlinear polynomials of a classical Gaussian random variable"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of static signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architectures for qubit-based quantum computational sensors of static signals"
+      },
+      {
+        "level": "H2",
+        "text": "Bayes (optimal) classifier for binary classification using a single qubit"
+      },
+      {
+        "level": "H2",
+        "text": "Approximate Gaussian classifier for binary classification using a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "Role of sampling noise in QCSA using a single-variable example"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for simplified tasks: approximate analytic error probability for a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for more general tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-variate sensing: comparing quantum computational sensors against multiple Ramsey interferometers"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA for multi-variable binary discrimination tasks using a single qubit"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of spatiotemporal signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and classification task"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Neural Network architecture for QCS"
+      },
+      {
+        "level": "H2",
+        "text": "Training details"
+      },
+      {
+        "level": "H2",
+        "text": "Additional results"
+      },
+      {
+        "level": "H1",
+        "text": "QCS for function approximation using bosonic quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture: $Udec$ and quadrature measurements"
+      },
+      {
+        "level": "H3",
+        "text": "Initial state and expectation values"
+      },
+      {
+        "level": "H3",
+        "text": "Heterodyne measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Function approximation task: target polynomials $Ft$ and expected mean-squared-error as a metric"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Worked example: XOR{"
+      },
+      {
+        "level": "H3",
+        "text": "Conventional QS approach: phase-preserving linear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: 1D polynomial approximation"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: Higher-order spirals{"
+      },
+      {
+        "level": "H1",
+        "text": "QCS using hybrid quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture for hybrid qubit-cavity quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Hilbert space truncation"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing hybrid quantum computational sensors against phase-preserving amplifiers"
+      },
+      {
+        "level": "H1",
+        "text": "General training details"
+      },
+      {
+        "level": "H2",
+        "text": "Trainable models, classical postprocessing, and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Differentiable models and measurement results"
+      },
+      {
+        "level": "H3",
+        "text": "Training datasets and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Classical postprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of training using finitely-sampled measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Number of measurement samples for training versus inference"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations of classical postprocessing in the presence of sampling noise"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15845v1",
+    "url": "http://arxiv.org/abs/2507.15845v1"
+  },
+  {
+    "title": "Identifying Conditional Causal Effects in MPDAGs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Identification Formula"
+      },
+      {
+        "level": "H2",
+        "text": "Review of the PCO Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Identification Formula"
+      },
+      {
+        "level": "H2",
+        "text": "Special Cases"
+      },
+      {
+        "level": "H2",
+        "text": "Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Identifiability Condition"
+      },
+      {
+        "level": "H1",
+        "text": "Do Calculus for MPDAGs"
+      },
+      {
+        "level": "H2",
+        "text": "The Calculus"
+      },
+      {
+        "level": "H2",
+        "text": "Examples"
+      },
+      {
+        "level": "H1",
+        "text": "Identification Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "The Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Further Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Soundness and Completeness"
+      },
+      {
+        "level": "H2",
+        "text": "An Extension for Non-identifiable Effects"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Further Definitions"
+      },
+      {
+        "level": "H1",
+        "text": "Existing Results"
+      },
+      {
+        "level": "H1",
+        "text": "Broad MPDAG Results"
+      },
+      {
+        "level": "H2",
+        "text": "Results on Possibly Causal Paths"
+      },
+      {
+        "level": "H2",
+        "text": "Remarks on the Ordering of Buckets"
+      },
+      {
+        "level": "H2",
+        "text": "Results on Paths Among Buckets"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section ref{sec:id-formula"
+      },
+      {
+        "level": "H2",
+        "text": "Main Result"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting Results"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section ref{sec:id-condition"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting Results"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section ref{sec:do"
+      },
+      {
+        "level": "H2",
+        "text": "Results for All do Rules"
+      },
+      {
+        "level": "H2",
+        "text": "Results for do Rule 1"
+      },
+      {
+        "level": "H2",
+        "text": "Results for do Rule 2"
+      },
+      {
+        "level": "H2",
+        "text": "Results for do Rule 3"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Section ref{sec:alg-condition"
+      },
+      {
+        "level": "H2",
+        "text": "Main Result"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting Results"
+      },
+      {
+        "level": "H1",
+        "text": "A Note on Jaber's (2022) texttt{CIDP"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15842v1",
+    "url": "http://arxiv.org/abs/2507.15842v1"
+  },
+  {
+    "title": "Rigorous dense graph limit of a model for biological transportation networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Notation and preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Main assumptions"
+      },
+      {
+        "level": "H1",
+        "text": "Reformulation of the model and main results"
+      },
+      {
+        "level": "H1",
+        "text": "The Kirchhoff law and the Poisson equation"
+      },
+      {
+        "level": "H1",
+        "text": "The energy functionals"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem ref{thm:1"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem ref{thm:2"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15829v1",
+    "url": "http://arxiv.org/abs/2507.15829v1"
+  },
+  {
+    "title": "Just Ask for Music (JAM): Multimodal and Personalized Natural Language Music Recommendation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15826v1",
+    "url": "http://arxiv.org/abs/2507.15826v1"
+  },
+  {
+    "title": "Operationalizing AI for Good: Spotlight on Deployment and Integration of AI Models in Humanitarian Work",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Ethical Considerations"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation and Deployment"
+      },
+      {
+        "level": "H2",
+        "text": "Offline Experimentation"
+      },
+      {
+        "level": "H2",
+        "text": "Staging Deployment Calibration"
+      },
+      {
+        "level": "H2",
+        "text": "Post-Deployment Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Partnership Case Study"
+      },
+      {
+        "level": "H2",
+        "text": "Partner Details"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Scope"
+      },
+      {
+        "level": "H2",
+        "text": "Resource Constraints"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Threshold Tuning across 3 Languages"
+      },
+      {
+        "level": "H2",
+        "text": "Categorization Model Performance"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15823v1",
+    "url": "http://arxiv.org/abs/2507.15823v1"
+  },
+  {
+    "title": "The Capacity of Semantic Private Information Retrieval with Colluding Servers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Main Result"
+      },
+      {
+        "level": "H1",
+        "text": "Corollaries and Discussions"
+      },
+      {
+        "level": "H1",
+        "text": "Achievable Scheme"
+      },
+      {
+        "level": "H1",
+        "text": "Illustrative Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Example 1"
+      },
+      {
+        "level": "H2",
+        "text": "Example 2"
+      },
+      {
+        "level": "H1",
+        "text": "Privacy Proof"
+      },
+      {
+        "level": "H1",
+        "text": "Converse Proof"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15818v1",
+    "url": "http://arxiv.org/abs/2507.15818v1"
+  },
+  {
+    "title": "Federated Split Learning with Improved Communication and Storage Efficiency",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "References Cited"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Federated and Split Learning Paradigms"
+      },
+      {
+        "level": "H2",
+        "text": "The Distributed SGD Problem"
+      },
+      {
+        "level": "H2",
+        "text": "Federated and Split Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges"
+      },
+      {
+        "level": "H1",
+        "text": "Communication and Storage Efficient Federated Split Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Auxiliary Network"
+      },
+      {
+        "level": "H2",
+        "text": "CSE-FSL"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Communication and Storage Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Accuracy Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Impact of Auxiliary Network Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Load"
+      },
+      {
+        "level": "H2",
+        "text": "Storage Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Comprehensive Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Cref{{prop:conv_c"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Cref{{prop:conv_s"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15816v1",
+    "url": "http://arxiv.org/abs/2507.15816v1"
+  },
+  {
+    "title": "Diffusion models for multivariate subsurface generation and efficient probabilistic inversion",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion Posterior Sampling (DPS)"
+      },
+      {
+        "level": "H3",
+        "text": "Corrected Diffusion Posterior Sampling (CDPS)"
+      },
+      {
+        "level": "H2",
+        "text": "Multivariate diffusion modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Performance assessment"
+      },
+      {
+        "level": "H2",
+        "text": "Code implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Unconditonal modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Inverse modeling using CDPS"
+      },
+      {
+        "level": "H3",
+        "text": "Linear conditioning results"
+      },
+      {
+        "level": "H3",
+        "text": "Nonlinear inversion results"
+      },
+      {
+        "level": "H2",
+        "text": "Computational performances"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "LARGE Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Additional assessment of prior modeling performance"
+      },
+      {
+        "level": "H2",
+        "text": "Geostatistical metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Training efficiency"
+      },
+      {
+        "level": "H1",
+        "text": "Conditioning on multiple data types"
+      },
+      {
+        "level": "H1",
+        "text": "CDPS implementation with DDPM and DDIM"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15809v1",
+    "url": "http://arxiv.org/abs/2507.15809v1"
+  },
+  {
+    "title": "Power-Constrained Policy Gradient Methods for LQR",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Formulation:"
+      },
+      {
+        "level": "H1",
+        "text": "Optimization Problem"
+      },
+      {
+        "level": "H2",
+        "text": "Global Constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Optimization Problem: Locally Constrained"
+      },
+      {
+        "level": "H1",
+        "text": "Solution to LQR problem"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Solution to the Optimization Problem"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem~ref{thm:PL"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem~ref{thm:local_conv"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15806v1",
+    "url": "http://arxiv.org/abs/2507.15806v1"
+  },
+  {
+    "title": "Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Semantic Communication for Emerging Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "List of Notations:"
+      },
+      {
+        "level": "H1",
+        "text": "System Model"
+      },
+      {
+        "level": "H2",
+        "text": "Signal Transmission Model"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Model"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Model"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Measures"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication"
+      },
+      {
+        "level": "H2",
+        "text": "Computing"
+      },
+      {
+        "level": "H1",
+        "text": "Joint Design of FA-enabled NF-ISCSC System"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Joint Beamforming and Computation Optimisation"
+      },
+      {
+        "level": "H2",
+        "text": "FA Position Optimisation"
+      },
+      {
+        "level": "H3",
+        "text": "Benchmark method (second-order Taylor expansion)"
+      },
+      {
+        "level": "H3",
+        "text": "Projected BFGS"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Extraction Ratio Optimisation"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Results"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Computing Performance"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Direction"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of FIM"
+      },
+      {
+        "level": "H1",
+        "text": "Proof and Derivation of Equation eqref{fim"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of FIM for a Point Target"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence Analysis"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15800v1",
+    "url": "http://arxiv.org/abs/2507.15800v1"
+  },
+  {
+    "title": "Exploring Superposition and Interference in State-of-the-Art Low-Parameter Vision Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "State-of-the-Art Deep Neural Network Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Prior Definitions"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Method"
+      },
+      {
+        "level": "H3",
+        "text": "Models vessel"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Depthwise convolution should stay in the input dimensional space"
+      },
+      {
+        "level": "H2",
+        "text": "Preventing superposition significantly disrupts neural network representational structure."
+      },
+      {
+        "level": "H2",
+        "text": "Proof of concept: NoDepth Bottleneck"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15798v1",
+    "url": "http://arxiv.org/abs/2507.15798v1"
+  },
+  {
+    "title": "Missing Physics Discovery through Fully Differentiable Finite Element-Based Machine Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Framework"
+      },
+      {
+        "level": "H3",
+        "text": "Operator Learning over Finite Element Spaces"
+      },
+      {
+        "level": "H2",
+        "text": "Learning Materials Constitutive Models"
+      },
+      {
+        "level": "H3",
+        "text": "Learning from Loads in Displacement-Controlled Experiments"
+      },
+      {
+        "level": "H3",
+        "text": "Learning from Displacements in Load-Controlled Experiments"
+      },
+      {
+        "level": "H3",
+        "text": "Zero Shot Inference with a Foundational Model"
+      },
+      {
+        "level": "H2",
+        "text": "Learning in Transient Thermodynamics Problems"
+      },
+      {
+        "level": "H3",
+        "text": "Learning Thermal Properties from Temperature Measurements"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Coupling between Firedrake and PyTorch/JAX"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Displacement-Controlled Uniaxial Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Load-Controlled Brazilian Disc Experiements"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Torsional Behaviour in Thin Plates"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Transient Heat Conduction Experiments"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15787v1",
+    "url": "http://arxiv.org/abs/2507.15787v1"
+  },
+  {
+    "title": "Toric intersections",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Radical Splitting Criterion for $I_A$"
+      },
+      {
+        "level": "H1",
+        "text": "Applications to toric ideals of bipartite graphs"
+      },
+      {
+        "level": "H1",
+        "text": "The case of height 2 toric ideals"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15785v1",
+    "url": "http://arxiv.org/abs/2507.15785v1"
+  },
+  {
+    "title": "Graph Attention Specialized Expert Fusion Model for Node Classification: Based on Cora and Pubmed Datasets",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Approaches to Node Classification"
+      },
+      {
+        "level": "H2",
+        "text": "Graph Neural Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Convolutional Networks (GCNs)"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Attention Networks (GATs)"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-hop and Higher-order Graph Neural Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-hop GNNs"
+      },
+      {
+        "level": "H3",
+        "text": "APPNP and SGC"
+      },
+      {
+        "level": "H2",
+        "text": "Ensemble Methods for Node Classification"
+      },
+      {
+        "level": "H3",
+        "text": "Model Ensembles"
+      },
+      {
+        "level": "H3",
+        "text": "Expert Models"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Transport for Representation Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Wasserstein Distance in Machine Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Gromov-Wasserstein Distance"
+      },
+      {
+        "level": "H3",
+        "text": "Applications to Graph Representation Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Cross-domain and Transfer Learning in Graph Neural Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Research Gaps and Our Contribution"
+      },
+      {
+        "level": "H1",
+        "text": "Optimization of GCN"
+      },
+      {
+        "level": "H2",
+        "text": "Model Architecture Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "The Necessity of Introducing Attention Mechanisms"
+      },
+      {
+        "level": "H1",
+        "text": "The Introduction of GAT"
+      },
+      {
+        "level": "H2",
+        "text": "Abstract of Attention Mechanisms in Graphs"
+      },
+      {
+        "level": "H2",
+        "text": "Combination of Graph Convolution and Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Node-level Attention Implemented by GATConv"
+      },
+      {
+        "level": "H3",
+        "text": "Implementation of Multi-hop Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Hop-level Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Enhanced Components for Stable Training"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison of Different Models"
+      },
+      {
+        "level": "H3",
+        "text": "Overall Performance"
+      },
+      {
+        "level": "H3",
+        "text": "Category-specific Differences"
+      },
+      {
+        "level": "H3",
+        "text": "Explanations"
+      },
+      {
+        "level": "H2",
+        "text": "Next Improvement Direction: Expert Fusion Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Expert Division of Labor"
+      },
+      {
+        "level": "H3",
+        "text": "Adaptive Fusion Strategy"
+      },
+      {
+        "level": "H3",
+        "text": "Mechanism Rationale"
+      },
+      {
+        "level": "H3",
+        "text": "Future Outlook"
+      },
+      {
+        "level": "H1",
+        "text": "Optimizing GAT: Introduction of Expert Fusion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Design Principle of Expert Fusion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation of Expert Models"
+      },
+      {
+        "level": "H2",
+        "text": "Design of Fusion Strategies"
+      },
+      {
+        "level": "H3",
+        "text": "Advantages of the Expert Fusion Model"
+      },
+      {
+        "level": "H3",
+        "text": "Generalization Potential"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Balance Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Precision-Recall Tradeoff"
+      },
+      {
+        "level": "H3",
+        "text": "Stability Quantification"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-expert Weighted Fusion Mechanism"
+      },
+      {
+        "level": "H1",
+        "text": "Optimizing Expert Fusion: Introduction of Wasserstein-Rubinstein Distance"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Foundation of Wasserstein-Rubinstein Distance"
+      },
+      {
+        "level": "H2",
+        "text": "WR Distance for Model Representation Alignment"
+      },
+      {
+        "level": "H3",
+        "text": "Representation Alignment Across Models"
+      },
+      {
+        "level": "H3",
+        "text": "Category-Specific Distance Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Enhanced Fusion Architecture with WR Guidance"
+      },
+      {
+        "level": "H3",
+        "text": "WR Distance Computation Module"
+      },
+      {
+        "level": "H3",
+        "text": "Class-Aware Projection Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Dynamic Fusion Weight Adjustment"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Results and Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Performance Improvements"
+      },
+      {
+        "level": "H3",
+        "text": "Stability Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Learned Representations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15784v1",
+    "url": "http://arxiv.org/abs/2507.15784v1"
+  },
+  {
+    "title": "Interleaved LLM and Motion Planning for Generalized Multi-Object Collection in Large Scene Graphs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Task and Motion Planning"
+      },
+      {
+        "level": "H2",
+        "text": "LLM Planning"
+      },
+      {
+        "level": "H2",
+        "text": "Robotic Planning in Scene Graphs"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Graph Representations of Household Environment"
+      },
+      {
+        "level": "H2",
+        "text": "Hierarchical Formulations for Planning"
+      },
+      {
+        "level": "H2",
+        "text": "Explicit Cost Function of Actions"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Planning Problem"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "High-level Graph Search LLM Planner"
+      },
+      {
+        "level": "H2",
+        "text": "Low-level Sampling-based Motion Planner"
+      },
+      {
+        "level": "H2",
+        "text": "Interleaving LLM Planner with Motion Planner through Multimodal Action Cost Similarity Function"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminary Results of Multimodal Similarity Function"
+      },
+      {
+        "level": "H2",
+        "text": "Full Results with Baseline Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Detailed Plan Comparison"
+      },
+      {
+        "level": "H1",
+        "text": "Example of Semantic Similarity Function"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15782v1",
+    "url": "http://arxiv.org/abs/2507.15782v1"
+  },
+  {
+    "title": "Learning Null Geodesics for Gravitational Lensing Rendering in General Relativity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Geodesic Approximation"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Distribution"
+      },
+      {
+        "level": "H3",
+        "text": "Geodesic Visualization"
+      },
+      {
+        "level": "H2",
+        "text": "Rendering Results"
+      },
+      {
+        "level": "H3",
+        "text": "Convergence Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H3",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Impact Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Physics-informed Neural Network"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Superposed Black Hole Metric"
+      },
+      {
+        "level": "H1",
+        "text": "Proof for $l^{text{straight"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Classical Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Learning Geodesics"
+      },
+      {
+        "level": "H2",
+        "text": "Ray Tracing in Curved Spacetime"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15775v1",
+    "url": "http://arxiv.org/abs/2507.15775v1"
+  },
+  {
+    "title": "Multi-Modal Sensor Fusion for Proactive Blockage Prediction in mmWave Vehicular Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "System Model and Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Proactive Multi-Modal Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Data Augmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Class Imbalance Handling"
+      },
+      {
+        "level": "H3",
+        "text": "Camera Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "GPS Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "LiDAR Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Radar Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Camera Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "GPS-Based Blockage Prediction Model"
+      },
+      {
+        "level": "H2",
+        "text": "LiDAR Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Radar Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Modal Fusion"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15769v1",
+    "url": "http://arxiv.org/abs/2507.15769v1"
+  },
+  {
+    "title": "Toward an event-level analysis of hadron structure using differential programming",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Physics of Quantum Correlation Functions"
+      },
+      {
+        "level": "H1",
+        "text": "Differentiable sampling algorithm"
+      },
+      {
+        "level": "H1",
+        "text": "Inference using differential sampling and GANs"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Double half-moon distribution~label{app:halfmoon"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15768v1",
+    "url": "http://arxiv.org/abs/2507.15768v1"
+  },
+  {
+    "title": "Asymptotic normality of embedding distributions of some families of graphs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminary"
+      },
+      {
+        "level": "H1",
+        "text": "Tree-like graphs and central limit theorem"
+      },
+      {
+        "level": "H1",
+        "text": "Asymptotic normality via perturbation"
+      },
+      {
+        "level": "H2",
+        "text": "Ring-like graph families"
+      },
+      {
+        "level": "H2",
+        "text": "Strictly monotone sequences of graphs"
+      },
+      {
+        "level": "H1",
+        "text": "Double-edge cycle graphs via analytic combinatorics"
+      },
+      {
+        "level": "H2",
+        "text": "Genus distribution for double-edge cycle graphs"
+      },
+      {
+        "level": "H2",
+        "text": "Euler-genus distribution for double-edge cycle graphs"
+      },
+      {
+        "level": "H1",
+        "text": "Genus generating functions of texorpdfstring{$H$"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Recurrence relations"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix I"
+      },
+      {
+        "level": "H2",
+        "text": "Adding a pair of parallel edges"
+      },
+      {
+        "level": "H2",
+        "text": "Edge-adding rules"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix B"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix C"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix D"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15751v1",
+    "url": "http://arxiv.org/abs/2507.15751v1"
+  },
+  {
+    "title": "Conformal and kNN Predictive Uncertainty Quantification Algorithms in Metric Spaces",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation and goal"
+      },
+      {
+        "level": "H2",
+        "text": "Notation and problem definition"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      },
+      {
+        "level": "H2",
+        "text": "General view of existing uncertainty quantification methods"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical models"
+      },
+      {
+        "level": "H2",
+        "text": "Homoscedastic case"
+      },
+      {
+        "level": "H3",
+        "text": "Statistical consistency"
+      },
+      {
+        "level": "H2",
+        "text": "Heteroscedastic case"
+      },
+      {
+        "level": "H3",
+        "text": "Statistical Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Optimized kNN algorithm with parameter selection"
+      },
+      {
+        "level": "H2",
+        "text": "Regression algorithms in metric spaces: Random Forest, Global Fréchet regression method, and (k)NN"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Conditional Coverage Examination"
+      },
+      {
+        "level": "H2",
+        "text": "Effects of Dimension: Homoscedastic vs. Heteroscedastic Algorithms"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of real-world clinical data"
+      },
+      {
+        "level": "H2",
+        "text": "Shape Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Data Description"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Multidimensional Euclidean data"
+      },
+      {
+        "level": "H3",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Data Description"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Distributional Representation of Biosensor Time Series"
+      },
+      {
+        "level": "H3",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Data Description"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Related Literature"
+      },
+      {
+        "level": "H3",
+        "text": "Statistical modeling in metric spaces"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15741v1",
+    "url": "http://arxiv.org/abs/2507.15741v1"
+  },
+  {
+    "title": "Minimal horizontal triods: Analysis and computation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "On tangent, normal, and curvature vectors"
+      },
+      {
+        "level": "H2",
+        "text": "Horizontal curves of minimal length"
+      },
+      {
+        "level": "H1",
+        "text": "Horizontal triods"
+      },
+      {
+        "level": "H2",
+        "text": "Existence of a minimal configuration"
+      },
+      {
+        "level": "H2",
+        "text": "Euler--Lagrange equations and regularity of minimizers"
+      },
+      {
+        "level": "H2",
+        "text": "Formulation of horizontal curve shortening flow for triods"
+      },
+      {
+        "level": "H3",
+        "text": "Weak formulation used for numerics"
+      },
+      {
+        "level": "H1",
+        "text": "Finite element approximation"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical results"
+      },
+      {
+        "level": "H2",
+        "text": "Planar straight line initial data"
+      },
+      {
+        "level": "H2",
+        "text": "Straight line initial data"
+      },
+      {
+        "level": "H2",
+        "text": "Compatible curved initial data"
+      },
+      {
+        "level": "H2",
+        "text": "Incompatible curved initial data"
+      },
+      {
+        "level": "H1",
+        "text": "Supporting materials"
+      },
+      {
+        "level": "H1",
+        "text": "Horizontal curve shortening flow"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15740v1",
+    "url": "http://arxiv.org/abs/2507.15740v1"
+  },
+  {
+    "title": "TONUS: Neuromorphic human pose estimation for artistic sound co-creation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Pose estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Visual human-machine interaction"
+      },
+      {
+        "level": "H2",
+        "text": "Pose and gesture driven sound installations"
+      },
+      {
+        "level": "H3",
+        "text": "Closest sound installation concepts"
+      },
+      {
+        "level": "H3",
+        "text": "Gesture-only interaction"
+      },
+      {
+        "level": "H3",
+        "text": "Sculptural approaches"
+      },
+      {
+        "level": "H3",
+        "text": "Interactive dancing"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Sparse event-based pose estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Network architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Training details"
+      },
+      {
+        "level": "H2",
+        "text": "Hardware aware optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Kalman filtering"
+      },
+      {
+        "level": "H1",
+        "text": "Artistic installation"
+      },
+      {
+        "level": "H2",
+        "text": "Artistic statement"
+      },
+      {
+        "level": "H2",
+        "text": "Installation set-up"
+      },
+      {
+        "level": "H2",
+        "text": "Musical landscapes"
+      },
+      {
+        "level": "H3",
+        "text": "Le tourbillon de la vie"
+      },
+      {
+        "level": "H3",
+        "text": "Tech now"
+      },
+      {
+        "level": "H3",
+        "text": "Screaching"
+      },
+      {
+        "level": "H1",
+        "text": "RESULTS"
+      },
+      {
+        "level": "H2",
+        "text": "Pose estimation accuracy"
+      },
+      {
+        "level": "H2",
+        "text": "Energy and sparsity"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation"
+      },
+      {
+        "level": "H3",
+        "text": "Kalman filter"
+      },
+      {
+        "level": "H3",
+        "text": "Time bin resolution"
+      },
+      {
+        "level": "H3",
+        "text": "Artificial encoder"
+      },
+      {
+        "level": "H3",
+        "text": "Neuron model"
+      },
+      {
+        "level": "H3",
+        "text": "Multihead loss"
+      },
+      {
+        "level": "H3",
+        "text": "Architecture tuning"
+      },
+      {
+        "level": "H2",
+        "text": "Artistic Exhibition"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSION AND DISCUSSION"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15734v1",
+    "url": "http://arxiv.org/abs/2507.15734v1"
+  },
+  {
+    "title": "The theory of reachability in trace-pushdown systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Mazurkiewicz traces"
+      },
+      {
+        "level": "H2",
+        "text": "Trace-pushdown systems"
+      },
+      {
+        "level": "H1",
+        "text": "fnf-automatic relations"
+      },
+      {
+        "level": "H1",
+        "text": "Reachability and fnf-automaticity"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem~ref{T-semi-main"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15733v1",
+    "url": "http://arxiv.org/abs/2507.15733v1"
+  },
+  {
+    "title": "Sidorenko-Type Inequalities for Even Subdivisions over Finite Abelian Groups",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Fourier-analytic approach"
+      },
+      {
+        "level": "H2",
+        "text": "The circuit matrix"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of the main result"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15723v1",
+    "url": "http://arxiv.org/abs/2507.15723v1"
+  },
+  {
+    "title": "Estimating Rate-Distortion Functions Using the Energy-Based Model",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Models"
+      },
+      {
+        "level": "H2",
+        "text": "Rate-Distortion Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Connection between Rate-Distortion Problem and Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Energy-Based Model of Rate-Distortion Function"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Rate-Distortion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Relation with Classical Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results and Discussions"
+      },
+      {
+        "level": "H2",
+        "text": "Cases with Scalar Classical Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation for Vector Gaussian Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Conditional Sampling"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Estimation of rate and distortion"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15700v1",
+    "url": "http://arxiv.org/abs/2507.15700v1"
+  },
+  {
+    "title": "CoLD: Counterfactually-Guided Length Debiasing for Process Reward Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Using LaTeX{"
+      },
+      {
+        "level": "H2",
+        "text": "Document Preamble"
+      },
+      {
+        "level": "H3",
+        "text": "The Following Must Appear in Your Preamble"
+      },
+      {
+        "level": "H2",
+        "text": "Preparing Your Paper"
+      },
+      {
+        "level": "H2",
+        "text": "Commands and Packages That May Not Be Used"
+      },
+      {
+        "level": "H2",
+        "text": "Page Breaks"
+      },
+      {
+        "level": "H2",
+        "text": "Paper Size, Margins, and Column Width"
+      },
+      {
+        "level": "H3",
+        "text": "Column Width and Margins."
+      },
+      {
+        "level": "H2",
+        "text": "Overlength Papers"
+      },
+      {
+        "level": "H2",
+        "text": "Type Font and Size"
+      },
+      {
+        "level": "H3",
+        "text": "Obtaining Type 1 Computer Modern for LaTeX{"
+      },
+      {
+        "level": "H3",
+        "text": "Nonroman Fonts."
+      },
+      {
+        "level": "H2",
+        "text": "Title and Authors"
+      },
+      {
+        "level": "H3",
+        "text": "Formatting Author Information."
+      },
+      {
+        "level": "H2",
+        "text": "LaTeX{"
+      },
+      {
+        "level": "H2",
+        "text": "Credits"
+      },
+      {
+        "level": "H2",
+        "text": "Abstract"
+      },
+      {
+        "level": "H2",
+        "text": "Page Numbers"
+      },
+      {
+        "level": "H2",
+        "text": "Text"
+      },
+      {
+        "level": "H2",
+        "text": "Citations"
+      },
+      {
+        "level": "H2",
+        "text": "Extracts"
+      },
+      {
+        "level": "H2",
+        "text": "Footnotes"
+      },
+      {
+        "level": "H2",
+        "text": "Headings and Sections"
+      },
+      {
+        "level": "H3",
+        "text": "Section Numbers."
+      },
+      {
+        "level": "H3",
+        "text": "Section Headings."
+      },
+      {
+        "level": "H3",
+        "text": "Appendices."
+      },
+      {
+        "level": "H3",
+        "text": "Ethical Statement."
+      },
+      {
+        "level": "H3",
+        "text": "Acknowledgments."
+      },
+      {
+        "level": "H3",
+        "text": "References."
+      },
+      {
+        "level": "H2",
+        "text": "Illustrations and  Figures"
+      },
+      {
+        "level": "H2",
+        "text": "Tables"
+      },
+      {
+        "level": "H2",
+        "text": "Tables"
+      },
+      {
+        "level": "H3",
+        "text": "Low-Resolution Bitmaps."
+      },
+      {
+        "level": "H3",
+        "text": "LaTeX{"
+      },
+      {
+        "level": "H3",
+        "text": "Using Color."
+      },
+      {
+        "level": "H3",
+        "text": "Drawings."
+      },
+      {
+        "level": "H3",
+        "text": "Photographs and Images."
+      },
+      {
+        "level": "H3",
+        "text": "Resizing Graphics."
+      },
+      {
+        "level": "H3",
+        "text": "Fonts in Your Illustrations."
+      },
+      {
+        "level": "H3",
+        "text": "Algorithms."
+      },
+      {
+        "level": "H3",
+        "text": "Listings."
+      },
+      {
+        "level": "H2",
+        "text": "References"
+      },
+      {
+        "level": "H1",
+        "text": "Proofreading Your PDF"
+      },
+      {
+        "level": "H1",
+        "text": "Improperly Formatted Files"
+      },
+      {
+        "level": "H1",
+        "text": "Naming Your Electronic File"
+      },
+      {
+        "level": "H1",
+        "text": "Submitting Your Electronic Files to AAAI"
+      },
+      {
+        "level": "H1",
+        "text": "Inquiries"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Resources"
+      },
+      {
+        "level": "H1",
+        "text": "Reference Examples"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of CoLD PRM"
+      },
+      {
+        "level": "H2",
+        "text": "Causal and Counterfactual Foundations"
+      },
+      {
+        "level": "H2",
+        "text": "Length Penalty"
+      },
+      {
+        "level": "H2",
+        "text": "Bias Estimator"
+      },
+      {
+        "level": "H2",
+        "text": "Joint Training with PRM and Bias Estimator"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminary"
+      },
+      {
+        "level": "H2",
+        "text": "Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Causal-driven Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Process Reward Models"
+      },
+      {
+        "level": "H2",
+        "text": "Length Bias in RLHF"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H3",
+        "text": "Datasets and metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Baselines and Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Hyperparameter Study"
+      },
+      {
+        "level": "H2",
+        "text": "Debiased Visualization"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Details"
+      },
+      {
+        "level": "H2",
+        "text": "Example of Semi-synthetic Solution"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15698v1",
+    "url": "http://arxiv.org/abs/2507.15698v1"
+  },
+  {
+    "title": "LINR-PCGC: Lossless Implicit Neural Representations for Point Cloud Geometry Compression",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Initialization Strategy"
+      },
+      {
+        "level": "H2",
+        "text": "Network"
+      },
+      {
+        "level": "H3",
+        "text": "Point Cloud Downsampling"
+      },
+      {
+        "level": "H3",
+        "text": "Scale Context Extraction"
+      },
+      {
+        "level": "H3",
+        "text": "Child Node Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Lowest Scale Point Compression"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Quantization"
+      },
+      {
+        "level": "H2",
+        "text": "Model Compression"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional methods"
+      },
+      {
+        "level": "H2",
+        "text": "AI-based methods"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Model Parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Configuration"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Result"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "Ablation of initialization strategies"
+      },
+      {
+        "level": "H3",
+        "text": "Ablation of modules"
+      },
+      {
+        "level": "H2",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Detail of parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary Experiment result"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary Bitstream and Time Allocation"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary of Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Bitstream heatmap"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15686v1",
+    "url": "http://arxiv.org/abs/2507.15686v1"
+  },
+  {
+    "title": "GeoHNNs: Geometric Hamiltonian Neural Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "An Overview of Differential Geometry"
+      },
+      {
+        "level": "H2",
+        "text": "Configuration Manifold and Lagrangian Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Hamiltonian Formulation on the Cotangent Bundle"
+      },
+      {
+        "level": "H2",
+        "text": "Model Order Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "A short introduction to Smooth Manifolds"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Proofs"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Numerical Results"
+      },
+      {
+        "level": "H1",
+        "text": "Reduced-Order Geometric Hamiltonian Neural Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Riemannian Geometry of Inertia Matrix"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic geometry of the Phase Space"
+      },
+      {
+        "level": "H2",
+        "text": "Training Objective and Optimization Procedure"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Models Description"
+      },
+      {
+        "level": "H3",
+        "text": "Low-Dimensional Setting"
+      },
+      {
+        "level": "H3",
+        "text": "High Dimensional Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Description"
+      },
+      {
+        "level": "H3",
+        "text": "Low-Dimensional Systems"
+      },
+      {
+        "level": "H3",
+        "text": "High-Dimensional Systems"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical Results"
+      },
+      {
+        "level": "H3",
+        "text": "Low Dimensional Setting"
+      },
+      {
+        "level": "H3",
+        "text": "High Dimensional Setting"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15678v1",
+    "url": "http://arxiv.org/abs/2507.15678v1"
+  },
+  {
+    "title": "Point Cloud Streaming with Latency-Driven Implicit Adaptation using MoQ",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Point Cloud Streaming"
+      },
+      {
+        "level": "H2",
+        "text": "QUIC/Media Over QUIC"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Point Cloud Sampling"
+      },
+      {
+        "level": "H2",
+        "text": "Session Management"
+      },
+      {
+        "level": "H2",
+        "text": "Transport Control"
+      },
+      {
+        "level": "H2",
+        "text": "Reconstruction"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15673v1",
+    "url": "http://arxiv.org/abs/2507.15673v1"
+  },
+  {
+    "title": "Characterization of downward Terrestrial Gamma-ray Flashes detected at the Pierre Auger Observatory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "The observation of downward TGFs at the Pierre Auger Observatory"
+      },
+      {
+        "level": "H1",
+        "text": "Characterization of TGF footprint and theoretical implications"
+      },
+      {
+        "level": "H1",
+        "text": "Performance of the long-signal algorithm for identification of TGF traces"
+      },
+      {
+        "level": "H1",
+        "text": "Future Lightning Local Network at the Auger Observatory"
+      },
+      {
+        "level": "H2",
+        "text": "BOLT General Information"
+      },
+      {
+        "level": "H1",
+        "text": "The Pierre Auger Collaboration"
+      },
+      {
+        "level": "H1",
+        "text": "Full Authors List: Coll Collaboration"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15669v1",
+    "url": "http://arxiv.org/abs/2507.15669v1"
+  },
+  {
+    "title": "Interaction-induced nematic Dirac semimetal from quadratic band touching: A constrained-path quantum Monte Carlo study",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Model"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Site-independent mean-field theory"
+      },
+      {
+        "level": "H2",
+        "text": "Sign problem in determinant quantum Monte Carlo"
+      },
+      {
+        "level": "H2",
+        "text": "Constrained-path quantum Monte Carlo"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Order parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Site-independent mean field solution"
+      },
+      {
+        "level": "H2",
+        "text": "Quasi-one-dimensional CP-QMC simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Two-dimensional simulations with periodic boundary condition"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15668v1",
+    "url": "http://arxiv.org/abs/2507.15668v1"
+  },
+  {
+    "title": "Sensor network localization has a benign landscape after low-dimensional relaxation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of the results"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Historical note"
+      },
+      {
+        "level": "H2",
+        "text": "Euclidean distance matrices"
+      },
+      {
+        "level": "H2",
+        "text": "Benign or not benign?"
+      },
+      {
+        "level": "H2",
+        "text": "Convex approaches"
+      },
+      {
+        "level": "H2",
+        "text": "A unique point to retrieve"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical background for SNL"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H2",
+        "text": "The optimization problem"
+      },
+      {
+        "level": "H2",
+        "text": "Properties of the EDM map"
+      },
+      {
+        "level": "H2",
+        "text": "The EDM map as a structured perturbation of the identity"
+      },
+      {
+        "level": "H2",
+        "text": "Derivatives and optimality conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Rank-deficient configurations are optimal"
+      },
+      {
+        "level": "H1",
+        "text": "boldmath Landscape for all ground truths, $dimopt approx sqrt{n"
+      },
+      {
+        "level": "H2",
+        "text": "Exploiting first-order criticality"
+      },
+      {
+        "level": "H2",
+        "text": "Second-order criticality and descent directions"
+      },
+      {
+        "level": "H2",
+        "text": "Controlling the eigenvalues of $P$"
+      },
+      {
+        "level": "H2",
+        "text": "Eigenvalue interlacing and the proof of Theorem~ref{th:sqrt-n"
+      },
+      {
+        "level": "H1",
+        "text": "boldmath Landscape for Gaussian ground truths, $dimopt approx log n$"
+      },
+      {
+        "level": "H1",
+        "text": "Examples of spurious configurations"
+      },
+      {
+        "level": "H2",
+        "text": "A general construction"
+      },
+      {
+        "level": "H2",
+        "text": "Explicit examples"
+      },
+      {
+        "level": "H2",
+        "text": "In the plane"
+      },
+      {
+        "level": "H2",
+        "text": "In higher dimensions: fewest points for non-benign landscape"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical observations"
+      },
+      {
+        "level": "H2",
+        "text": "Recovering the ground truth"
+      },
+      {
+        "level": "H2",
+        "text": "Driving the cost to zero"
+      },
+      {
+        "level": "H2",
+        "text": "A few comments"
+      },
+      {
+        "level": "H1",
+        "text": "Perspectives"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "An alternative set of properties of the EDM map"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of the revealing formulas"
+      },
+      {
+        "level": "H1",
+        "text": "Eigenvalue interlacing supplementary"
+      },
+      {
+        "level": "H1",
+        "text": "Geometric interpretations of the descent directions"
+      },
+      {
+        "level": "H1",
+        "text": "Robustness to noise"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15662v1",
+    "url": "http://arxiv.org/abs/2507.15662v1"
+  },
+  {
+    "title": "Cyber security of Mega Events: A Case Study of Securing the Digital Infrastructure for MahaKumbh 2025 -- A 45 days Mega Event of 600 Million Footfalls",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Organization"
+      },
+      {
+        "level": "H1",
+        "text": "Background & Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Statement: Mission Resiliency with Cyber Resiliency"
+      },
+      {
+        "level": "H1",
+        "text": "The Scope: Digital Components of the Event"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology for Achieving Cyber Resiliency"
+      },
+      {
+        "level": "H2",
+        "text": "Recommendations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion & Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15660v1",
+    "url": "http://arxiv.org/abs/2507.15660v1"
+  },
+  {
+    "title": "SENSOR: A Cost-Efficient Open-Source Flow Monitoring Platform",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "A Primer on Flow Monitoring"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Flow Meters"
+      },
+      {
+        "level": "H2",
+        "text": "Flow Collectors"
+      },
+      {
+        "level": "H1",
+        "text": "The SENSOR-Platform"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Flow Meter Components"
+      },
+      {
+        "level": "H3",
+        "text": "yaf"
+      },
+      {
+        "level": "H3",
+        "text": "MikroTik"
+      },
+      {
+        "level": "H2",
+        "text": "Flow Collector Components"
+      },
+      {
+        "level": "H3",
+        "text": "nfacctd"
+      },
+      {
+        "level": "H3",
+        "text": "nfdump"
+      },
+      {
+        "level": "H3",
+        "text": "SiLK toolset"
+      },
+      {
+        "level": "H3",
+        "text": "GoFlow2"
+      },
+      {
+        "level": "H3",
+        "text": "flowpipeline"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Rest"
+      },
+      {
+        "level": "H2",
+        "text": "new{Flow Collection"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15659v1",
+    "url": "http://arxiv.org/abs/2507.15659v1"
+  },
+  {
+    "title": "Data augmentation enables label-specific generation of homologous protein sequences",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction - old"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Data augmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Label-specific generation"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Materials and Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets: protein families and functional annotations"
+      },
+      {
+        "level": "H3",
+        "text": "Response Regulators"
+      },
+      {
+        "level": "H3",
+        "text": "SH3 domain"
+      },
+      {
+        "level": "H3",
+        "text": "Globin family"
+      },
+      {
+        "level": "H3",
+        "text": "Chorismate Mutase"
+      },
+      {
+        "level": "H2",
+        "text": "Train/test splitting of homologous protein families"
+      },
+      {
+        "level": "H2",
+        "text": "Embedding Restricted Boltzmann Machine"
+      },
+      {
+        "level": "H2",
+        "text": "Embedding using protein language models"
+      },
+      {
+        "level": "H2",
+        "text": "Contrastive low-rank fine-tuning of the pLM"
+      },
+      {
+        "level": "H2",
+        "text": "The problem of choosing the fine-tuning hyperparameters"
+      },
+      {
+        "level": "H2",
+        "text": "Generative Restricted Boltzmann Machine"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      },
+      {
+        "level": "H1",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Clustering"
+      },
+      {
+        "level": "H1",
+        "text": "Hyperparameters for contrastive fine-tuning"
+      },
+      {
+        "level": "H1",
+        "text": "Detailed analysis of false-positive predictions"
+      },
+      {
+        "level": "H1",
+        "text": "Results for other families and comparison with ESM2"
+      },
+      {
+        "level": "H1",
+        "text": "Additional figures"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15651v1",
+    "url": "http://arxiv.org/abs/2507.15651v1"
+  },
+  {
+    "title": "EMP: Executable Motion Prior for Humanoid Robot Standing Upper-body Motion Imitation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Motion Retargeting"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning for Humanoid"
+      },
+      {
+        "level": "H2",
+        "text": "Humanoids Imitation from Human Motion"
+      },
+      {
+        "level": "H1",
+        "text": "Retargeting Human Motion to Humanoids"
+      },
+      {
+        "level": "H2",
+        "text": "Retargeting Network Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Training Loss"
+      },
+      {
+        "level": "H1",
+        "text": "RL Control Policy Training for Humanoid Upper-Body Imitation"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "State Space"
+      },
+      {
+        "level": "H2",
+        "text": "Reward Design"
+      },
+      {
+        "level": "H2",
+        "text": "Domain Randomization"
+      },
+      {
+        "level": "H2",
+        "text": "Termination Conditions"
+      },
+      {
+        "level": "H1",
+        "text": "Executable Motion Prior"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Training"
+      },
+      {
+        "level": "H2",
+        "text": "Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "Smoothness of Motion"
+      },
+      {
+        "level": "H2",
+        "text": "Real-world Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experiments on Another Platform"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions and Future Work"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15649v1",
+    "url": "http://arxiv.org/abs/2507.15649v1"
+  },
+  {
+    "title": "Towards Explainable Anomaly Detection in Shared Mobility Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A summary of Latin grammar"
+      },
+      {
+        "level": "H1",
+        "text": "Some Latin vocabulary"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Directions"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Importance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Neighborhood and Station-Level Spatial Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study: Anomaly Spikes and External Influences"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15643v1",
+    "url": "http://arxiv.org/abs/2507.15643v1"
+  },
+  {
+    "title": "Uncovering Critical Features for Deepfake Detection through the Lottery Ticket Hypothesis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "Deepfake Detection Models and Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Pruning Algorithms and Their Applications"
+      },
+      {
+        "level": "H2",
+        "text": "Pruning Algorithm in AI"
+      },
+      {
+        "level": "H1",
+        "text": "Exploring the Lottery Ticket Hypothesis for Deepfake Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Identifying Winning Tickets"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges in Applying LTH to Deepfake Detection"
+      },
+      {
+        "level": "H3",
+        "text": "Preserving Rare Feature Sensitivity"
+      },
+      {
+        "level": "H3",
+        "text": "Mitigating Pruning Bias"
+      },
+      {
+        "level": "H2",
+        "text": "Iterative Magnitude Pruning (IMP)"
+      },
+      {
+        "level": "H2",
+        "text": "Transferability of Sparse Subnetworks Across Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Analyzing Pruning Effects Using Grad-CAM"
+      },
+      {
+        "level": "H3",
+        "text": "Feature Activation Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Heatmap Generation"
+      },
+      {
+        "level": "H3",
+        "text": "Comparative Attention Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Datasets and Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Network Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Training Protocol"
+      },
+      {
+        "level": "H1",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Across Pruning Rates"
+      },
+      {
+        "level": "H2",
+        "text": "Impact of Pruning Strategies"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture-Specific Behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Grad-CAM Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Transfer Ticket"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations, Conclusions, and Future Work"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15636v1",
+    "url": "http://arxiv.org/abs/2507.15636v1"
+  },
+  {
+    "title": "Any-Dimensional Polynomial Optimization via de Finetti Theorems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "A First Illustration"
+      },
+      {
+        "level": "H2",
+        "text": "Our Contributions"
+      },
+      {
+        "level": "H2",
+        "text": "Contribution $1$: Formalizing Any-Dimensional POPs"
+      },
+      {
+        "level": "H2",
+        "text": "Contribution $2$: Generalized De Finetti Theorems"
+      },
+      {
+        "level": "H2",
+        "text": "Contribution $3$: Lower Bounds on Any-Dimensional POPs"
+      },
+      {
+        "level": "H2",
+        "text": "Contribution $4$: SDP Relaxations and Their Limits"
+      },
+      {
+        "level": "H2",
+        "text": "Contribution $2$: Lower Bounds via de Finetti Theorems"
+      },
+      {
+        "level": "H2",
+        "text": "Contribution $3$: SDP Relaxations for Lower Bounds"
+      },
+      {
+        "level": "H2",
+        "text": "Contribution $4$: Limiting SDP Relaxations"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H1",
+        "text": "Bounds for Any-Dimensional Polynomial Problems"
+      },
+      {
+        "level": "H2",
+        "text": "Freely-Symmetrized Bounds for Freely-Described Problems"
+      },
+      {
+        "level": "H2",
+        "text": "Any-Dimensional Certificates of Nonnegativity"
+      },
+      {
+        "level": "H2",
+        "text": "Proofs for Section~ref{sec:free_sym_bds"
+      },
+      {
+        "level": "H1",
+        "text": "Background on Representation Stability"
+      },
+      {
+        "level": "H2",
+        "text": "Consistent Sequences"
+      },
+      {
+        "level": "H2",
+        "text": "Free Invariants and Their Stabilization"
+      },
+      {
+        "level": "H3",
+        "text": "Representation stability"
+      },
+      {
+        "level": "H3",
+        "text": "Shifted consistent sequences"
+      },
+      {
+        "level": "H3",
+        "text": "Free sets and their compatibility"
+      },
+      {
+        "level": "H2",
+        "text": "Optimization over polynomials and moments"
+      },
+      {
+        "level": "H2",
+        "text": "Symmetry reduction of SOS cones"
+      },
+      {
+        "level": "H1",
+        "text": "Free Measures and Generalized de Finetti Theorems"
+      },
+      {
+        "level": "H2",
+        "text": "Reformulating and Generalizing de Finetti's Theorem"
+      },
+      {
+        "level": "H2",
+        "text": "Freely-Described Measures Over texorpdfstring{$mscr Z$"
+      },
+      {
+        "level": "H2",
+        "text": "Freely-Described Measures Over texorpdfstring{$mscr D$"
+      },
+      {
+        "level": "H2",
+        "text": "Proofs for Section~ref{sec:deFinetti"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Any-Dimensional Polynomial Problems"
+      },
+      {
+        "level": "H2",
+        "text": "Freely-Described POPs"
+      },
+      {
+        "level": "H2",
+        "text": "Freely-Symmetrized POPs"
+      },
+      {
+        "level": "H2",
+        "text": "Pairings of Freely-Described and Freely-Symmetrized Problems"
+      },
+      {
+        "level": "H1",
+        "text": "Illustrations of Our Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Polynomial Mean-Field Games"
+      },
+      {
+        "level": "H2",
+        "text": "Inequalities in Symmetric Functions"
+      },
+      {
+        "level": "H2",
+        "text": "Inequalities in Graph Homomorphism Densities"
+      },
+      {
+        "level": "H2",
+        "text": "Inequalities in Graph Homomorphism Numbers"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15632v1",
+    "url": "http://arxiv.org/abs/2507.15632v1"
+  },
+  {
+    "title": "A Survey on Efficiency Optimization Techniques for DNN-based Video Analytics: Process Systems, Algorithms, and Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Storage Supporting Layer"
+      },
+      {
+        "level": "H2",
+        "text": "Storage Medium"
+      },
+      {
+        "level": "H2",
+        "text": "Storage Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Computing System Layer"
+      },
+      {
+        "level": "H2",
+        "text": "Edge Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Model Compression"
+      },
+      {
+        "level": "H3",
+        "text": "Model Configuration Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Edge Resource Scheduling"
+      },
+      {
+        "level": "H3",
+        "text": "Edge Hardware Acceleration"
+      },
+      {
+        "level": "H2",
+        "text": "Edge-Cloud Collaborative Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Edge-Cloud Data Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Edge-Cloud Transmission Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Edge-Cloud Collaborative Inference"
+      },
+      {
+        "level": "H2",
+        "text": "Cloud Optimization"
+      },
+      {
+        "level": "H1",
+        "text": "DNN Algorithm Layer"
+      },
+      {
+        "level": "H2",
+        "text": "Spatial Dimension"
+      },
+      {
+        "level": "H3",
+        "text": "Pixel-level Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Region-level Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Resolution-level Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Dimension"
+      },
+      {
+        "level": "H3",
+        "text": "Feature-wise Propagation"
+      },
+      {
+        "level": "H3",
+        "text": "Frame-wise Sampling"
+      },
+      {
+        "level": "H3",
+        "text": "Sequence-wise Exiting"
+      },
+      {
+        "level": "H1",
+        "text": "Application Layer"
+      },
+      {
+        "level": "H2",
+        "text": "Transportation Field"
+      },
+      {
+        "level": "H3",
+        "text": "Surveillance Event Query"
+      },
+      {
+        "level": "H3",
+        "text": "Super-resolution Reconstruction"
+      },
+      {
+        "level": "H3",
+        "text": "Anomaly Detection"
+      },
+      {
+        "level": "H3",
+        "text": "Surveillance Object Tracking"
+      },
+      {
+        "level": "H3",
+        "text": "Video Scene Understanding"
+      },
+      {
+        "level": "H3",
+        "text": "Traffic Density Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Commercial Retail Field"
+      },
+      {
+        "level": "H2",
+        "text": "Industrial Security Field"
+      },
+      {
+        "level": "H3",
+        "text": "Industrial Video Summarization"
+      },
+      {
+        "level": "H3",
+        "text": "Personal Protective Equipment (PPE) Detection"
+      },
+      {
+        "level": "H1",
+        "text": "Challenges and Open Issues"
+      },
+      {
+        "level": "H2",
+        "text": "Emerging AI Hardware Support"
+      },
+      {
+        "level": "H2",
+        "text": "Video Foundation Model Technology"
+      },
+      {
+        "level": "H2",
+        "text": "6G-Enabled Edge-Cloud Video Scheduling"
+      },
+      {
+        "level": "H2",
+        "text": "New Application Scenarios"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Template Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Template Styles"
+      },
+      {
+        "level": "H2",
+        "text": "Template Parameters"
+      },
+      {
+        "level": "H1",
+        "text": "Modifications"
+      },
+      {
+        "level": "H1",
+        "text": "Typefaces"
+      },
+      {
+        "level": "H1",
+        "text": "Title Information"
+      },
+      {
+        "level": "H1",
+        "text": "Authors and Affiliations"
+      },
+      {
+        "level": "H1",
+        "text": "Rights Information"
+      },
+      {
+        "level": "H1",
+        "text": "CCS Concepts and User-Defined Keywords"
+      },
+      {
+        "level": "H1",
+        "text": "Sectioning Commands"
+      },
+      {
+        "level": "H2",
+        "text": "Subsection"
+      },
+      {
+        "level": "H3",
+        "text": "Subsubsection"
+      },
+      {
+        "level": "H1",
+        "text": "Tables"
+      },
+      {
+        "level": "H1",
+        "text": "Math Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Inline (In-text) Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Display Equations"
+      },
+      {
+        "level": "H1",
+        "text": "Figures"
+      },
+      {
+        "level": "H2",
+        "text": "The ``Teaser Figure''"
+      },
+      {
+        "level": "H1",
+        "text": "Citations and Bibliographies"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Multi-language papers"
+      },
+      {
+        "level": "H1",
+        "text": "SIGCHI Extended Abstracts"
+      },
+      {
+        "level": "H1",
+        "text": "Research Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Part One"
+      },
+      {
+        "level": "H2",
+        "text": "Part Two"
+      },
+      {
+        "level": "H1",
+        "text": "Online Resources"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Template Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Template Styles"
+      },
+      {
+        "level": "H2",
+        "text": "Template Parameters"
+      },
+      {
+        "level": "H1",
+        "text": "Modifications"
+      },
+      {
+        "level": "H1",
+        "text": "Typefaces"
+      },
+      {
+        "level": "H1",
+        "text": "Title Information"
+      },
+      {
+        "level": "H1",
+        "text": "Authors and Affiliations"
+      },
+      {
+        "level": "H1",
+        "text": "Rights Information"
+      },
+      {
+        "level": "H1",
+        "text": "CCS Concepts and User-Defined Keywords"
+      },
+      {
+        "level": "H1",
+        "text": "Sectioning Commands"
+      },
+      {
+        "level": "H2",
+        "text": "Subsection"
+      },
+      {
+        "level": "H3",
+        "text": "Subsubsection"
+      },
+      {
+        "level": "H1",
+        "text": "Tables"
+      },
+      {
+        "level": "H1",
+        "text": "Math Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Inline (In-text) Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Display Equations"
+      },
+      {
+        "level": "H1",
+        "text": "Figures"
+      },
+      {
+        "level": "H2",
+        "text": "The ``Teaser Figure''"
+      },
+      {
+        "level": "H1",
+        "text": "Citations and Bibliographies"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Multi-language papers"
+      },
+      {
+        "level": "H1",
+        "text": "SIGCHI Extended Abstracts"
+      },
+      {
+        "level": "H1",
+        "text": "Research Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Part One"
+      },
+      {
+        "level": "H2",
+        "text": "Part Two"
+      },
+      {
+        "level": "H1",
+        "text": "Online Resources"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Template Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Template Styles"
+      },
+      {
+        "level": "H2",
+        "text": "Template Parameters"
+      },
+      {
+        "level": "H1",
+        "text": "Modifications"
+      },
+      {
+        "level": "H1",
+        "text": "Typefaces"
+      },
+      {
+        "level": "H1",
+        "text": "Title Information"
+      },
+      {
+        "level": "H1",
+        "text": "Authors and Affiliations"
+      },
+      {
+        "level": "H1",
+        "text": "Rights Information"
+      },
+      {
+        "level": "H1",
+        "text": "CCS Concepts and User-Defined Keywords"
+      },
+      {
+        "level": "H1",
+        "text": "Sectioning Commands"
+      },
+      {
+        "level": "H2",
+        "text": "Subsection"
+      },
+      {
+        "level": "H3",
+        "text": "Subsubsection"
+      },
+      {
+        "level": "H1",
+        "text": "Tables"
+      },
+      {
+        "level": "H1",
+        "text": "Math Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Inline (In-text) Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Display Equations"
+      },
+      {
+        "level": "H1",
+        "text": "Figures"
+      },
+      {
+        "level": "H2",
+        "text": "The ``Teaser Figure''"
+      },
+      {
+        "level": "H1",
+        "text": "Citations and Bibliographies"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Multi-language papers"
+      },
+      {
+        "level": "H1",
+        "text": "SIGCHI Extended Abstracts"
+      },
+      {
+        "level": "H1",
+        "text": "Research Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Part One"
+      },
+      {
+        "level": "H2",
+        "text": "Part Two"
+      },
+      {
+        "level": "H1",
+        "text": "Online Resources"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15628v1",
+    "url": "http://arxiv.org/abs/2507.15628v1"
+  },
+  {
+    "title": "Zak-OTFS based Multiuser Uplink in Doubly-Spread Channels",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "System model"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Zak-OTFS Multiuser Uplink (Zak-OTFS-MUL)"
+      },
+      {
+        "level": "H2",
+        "text": "Proposed DD domain processing at transmitter"
+      },
+      {
+        "level": "H2",
+        "text": "DD domain receiver processing at the BS"
+      },
+      {
+        "level": "H2",
+        "text": "TF localization of a UT's transmit signal"
+      },
+      {
+        "level": "H2",
+        "text": "Embedded Pilot and Data Frame for Multiple UTs"
+      },
+      {
+        "level": "H2",
+        "text": "Embedded Pilot and Data Frame for Multiple UTs"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Results and Discussions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of (ref{eqn8"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of step-(a) in (ref{eqn1213"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of (ref{eqn15"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem ref{theorem2"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem ref{theorem4"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15621v1",
+    "url": "http://arxiv.org/abs/2507.15621v1"
+  },
+  {
+    "title": "TacticCraft: Natural Language-Driven Tactical Adaptation for StarCraft II",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset Collection"
+      },
+      {
+        "level": "H2",
+        "text": "StarCraft II Language Corpus"
+      },
+      {
+        "level": "H2",
+        "text": "Replay Processing and Build Order Extraction"
+      },
+      {
+        "level": "H2",
+        "text": "Tactical Classification Using Large Language Models"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Base Policy Network"
+      },
+      {
+        "level": "H2",
+        "text": "Adapter Architecture and Tactical Conditioning"
+      },
+      {
+        "level": "H2",
+        "text": "Training Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Against Built-in AI"
+      },
+      {
+        "level": "H2",
+        "text": "Case Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Impact Statement"
+      },
+      {
+        "level": "H1",
+        "text": "DI-Star original architecture"
+      },
+      {
+        "level": "H1",
+        "text": "DI-Star Network Architecture Details"
+      },
+      {
+        "level": "H2",
+        "text": "Observation Encoders"
+      },
+      {
+        "level": "H3",
+        "text": "Entity Encoder"
+      },
+      {
+        "level": "H3",
+        "text": "Scalar Encoder"
+      },
+      {
+        "level": "H3",
+        "text": "Spatial Encoder"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Processing (LSTM)"
+      },
+      {
+        "level": "H2",
+        "text": "Action Heads"
+      },
+      {
+        "level": "H3",
+        "text": "Action Type Head"
+      },
+      {
+        "level": "H3",
+        "text": "Target Unit Head"
+      },
+      {
+        "level": "H3",
+        "text": "Location Head"
+      },
+      {
+        "level": "H3",
+        "text": "Selected Units Head"
+      },
+      {
+        "level": "H3",
+        "text": "Auxiliary Heads (Delay and Queued)"
+      },
+      {
+        "level": "H2",
+        "text": "Network Integration"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "StarCraft II Full Game AI"
+      },
+      {
+        "level": "H2",
+        "text": "Language Models for StarCraft II"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter-Efficient Transfer Learning"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Tactical Categories"
+      },
+      {
+        "level": "H2",
+        "text": "Model Configurations"
+      },
+      {
+        "level": "H3",
+        "text": "Configuration A"
+      },
+      {
+        "level": "H3",
+        "text": "Configuration B"
+      },
+      {
+        "level": "H3",
+        "text": "Configuration C"
+      },
+      {
+        "level": "H3",
+        "text": "Configuration D"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15618v1",
+    "url": "http://arxiv.org/abs/2507.15618v1"
+  },
+  {
+    "title": "On zeros and algorithms for disordered systems: mean-field spin glasses",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Other Thresholds"
+      },
+      {
+        "level": "H2",
+        "text": "Prior Work"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Techniques and Overview of the Paper"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Reduction to the Mixed texorpdfstring{$p$"
+      },
+      {
+        "level": "H1",
+        "text": "Bounds on Curie--Weiss Partition Functions"
+      },
+      {
+        "level": "H2",
+        "text": "Reduction to One Dimension"
+      },
+      {
+        "level": "H1",
+        "text": "Algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Constructing Smooth Interpolating Curves"
+      },
+      {
+        "level": "H2",
+        "text": "Computing the Taylor Coefficients"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of texorpdfstring{cref{thm:alg-pspin-glass,thm:algos-gamma2=0"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Future Directions"
+      },
+      {
+        "level": "H1",
+        "text": "High-Temperature Curie--Weiss Free Energy Estimate"
+      },
+      {
+        "level": "H2",
+        "text": "Analytic Tools"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of texorpdfstring{cref{thm:1D-Z-bound"
+      },
+      {
+        "level": "H1",
+        "text": "Miscellaneous Calculations and Proofs"
+      },
+      {
+        "level": "H2",
+        "text": "A Simple Argument for the Sherrington--Kirkpatrick Model"
+      },
+      {
+        "level": "H1",
+        "text": "Explicit Construction of Tubes"
+      },
+      {
+        "level": "H1",
+        "text": "A Failed Attempt to Resolve texorpdfstring{cref{conj:tube"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15616v1",
+    "url": "http://arxiv.org/abs/2507.15616v1"
+  },
+  {
+    "title": "DHEvo: Data-Algorithm Based Heuristic Evolution for Generalizable MILP Solving",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background and related works"
+      },
+      {
+        "level": "H2",
+        "text": "Branch&Bound and diving heuristic"
+      },
+      {
+        "level": "H2",
+        "text": "Performance measurement"
+      },
+      {
+        "level": "H2",
+        "text": "LLM for evolutionary computation"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Problem formulation and insight"
+      },
+      {
+        "level": "H2",
+        "text": "Data-Algorithm based heuristic evolution framework"
+      },
+      {
+        "level": "H2",
+        "text": "Framework implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental settings"
+      },
+      {
+        "level": "H2",
+        "text": "Experiments for diving performance"
+      },
+      {
+        "level": "H2",
+        "text": "Experiments for solving efficiency"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Diving Heuristics"
+      },
+      {
+        "level": "H1",
+        "text": "More experiment details"
+      },
+      {
+        "level": "H2",
+        "text": "SCIP settings"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments for practical MILP tasks."
+      },
+      {
+        "level": "H2",
+        "text": "Experimental settings"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental results"
+      },
+      {
+        "level": "H1",
+        "text": "Prompts"
+      },
+      {
+        "level": "H2",
+        "text": "Prompts design"
+      },
+      {
+        "level": "H2",
+        "text": "Example"
+      },
+      {
+        "level": "H1",
+        "text": "Generated heuristics"
+      },
+      {
+        "level": "H1",
+        "text": "NeurIPS Paper Checklist"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15615v1",
+    "url": "http://arxiv.org/abs/2507.15615v1"
+  },
+  {
+    "title": "Accelerating HEC-RAS: A Recurrent Neural Operator for Rapid River Forecasting",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background: HEC-RAS as a Data Preprocessor"
+      },
+      {
+        "level": "H2",
+        "text": "HEC-RAS: The Industry-Standard Solver"
+      },
+      {
+        "level": "H2",
+        "text": "Novel Use Case: From Solver to Pre-Processor"
+      },
+      {
+        "level": "H2",
+        "text": "The HEC-RAS File Ecosystem"
+      },
+      {
+        "level": "H2",
+        "text": "Key Hydraulic Terminology"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Data-Driven Surrogates for River Hydraulics"
+      },
+      {
+        "level": "H2",
+        "text": "Autoregressive Models for Temporal Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Operators for Spatial Dependencies"
+      },
+      {
+        "level": "H2",
+        "text": "Positioning This Work"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Input Feature Vector"
+      },
+      {
+        "level": "H2",
+        "text": "Network Architecture: A Recurrent Neural Operator"
+      },
+      {
+        "level": "H2",
+        "text": "Training and Inference"
+      },
+      {
+        "level": "H2",
+        "text": "Rationale for the Fourier Neural Operator Architecture"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Study Area and Data Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Training and Evaluation Protocol"
+      },
+      {
+        "level": "H2",
+        "text": "Autoregressive Rollout"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Performance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Case Studies: Representative Reaches"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies: Validation of Model Design"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Physics-based Feature Engineering"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Training Data Volume and Diversity"
+      },
+      {
+        "level": "H2",
+        "text": "Computational Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Tabular and Visual Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Physics-based Feature Engineering"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Training Data Volume and Diversity"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "The Primacy of Physics-Aware Features over Model Complexity"
+      },
+      {
+        "level": "H2",
+        "text": "The Fragility of Extrapolation and the Value of Training Data Completeness"
+      },
+      {
+        "level": "H2",
+        "text": "Operational Constraints in Complex Hydraulic Regimes"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15614v1",
+    "url": "http://arxiv.org/abs/2507.15614v1"
+  },
+  {
+    "title": "A Common Origin of Normal Type Ia Supernovae Suggested by the Photometric Diversity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "INTRODUCTION"
+      },
+      {
+        "level": "H1",
+        "text": "DATA SAMPLE"
+      },
+      {
+        "level": "H2",
+        "text": "ZTF and ATLAS Sample"
+      },
+      {
+        "level": "H2",
+        "text": "MUSSES Sample"
+      },
+      {
+        "level": "H1",
+        "text": "RESULTS"
+      },
+      {
+        "level": "H2",
+        "text": "EExSNe Ia"
+      },
+      {
+        "level": "H2",
+        "text": "Rise Time"
+      },
+      {
+        "level": "H2",
+        "text": "Color Evolution"
+      },
+      {
+        "level": "H1",
+        "text": "DISCUSSION"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric diversities in normal SNe Ia"
+      },
+      {
+        "level": "H2",
+        "text": "Thin He-shell double detonation, a common origin for normal SNe Ia?"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSIONS"
+      }
+    ],
+    "query": "graph neural networks",
+    "arxiv_id": "2507.15609v1",
+    "url": "http://arxiv.org/abs/2507.15609v1"
+  }
+]

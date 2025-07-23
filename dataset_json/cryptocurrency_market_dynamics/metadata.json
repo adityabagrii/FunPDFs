@@ -1,0 +1,4182 @@
+[
+  {
+    "title": "SeC: Advancing Complex Video Object Segmentation via Progressive Concept Construction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminary study on current VOS"
+      },
+      {
+        "level": "H2",
+        "text": "Segement Concept model"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "SeCVOS benchmark"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation details"
+      },
+      {
+        "level": "H2",
+        "text": "Main results on SeCVOS"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison on standard VOS benchmarks"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation study"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material Overview"
+      },
+      {
+        "level": "H1",
+        "text": "Details of SeCVOS"
+      },
+      {
+        "level": "H1",
+        "text": "Referring Video Object Segmentation on SeCVOS"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Qualitative Results"
+      },
+      {
+        "level": "H1",
+        "text": "Broader Impacts"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15852v1",
+    "url": "http://arxiv.org/abs/2507.15852v1"
+  },
+  {
+    "title": "Closure Conversion, Flat Environments, and the Complexity of Abstract Machines",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Part 3: Complexity of the \\TAM, or, Tuples Raise the Overhead"
+      },
+      {
+        "level": "H1",
+        "text": "Part 1: The Source Calculus \\texorpdfstring{$\\soucal$"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work and Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Part 3 Preliminaries: Sharing, Size Explosion, and the Complexity of Abstract Machines"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\LTAM for the Intermediate Calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\LTAM for \\texorpdfstring{$\\intcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Part 1: the Intermediate Calculus \\texorpdfstring{$\\intcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries: %the Call-by-Value $\\l$-Calculus $\\cbvcal$, Plus Some Notations"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{target-calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Part 3: Complexity of the \\TTAM, or, Closure Conversion Preserves the Overhead"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2 Preliminaries: Abstract Machines"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the Tupled Abstract Machine for the Source Calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\TAM for \\texorpdfstring{$\\soucal$"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{prelim-am"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{TAM"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{source-complexity"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{int-complexity"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs of \\refsect{sharing"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\TTAM for the Target Calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\TTAM for \\texorpdfstring{$\\tarcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{LTAM"
+      },
+      {
+        "level": "H1",
+        "text": "Part 1: Outline of the Target Calculus \\texorpdfstring{$\\tarcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Part 3: Size Explosion and Sharing for Tuples"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2 Preliminaries: Local Environments"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{intermediate-calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\Cref{sect:source-calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{TTAM"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation in OCaml of the \\TTAM"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15843v1",
+    "url": "http://arxiv.org/abs/2507.15843v1"
+  },
+  {
+    "title": "Data-driven optimal approximation on Hardy spaces in simply connected domains",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal model order reduction on Hardy spaces"
+      },
+      {
+        "level": "H1",
+        "text": "The $\\etwod$ and $\\durenhardy$ spaces"
+      },
+      {
+        "level": "H1",
+        "text": "The $\\etwod$ and $\\durenhardy$ approximation frameworks"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal interpolation conditons in the $\\etwod$ and $\\durenhardy$ frameworks"
+      },
+      {
+        "level": "H3",
+        "text": "Connection to the Schwarz function"
+      },
+      {
+        "level": "H2",
+        "text": "A TF-IRKA based algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Model order reduction of discrete-time time invariant delay systems"
+      },
+      {
+        "level": "H3",
+        "text": "Implicit Euler"
+      },
+      {
+        "level": "H3",
+        "text": "Midpoint method"
+      },
+      {
+        "level": "H3",
+        "text": "BDF methods"
+      },
+      {
+        "level": "H1",
+        "text": "Numerics"
+      },
+      {
+        "level": "H2",
+        "text": "Half plane region"
+      },
+      {
+        "level": "H2",
+        "text": "BDF2 method"
+      },
+      {
+        "level": "H2",
+        "text": "BDF4 method"
+      },
+      {
+        "level": "H1",
+        "text": "Proof \\cref{th:E2Dintcond"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15837v1",
+    "url": "http://arxiv.org/abs/2507.15837v1"
+  },
+  {
+    "title": "Observing Fine-Grained Changes in Jupyter Notebooks During Development Time",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Designing Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "Data Analysis Task"
+      },
+      {
+        "level": "H3",
+        "text": "Machine Learning Task"
+      },
+      {
+        "level": "H2",
+        "text": "Choosing Participants"
+      },
+      {
+        "level": "H2",
+        "text": "Executing the Experiment"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Empirical Analysis Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1: Nature of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2: The Purposes of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3: Changes in Data Science Steps"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Tooling"
+      },
+      {
+        "level": "H2",
+        "text": "Activity Plugin"
+      },
+      {
+        "level": "H2",
+        "text": "Server"
+      },
+      {
+        "level": "H2",
+        "text": "Post-processing Scripts"
+      },
+      {
+        "level": "H2",
+        "text": "Browsing the Notebook Versions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Findings"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ1:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ2:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ3:"
+      },
+      {
+        "level": "H3",
+        "text": "Stages of different data science steps"
+      },
+      {
+        "level": "H3",
+        "text": "Transitions between data science steps"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Code Evolution in Software Engineering"
+      },
+      {
+        "level": "H2",
+        "text": "Coding in Jupyter Notebooks"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Threats to Validity"
+      },
+      {
+        "level": "H2",
+        "text": "Implications"
+      },
+      {
+        "level": "H1",
+        "text": "Possible Future Research"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Analysis of the Workflow"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Code Dynamics"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15831v1",
+    "url": "http://arxiv.org/abs/2507.15831v1"
+  },
+  {
+    "title": "The Inflationary Quartic Hilltop Model in a Modified Gravity and Its Comparison with the Observations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The inflation via the $f(\\phi,T)$ theory"
+      },
+      {
+        "level": "H1",
+        "text": "The quartic hilltop inflation and the slow-roll"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions and discussion"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15812v1",
+    "url": "http://arxiv.org/abs/2507.15812v1"
+  },
+  {
+    "title": "Mpemba effect in self-contained quantum refrigerators: accelerated cooling",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "The quantum refrigerator model"
+      },
+      {
+        "level": "H2",
+        "text": "The Mpemba effect"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamics of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamical equations of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Steady state of self-contained refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "Mpemba Effect in quantum refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in absence of cold bath"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in presence of cold bath"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Lindblad operators of quantum refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "\\texorpdfstring{The expression of $D_{i"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15811v1",
+    "url": "http://arxiv.org/abs/2507.15811v1"
+  },
+  {
+    "title": "True Multimodal In-Context Learning Needs Attention to the Visual Context",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "DARA as a constrained version of LoRA"
+      },
+      {
+        "level": "H1",
+        "text": "TrueMICL"
+      },
+      {
+        "level": "H1",
+        "text": "More Details of Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "MLLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "More Experimental Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion on the Performance between DARA and LoRA"
+      },
+      {
+        "level": "H2",
+        "text": "Closed-source model performances"
+      },
+      {
+        "level": "H2",
+        "text": "Amounts of params in DARA"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of Prompt Design"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on TrueMICL"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of the DARA's Reallocation Effects"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on Standard VL Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Attention Reallocation"
+      },
+      {
+        "level": "H2",
+        "text": "TrueMICL, a MICL-dedicated Dataset"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15807v1",
+    "url": "http://arxiv.org/abs/2507.15807v1"
+  },
+  {
+    "title": "Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Semantic Communication for Emerging Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "List of Notations:"
+      },
+      {
+        "level": "H1",
+        "text": "System Model"
+      },
+      {
+        "level": "H2",
+        "text": "Signal Transmission Model"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Model"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Model"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Measures"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication"
+      },
+      {
+        "level": "H2",
+        "text": "Computing"
+      },
+      {
+        "level": "H1",
+        "text": "Joint Design of FA-enabled NF-ISCSC System"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Joint Beamforming and Computation Optimisation"
+      },
+      {
+        "level": "H2",
+        "text": "FA Position Optimisation"
+      },
+      {
+        "level": "H3",
+        "text": "Benchmark method (second-order Taylor expansion)"
+      },
+      {
+        "level": "H3",
+        "text": "Projected BFGS"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Extraction Ratio Optimisation"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Results"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Computing Performance"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Direction"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of FIM"
+      },
+      {
+        "level": "H1",
+        "text": "Proof and Derivation of Equation \\eqref{fim"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of FIM for a Point Target"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence Analysis"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15800v1",
+    "url": "http://arxiv.org/abs/2507.15800v1"
+  },
+  {
+    "title": "Chasing the formation history of the Galactic metal-poor disc",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data and Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Estimating abundances"
+      },
+      {
+        "level": "H3",
+        "text": "Machine learning"
+      },
+      {
+        "level": "H3",
+        "text": "Template fitting"
+      },
+      {
+        "level": "H2",
+        "text": "Computing Phase-space Quantities"
+      },
+      {
+        "level": "H2",
+        "text": "Stars for studying the Milky Way"
+      },
+      {
+        "level": "H2",
+        "text": "Classification of sample stars"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "GSE vs Galactic discs"
+      },
+      {
+        "level": "H2",
+        "text": "GSE vs other merger remnants"
+      },
+      {
+        "level": "H2",
+        "text": "Unclassified DTGs"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Formation history of the Galactic metal-poor disc"
+      },
+      {
+        "level": "H3",
+        "text": "Formation process"
+      },
+      {
+        "level": "H3",
+        "text": "The primordial disc"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of GSE merger"
+      },
+      {
+        "level": "H3",
+        "text": "Metal-poor tail of metal-rich, low-$\\alpha$ disc"
+      },
+      {
+        "level": "H3",
+        "text": "Comparative analysis of metal-poor disc"
+      },
+      {
+        "level": "H2",
+        "text": "Properties of merger remnants"
+      },
+      {
+        "level": "H2",
+        "text": "New substructures"
+      },
+      {
+        "level": "H2",
+        "text": "Future prospects"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary materials on chemical abundances"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15794v1",
+    "url": "http://arxiv.org/abs/2507.15794v1"
+  },
+  {
+    "title": "Regularized Low-Rank Adaptation for Few-Shot Organ Segmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15793v1",
+    "url": "http://arxiv.org/abs/2507.15793v1"
+  },
+  {
+    "title": "Graph Attention Specialized Expert Fusion Model for Node Classification: Based on Cora and Pubmed Datasets",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Approaches to Node Classification"
+      },
+      {
+        "level": "H2",
+        "text": "Graph Neural Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Convolutional Networks (GCNs)"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Attention Networks (GATs)"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-hop and Higher-order Graph Neural Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-hop GNNs"
+      },
+      {
+        "level": "H3",
+        "text": "APPNP and SGC"
+      },
+      {
+        "level": "H2",
+        "text": "Ensemble Methods for Node Classification"
+      },
+      {
+        "level": "H3",
+        "text": "Model Ensembles"
+      },
+      {
+        "level": "H3",
+        "text": "Expert Models"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Transport for Representation Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Wasserstein Distance in Machine Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Gromov-Wasserstein Distance"
+      },
+      {
+        "level": "H3",
+        "text": "Applications to Graph Representation Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Cross-domain and Transfer Learning in Graph Neural Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Research Gaps and Our Contribution"
+      },
+      {
+        "level": "H1",
+        "text": "Optimization of GCN"
+      },
+      {
+        "level": "H2",
+        "text": "Model Architecture Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "The Necessity of Introducing Attention Mechanisms"
+      },
+      {
+        "level": "H1",
+        "text": "The Introduction of GAT"
+      },
+      {
+        "level": "H2",
+        "text": "Abstract of Attention Mechanisms in Graphs"
+      },
+      {
+        "level": "H2",
+        "text": "Combination of Graph Convolution and Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Node-level Attention Implemented by GATConv"
+      },
+      {
+        "level": "H3",
+        "text": "Implementation of Multi-hop Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Hop-level Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Enhanced Components for Stable Training"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison of Different Models"
+      },
+      {
+        "level": "H3",
+        "text": "Overall Performance"
+      },
+      {
+        "level": "H3",
+        "text": "Category-specific Differences"
+      },
+      {
+        "level": "H3",
+        "text": "Explanations"
+      },
+      {
+        "level": "H2",
+        "text": "Next Improvement Direction: Expert Fusion Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Expert Division of Labor"
+      },
+      {
+        "level": "H3",
+        "text": "Adaptive Fusion Strategy"
+      },
+      {
+        "level": "H3",
+        "text": "Mechanism Rationale"
+      },
+      {
+        "level": "H3",
+        "text": "Future Outlook"
+      },
+      {
+        "level": "H1",
+        "text": "Optimizing GAT: Introduction of Expert Fusion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Design Principle of Expert Fusion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation of Expert Models"
+      },
+      {
+        "level": "H2",
+        "text": "Design of Fusion Strategies"
+      },
+      {
+        "level": "H3",
+        "text": "Advantages of the Expert Fusion Model"
+      },
+      {
+        "level": "H3",
+        "text": "Generalization Potential"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Balance Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Precision-Recall Tradeoff"
+      },
+      {
+        "level": "H3",
+        "text": "Stability Quantification"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-expert Weighted Fusion Mechanism"
+      },
+      {
+        "level": "H1",
+        "text": "Optimizing Expert Fusion: Introduction of Wasserstein-Rubinstein Distance"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Foundation of Wasserstein-Rubinstein Distance"
+      },
+      {
+        "level": "H2",
+        "text": "WR Distance for Model Representation Alignment"
+      },
+      {
+        "level": "H3",
+        "text": "Representation Alignment Across Models"
+      },
+      {
+        "level": "H3",
+        "text": "Category-Specific Distance Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Enhanced Fusion Architecture with WR Guidance"
+      },
+      {
+        "level": "H3",
+        "text": "WR Distance Computation Module"
+      },
+      {
+        "level": "H3",
+        "text": "Class-Aware Projection Networks"
+      },
+      {
+        "level": "H3",
+        "text": "Dynamic Fusion Weight Adjustment"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Results and Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Performance Improvements"
+      },
+      {
+        "level": "H3",
+        "text": "Stability Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Learned Representations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15784v1",
+    "url": "http://arxiv.org/abs/2507.15784v1"
+  },
+  {
+    "title": "Reservoir Computing as a Language Model",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Task Formulation and Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Model Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Reservoir Computing"
+      },
+      {
+        "level": "H2",
+        "text": "Attention-Enhanced Reservoir Computing"
+      },
+      {
+        "level": "H2",
+        "text": "Transformer Architectures"
+      },
+      {
+        "level": "H1",
+        "text": "Architectures"
+      },
+      {
+        "level": "H1",
+        "text": "Training"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics and Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{N"
+      },
+      {
+        "level": "H3",
+        "text": "Mathematical Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "\\textit{N"
+      },
+      {
+        "level": "H2",
+        "text": "Inference Time Comparison"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15779v1",
+    "url": "http://arxiv.org/abs/2507.15779v1"
+  },
+  {
+    "title": "Dynamics is what you need for time-series forecasting!",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Systemic analysis through the lens of dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "The \\texttt{PRO-DYN"
+      },
+      {
+        "level": "H2",
+        "text": "Linear dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "TSF models through the \\texttt{PRO-DYN"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental setup"
+      },
+      {
+        "level": "H2",
+        "text": "First analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation study"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and future work"
+      },
+      {
+        "level": "H1",
+        "text": "NeurIPS Paper Checklist"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15774v1",
+    "url": "http://arxiv.org/abs/2507.15774v1"
+  },
+  {
+    "title": "A Framework for Analyzing Abnormal Emergence in Service Ecosystems Through LLM-based Agent Intention Mining",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Emergence Phenomena in Service Ecosystem"
+      },
+      {
+        "level": "H2",
+        "text": "Thoughts of LLM-based Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Individual Thought Track"
+      },
+      {
+        "level": "H2",
+        "text": "Emergent Intention Extract"
+      },
+      {
+        "level": "H2",
+        "text": "Group Intention Clustering"
+      },
+      {
+        "level": "H2",
+        "text": "System Emergence Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Emergence Analysis (RQ1)"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study(RQ2)"
+      },
+      {
+        "level": "H2",
+        "text": "Universal Scenario Simulation(RQ3)"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Agent Descriptions"
+      },
+      {
+        "level": "H2",
+        "text": "Prompts"
+      },
+      {
+        "level": "H2",
+        "text": "Agent Thoughts"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15770v1",
+    "url": "http://arxiv.org/abs/2507.15770v1"
+  },
+  {
+    "title": "Multi-Modal Sensor Fusion for Proactive Blockage Prediction in mmWave Vehicular Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "System Model and Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Proactive Multi-Modal Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Data Augmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Class Imbalance Handling"
+      },
+      {
+        "level": "H3",
+        "text": "Camera Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "GPS Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "LiDAR Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Radar Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Camera Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "GPS-Based Blockage Prediction Model"
+      },
+      {
+        "level": "H2",
+        "text": "LiDAR Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Radar Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Modal Fusion"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15769v1",
+    "url": "http://arxiv.org/abs/2507.15769v1"
+  },
+  {
+    "title": "Learning from Heterogeneity: Generalizing Dynamic Facial Expression Recognition via Distributionally Robust Optimization",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Facial Expression Recognition"
+      },
+      {
+        "level": "H2",
+        "text": "Distributionally Robust Optimization"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H3",
+        "text": "Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with the State-of-the-art Methods"
+      },
+      {
+        "level": "H3",
+        "text": "Results on DFEW"
+      },
+      {
+        "level": "H3",
+        "text": "Results on FERV39k"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H3",
+        "text": "Effectiveness of Each Module"
+      },
+      {
+        "level": "H3",
+        "text": "Effectiveness of Frequency and Temporal Branches in \\MA"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization."
+      },
+      {
+        "level": "H3",
+        "text": "Learned Feature Maps Visualization"
+      },
+      {
+        "level": "H3",
+        "text": "t-SNE Visualization"
+      },
+      {
+        "level": "H3",
+        "text": "Visualization of Loss Landscape"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal-Frequency Representation"
+      },
+      {
+        "level": "H2",
+        "text": "Supervised Contrastive Loss"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Distributionally-Robust Attention on Frequency and Time"
+      },
+      {
+        "level": "H3",
+        "text": "Frequency Attention Branch: Distributionally Robust Modeling via Adversarial Perturbation and Dynamic Fitting"
+      },
+      {
+        "level": "H3",
+        "text": "Temporal Attention Branch: Sequence Consistency Modeling via Wasserstein Regularization"
+      },
+      {
+        "level": "H3",
+        "text": "Adaptive Time-Frequency Fusion: Robust Integration of Heterogeneous Modalities"
+      },
+      {
+        "level": "H2",
+        "text": "Distribution-Aware Robust Scaling for Dynamic Expression Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Information-Constrained Distributionally-Robust Contrastive Loss."
+      },
+      {
+        "level": "H3",
+        "text": "Gradient-Driven Adaptive Loss Scaling."
+      },
+      {
+        "level": "H3",
+        "text": "Overall Objective."
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "ACKNOWLEDGEMENTS"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15765v1",
+    "url": "http://arxiv.org/abs/2507.15765v1"
+  },
+  {
+    "title": "Dynamical analysis of bulk viscous cosmological model in $F(T)$ gravity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Field Equations in $F(T)$ gravity theory"
+      },
+      {
+        "level": "H1",
+        "text": "Cosmological  Solutions"
+      },
+      {
+        "level": "H2",
+        "text": "Eckart Theory ($\\tau=0$):"
+      },
+      {
+        "level": "H2",
+        "text": "Truncated Israel Stewart Theory $(\\epsilon =0)$ :"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15754v1",
+    "url": "http://arxiv.org/abs/2507.15754v1"
+  },
+  {
+    "title": "The Probable Direct-Imaging Detection of the Stellar Companion to Betelgeuse",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction \\label{sec:Intro"
+      },
+      {
+        "level": "H1",
+        "text": "Observations"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Optical Angular Diameter Measurements of $\\alpha$ Ori A"
+      },
+      {
+        "level": "H2",
+        "text": "The Probable Direct-Imaging Detection of $\\alpha$ Ori B"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Likelihood That the Companion Is Real and Bound"
+      },
+      {
+        "level": "H2",
+        "text": "Nature of the Companion"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Future Work"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15749v1",
+    "url": "http://arxiv.org/abs/2507.15749v1"
+  },
+  {
+    "title": "Bounds on the Spreading Radius in Droplet Impact: The Two-Dimensional Case",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Budget analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Rim-Lamella Models"
+      },
+      {
+        "level": "H2",
+        "text": "Aim of the paper"
+      },
+      {
+        "level": "H2",
+        "text": "Plan of the paper"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Model"
+      },
+      {
+        "level": "H2",
+        "text": "Flow in the Lamella"
+      },
+      {
+        "level": "H2",
+        "text": "Lamella Height"
+      },
+      {
+        "level": "H2",
+        "text": "Mass Conservation"
+      },
+      {
+        "level": "H2",
+        "text": "Momentum"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of the model equations"
+      },
+      {
+        "level": "H1",
+        "text": "Inviscid Case"
+      },
+      {
+        "level": "H2",
+        "text": "Exact solution"
+      },
+      {
+        "level": "H2",
+        "text": "Maximum Spreading Radius"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Comparisons"
+      },
+      {
+        "level": "H1",
+        "text": "Viscous case"
+      },
+      {
+        "level": "H2",
+        "text": "Recasting of Equations for the Rim-Lamella System"
+      },
+      {
+        "level": "H2",
+        "text": "Initial Conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Phase 2 of the motion"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of the Equations of Motion using inequalities"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation of the bounds"
+      },
+      {
+        "level": "H2",
+        "text": "Correction due to the rim"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Simulations"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical Implementation"
+      },
+      {
+        "level": "H2",
+        "text": "Slip Boundary Condition"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusions"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Analysis of the Rim-Lamella Model: Inviscid Case"
+      },
+      {
+        "level": "H2",
+        "text": "Maximum Spreading -- Inviscid Case"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Analysis of the Rim-Lamella Model: Viscous Case"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15746v1",
+    "url": "http://arxiv.org/abs/2507.15746v1"
+  },
+  {
+    "title": "Stability and bifurcations of resonances in ring's dynamics",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Potential of a homogeneous triaxial ellipsoid"
+      },
+      {
+        "level": "H1",
+        "text": "A Hamiltonian model in epicyclic formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Frequencies and resonances"
+      },
+      {
+        "level": "H2",
+        "text": "Epicyclic Hamiltonian around the resonance"
+      },
+      {
+        "level": "H2",
+        "text": "KAM non--degeneracy of the axisymmetric part"
+      },
+      {
+        "level": "H2",
+        "text": "Resonances in the epicyclic variables"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of three resonances in two test cases"
+      },
+      {
+        "level": "H2",
+        "text": "The resonant radius"
+      },
+      {
+        "level": "H2",
+        "text": "Amplitudes of libration and occurrence of bifurcations"
+      },
+      {
+        "level": "H3",
+        "text": "Corotation"
+      },
+      {
+        "level": "H3",
+        "text": "Resonance $1:2$"
+      },
+      {
+        "level": "H3",
+        "text": "Resonance $1:3$"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Aknowledgement"
+      },
+      {
+        "level": "H2",
+        "text": "Other resonances"
+      },
+      {
+        "level": "H1",
+        "text": "Explicit expression of the coefficients $c_{i,j"
+      },
+      {
+        "level": "H1",
+        "text": "Values of the coefficients associated to the $1:2$ and $1:3$ resonances."
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15745v1",
+    "url": "http://arxiv.org/abs/2507.15745v1"
+  },
+  {
+    "title": "General Matching Games",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "General matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Mathematical model"
+      },
+      {
+        "level": "H2",
+        "text": "Core stability"
+      },
+      {
+        "level": "H1",
+        "text": "1-to-Many additive separable matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Matching with contracts model"
+      },
+      {
+        "level": "H2",
+        "text": "Additive separable matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Additive separability and Quotas"
+      },
+      {
+        "level": "H2",
+        "text": "Link between matching games and the H\\&M model"
+      },
+      {
+        "level": "H2",
+        "text": "Core stability in the 1st submodel"
+      },
+      {
+        "level": "H1",
+        "text": "Roommates matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Core stability in the 2nd submodel"
+      },
+      {
+        "level": "H1",
+        "text": "Renegotiation proofness"
+      },
+      {
+        "level": "H2",
+        "text": "1st submodel: Additive separable matching games"
+      },
+      {
+        "level": "H2",
+        "text": "2nd submodel: Roommates problem"
+      },
+      {
+        "level": "H1",
+        "text": "Bi-matrix matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithms to compute stable allocations in bi-matrix matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Deferred-acceptance with competitions algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Market procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Renegotiation process"
+      },
+      {
+        "level": "H2",
+        "text": "Quadratically constrained quadratic programs"
+      },
+      {
+        "level": "H2",
+        "text": "Complexity of matching games without commitment"
+      },
+      {
+        "level": "H1",
+        "text": "Complexity study for Zero-sum matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Deferred-acceptance with competitions algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Market procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Renegotiation process"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Complexity study for Infinitely repeated matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Deferred-acceptance with competitions algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Market procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Renegotiation process"
+      },
+      {
+        "level": "H1",
+        "text": "Complexity study for Strictly competitive matching games"
+      },
+      {
+        "level": "H2",
+        "text": "Deferred-acceptance with competitions algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Market procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Renegotiation process"
+      },
+      {
+        "level": "H1",
+        "text": "A non-closed set of Pareto-optimal payoffs"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15737v1",
+    "url": "http://arxiv.org/abs/2507.15737v1"
+  },
+  {
+    "title": "Relationship between Structure and Dynamics of an Icosahedral Quasicrystal using Unsupervised Machine Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "\\label{sec:intro"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:methods"
+      },
+      {
+        "level": "H2",
+        "text": "Model"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation details"
+      },
+      {
+        "level": "H2",
+        "text": "\\label{sec:order"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:phases"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:uml"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:nucleation"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion Mechanisms"
+      },
+      {
+        "level": "H2",
+        "text": "\\label{sec:heterogeneity"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:structure-dynamics"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Author Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of interest"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{ap:nucleation"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{appendix:umap"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15731v1",
+    "url": "http://arxiv.org/abs/2507.15731v1"
+  },
+  {
+    "title": "Gaze-supported Large Language Model Framework for Bi-directional Human-Robot Interaction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "INTRODUCTION"
+      },
+      {
+        "level": "H1",
+        "text": "RELATED WORK"
+      },
+      {
+        "level": "H1",
+        "text": "DEVELOPED FRAMEWORK"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Framework Overview"
+      },
+      {
+        "level": "H3",
+        "text": "Input Fusion Module"
+      },
+      {
+        "level": "H3",
+        "text": "..."
+      },
+      {
+        "level": "H3",
+        "text": "Reasoning Module"
+      },
+      {
+        "level": "H3",
+        "text": "Action Module"
+      },
+      {
+        "level": "H1",
+        "text": "VALIDATION METHODS"
+      },
+      {
+        "level": "H2",
+        "text": "Development with Dissemination in the Wild"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Validation"
+      },
+      {
+        "level": "H1",
+        "text": "RESULTS"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Lessons Learned"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Future work"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15729v1",
+    "url": "http://arxiv.org/abs/2507.15729v1"
+  },
+  {
+    "title": "Competitive Algorithms for Cooperative Multi-Agent Ski-Rental Problems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Randomized Policies for Multi-Agent Ski-Rental"
+      },
+      {
+        "level": "H2",
+        "text": "Randomized Policy Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Randomized Policy for Overall Competitive Ratio"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Randomized Policy for State-Dependent Competitive Ratio"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Randomized Policy for Individual Rational Competitive Ratio"
+      },
+      {
+        "level": "H1",
+        "text": "Competitive Ratio Lower Bounds for Heterogeneous \\masr Problems"
+      },
+      {
+        "level": "H2",
+        "text": "Lower Bounds for Deterministic Policies"
+      },
+      {
+        "level": "H2",
+        "text": "Lower Bounds for Randomized Policies"
+      },
+      {
+        "level": "H1",
+        "text": "Summary"
+      },
+      {
+        "level": "H2",
+        "text": "Heterogeneous \\masr"
+      },
+      {
+        "level": "H2",
+        "text": "Homogeneous \\masr"
+      },
+      {
+        "level": "H1",
+        "text": "Homogeneous Multi-Agent Ski-Rental"
+      },
+      {
+        "level": "H2",
+        "text": "Deterministic Policy"
+      },
+      {
+        "level": "H2",
+        "text": "Randomized Policy"
+      },
+      {
+        "level": "H2",
+        "text": "Randomized Policy for Homogeneous \\masr"
+      },
+      {
+        "level": "H1",
+        "text": "Proof for Proposition~\\ref{prop:indopt"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Deterministic Policies for Multi-Agent Ski-Rental"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Design Challenge and Key Ideas"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Deterministic Policy for Overall Competitive Ratio"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Deterministic Policy for State-Dependent Competitive Ratio"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal Deterministic Policy for Individual Rational Competitive Ratio"
+      },
+      {
+        "level": "H1",
+        "text": "Model Formulation for Multi-Agent Ski-Rental"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark Offline Policies and Competitive Ratios"
+      },
+      {
+        "level": "H1",
+        "text": "More Discussions on Figure~\\ref{fig:deterministic-CR-trend"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Heterogeneous Multi-Agent Ski-Rental: Deterministic Policy"
+      },
+      {
+        "level": "H2",
+        "text": "Symmetric policies are better than asymmetric policies"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Minimizing Overall Competitive Ratio: Theorem~\\ref{thm:deterministic-heterogeneous-policy-overall"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Minimizing State-Dependent Competitive Ratio: Theorem~\\ref{thm:deterministic-heterogeneous-policy-state-dependent"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Minimizing Individual Rational Competitive Ratio: Theorem~\\ref{thm:deterministic-heterogeneous-policy-individual"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs for Heterogeneous Multi-Agent Ski-Rental: Randomized Policies"
+      },
+      {
+        "level": "H2",
+        "text": "Symmetric policies are better than asymmetric policies"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Minimizing Competitive Ratio for Homogeneous \\masr: Theorem~\\ref{thm:homogeneous-randomized-policy"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Minimizing Overall Competitive Ratio: Theorem~\\ref{thm:randomized-heterogeneous-policy-overall"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Minimizing State-Dependent Competitive Ratio: Theorem~\\ref{thm:randomized-heterogeneous-policy-state-dependent"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Minimizing Individual Rational Competitive Ratio: Theorem~\\ref{thm:randomized-heterogeneous-policy-individual"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15727v1",
+    "url": "http://arxiv.org/abs/2507.15727v1"
+  },
+  {
+    "title": "Saturn's G ring: insights from the dynamical evolution of dust particles from the G-ring arc",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamical model"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical simulation Strategy"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamical evolution of dust particles"
+      },
+      {
+        "level": "H1",
+        "text": "Properties of the G ring"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Some extra material"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15721v1",
+    "url": "http://arxiv.org/abs/2507.15721v1"
+  },
+  {
+    "title": "Towards relativistic inspirals into black holes surrounded by matter",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "The Teukolsky equation and environmental effects"
+      },
+      {
+        "level": "H2",
+        "text": "Phase contribution analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Previous work on extensions of the Teukolsky formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Research goal and organization of this paper"
+      },
+      {
+        "level": "H1",
+        "text": "Teukolsky formalism and its modification"
+      },
+      {
+        "level": "H2",
+        "text": "Perturbation formalism in   type D vacuum spacetimes"
+      },
+      {
+        "level": "H2",
+        "text": "The NP and the GHP formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Teukolsky formalism in Kerr spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Deriving a modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "Terms in the modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "Perturbing a black hole enclosed by a ring"
+      },
+      {
+        "level": "H2",
+        "text": "The pole-dipole ring-hole model"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities in hole-ring background"
+      },
+      {
+        "level": "H2",
+        "text": "Decomposition of the Teukolsky equation in the hole-ring spacetime"
+      },
+      {
+        "level": "H1",
+        "text": "Solution of the modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "The smooth part of the solution"
+      },
+      {
+        "level": "H2",
+        "text": "Reconstruction of the metric \\texorpdfstring{$h^{(0,1)"
+      },
+      {
+        "level": "H2",
+        "text": "The source on the shell"
+      },
+      {
+        "level": "H2",
+        "text": "Solving the \\texorpdfstring{$(1,1)$"
+      },
+      {
+        "level": "H2",
+        "text": "The complete solution"
+      },
+      {
+        "level": "H1",
+        "text": "Summary"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Generating inspiral waveforms"
+      },
+      {
+        "level": "H2",
+        "text": "Technical simplifications?"
+      },
+      {
+        "level": "H2",
+        "text": "Extensions and generalizations"
+      },
+      {
+        "level": "H1",
+        "text": "NP and GHP formalism"
+      },
+      {
+        "level": "H1",
+        "text": "Spin-weighted spherical harmonics"
+      },
+      {
+        "level": "H1",
+        "text": "Full modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "The background spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Justification of the pole-dipole approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion of the thinness condition"
+      },
+      {
+        "level": "H2",
+        "text": "Israel junction conditions for the (1,0) metric"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities on the background"
+      },
+      {
+        "level": "H2",
+        "text": "Multipole expansion of the ring"
+      },
+      {
+        "level": "H2",
+        "text": "The transition from \\texorpdfstring{${"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15720v1",
+    "url": "http://arxiv.org/abs/2507.15720v1"
+  },
+  {
+    "title": "DiffPF: Differentiable Particle Filtering with Generative Sampling via Conditional Diffusion Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "INTRODUCTION"
+      },
+      {
+        "level": "H1",
+        "text": "RELATED WORK"
+      },
+      {
+        "level": "H2",
+        "text": "Particle filter"
+      },
+      {
+        "level": "H2",
+        "text": "Differentiable Particle Filters"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion Models for Probabilistic Modeling"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "System and Perception Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Update Step"
+      },
+      {
+        "level": "H2",
+        "text": "End-to-End Training"
+      },
+      {
+        "level": "H1",
+        "text": "EXPERIMENTS"
+      },
+      {
+        "level": "H2",
+        "text": "Vision-based Disk Tracking"
+      },
+      {
+        "level": "H2",
+        "text": "Global Localization"
+      },
+      {
+        "level": "H2",
+        "text": "KITTI Visual Odometry"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSIONS"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15716v1",
+    "url": "http://arxiv.org/abs/2507.15716v1"
+  },
+  {
+    "title": "Polarization Vortex for Enhanced Refractive Index Sensing",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "BIC migration"
+      },
+      {
+        "level": "H1",
+        "text": "Sensitivity"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSION"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Funding"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of \\texorpdfstring{$\\Delta\\phi$"
+      },
+      {
+        "level": "H1",
+        "text": "Merging and annihilation of BICs"
+      },
+      {
+        "level": "H1",
+        "text": "Polarization"
+      },
+      {
+        "level": "H1",
+        "text": "Overlap integral"
+      },
+      {
+        "level": "H1",
+        "text": "Band diagram"
+      },
+      {
+        "level": "H1",
+        "text": "Sensitivity"
+      },
+      {
+        "level": "H1",
+        "text": "Reflectance"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Corresponding author"
+      },
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Assessing final manuscript length"
+      },
+      {
+        "level": "H1",
+        "text": "Figures, tables, and supplementary materials"
+      },
+      {
+        "level": "H2",
+        "text": "Figures and tables"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary materials in Optica Publishing Group journals"
+      },
+      {
+        "level": "H2",
+        "text": "Sample Dataset Citation"
+      },
+      {
+        "level": "H2",
+        "text": "Sample Code Citation"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical and scientific notation"
+      },
+      {
+        "level": "H2",
+        "text": "Displayed equations"
+      },
+      {
+        "level": "H1",
+        "text": "Back matter"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H2",
+        "text": "Formatting reference items"
+      },
+      {
+        "level": "H2",
+        "text": "Formatting reference citations"
+      },
+      {
+        "level": "H2",
+        "text": "Bib\\TeX"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15705v1",
+    "url": "http://arxiv.org/abs/2507.15705v1"
+  },
+  {
+    "title": "Using stochastic thermodynamics with internal variables to capture orientational spreading in cell populations undergoing cyclic stretch",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Cell reorientation under cyclic strain"
+      },
+      {
+        "level": "H2",
+        "text": "An approximation scheme for the Fokker--Planck equation"
+      },
+      {
+        "level": "H1",
+        "text": "The reduced model"
+      },
+      {
+        "level": "H2",
+        "text": "Approximation through the von Mises probability distribution"
+      },
+      {
+        "level": "H2",
+        "text": "The coefficients of the ODE system that governs the average angle and the order parameter"
+      },
+      {
+        "level": "H2",
+        "text": "Setting the initial conditions"
+      },
+      {
+        "level": "H1",
+        "text": "The qualitative behaviour of the reduced model"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical tests"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with experimental data"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix."
+      },
+      {
+        "level": "H2",
+        "text": "The evolution of $\\mu(t)$"
+      },
+      {
+        "level": "H2",
+        "text": "The evolution of $\\kappa(t)$."
+      },
+      {
+        "level": "H2",
+        "text": "The set $\\dot\\kappa=0$."
+      },
+      {
+        "level": "H1",
+        "text": "Notes for ourselves"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotics of modified bessel functions"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic behavior of $G(\\kappa)$ (AI generated from file \\texttt{Asymptotics\\_G.nb"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting the choice of one well"
+      },
+      {
+        "level": "H2",
+        "text": "How the energetic landscape depends on $r$"
+      },
+      {
+        "level": "H2",
+        "text": "Is the approximation good?"
+      },
+      {
+        "level": "H2",
+        "text": "Derivation of normalized energy \\color{black"
+      },
+      {
+        "level": "H2",
+        "text": "Entropy Production Rate"
+      },
+      {
+        "level": "H2",
+        "text": "Proof that $I_1(z) > I_2(z)$ for $z > 0$"
+      },
+      {
+        "level": "H2",
+        "text": ""
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15694v1",
+    "url": "http://arxiv.org/abs/2507.15694v1"
+  },
+  {
+    "title": "Wave-induced drift in third-order deep-water theory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The water wave problem and Hamiltonian formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic analysis and the water wave problem"
+      },
+      {
+        "level": "H2",
+        "text": "Constant magnitude approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Recovery of the third-order solution"
+      },
+      {
+        "level": "H3",
+        "text": "Recovery of the bulk potential"
+      },
+      {
+        "level": "H1",
+        "text": "Particle kinematics for monochromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Linear theory"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear theory"
+      },
+      {
+        "level": "H1",
+        "text": "Bichromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Linear theory"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear theory"
+      },
+      {
+        "level": "H3",
+        "text": "Second order"
+      },
+      {
+        "level": "H3",
+        "text": "Difference harmonics and particle drift"
+      },
+      {
+        "level": "H3",
+        "text": "Third order"
+      },
+      {
+        "level": "H1",
+        "text": "Multichromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Focused linear wave groups"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear focused waves"
+      },
+      {
+        "level": "H2",
+        "text": "Random waves"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "On the non-uniqueness of Stokes expansion"
+      },
+      {
+        "level": "H1",
+        "text": "Coefficients of the higher-order potential"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15688v1",
+    "url": "http://arxiv.org/abs/2507.15688v1"
+  },
+  {
+    "title": "Hi^2-GSLoc: Dual-Hierarchical Gaussian-Specific Visual Relocalization for Remote Sensing",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related works"
+      },
+      {
+        "level": "H2",
+        "text": "Image-based relocalization"
+      },
+      {
+        "level": "H2",
+        "text": "Structure-based relocalization"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis-by-Synthesis"
+      },
+      {
+        "level": "H1",
+        "text": "Methodlogy"
+      },
+      {
+        "level": "H2",
+        "text": "3D Gaussian splatting for remote sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Consistent render-aware sampling"
+      },
+      {
+        "level": "H2",
+        "text": "Landmark-guided detector"
+      },
+      {
+        "level": "H2",
+        "text": "Dense rasterization matching"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation metric"
+      },
+      {
+        "level": "H2",
+        "text": "Relocalization Benchmark"
+      },
+      {
+        "level": "H2",
+        "text": "Relocalization in Remote sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation study"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "My Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Declaration of competing interest"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15683v1",
+    "url": "http://arxiv.org/abs/2507.15683v1"
+  },
+  {
+    "title": "GeoHNNs: Geometric Hamiltonian Neural Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "An Overview of Differential Geometry"
+      },
+      {
+        "level": "H2",
+        "text": "Configuration Manifold and Lagrangian Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Hamiltonian Formulation on the Cotangent Bundle"
+      },
+      {
+        "level": "H2",
+        "text": "Model Order Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "A short introduction to Smooth Manifolds"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Proofs"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Numerical Results"
+      },
+      {
+        "level": "H1",
+        "text": "Reduced-Order Geometric Hamiltonian Neural Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Riemannian Geometry of Inertia Matrix"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic geometry of the Phase Space"
+      },
+      {
+        "level": "H2",
+        "text": "Training Objective and Optimization Procedure"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Models Description"
+      },
+      {
+        "level": "H3",
+        "text": "Low-Dimensional Setting"
+      },
+      {
+        "level": "H3",
+        "text": "High Dimensional Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Description"
+      },
+      {
+        "level": "H3",
+        "text": "Low-Dimensional Systems"
+      },
+      {
+        "level": "H3",
+        "text": "High-Dimensional Systems"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical Results"
+      },
+      {
+        "level": "H3",
+        "text": "Low Dimensional Setting"
+      },
+      {
+        "level": "H3",
+        "text": "High Dimensional Setting"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15678v1",
+    "url": "http://arxiv.org/abs/2507.15678v1"
+  },
+  {
+    "title": "Extracting Visual Facts from Intermediate Layers for Mitigating Hallucinations in Multimodal Large Language Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related works"
+      },
+      {
+        "level": "H2",
+        "text": "Causes of Hallucination in MLLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Mitigating Hallucination for MLLMs"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminary"
+      },
+      {
+        "level": "H2",
+        "text": "The Intermediate Layers Contain Visual Factual Knowledge"
+      },
+      {
+        "level": "H2",
+        "text": "Decoding by Extracting Visual Facts from Intermediate Layers"
+      },
+      {
+        "level": "H3",
+        "text": "Dynamic Target Layer Selection"
+      },
+      {
+        "level": "H3",
+        "text": "Decoding with Visual Factual Knowledge."
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark and metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Discussions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Limitation"
+      },
+      {
+        "level": "H1",
+        "text": "Ablation Results of Dynamic Soft Modulation"
+      },
+      {
+        "level": "H1",
+        "text": "Case Studies across Diverse MLLMs"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15652v1",
+    "url": "http://arxiv.org/abs/2507.15652v1"
+  },
+  {
+    "title": "A comprehensive approach to the physics of mesons",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Quark propagator and quark-gluon vertex"
+      },
+      {
+        "level": "H1",
+        "text": "Axial vertices and their Ward-Takahashi identities"
+      },
+      {
+        "level": "H2",
+        "text": "Axial-vector vertex \\texorpdfstring{$\\ga^\\mu$"
+      },
+      {
+        "level": "H2",
+        "text": "Gluon-axial-vector vertex \\texorpdfstring{$G_5^{\\mu\\nu"
+      },
+      {
+        "level": "H1",
+        "text": "The axial WTI from the vertex SDE: exact derivation"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamical realization of the chiral limit"
+      },
+      {
+        "level": "H2",
+        "text": "Chiral limit in the RL approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Chiral limit with full quark-gluon vertex"
+      },
+      {
+        "level": "H1",
+        "text": "Unfolding the \\texorpdfstring{$G_5^{\\mu\\nu"
+      },
+      {
+        "level": "H1",
+        "text": "Symmetry-preserving  truncation of  the vertex  \n\\texorpdfstring{$\\ga^\\mu$"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of the WTIs"
+      },
+      {
+        "level": "H2",
+        "text": "The \\texorpdfstring{$[{\\rm WTI"
+      },
+      {
+        "level": "H2",
+        "text": "The \\texorpdfstring{$[{\\rm WTI"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15646v1",
+    "url": "http://arxiv.org/abs/2507.15646v1"
+  },
+  {
+    "title": "Caustics in a Near-Resonant Quantum Kicked Rotor",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Recurring Cusp Caustics in QKR"
+      },
+      {
+        "level": "H1",
+        "text": "Theoretical Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Path Integral Method"
+      },
+      {
+        "level": "H2",
+        "text": "Semiclassical Caustic Trajectory"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Caustics and Scaling Law"
+      },
+      {
+        "level": "H2",
+        "text": "The Effects of Chaos and Nonlinearity"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15634v1",
+    "url": "http://arxiv.org/abs/2507.15634v1"
+  },
+  {
+    "title": "Multi-Scale Data Assimilation in Turbulent Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Shell Models for Turbulence"
+      },
+      {
+        "level": "H1",
+        "text": "Ensemble Kalman Filter for systems without circular symmetry"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical  Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Ensemble Kalman Filter Results"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Against Measurements Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Measured Scale Schemes"
+      },
+      {
+        "level": "H1",
+        "text": "Comparisons with Nudging"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with En4D-Var"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Runge-Kutta with exponential factor"
+      },
+      {
+        "level": "H1",
+        "text": "Scale Aware Inflation Strategy"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15626v1",
+    "url": "http://arxiv.org/abs/2507.15626v1"
+  },
+  {
+    "title": "TrajLens: Visual Analysis for Constructing Cell Developmental Trajectories in Cross-Sample Exploration",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Cell Developmental Trajectory Inference Tools"
+      },
+      {
+        "level": "H2",
+        "text": "Single-cell Data Visualization"
+      },
+      {
+        "level": "H2",
+        "text": "Spatiotemporal Data Visualization"
+      },
+      {
+        "level": "H1",
+        "text": "Design"
+      },
+      {
+        "level": "H2",
+        "text": "Terminology Definitions"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Design Process"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis Tasks"
+      },
+      {
+        "level": "H1",
+        "text": "Data Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Model Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Cross-sample Developmental Path Refinement"
+      },
+      {
+        "level": "H2",
+        "text": "Path Summary Computation"
+      },
+      {
+        "level": "H2",
+        "text": "Gene Function Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "System"
+      },
+      {
+        "level": "H2",
+        "text": "Cell Developmental Path Selection"
+      },
+      {
+        "level": "H3",
+        "text": "Core Cell Selection View"
+      },
+      {
+        "level": "H3",
+        "text": "Path Selection View"
+      },
+      {
+        "level": "H2",
+        "text": "Cell Developmental Path Inspection"
+      },
+      {
+        "level": "H3",
+        "text": "Path Inspection View"
+      },
+      {
+        "level": "H3",
+        "text": "Trajectory Inspection View"
+      },
+      {
+        "level": "H1",
+        "text": "Case Study"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study I: Exploring Cross-sample Developmental Paths in Mouse Embryonic Development Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study II: Identifying Cross-sample Cell Developmental Branch Patterns in Mouse Midbrain Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Gene Function View"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Model Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Expert Interview"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplemental Materials"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix A: Evaluation Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Zoom Operations"
+      },
+      {
+        "level": "H1",
+        "text": "Symbols used"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15620v1",
+    "url": "http://arxiv.org/abs/2507.15620v1"
+  },
+  {
+    "title": "Dynamic Investigation of the New Quantum-Control-Assisted Reverse uncertainty relation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "construction of conditional reverse Uncertainty Relation"
+      },
+      {
+        "level": "H1",
+        "text": "The Dynamic Evolution of the reverse uncertainty relation"
+      },
+      {
+        "level": "H1",
+        "text": "conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15619v1",
+    "url": "http://arxiv.org/abs/2507.15619v1"
+  },
+  {
+    "title": "Accelerating HEC-RAS: A Recurrent Neural Operator for Rapid River Forecasting",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background: HEC-RAS as a Data Preprocessor"
+      },
+      {
+        "level": "H2",
+        "text": "HEC-RAS: The Industry-Standard Solver"
+      },
+      {
+        "level": "H2",
+        "text": "Novel Use Case: From Solver to Pre-Processor"
+      },
+      {
+        "level": "H2",
+        "text": "The HEC-RAS File Ecosystem"
+      },
+      {
+        "level": "H2",
+        "text": "Key Hydraulic Terminology"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Data-Driven Surrogates for River Hydraulics"
+      },
+      {
+        "level": "H2",
+        "text": "Autoregressive Models for Temporal Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Operators for Spatial Dependencies"
+      },
+      {
+        "level": "H2",
+        "text": "Positioning This Work"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Input Feature Vector"
+      },
+      {
+        "level": "H2",
+        "text": "Network Architecture: A Recurrent Neural Operator"
+      },
+      {
+        "level": "H2",
+        "text": "Training and Inference"
+      },
+      {
+        "level": "H2",
+        "text": "Rationale for the Fourier Neural Operator Architecture"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Study Area and Data Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Training and Evaluation Protocol"
+      },
+      {
+        "level": "H2",
+        "text": "Autoregressive Rollout"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Performance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Case Studies: Representative Reaches"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies: Validation of Model Design"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Physics-based Feature Engineering"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Training Data Volume and Diversity"
+      },
+      {
+        "level": "H2",
+        "text": "Computational Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Tabular and Visual Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Physics-based Feature Engineering"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Training Data Volume and Diversity"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "The Primacy of Physics-Aware Features over Model Complexity"
+      },
+      {
+        "level": "H2",
+        "text": "The Fragility of Extrapolation and the Value of Training Data Completeness"
+      },
+      {
+        "level": "H2",
+        "text": "Operational Constraints in Complex Hydraulic Regimes"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15614v1",
+    "url": "http://arxiv.org/abs/2507.15614v1"
+  },
+  {
+    "title": "Formal Analysis of Networked PLC Controllers Interacting with Physical Environments",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Concluding Remarks"
+      },
+      {
+        "level": "H1",
+        "text": "Motivating Example: A Chemical Plant"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "\\bf Rewriting Logic and Maude"
+      },
+      {
+        "level": "H2",
+        "text": "\\bf Transition Systems and Partial Order Reduction"
+      },
+      {
+        "level": "H2",
+        "text": "Semantics of PLC ST"
+      },
+      {
+        "level": "H1",
+        "text": "Behavior of PLCs with Physical Environment"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Object-oriented Representation"
+      },
+      {
+        "level": "H2",
+        "text": "Semantics of PLC Machines with Physical Attributes"
+      },
+      {
+        "level": "H2",
+        "text": "Example"
+      },
+      {
+        "level": "H1",
+        "text": "Semantics of Communication"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Encoding of Communication Function Blocks"
+      },
+      {
+        "level": "H2",
+        "text": "Class Definition and Semantics of Communication between PLCs"
+      },
+      {
+        "level": "H3",
+        "text": "Original functions for implementation"
+      },
+      {
+        "level": "H2",
+        "text": "Example"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark Models"
+      },
+      {
+        "level": "H2",
+        "text": "Time Comparison with Hybrid Automata-based Approach"
+      },
+      {
+        "level": "H2",
+        "text": "Effectiveness of State Space Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Partial Order Reduction"
+      },
+      {
+        "level": "H2",
+        "text": "Partial order reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Formal Analysis using Rewriting modulo SMT"
+      },
+      {
+        "level": "H2",
+        "text": "Symbolic Semantics"
+      },
+      {
+        "level": "H2",
+        "text": "Formal Analysis"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15596v1",
+    "url": "http://arxiv.org/abs/2507.15596v1"
+  },
+  {
+    "title": "Improving Functional Reliability of Near-Field Monitoring for Emergency Braking in Autonomous Vehicles",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Statement"
+      },
+      {
+        "level": "H2",
+        "text": "System Description"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Advanced Monitoring Strategies"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Spatial Range Adaptation"
+      },
+      {
+        "level": "H3",
+        "text": "Spatial Filtering via Driving Corridor Constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Size-based Object Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Motion-aware Predictive Monitoring"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Size-based Filter Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Motion-aware Monitoring Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "APPENDIX"
+      },
+      {
+        "level": "H1",
+        "text": "ACKNOWLEDGMENT"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15594v1",
+    "url": "http://arxiv.org/abs/2507.15594v1"
+  },
+  {
+    "title": "A One-sided Witness for the Quantumness of Gravitational Dynamics",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Quantum memory rules out LOCC gravity"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of the quantum memory witness"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical witness"
+      },
+      {
+        "level": "H1",
+        "text": "Qubit and oscillator"
+      },
+      {
+        "level": "H1",
+        "text": "Qubit and oscillator {examples"
+      },
+      {
+        "level": "H2",
+        "text": "Thermal initial state"
+      },
+      {
+        "level": "H2",
+        "text": "Coupling strength \\(g\\)"
+      },
+      {
+        "level": "H2",
+        "text": "Numbers and problems"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix C: Concurrences for the vacuum case"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix D: Time evolution"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15588v1",
+    "url": "http://arxiv.org/abs/2507.15588v1"
+  },
+  {
+    "title": "Three-dimensional numerical study on hydrogen bubble growth at electrode",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Configuration and numerical methods"
+      },
+      {
+        "level": "H2",
+        "text": "Problem set-up"
+      },
+      {
+        "level": "H2",
+        "text": "Non-dimensional numbers"
+      },
+      {
+        "level": "H2",
+        "text": "Governing equation"
+      },
+      {
+        "level": "H2",
+        "text": "Concentration transport equation"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation"
+      },
+      {
+        "level": "H2",
+        "text": "Axisymmetric simulation validation"
+      },
+      {
+        "level": "H2",
+        "text": "3D simulation extension"
+      },
+      {
+        "level": "H1",
+        "text": "Result and discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Multiple bubbles growth"
+      },
+      {
+        "level": "H2",
+        "text": "Bubble detachment"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Declaration of competing interest"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15582v1",
+    "url": "http://arxiv.org/abs/2507.15582v1"
+  },
+  {
+    "title": "Accelerating Universe without dark energy: matter creation after DESI DR2",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Matter Creation Cosmologies: a brief overview"
+      },
+      {
+        "level": "H1",
+        "text": "Specific models and dynamical evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Model I:  $\\Gamma  = 3 \\alpha H \\left(\\frac{\\rho_{\\rm c,0"
+      },
+      {
+        "level": "H2",
+        "text": "Model II: $\\Gamma = 3 \\alpha H \\left(\\frac{\\rho_{\\rm c,0"
+      },
+      {
+        "level": "H3",
+        "text": "Case $0<l<1$"
+      },
+      {
+        "level": "H3",
+        "text": "Case $l>1$"
+      },
+      {
+        "level": "H3",
+        "text": "Case $l<0$"
+      },
+      {
+        "level": "H3",
+        "text": "Case $l=0$"
+      },
+      {
+        "level": "H1",
+        "text": "Observational datasets and methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Observational Constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Model comparison"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Conclusions"
+      }
+    ],
+    "query": "cryptocurrency market dynamics",
+    "arxiv_id": "2507.15575v1",
+    "url": "http://arxiv.org/abs/2507.15575v1"
+  }
+]

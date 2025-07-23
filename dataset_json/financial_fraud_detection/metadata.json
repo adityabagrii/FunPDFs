@@ -1,0 +1,4430 @@
+[
+  {
+    "title": "Quantum computational sensing using quantum signal processing, quantum neural networks, and Hamiltonian engineering",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of main results"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum computational sensing using qubit-based sensors"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using a single qubit for binary classification tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Dependence on task complexity"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using multiple qubits: binary and multi-class discrimination of multi-dimensional signals"
+      },
+      {
+        "level": "H2",
+        "text": "QCS of spatiotemporal signals using multiple qubits"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of QCS using qubit-only sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using bosonic sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Function-approximation tasks"
+      },
+      {
+        "level": "H2",
+        "text": "QS approach: linear phase-preserving amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum computational-sensing advantage"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using hybrid sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of our work"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental prospects and future research directions"
+      },
+      {
+        "level": "H1",
+        "text": "Data and code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Classical postprocessing and error scaling with nonlinearity: unbiased estimation of nonlinear polynomials of a classical Gaussian random variable"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of static signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architectures for qubit-based quantum computational sensors of static signals"
+      },
+      {
+        "level": "H2",
+        "text": "Bayes (optimal) classifier for binary classification using a single qubit"
+      },
+      {
+        "level": "H2",
+        "text": "Approximate Gaussian classifier for binary classification using a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "Role of sampling noise in QCSA using a single-variable example"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for simplified tasks: approximate analytic error probability for a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for more general tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-variate sensing: comparing quantum computational sensors against multiple Ramsey interferometers"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA for multi-variable binary discrimination tasks using a single qubit"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of spatiotemporal signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and classification task"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Neural Network architecture for QCS"
+      },
+      {
+        "level": "H2",
+        "text": "Training details"
+      },
+      {
+        "level": "H2",
+        "text": "Additional results"
+      },
+      {
+        "level": "H1",
+        "text": "QCS for function approximation using bosonic quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture: $\\Udec$ and quadrature measurements"
+      },
+      {
+        "level": "H3",
+        "text": "Initial state and expectation values"
+      },
+      {
+        "level": "H3",
+        "text": "Heterodyne measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Function approximation task: target polynomials $\\Ft$ and expected mean-squared-error as a metric"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Worked example: \\XOR{"
+      },
+      {
+        "level": "H3",
+        "text": "Conventional QS approach: phase-preserving linear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: 1D polynomial approximation"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: Higher-order \\spirals{"
+      },
+      {
+        "level": "H1",
+        "text": "QCS using hybrid quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture for hybrid qubit-cavity quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Hilbert space truncation"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing hybrid quantum computational sensors against phase-preserving amplifiers"
+      },
+      {
+        "level": "H1",
+        "text": "General training details"
+      },
+      {
+        "level": "H2",
+        "text": "Trainable models, classical postprocessing, and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Differentiable models and measurement results"
+      },
+      {
+        "level": "H3",
+        "text": "Training datasets and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Classical postprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of training using finitely-sampled measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Number of measurement samples for training versus inference"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations of classical postprocessing in the presence of sampling noise"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15845v1",
+    "url": "http://arxiv.org/abs/2507.15845v1"
+  },
+  {
+    "title": "SDSO1 is a Ghost Planetary Nebula Bow Shock in Front of M31",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Narrowband Imaging Observations and Data Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 is a Hypersonic GPN"
+      },
+      {
+        "level": "H2",
+        "text": "The SDSO1 GPN Central Star EG Andromedae"
+      },
+      {
+        "level": "H2",
+        "text": "Density and ionization of the surrounding ISM"
+      },
+      {
+        "level": "H2",
+        "text": "The GPN Tail"
+      },
+      {
+        "level": "H2",
+        "text": "GPN Expansion and Energetics"
+      },
+      {
+        "level": "H2",
+        "text": "Photoionization by EG And"
+      },
+      {
+        "level": "H2",
+        "text": "Shock Models"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 Bow Shock Structure and Kinematics"
+      },
+      {
+        "level": "H2",
+        "text": "Statistics and Fates of the Old PNe and GPNe Populations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15834v1",
+    "url": "http://arxiv.org/abs/2507.15834v1"
+  },
+  {
+    "title": "\\texttt{GWBird}: a toolkit for the characterization of the Stochastic Gravitational Wave Background for Ground, Space, and Pulsar Timing Array detectors",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "\\refname"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Detector response"
+      },
+      {
+        "level": "H2",
+        "text": "Detector Tensor and Angular Pattern Function"
+      },
+      {
+        "level": "H2",
+        "text": "Overlap Reduction Function"
+      },
+      {
+        "level": "H3",
+        "text": "Chiral Overlap Reduction Function"
+      },
+      {
+        "level": "H2",
+        "text": "Angular Response"
+      },
+      {
+        "level": "H2",
+        "text": "Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "SGWB made of Tensor, Vector and Scalar modes"
+      },
+      {
+        "level": "H3",
+        "text": "SGWB made of Tensor and X-polarization modes"
+      },
+      {
+        "level": "H2",
+        "text": "Sensitivity to \\texorpdfstring{$\\ell$"
+      },
+      {
+        "level": "H2",
+        "text": "Pulsar Timing Array Response and Angular Response"
+      },
+      {
+        "level": "H3",
+        "text": "Pulsar Timing Array Noise treatment"
+      },
+      {
+        "level": "H1",
+        "text": "Description of the code"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{detectors.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{skymap.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{overlap.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{pls.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{anisotropy.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{snr.py"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Overlap Reduction Function"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO-Virgo"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Angular Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO-Virgo"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Ground based detectors coordinates"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15791v1",
+    "url": "http://arxiv.org/abs/2507.15791v1"
+  },
+  {
+    "title": "Decadal evolution of a repeating fast radio burst source",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Observation Campaign and Data Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "DM Variation"
+      },
+      {
+        "level": "H1",
+        "text": "Burst Rate and Energy Distribution"
+      },
+      {
+        "level": "H1",
+        "text": "Time-Domain Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Active Periodicity and Time Difference Algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Short Timescale Period Search"
+      },
+      {
+        "level": "H2",
+        "text": "Long Timescale Period Search"
+      },
+      {
+        "level": "H1",
+        "text": "A Comprehensive Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Morphology"
+      },
+      {
+        "level": "H1",
+        "text": "Polarization Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Physical Origin of the Evolution of DM and RM of FRB 20121102A"
+      },
+      {
+        "level": "H2",
+        "text": "Observation of FRB 20121102A"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of DM and RM from a Young Supernova Remnant"
+      },
+      {
+        "level": "H2",
+        "text": "Extra DM from Pair Injection by Enhanced Wind"
+      },
+      {
+        "level": "H1",
+        "text": "Contribution of Binary Star Orbital Motion to the DM Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Data availability"
+      },
+      {
+        "level": "H2",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Table"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15790v1",
+    "url": "http://arxiv.org/abs/2507.15790v1"
+  },
+  {
+    "title": "Deep-Learning Investigation of Vibrational Raman Spectra for Plant-Stress Analysis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "DIVA to analyze Raman spectra."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding light stress responses in diverse plant species."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding gene-specific shade avoidance stress responses."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding high-temperature stress responses."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding bacterial-infection induced stress responses."
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Figures"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Tables"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Notes"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary~Note~1: Decoding gene-specific shade stress responses from petiole Raman spectra."
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary~Note~2: Decoding high-temperature stress responses from petiole Raman spectra in diverse plants."
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15772v1",
+    "url": "http://arxiv.org/abs/2507.15772v1"
+  },
+  {
+    "title": "Discovery of a transiting hot water-world candidate orbiting Ross 176 with TESS and CARMENES",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "\\textit{TESS"
+      },
+      {
+        "level": "H1",
+        "text": "Ground-based follow-up observations"
+      },
+      {
+        "level": "H2",
+        "text": "Ground-based photometry"
+      },
+      {
+        "level": "H2",
+        "text": "Spectroscopy with CARMENES"
+      },
+      {
+        "level": "H1",
+        "text": "Host star"
+      },
+      {
+        "level": "H2",
+        "text": "Stellar parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Activity indicators and stellar rotation"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis and results"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric modeling"
+      },
+      {
+        "level": "H2",
+        "text": "RV modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Joint fit"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Is Ross~176\\,b a water-world planet?"
+      },
+      {
+        "level": "H2",
+        "text": "Interior composition of Ross~176\\,b"
+      },
+      {
+        "level": "H2",
+        "text": "Prospective atmosphere characterization with JWST"
+      },
+      {
+        "level": "H2",
+        "text": "Implication of the orbital eccentricity"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Data aviability"
+      },
+      {
+        "level": "H1",
+        "text": "Additional figures and tables"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15763v1",
+    "url": "http://arxiv.org/abs/2507.15763v1"
+  },
+  {
+    "title": "The Probable Direct-Imaging Detection of the Stellar Companion to Betelgeuse",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction \\label{sec:Intro"
+      },
+      {
+        "level": "H1",
+        "text": "Observations"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Optical Angular Diameter Measurements of $\\alpha$ Ori A"
+      },
+      {
+        "level": "H2",
+        "text": "The Probable Direct-Imaging Detection of $\\alpha$ Ori B"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Likelihood That the Companion Is Real and Bound"
+      },
+      {
+        "level": "H2",
+        "text": "Nature of the Companion"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Future Work"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15749v1",
+    "url": "http://arxiv.org/abs/2507.15749v1"
+  },
+  {
+    "title": "Explainable Anomaly Detection for Electric Vehicles Charging Stations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A summary of Latin grammar"
+      },
+      {
+        "level": "H1",
+        "text": "Some Latin vocabulary"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset and Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Global feature ranking and selection"
+      },
+      {
+        "level": "H2",
+        "text": "Local interpretation of individual predictions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Explainable Anomaly Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Isolation Forest"
+      },
+      {
+        "level": "H2",
+        "text": "DIFFI algorithm"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15718v1",
+    "url": "http://arxiv.org/abs/2507.15718v1"
+  },
+  {
+    "title": "Chinchunmei at SemEval-2025 Task 11: Boosting the Large Language Model's Capability of Emotion Perception using Contrastive Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Standard prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Sample-based contrastive learning"
+      },
+      {
+        "level": "H2",
+        "text": "Generation-based contrastive learning"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Multilingual influence"
+      },
+      {
+        "level": "H2",
+        "text": "Sample-based vs generation-based contrastive learning"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Engines"
+      },
+      {
+        "level": "H1",
+        "text": "Preamble"
+      },
+      {
+        "level": "H1",
+        "text": "Document Body"
+      },
+      {
+        "level": "H2",
+        "text": "Footnotes"
+      },
+      {
+        "level": "H2",
+        "text": "Tables and figures"
+      },
+      {
+        "level": "H2",
+        "text": "Hyperlinks"
+      },
+      {
+        "level": "H2",
+        "text": "Citations"
+      },
+      {
+        "level": "H2",
+        "text": "References"
+      },
+      {
+        "level": "H2",
+        "text": "Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Bib\\TeX{"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Example Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt templates"
+      },
+      {
+        "level": "H2",
+        "text": "Development set discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Test results of SP multilingual model on all languages"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15714v1",
+    "url": "http://arxiv.org/abs/2507.15714v1"
+  },
+  {
+    "title": "Surfacing Variations to Calibrate Perceived Reliability of MLLM-generated Image Descriptions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "User Study"
+      },
+      {
+        "level": "H2",
+        "text": "Participants"
+      },
+      {
+        "level": "H2",
+        "text": "Materials"
+      },
+      {
+        "level": "H2",
+        "text": "Task"
+      },
+      {
+        "level": "H2",
+        "text": "Procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "What Makes Image Descriptions Appear Unreliable?"
+      },
+      {
+        "level": "H3",
+        "text": "Identifying unreliable claims with single descriptions."
+      },
+      {
+        "level": "H3",
+        "text": "Identifying unreliable claims with variations."
+      },
+      {
+        "level": "H2",
+        "text": "What are Effective Design Strategies for Surfacing Variations?"
+      },
+      {
+        "level": "H3",
+        "text": "Presentation style"
+      },
+      {
+        "level": "H3",
+        "text": "Support Indicator"
+      },
+      {
+        "level": "H3",
+        "text": "Modality"
+      },
+      {
+        "level": "H2",
+        "text": "When do Variations in MLLM-generated Image Description Matter?"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Prototype Design and Development"
+      },
+      {
+        "level": "H2",
+        "text": "Surfacing MLLM Variations: A Design Space"
+      },
+      {
+        "level": "H3",
+        "text": "Elicitation of Variants"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison Support"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison Granularity"
+      },
+      {
+        "level": "H3",
+        "text": "Support indicator"
+      },
+      {
+        "level": "H3",
+        "text": "Provenance indicator"
+      },
+      {
+        "level": "H3",
+        "text": "Modality"
+      },
+      {
+        "level": "H2",
+        "text": "Prototype"
+      },
+      {
+        "level": "H3",
+        "text": "Interface"
+      },
+      {
+        "level": "H3",
+        "text": "Automatic Variation Summary Pipeline"
+      },
+      {
+        "level": "H3",
+        "text": "Implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Pipeline Prompts"
+      },
+      {
+        "level": "H1",
+        "text": "Study Image Details"
+      },
+      {
+        "level": "H1",
+        "text": "Image-Prompt Pairs in Open-end Use Session"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Visual Access Technology"
+      },
+      {
+        "level": "H2",
+        "text": "Visual Description Verification Strategies for BLV People"
+      },
+      {
+        "level": "H2",
+        "text": "Variations in Large Language Model Outputs"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Usage of Variations in MLLM-generated Image Descriptions"
+      },
+      {
+        "level": "H3",
+        "text": "Empower BLV people to surface capabilities and limitations of MLLMs"
+      },
+      {
+        "level": "H3",
+        "text": "Provide comprehensive understanding of images"
+      },
+      {
+        "level": "H2",
+        "text": "Implications for Accessible Interfaces to Surface Variations"
+      },
+      {
+        "level": "H2",
+        "text": "Beyond Image Descriptions"
+      },
+      {
+        "level": "H3",
+        "text": "Video"
+      },
+      {
+        "level": "H3",
+        "text": "Computer Use Agent"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15692v1",
+    "url": "http://arxiv.org/abs/2507.15692v1"
+  },
+  {
+    "title": "BugScope: Learn to Find Bugs Like Human",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Approach"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Context Retrieval Agent"
+      },
+      {
+        "level": "H2",
+        "text": "Bug Detection Agent"
+      },
+      {
+        "level": "H1",
+        "text": "Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity of Software Bugs"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations of Existing Techniques"
+      },
+      {
+        "level": "H2",
+        "text": "Our Vision"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of \\toolname{"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Baselines"
+      },
+      {
+        "level": "H2",
+        "text": "Real-World Impact"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of BugBot and CodeRabbit"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Result"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of False Negatives"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of False Positives"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15671v1",
+    "url": "http://arxiv.org/abs/2507.15671v1"
+  },
+  {
+    "title": "Characterization of downward Terrestrial Gamma-ray Flashes detected at the Pierre Auger Observatory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "The observation of downward TGFs at the Pierre Auger Observatory"
+      },
+      {
+        "level": "H1",
+        "text": "Characterization of TGF footprint and theoretical implications"
+      },
+      {
+        "level": "H1",
+        "text": "Performance of the long-signal algorithm for identification of TGF traces"
+      },
+      {
+        "level": "H1",
+        "text": "Future Lightning Local Network at the Auger Observatory"
+      },
+      {
+        "level": "H2",
+        "text": "BOLT General Information"
+      },
+      {
+        "level": "H1",
+        "text": "The Pierre Auger Collaboration"
+      },
+      {
+        "level": "H1",
+        "text": "Full Authors List: \\Coll\\ Collaboration"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15669v1",
+    "url": "http://arxiv.org/abs/2507.15669v1"
+  },
+  {
+    "title": "The New Architecture of the Online Observation Quality System for the ASTRI Mini-Array Project",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "OOQS New Software Architecture"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15656v1",
+    "url": "http://arxiv.org/abs/2507.15656v1"
+  },
+  {
+    "title": "Towards Explainable Anomaly Detection in Shared Mobility Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A summary of Latin grammar"
+      },
+      {
+        "level": "H1",
+        "text": "Some Latin vocabulary"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Directions"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Importance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Neighborhood and Station-Level Spatial Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study: Anomaly Spikes and External Influences"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15643v1",
+    "url": "http://arxiv.org/abs/2507.15643v1"
+  },
+  {
+    "title": "Uncovering Critical Features for Deepfake Detection through the Lottery Ticket Hypothesis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "Deepfake Detection Models and Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Pruning Algorithms and Their Applications"
+      },
+      {
+        "level": "H2",
+        "text": "Pruning Algorithm in AI"
+      },
+      {
+        "level": "H1",
+        "text": "Exploring the Lottery Ticket Hypothesis for Deepfake Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Identifying Winning Tickets"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges in Applying LTH to Deepfake Detection"
+      },
+      {
+        "level": "H3",
+        "text": "Preserving Rare Feature Sensitivity"
+      },
+      {
+        "level": "H3",
+        "text": "Mitigating Pruning Bias"
+      },
+      {
+        "level": "H2",
+        "text": "Iterative Magnitude Pruning (IMP)"
+      },
+      {
+        "level": "H2",
+        "text": "Transferability of Sparse Subnetworks Across Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Analyzing Pruning Effects Using Grad-CAM"
+      },
+      {
+        "level": "H3",
+        "text": "Feature Activation Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Heatmap Generation"
+      },
+      {
+        "level": "H3",
+        "text": "Comparative Attention Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Datasets and Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Network Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Training Protocol"
+      },
+      {
+        "level": "H1",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Across Pruning Rates"
+      },
+      {
+        "level": "H2",
+        "text": "Impact of Pruning Strategies"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture-Specific Behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Grad-CAM Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Transfer Ticket"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations, Conclusions, and Future Work"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15636v1",
+    "url": "http://arxiv.org/abs/2507.15636v1"
+  },
+  {
+    "title": "Multi-Stage Prompt Inference Attacks on Enterprise LLM Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Threat Model and Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "System Model: Enterprise LLM Integration"
+      },
+      {
+        "level": "H2",
+        "text": "Attack Modeling via Information Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Example Scenario"
+      },
+      {
+        "level": "H1",
+        "text": "Multi-Stage Prompt Inference Attacks"
+      },
+      {
+        "level": "H2",
+        "text": "Attack Stages and Tactics"
+      },
+      {
+        "level": "H2",
+        "text": "Information-Theoretic Analysis of Leakage"
+      },
+      {
+        "level": "H1",
+        "text": "Defenses Against Prompt Inference Attacks"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection for Multi-Turn Attacks"
+      },
+      {
+        "level": "H2",
+        "text": "Access Control and Context Separation"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt Sanitization and Content Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Architectural and Training-Time Defenses"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15613v1",
+    "url": "http://arxiv.org/abs/2507.15613v1"
+  },
+  {
+    "title": "Optimizing Force Signals from Human Demonstrations of In-Contact Motions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction and Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Error Criterion"
+      },
+      {
+        "level": "H2",
+        "text": "Contact Peak Removal"
+      },
+      {
+        "level": "H2",
+        "text": "Application of Filtering Techniques"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Contact Peak Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Filtering Techniques"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15608v1",
+    "url": "http://arxiv.org/abs/2507.15608v1"
+  },
+  {
+    "title": "Improving Functional Reliability of Near-Field Monitoring for Emergency Braking in Autonomous Vehicles",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Statement"
+      },
+      {
+        "level": "H2",
+        "text": "System Description"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Advanced Monitoring Strategies"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Spatial Range Adaptation"
+      },
+      {
+        "level": "H3",
+        "text": "Spatial Filtering via Driving Corridor Constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Size-based Object Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Motion-aware Predictive Monitoring"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Size-based Filter Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Motion-aware Monitoring Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "APPENDIX"
+      },
+      {
+        "level": "H1",
+        "text": "ACKNOWLEDGMENT"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15594v1",
+    "url": "http://arxiv.org/abs/2507.15594v1"
+  },
+  {
+    "title": "We Need to Rethink Benchmarking in Anomaly Detection",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Scenario-specific Benchmarking"
+      },
+      {
+        "level": "H2",
+        "text": "From Applications to a Taxonomy for Anomaly Detection Scenarios"
+      },
+      {
+        "level": "H2",
+        "text": "Partially Scenario-specific Benchmarks"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Anomaly Detection Scenarios"
+      },
+      {
+        "level": "H1",
+        "text": "Scenario-specific Anomaly Detection Components"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Model Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection Ensembles"
+      },
+      {
+        "level": "H1",
+        "text": "Scenario-specific Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Objectives"
+      },
+      {
+        "level": "H2",
+        "text": "Robust Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Centralized Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Alternative Views"
+      },
+      {
+        "level": "H2",
+        "text": "Number versus Relevance of Benchmarking Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection Pipelines vs. Components"
+      },
+      {
+        "level": "H2",
+        "text": "One vs. Multiple Evaluation Objectives"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15584v1",
+    "url": "http://arxiv.org/abs/2507.15584v1"
+  },
+  {
+    "title": "Compress-Align-Detect: onboard change detection from unregistered images",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Image compression"
+      },
+      {
+        "level": "H2",
+        "text": "Image co-registration"
+      },
+      {
+        "level": "H2",
+        "text": "Change Detection"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Image compression module"
+      },
+      {
+        "level": "H2",
+        "text": "Image co-registration module"
+      },
+      {
+        "level": "H2",
+        "text": "Change detection module"
+      },
+      {
+        "level": "H2",
+        "text": "Training Procedure"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental results"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Framework main results"
+      },
+      {
+        "level": "H2",
+        "text": "Change detection module results"
+      },
+      {
+        "level": "H2",
+        "text": "Registration module results"
+      },
+      {
+        "level": "H2",
+        "text": "Compression module results"
+      },
+      {
+        "level": "H2",
+        "text": "\\ourmodel\\ complexity and performance ablations"
+      },
+      {
+        "level": "H2",
+        "text": "Effectiveness of Pretraining"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15578v1",
+    "url": "http://arxiv.org/abs/2507.15578v1"
+  },
+  {
+    "title": "GeMix: Conditional GAN-Based Mixup for Improved Medical Image Augmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Background %and Preliminaries\n%"
+      },
+      {
+        "level": "H2",
+        "text": "Data augmentation"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Mixup"
+      },
+      {
+        "level": "H1",
+        "text": "GeMix Augmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Background: Generative Adversarial Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of GeMix"
+      },
+      {
+        "level": "H2",
+        "text": "Conditional GAN Training"
+      },
+      {
+        "level": "H2",
+        "text": "GAN-Based Mixup Augmentation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H2",
+        "text": "Training Setups"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative analysis"
+      },
+      {
+        "level": "H3",
+        "text": "GeMix leads to more realistic images"
+      },
+      {
+        "level": "H3",
+        "text": "GeMix expands the data distribution"
+      },
+      {
+        "level": "H3",
+        "text": "GeMix provides a lower false negative rate"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15577v1",
+    "url": "http://arxiv.org/abs/2507.15577v1"
+  },
+  {
+    "title": "Signatures of Exploding Supermassive PopIII Stars at High Redshift in JWST, EUCLID and Roman Space Telescope",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Light Curve Model"
+      },
+      {
+        "level": "H1",
+        "text": "Old models (remove later) \\label{sec:old-theory"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix \\label{sec:appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Model Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Bolometric Light Curve Properties of Supermassive Star Explosions"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric Observational Properties"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Ionisation of the CSM"
+      },
+      {
+        "level": "H2",
+        "text": "Distinguishing SMS Explosions From Alternative Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Rate Estimation of High-z SMS Transients"
+      },
+      {
+        "level": "H2",
+        "text": "Further Investigation Topics and Future Model Improvements"
+      },
+      {
+        "level": "H2",
+        "text": "Light Curve Model"
+      },
+      {
+        "level": "H2",
+        "text": "Ejecta and Circumstellar Medium Properties"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of the Shock Shell"
+      },
+      {
+        "level": "H2",
+        "text": "Energy Evolution and Emission From the Shock Region"
+      },
+      {
+        "level": "H2",
+        "text": "Initial Conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Computation of Radiation Flux and Apparent Magnitude"
+      },
+      {
+        "level": "H1",
+        "text": "Analytic Form of the ejecta Energy and Mass Integrals"
+      },
+      {
+        "level": "H1",
+        "text": "Light Curve Model Validation"
+      },
+      {
+        "level": "H1",
+        "text": "Colour Magnitude plot including early-time peak"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15556v1",
+    "url": "http://arxiv.org/abs/2507.15556v1"
+  },
+  {
+    "title": "HOLa: Zero-Shot HOI Detection with Low-Rank Decomposed VLM Feature Adaptation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "VLM Feature Decomposition and Adaptation"
+      },
+      {
+        "level": "H2",
+        "text": "Language Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Vision Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Training and Inference"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Zero-Shot HOI Detection Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      },
+      {
+        "level": "H1",
+        "text": "Vision Branch"
+      },
+      {
+        "level": "H1",
+        "text": "Language Branch"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Results"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Controlability"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work Exploration"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15542v1",
+    "url": "http://arxiv.org/abs/2507.15542v1"
+  },
+  {
+    "title": "Inclination Effect on Observational Identification of Outflow Rotation in Magnetohydrodynamics Simulations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Magnetohydrodynamics Simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Radiative Transfer and Synthetic Observation"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Snapshot for CB 26"
+      },
+      {
+        "level": "H2",
+        "text": "Observable Signatures of Outflow Rotation"
+      },
+      {
+        "level": "H2",
+        "text": "Effects of Inclination Angles"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Difference between Outflow and Infall"
+      },
+      {
+        "level": "H2",
+        "text": "Inclination Effects during Protostellar Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Complex Outflow Axes in Observational Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of High Vertical Velocity"
+      },
+      {
+        "level": "H2",
+        "text": "Optical Depth and Mass Estimation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15535v1",
+    "url": "http://arxiv.org/abs/2507.15535v1"
+  },
+  {
+    "title": "An aerial color image anomaly dataset for search missions in complex forested terrain",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Background \\& Summary"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works \\& Datasets"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Data Acquisition and Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Online Crowd Search"
+      },
+      {
+        "level": "H2",
+        "text": "Data Review, Mapping, and Ground Operations"
+      },
+      {
+        "level": "H1",
+        "text": "Data Records"
+      },
+      {
+        "level": "H2",
+        "text": "Downloading the Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Viewing the Dataset Online"
+      },
+      {
+        "level": "H2",
+        "text": "Adding new Findings"
+      },
+      {
+        "level": "H1",
+        "text": "Technical Validation"
+      },
+      {
+        "level": "H1",
+        "text": "Usage Notes"
+      },
+      {
+        "level": "H1",
+        "text": "Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Competing Interests"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15492v1",
+    "url": "http://arxiv.org/abs/2507.15492v1"
+  },
+  {
+    "title": "Delayed Launch of Ultrafast Outflows in the Tidal Disruption Event AT2020afhd",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data reduction and Method"
+      },
+      {
+        "level": "H1",
+        "text": "Result"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with absorption features detected in other TDEs"
+      },
+      {
+        "level": "H2",
+        "text": "Driving mechanisms of the outflow"
+      },
+      {
+        "level": "H2",
+        "text": "Plausible explanations for the delayed onset outflow"
+      },
+      {
+        "level": "H2",
+        "text": "Mass loss rate"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSIONS"
+      },
+      {
+        "level": "H1",
+        "text": "Identification of Absorption Features"
+      },
+      {
+        "level": "H1",
+        "text": "Photoionization spectroscopy parameters"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15482v1",
+    "url": "http://arxiv.org/abs/2507.15482v1"
+  },
+  {
+    "title": "Multiple Hypothesis Testing To Estimate The Number Of Communities in Stochastic Block Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Stochastic Block Models"
+      },
+      {
+        "level": "H2",
+        "text": "Estimating the Number of Communities in SBM"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Stochastic Block Model"
+      },
+      {
+        "level": "H2",
+        "text": "Main Idea"
+      },
+      {
+        "level": "H2",
+        "text": "Second Eigenvalues of Erd\\\"{o"
+      },
+      {
+        "level": "H2",
+        "text": "Sequential Multiple Tests"
+      },
+      {
+        "level": "H1",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic Null"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic Power"
+      },
+      {
+        "level": "H3",
+        "text": "Investigations into Type I error and Power"
+      },
+      {
+        "level": "H2",
+        "text": "Comparisons"
+      },
+      {
+        "level": "H2",
+        "text": "Methodological Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Comparisons"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "SBM networks from scRNA-seq datasets"
+      },
+      {
+        "level": "H1",
+        "text": "Real Data Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark Data Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Human Retina Bipolar Single-Cell Analysis"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15471v1",
+    "url": "http://arxiv.org/abs/2507.15471v1"
+  },
+  {
+    "title": "Opportunities and challenges to study solar neutrinos with a Q-Pix pixel readout",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "The Q-Pix readout"
+      },
+      {
+        "level": "H2",
+        "text": "The Q-Pix concept"
+      },
+      {
+        "level": "H2",
+        "text": "Event simulation with Q-Pix"
+      },
+      {
+        "level": "H2",
+        "text": "Event Reconstruction"
+      },
+      {
+        "level": "H3",
+        "text": "Energy reconstruction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental design assumptions"
+      },
+      {
+        "level": "H2",
+        "text": "Detector"
+      },
+      {
+        "level": "H2",
+        "text": "Cavern"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Background rejection with Q-Pix clustering"
+      },
+      {
+        "level": "H2",
+        "text": "Fiducialization"
+      },
+      {
+        "level": "H2",
+        "text": "Background rejection with directionality"
+      },
+      {
+        "level": "H2",
+        "text": "Background rejection with light detection"
+      },
+      {
+        "level": "H3",
+        "text": "Pulse-shape discrimination"
+      },
+      {
+        "level": "H3",
+        "text": "Light coincidence from solar neutrino CC interactions"
+      },
+      {
+        "level": "H2",
+        "text": "Expected data rates"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Background predictions"
+      },
+      {
+        "level": "H2",
+        "text": "Internal backgrounds"
+      },
+      {
+        "level": "H3",
+        "text": "Argon radioactivity"
+      },
+      {
+        "level": "H3",
+        "text": "Radon decay chains"
+      },
+      {
+        "level": "H3",
+        "text": "Radioactivity from detector components"
+      },
+      {
+        "level": "H2",
+        "text": "External backgrounds"
+      },
+      {
+        "level": "H3",
+        "text": "Neutrons"
+      },
+      {
+        "level": "H3",
+        "text": "$\\gamma$ rays"
+      },
+      {
+        "level": "H1",
+        "text": "Solar Neutrino Prediction"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15459v1",
+    "url": "http://arxiv.org/abs/2507.15459v1"
+  },
+  {
+    "title": "Approaches for modelling the term-structure of default risk under IFRS 9: A tutorial using discrete-time survival analysis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A broad review of approaches to deriving lifetime PD-estimates"
+      },
+      {
+        "level": "H2",
+        "text": "Surveying previous reviews of methods for lifetime PD-estimation"
+      },
+      {
+        "level": "H2",
+        "text": "The use of survival analysis in lifetime PD-estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Matrix-type models and other approaches to lifetime PD-estimation"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix: The formulation of time-dependent diagnostics for survival models"
+      },
+      {
+        "level": "H2",
+        "text": "Using time-dependent ROC-analysis (tROC) for evaluating discriminatory power"
+      },
+      {
+        "level": "H2",
+        "text": "Towards measuring calibration and discriminatory power: the time-dependent Brier score"
+      },
+      {
+        "level": "H2",
+        "text": "The empirical term-structures approach from \\citet{breed2021"
+      },
+      {
+        "level": "H2",
+        "text": "The Basel-based GLM-approach from \\citet{bellini2019"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Resampling schemes and a diagnostic measure for testing sampling representativeness"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H1",
+        "text": "Estimating lifetime PDs using survival analysis in discrete time"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix: The input spaces of two competing discrete-time hazard models"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix: Approaches that re-use existing PD-models in deriving lifetime PDs"
+      },
+      {
+        "level": "H2",
+        "text": "Towards structuring credit survival data: Basic concepts \\& notation"
+      },
+      {
+        "level": "H2",
+        "text": "Constructing the empirical term-structure of default risk within discrete-time"
+      },
+      {
+        "level": "H2",
+        "text": "Disclosure of interest and declaration of funding"
+      },
+      {
+        "level": "H2",
+        "text": "Various diagnostics in validating discrete-time hazard models"
+      },
+      {
+        "level": "H2",
+        "text": "A discrete-time hazard model using the Prentice-Williams-Peterson (PWP) technique"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15441v1",
+    "url": "http://arxiv.org/abs/2507.15441v1"
+  },
+  {
+    "title": "Human vs. Algorithmic Auditors: The Impact of Entity Type and Ambiguity on Human Dishonesty",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Tables, manipulation checks"
+      },
+      {
+        "level": "H2",
+        "text": "Further descriptive statistics \\& Analysis of control variables"
+      },
+      {
+        "level": "H2",
+        "text": "Regression analysis for likelihood of cheating"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Literature and Derivation of Hypotheses"
+      },
+      {
+        "level": "H2",
+        "text": "Literature Overview"
+      },
+      {
+        "level": "H3",
+        "text": "Algorithm perception"
+      },
+      {
+        "level": "H3",
+        "text": "Human dishonesty"
+      },
+      {
+        "level": "H2",
+        "text": "Hypotheses"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental design"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental procedure"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Dishonest behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Control variables"
+      },
+      {
+        "level": "H2",
+        "text": "Regression analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Verification process illustrations and outcomes"
+      },
+      {
+        "level": "H3",
+        "text": "Human verification"
+      },
+      {
+        "level": "H3",
+        "text": "Algorithmic verification"
+      },
+      {
+        "level": "H3",
+        "text": "Audit outcomes by session"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of payoff utility function"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment instructions"
+      },
+      {
+        "level": "H1",
+        "text": "General information"
+      },
+      {
+        "level": "H1",
+        "text": "Procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Drawing a card for the prize draw"
+      },
+      {
+        "level": "H2",
+        "text": "Input your number"
+      },
+      {
+        "level": "H2",
+        "text": "Questionnaire"
+      },
+      {
+        "level": "H1",
+        "text": "Prize draw / Payout"
+      },
+      {
+        "level": "H2",
+        "text": "Prize draw"
+      },
+      {
+        "level": "H2",
+        "text": "Payout"
+      },
+      {
+        "level": "H3",
+        "text": "Lottery 1: Decision on verification of your card"
+      },
+      {
+        "level": "H3",
+        "text": "Depending on the outcome of Lottery 1: Card check"
+      },
+      {
+        "level": "H3",
+        "text": "Depending on the outcome of the check: Lottery 2 \\& Potential adjustment of the payoff"
+      },
+      {
+        "level": "H3",
+        "text": "Decision 1: Decision on verification of your card"
+      },
+      {
+        "level": "H3",
+        "text": "Depending on the outcome of Decision 1: Card check"
+      },
+      {
+        "level": "H3",
+        "text": "Depending on the outcome of the check: Decision 2 \\& Potential adjustment of the payoff"
+      },
+      {
+        "level": "H1",
+        "text": "Additional remarks"
+      },
+      {
+        "level": "H1",
+        "text": "Comprehension questions"
+      },
+      {
+        "level": "H2",
+        "text": "Please answer the following questions."
+      },
+      {
+        "level": "H2",
+        "text": "Please answer the following questions."
+      },
+      {
+        "level": "H2",
+        "text": "Please answer the following questions."
+      },
+      {
+        "level": "H1",
+        "text": "Questionnaire"
+      },
+      {
+        "level": "H2",
+        "text": "Please answer the following questions."
+      },
+      {
+        "level": "H2",
+        "text": "Please answer the following questions."
+      },
+      {
+        "level": "H2",
+        "text": "Please answer the following questions."
+      },
+      {
+        "level": "H2",
+        "text": "Please answer the following questions."
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15439v1",
+    "url": "http://arxiv.org/abs/2507.15439v1"
+  },
+  {
+    "title": "PhishIntentionLLM: Uncovering Phishing Website Intentions through Multi-Agent Retrieval-Augmented Generation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "System Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Knowledge Retrieval Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Processing Pipeline"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Model Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Ground Truth Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Model Performance"
+      },
+      {
+        "level": "H2",
+        "text": "PhishIntentionLLM vs. Single-Agent"
+      },
+      {
+        "level": "H2",
+        "text": "PhishIntentionLLM vs. PhishIntention"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15419v1",
+    "url": "http://arxiv.org/abs/2507.15419v1"
+  },
+  {
+    "title": "Simphony: A full tight-binding package for lattice vibrations and topological phonon analysis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Theory and Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamical Matrix, Fourier Interpolation and Long-Range Interactions"
+      },
+      {
+        "level": "H2",
+        "text": "Wannier Tight-Binding for Phonons"
+      },
+      {
+        "level": "H2",
+        "text": "Slabs"
+      },
+      {
+        "level": "H2",
+        "text": "Wannier Charge Center"
+      },
+      {
+        "level": "H2",
+        "text": "Green's Function for Surface State Calculation"
+      },
+      {
+        "level": "H1",
+        "text": "Usage"
+      },
+      {
+        "level": "H2",
+        "text": "Download and compilation"
+      },
+      {
+        "level": "H2",
+        "text": "Running \\texttt{Simphony"
+      },
+      {
+        "level": "H1",
+        "text": "Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Buckled Honeycomb Lattice"
+      },
+      {
+        "level": "H2",
+        "text": "Obstructed atomic limit in AgP$_2$"
+      },
+      {
+        "level": "H2",
+        "text": "Weyl nodes in Al$_2$ZnTe$_4$"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15413v1",
+    "url": "http://arxiv.org/abs/2507.15413v1"
+  },
+  {
+    "title": "PiMRef: Detecting and Explaining Ever-evolving Spear Phishing Emails with Knowledge Base Invariants",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Threat Model"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Scope"
+      },
+      {
+        "level": "H2",
+        "text": "Attacker Capabilities"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Hyperparameter Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Failure cases of ChatSpamDetector \\cite{chatspamdetector"
+      },
+      {
+        "level": "H1",
+        "text": "LLM-based Spear-Phishing Attack \\& \\textit{SpearMail"
+      },
+      {
+        "level": "H2",
+        "text": "LLM-based Spear-Phishing Attack"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmark Construction"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation on Psychological Persuasion"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Approach"
+      },
+      {
+        "level": "H2",
+        "text": "Domain Inference"
+      },
+      {
+        "level": "H2",
+        "text": "Instruction Recognition"
+      },
+      {
+        "level": "H2",
+        "text": "Sender Identity Recognition"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2: Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Setup"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Results"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1: Closed-World Experiment"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Results"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3: Adversarial Robustness"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Attack Setup"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Results"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Research Questions"
+      },
+      {
+        "level": "H2",
+        "text": "Hyper-parameter Setup"
+      },
+      {
+        "level": "H2",
+        "text": "RQ4: Field Study"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Metrics \\& Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Results"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{Wild phishing emails caught by \\tool"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{False positives and negatives reported by \\tool"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{False negatives missed by \\tool"
+      },
+      {
+        "level": "H3",
+        "text": "\\textbf{What are the emerging tactics exploited by phishers?"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15393v1",
+    "url": "http://arxiv.org/abs/2507.15393v1"
+  },
+  {
+    "title": "AlgoSimBench: Identifying Algorithmically Similar Problems for Competitive Programming",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "AlgoSimBench Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Data Sources and Statistics"
+      },
+      {
+        "level": "H2",
+        "text": "Multiple-Choice Question Construction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Retrieval Baseline"
+      },
+      {
+        "level": "H2",
+        "text": "Attempted Solution Matching"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H2",
+        "text": "End-to-End Selection"
+      },
+      {
+        "level": "H3",
+        "text": "Main Results"
+      },
+      {
+        "level": "H3",
+        "text": "Effects of Problem Attributes"
+      },
+      {
+        "level": "H2",
+        "text": "Retrieval-Based Selection"
+      },
+      {
+        "level": "H2",
+        "text": "ICL Exemplar Selection w/ASM"
+      },
+      {
+        "level": "H1",
+        "text": "Author Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Ethics Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Sources \\& Statistics"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Tags"
+      },
+      {
+        "level": "H2",
+        "text": "Effects of MCQ Option Position"
+      },
+      {
+        "level": "H2",
+        "text": "Inference Time"
+      },
+      {
+        "level": "H2",
+        "text": "Additional Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Additional Embedding Models"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H3",
+        "text": "Prompts"
+      },
+      {
+        "level": "H3",
+        "text": "Model Details"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15378v1",
+    "url": "http://arxiv.org/abs/2507.15378v1"
+  },
+  {
+    "title": "Nanosecond-latency all-optical fiber sensing with in-sensor computing",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Principle of AOFS-IC"
+      },
+      {
+        "level": "H2",
+        "text": "Linear regression between measurand and output intensity"
+      },
+      {
+        "level": "H2",
+        "text": "All-optical recognition of discrete sensing states"
+      },
+      {
+        "level": "H2",
+        "text": "Multiplexing of AOFS-IC for multiple positions and multiple measurands"
+      },
+      {
+        "level": "H2",
+        "text": "High-speed and high-accuracy all-optical sensing"
+      },
+      {
+        "level": "H2",
+        "text": "AOFS-IC for robotic arm monitoring and control"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental system"
+      },
+      {
+        "level": "H2",
+        "text": "Training method of ODN"
+      },
+      {
+        "level": "H2",
+        "text": "Generalized sensing capability"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing and computing time analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Noise analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Data, Materials, and Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of interest"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15376v1",
+    "url": "http://arxiv.org/abs/2507.15376v1"
+  },
+  {
+    "title": "Robust ISAC Transceiver Beamforming Design under Low-Resolution AD/DA Converters",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "System Model and Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Solution"
+      },
+      {
+        "level": "H2",
+        "text": "Beamforming Optimization for Point Target with Uniform-resolution DACs"
+      },
+      {
+        "level": "H2",
+        "text": "Beamforming Optimization for General Scenarios"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Proposition ~\\ref{prop1"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15373v1",
+    "url": "http://arxiv.org/abs/2507.15373v1"
+  },
+  {
+    "title": "Latent Space Synergy: Text-Guided Data Augmentation for Direct Diffusion Biomedical Segmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Medical Image Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Data Augmentation and Generative Models"
+      },
+      {
+        "level": "H2",
+        "text": "Data Augmentation and Synthetic Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion Models for Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Research Gap"
+      },
+      {
+        "level": "H2",
+        "text": "Medical Image Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion Models for Image Generation and Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Data Augmentation for Medical Images"
+      },
+      {
+        "level": "H1",
+        "text": "\\methname Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Diffusion Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Diffusion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Text-Guided Synthetic Data Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Text-Guided Synthetic Data Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Direct Latent Estimation for Single-Step Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Fusion and Training Protocol"
+      },
+      {
+        "level": "H2",
+        "text": "Inference and Computational Efficiency"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Diffusion Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Text-Guided Synthetic Data Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Direct Latent Estimation for Single-Step Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Fusion and Trainable Vision Encoder"
+      },
+      {
+        "level": "H2",
+        "text": "End-to-End Training and Inference"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Data Augmentation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Data Augmentation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Data Augmentation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Computational Efficiency Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and Evaluation Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Metrics:"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H3",
+        "text": "Augmented Image Generation:"
+      },
+      {
+        "level": "H3",
+        "text": "Experimental Settings:"
+      },
+      {
+        "level": "H3",
+        "text": "Inference:"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of Augmentation Steps"
+      },
+      {
+        "level": "H2",
+        "text": "Augmented Data Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Future Work and Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Future Work and Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15361v1",
+    "url": "http://arxiv.org/abs/2507.15361v1"
+  },
+  {
+    "title": "Prospects of detecting rotational flatness of exoplanets from space-based photometry",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Transits of an ellipsoidal planet"
+      },
+      {
+        "level": "H2",
+        "text": "Ellipsoidal planetary shape"
+      },
+      {
+        "level": "H2",
+        "text": "Transit calculation"
+      },
+      {
+        "level": "H2",
+        "text": "An improved model"
+      },
+      {
+        "level": "H1",
+        "text": "Performance of the model"
+      },
+      {
+        "level": "H2",
+        "text": "Limit of circular planet"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with squishyplanet"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter grid"
+      },
+      {
+        "level": "H2",
+        "text": "Light curve fitting"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter recovery"
+      },
+      {
+        "level": "H3",
+        "text": "Oblateness"
+      },
+      {
+        "level": "H3",
+        "text": "Obliquity"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion \\& conclusion"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15359v1",
+    "url": "http://arxiv.org/abs/2507.15359v1"
+  },
+  {
+    "title": "RoadFusion: Latent Diffusion Model for Pavement Defect Detection",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of Pavement Defect Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Surface Defect Detection Across Domains"
+      },
+      {
+        "level": "H2",
+        "text": "Data Generation and Domain Adaptation"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Machine Learning Era"
+      },
+      {
+        "level": "H2",
+        "text": "Deep Learning Revolution"
+      },
+      {
+        "level": "H2",
+        "text": "Recent Advances"
+      },
+      {
+        "level": "H2",
+        "text": "Domain Adaptation and Transfer Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Practical Challenges and Emerging Solutions"
+      },
+      {
+        "level": "H1",
+        "text": "\\methname Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Extractor"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Adaptors"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Diffusion-based Anomalous Image Generator"
+      },
+      {
+        "level": "H2",
+        "text": "Discriminator"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function and Training"
+      },
+      {
+        "level": "H2",
+        "text": "Inference and Scoring Function"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Extractor"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Adaptors"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Diffusion-based Anomalous Image Generator"
+      },
+      {
+        "level": "H2",
+        "text": "Discriminator"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function and Training"
+      },
+      {
+        "level": "H2",
+        "text": "Inference and Scoring Function"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Synthesized Anomalies"
+      },
+      {
+        "level": "H1",
+        "text": "Camera-Ready Manuscript Preparation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15346v1",
+    "url": "http://arxiv.org/abs/2507.15346v1"
+  },
+  {
+    "title": "Beyond Model Base Selection: Weaving Knowledge to Master Fine-grained Neural Network Design",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "AI-Generated Content Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Maintaining the Integrity of the Specifications"
+      },
+      {
+        "level": "H1",
+        "text": "Prepare Your Paper Before Styling"
+      },
+      {
+        "level": "H2",
+        "text": "Abbreviations and Acronyms"
+      },
+      {
+        "level": "H2",
+        "text": "Units"
+      },
+      {
+        "level": "H2",
+        "text": "Equations"
+      },
+      {
+        "level": "H2",
+        "text": "\\LaTeX-Specific Advice"
+      },
+      {
+        "level": "H2",
+        "text": "Some Common Mistakes"
+      },
+      {
+        "level": "H2",
+        "text": "Authors and Affiliations"
+      },
+      {
+        "level": "H2",
+        "text": "Identify the Headings"
+      },
+      {
+        "level": "H2",
+        "text": "Figures and Tables"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Background and Problem Definition"
+      },
+      {
+        "level": "H2",
+        "text": "Model Knowledge Base in Model Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Model Refinement Problem Definition"
+      },
+      {
+        "level": "H2",
+        "text": "Database-centric NN Design"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Architecture Knowledge Weaving"
+      },
+      {
+        "level": "H2",
+        "text": "Reformulating Design Process via Architecture Knowledge Weaving"
+      },
+      {
+        "level": "H2",
+        "text": "Model Refinement as an Adaptive Query Problem"
+      },
+      {
+        "level": "H2",
+        "text": "Fine-grained Knowledge Weaving for Model Refinement"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Task-Similarity Views"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Query via Dynamic Task-Similarity Views"
+      },
+      {
+        "level": "H1",
+        "text": "Graph-relational Model Knowledge Base"
+      },
+      {
+        "level": "H2",
+        "text": "Data Model and Logical Schema"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture Modification Gain Graph"
+      },
+      {
+        "level": "H2",
+        "text": "OOD Adaptation via Predictive Query Planner"
+      },
+      {
+        "level": "H2",
+        "text": "Model Knowledge Base for Graph Analytics Tasks"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results on Model Selection Efficacy"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Knowledge Efficacy"
+      },
+      {
+        "level": "H3",
+        "text": "Validation of Assumptions"
+      },
+      {
+        "level": "H3",
+        "text": "Analysis of Local Modification Consistency"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Knowledge Adaptation and Quality"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with NAS Benchmark"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter Sensitivity on Task Similarity Initialization"
+      },
+      {
+        "level": "H2",
+        "text": "Generalizability of M-DESIGN Beyond the Graph Domain"
+      },
+      {
+        "level": "H2",
+        "text": "Model Refinement Curves"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15336v1",
+    "url": "http://arxiv.org/abs/2507.15336v1"
+  },
+  {
+    "title": "ExDD: Explicit Dual Distribution Learning for Surface Defect Detection via Diffusion Synthesis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "One-Class Anomaly Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Synthetic Defect Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Surface Defect Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Self-Supervised Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Self-Supervised Learning"
+      },
+      {
+        "level": "H1",
+        "text": "\\methname Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Dual Memory Bank Architecture"
+      },
+      {
+        "level": "H3",
+        "text": "Locally Aware Patch Features"
+      },
+      {
+        "level": "H3",
+        "text": "Negative and Positive Memory Banks"
+      },
+      {
+        "level": "H3",
+        "text": "Dimensionality Reduction and Coreset Subsampling"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion-based Anomaly Generation"
+      },
+      {
+        "level": "H3",
+        "text": "Theoretical Foundation"
+      },
+      {
+        "level": "H3",
+        "text": "Synthetic Anomaly Generation Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection with \\methname"
+      },
+      {
+        "level": "H3",
+        "text": "Distance Computation"
+      },
+      {
+        "level": "H3",
+        "text": "Neighborhood-Aware Weighting"
+      },
+      {
+        "level": "H3",
+        "text": "Ratio Scoring"
+      },
+      {
+        "level": "H3",
+        "text": "Anomaly Localization"
+      },
+      {
+        "level": "H3",
+        "text": "Distance Computation"
+      },
+      {
+        "level": "H3",
+        "text": "Neighborhood-Aware Weighting"
+      },
+      {
+        "level": "H3",
+        "text": "Ratio Scoring"
+      },
+      {
+        "level": "H3",
+        "text": "Anomaly Localization"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Dual Memory Bank Architecture"
+      },
+      {
+        "level": "H3",
+        "text": "Locally Aware Patch Features"
+      },
+      {
+        "level": "H3",
+        "text": "Negative and Positive Memory Banks"
+      },
+      {
+        "level": "H3",
+        "text": "Dimensionality Reduction and Coreset Subsampling"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion-based Anomaly Generation"
+      },
+      {
+        "level": "H3",
+        "text": "Theoretical Foundation"
+      },
+      {
+        "level": "H3",
+        "text": "Synthetic Anomaly Generation Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection with \\methname"
+      },
+      {
+        "level": "H3",
+        "text": "Distance Computation"
+      },
+      {
+        "level": "H3",
+        "text": "Neighborhood-Aware Weighting"
+      },
+      {
+        "level": "H3",
+        "text": "Ratio Scoring"
+      },
+      {
+        "level": "H3",
+        "text": "Anomaly Localization"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Augmentation and Qualitative Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Augmentation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Augmentation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15335v1",
+    "url": "http://arxiv.org/abs/2507.15335v1"
+  },
+  {
+    "title": "QSAF: A Novel Mitigation Framework for Cognitive Degradation in Agentic AI",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review and Open Challenges"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt Injection and Alignment Defenses"
+      },
+      {
+        "level": "H2",
+        "text": "Memory and Tool Integration Risks"
+      },
+      {
+        "level": "H2",
+        "text": "Runtime Monitoring and Drift Detection"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF: Qorvex Security AI Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Gap in Current Literature and Novel Contribution"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Novel Six-Stage Cognitive Degradation Attack Lifecycle"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF Domain 10 Framework Architecture Overview"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF-BC Controls and Targeted Attack Vectors"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Evaluation and Degradation Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Attack Pattern Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Unaddressed Risk Domains"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results by Platform"
+      },
+      {
+        "level": "H2",
+        "text": "Platform-Specific Security Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Claude"
+      },
+      {
+        "level": "H3",
+        "text": "LLaMA3"
+      },
+      {
+        "level": "H3",
+        "text": "ChatGPT"
+      },
+      {
+        "level": "H3",
+        "text": "Mixtral 8x7b"
+      },
+      {
+        "level": "H2",
+        "text": "Summary Observations"
+      },
+      {
+        "level": "H2",
+        "text": "Critical Vulnerability Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Example 1: Infinite Planner Loop (Stage 3)"
+      },
+      {
+        "level": "H2",
+        "text": "Example 2: Memory Poisoning via Hallucinated Fact (Stage 4–5)"
+      },
+      {
+        "level": "H2",
+        "text": "Example 3: Output Suppression with False Completion (Stage 6)"
+      },
+      {
+        "level": "H2",
+        "text": "Example 4: Role Override via Delayed Context Entrenchment (Stage 5)"
+      },
+      {
+        "level": "H2",
+        "text": "QSAF Test Case Report: Cognitive Nonsense Resilience (QSAF-BC-003)"
+      },
+      {
+        "level": "H3",
+        "text": "Test Case Summary"
+      },
+      {
+        "level": "H3",
+        "text": "Prompt Evidence"
+      },
+      {
+        "level": "H3",
+        "text": "Observed Behavior"
+      },
+      {
+        "level": "H3",
+        "text": "Analysis and Implications"
+      },
+      {
+        "level": "H3",
+        "text": "Verdict"
+      },
+      {
+        "level": "H3",
+        "text": "Tools and Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Implications for Enterprise Deployment"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations and Future Research"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15330v1",
+    "url": "http://arxiv.org/abs/2507.15330v1"
+  },
+  {
+    "title": "Improving 8x8 TeraFET array sensitivity through liquid-nitrogen cooling in a compact low-noise cryostat",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "TeraFET detectors"
+      },
+      {
+        "level": "H2",
+        "text": "TeraFET implementation"
+      },
+      {
+        "level": "H2",
+        "text": "TeraFET packaging and readout electronics"
+      },
+      {
+        "level": "H2",
+        "text": "Implemented cryogenic systems"
+      },
+      {
+        "level": "H1",
+        "text": "Low-temperature responsivity analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Terahertz QCL measurement apparatus"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Temperature dependent study at 540~GHz"
+      },
+      {
+        "level": "H2",
+        "text": "Nitrogen cooled system  at 2.85~THz"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Outline"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      },
+      {
+        "level": "H1",
+        "text": "Appendixes"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix A"
+      }
+    ],
+    "query": "financial fraud detection",
+    "arxiv_id": "2507.15323v1",
+    "url": "http://arxiv.org/abs/2507.15323v1"
+  }
+]

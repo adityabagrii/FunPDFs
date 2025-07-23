@@ -1,0 +1,4174 @@
+[
+  {
+    "title": "Latent Denoising Makes Good Visual Tokenizers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Training and Inference Details"
+      },
+      {
+        "level": "H2",
+        "text": "Tokenizer"
+      },
+      {
+        "level": "H2",
+        "text": "Generative Models"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Results"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Main Properties"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of Latent Noising"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of Masking"
+      },
+      {
+        "level": "H3",
+        "text": "Joint Denoising"
+      },
+      {
+        "level": "H2",
+        "text": "Generalization Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmarking with Previous Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries of Generative Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Denoising Tokenizers"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15856v1",
+    "url": "http://arxiv.org/abs/2507.15856v1"
+  },
+  {
+    "title": "Gemini 2.5 Pro Capable of Winning Gold at IMO 2025",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Verifier"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Step I Prompt"
+      },
+      {
+        "level": "H2",
+        "text": "Verification Prompt"
+      },
+      {
+        "level": "H1",
+        "text": "IMO 2025 Problems"
+      },
+      {
+        "level": "H1",
+        "text": "Gemini 2.5 Pro Solutions to the Problems"
+      },
+      {
+        "level": "H2",
+        "text": "Problem 1"
+      },
+      {
+        "level": "H2",
+        "text": "Problem 2"
+      },
+      {
+        "level": "H2",
+        "text": "Problem 3"
+      },
+      {
+        "level": "H2",
+        "text": "Problem 4"
+      },
+      {
+        "level": "H2",
+        "text": "Problem 5"
+      },
+      {
+        "level": "H2",
+        "text": "Problem 6"
+      },
+      {
+        "level": "H1",
+        "text": "Outlook"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15855v1",
+    "url": "http://arxiv.org/abs/2507.15855v1"
+  },
+  {
+    "title": "Overcast mornings and clear evenings in hot Jupiter exoplanet atmospheres",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Definition of morning and evening limbs"
+      },
+      {
+        "level": "H2",
+        "text": "Sample and instrument mode selection"
+      },
+      {
+        "level": "H3",
+        "text": "Photometric bands selection"
+      },
+      {
+        "level": "H2",
+        "text": "Data reduction"
+      },
+      {
+        "level": "H3",
+        "text": "Limb spectra fitting"
+      },
+      {
+        "level": "H3",
+        "text": "Empirical visualization of limb-limb asymmetry"
+      },
+      {
+        "level": "H3",
+        "text": "Comparing NIRISS SOSS with NIRSpec PRISM"
+      },
+      {
+        "level": "H3",
+        "text": "Mid-transit time uncertainties vs. limb spectra"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical trends"
+      },
+      {
+        "level": "H3",
+        "text": "Asymmetry horizon"
+      },
+      {
+        "level": "H2",
+        "text": "1D \\texttt{PICASO"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Clear evenings and muted mornings"
+      },
+      {
+        "level": "H2",
+        "text": "Temperature difference between limbs"
+      },
+      {
+        "level": "H2",
+        "text": "Possible mechanisms"
+      },
+      {
+        "level": "H3",
+        "text": "Gravitational settling and stellar radiation pressure"
+      },
+      {
+        "level": "H3",
+        "text": "Atmospheric vertical flow"
+      },
+      {
+        "level": "H3",
+        "text": "Condensation and evaporation"
+      },
+      {
+        "level": "H3",
+        "text": "Downwell flow or Evaporation?"
+      },
+      {
+        "level": "H3",
+        "text": "Cloud or haze?"
+      },
+      {
+        "level": "H3",
+        "text": "Caveats"
+      },
+      {
+        "level": "H1",
+        "text": "Biasing atmospheric composition inference"
+      },
+      {
+        "level": "H1",
+        "text": "Limb Spectroscopy Metric (LSM)"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix A \\\\ \\texttt{picaso"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15854v1",
+    "url": "http://arxiv.org/abs/2507.15854v1"
+  },
+  {
+    "title": "SeC: Advancing Complex Video Object Segmentation via Progressive Concept Construction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminary study on current VOS"
+      },
+      {
+        "level": "H2",
+        "text": "Segement Concept model"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "SeCVOS benchmark"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation details"
+      },
+      {
+        "level": "H2",
+        "text": "Main results on SeCVOS"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison on standard VOS benchmarks"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation study"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material Overview"
+      },
+      {
+        "level": "H1",
+        "text": "Details of SeCVOS"
+      },
+      {
+        "level": "H1",
+        "text": "Referring Video Object Segmentation on SeCVOS"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Qualitative Results"
+      },
+      {
+        "level": "H1",
+        "text": "Broader Impacts"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15852v1",
+    "url": "http://arxiv.org/abs/2507.15852v1"
+  },
+  {
+    "title": "The Other Mind: How Language Models Exhibit Human Temporal Cognition",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Similarity Judgment Task"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Coding"
+      },
+      {
+        "level": "H2",
+        "text": "Representational Structure"
+      },
+      {
+        "level": "H2",
+        "text": "Information Exposure"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Similarity Judgment Task"
+      },
+      {
+        "level": "H2",
+        "text": "Neural Coding Mechanism"
+      },
+      {
+        "level": "H2",
+        "text": "Representational Structure"
+      },
+      {
+        "level": "H2",
+        "text": "Information Exposure"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15851v1",
+    "url": "http://arxiv.org/abs/2507.15851v1"
+  },
+  {
+    "title": "The Impact of Language Mixing on Bilingual LLM Reasoning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Can we steer the model toward strategic language mixing?"
+      },
+      {
+        "level": "H2",
+        "text": "Probe-Guided Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of Probe-Guided Decoding"
+      },
+      {
+        "level": "H1",
+        "text": "Do LLMs reason better or worse with language mixing?"
+      },
+      {
+        "level": "H2",
+        "text": "Constrained Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Constrained vs. Unconstrained Decoding"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Where does Language Mixing Occur?"
+      },
+      {
+        "level": "H2",
+        "text": "Detecting Code-Switches"
+      },
+      {
+        "level": "H2",
+        "text": "Tracing the Evolution of Language Mixing in LLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Characterizing Code-Switching Behavior"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Code-Switching"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation datasets"
+      },
+      {
+        "level": "H2",
+        "text": "RLVR Triggers Language Mixing"
+      },
+      {
+        "level": "H2",
+        "text": "Rule-Based Code-Switch Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Detailed Implementation of Constrained Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Probing for Beneficial Code-Switches"
+      },
+      {
+        "level": "H2",
+        "text": "Probe Performance and Utility"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison on AIME2024"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Language Mixing in QwQ-32B-Preview"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Probe-Guided Decoding"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Beneficial/ Harmful/ Neutral Code Switches"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of probe-guided vs not guided generation"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15849v1",
+    "url": "http://arxiv.org/abs/2507.15849v1"
+  },
+  {
+    "title": "Iterative thresholding low-rank time integration",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Rationale and main result"
+      },
+      {
+        "level": "H2",
+        "text": "Novelty and relation to previous work"
+      },
+      {
+        "level": "H2",
+        "text": "Outline"
+      },
+      {
+        "level": "H1",
+        "text": "Iterative fixed-point methods"
+      },
+      {
+        "level": "H2",
+        "text": "Modified fixed-point formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Fixed-point formulations"
+      },
+      {
+        "level": "H3",
+        "text": "Gauss-Legendre-Picard iteration"
+      },
+      {
+        "level": "H3",
+        "text": "Spectral Deferred Correction"
+      },
+      {
+        "level": "H2",
+        "text": "Reformulation in matrix form"
+      },
+      {
+        "level": "H2",
+        "text": "Collocation method limit of the fixed-point iterations"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence analysis of the fixed-point iterations"
+      },
+      {
+        "level": "H1",
+        "text": "Thresholding strategy and resulting algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Rank reduction"
+      },
+      {
+        "level": "H2",
+        "text": "Iterative schemes"
+      },
+      {
+        "level": "H2",
+        "text": "Quasi-optimal ranks"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of the Picard iteration"
+      },
+      {
+        "level": "H2",
+        "text": "Local accuracy bound"
+      },
+      {
+        "level": "H2",
+        "text": "Local rank bounds"
+      },
+      {
+        "level": "H2",
+        "text": "Global bounds"
+      },
+      {
+        "level": "H1",
+        "text": "Adaptation to parabolic problems"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Schrödinger equation"
+      },
+      {
+        "level": "H2",
+        "text": "Parabolic problem"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15848v1",
+    "url": "http://arxiv.org/abs/2507.15848v1"
+  },
+  {
+    "title": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Gaussian Reward Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning with \\methodname"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "GUI Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Fine-Tuning"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Reward Design Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Spurious Rewards"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Error Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15846v1",
+    "url": "http://arxiv.org/abs/2507.15846v1"
+  },
+  {
+    "title": "Quantum computational sensing using quantum signal processing, quantum neural networks, and Hamiltonian engineering",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of main results"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum computational sensing using qubit-based sensors"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using a single qubit for binary classification tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Dependence on task complexity"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using multiple qubits: binary and multi-class discrimination of multi-dimensional signals"
+      },
+      {
+        "level": "H2",
+        "text": "QCS of spatiotemporal signals using multiple qubits"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of QCS using qubit-only sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using bosonic sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Function-approximation tasks"
+      },
+      {
+        "level": "H2",
+        "text": "QS approach: linear phase-preserving amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum computational-sensing advantage"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using hybrid sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of our work"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental prospects and future research directions"
+      },
+      {
+        "level": "H1",
+        "text": "Data and code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Classical postprocessing and error scaling with nonlinearity: unbiased estimation of nonlinear polynomials of a classical Gaussian random variable"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of static signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architectures for qubit-based quantum computational sensors of static signals"
+      },
+      {
+        "level": "H2",
+        "text": "Bayes (optimal) classifier for binary classification using a single qubit"
+      },
+      {
+        "level": "H2",
+        "text": "Approximate Gaussian classifier for binary classification using a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "Role of sampling noise in QCSA using a single-variable example"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for simplified tasks: approximate analytic error probability for a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for more general tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-variate sensing: comparing quantum computational sensors against multiple Ramsey interferometers"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA for multi-variable binary discrimination tasks using a single qubit"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of spatiotemporal signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and classification task"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Neural Network architecture for QCS"
+      },
+      {
+        "level": "H2",
+        "text": "Training details"
+      },
+      {
+        "level": "H2",
+        "text": "Additional results"
+      },
+      {
+        "level": "H1",
+        "text": "QCS for function approximation using bosonic quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture: $\\Udec$ and quadrature measurements"
+      },
+      {
+        "level": "H3",
+        "text": "Initial state and expectation values"
+      },
+      {
+        "level": "H3",
+        "text": "Heterodyne measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Function approximation task: target polynomials $\\Ft$ and expected mean-squared-error as a metric"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Worked example: \\XOR{"
+      },
+      {
+        "level": "H3",
+        "text": "Conventional QS approach: phase-preserving linear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: 1D polynomial approximation"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: Higher-order \\spirals{"
+      },
+      {
+        "level": "H1",
+        "text": "QCS using hybrid quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture for hybrid qubit-cavity quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Hilbert space truncation"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing hybrid quantum computational sensors against phase-preserving amplifiers"
+      },
+      {
+        "level": "H1",
+        "text": "General training details"
+      },
+      {
+        "level": "H2",
+        "text": "Trainable models, classical postprocessing, and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Differentiable models and measurement results"
+      },
+      {
+        "level": "H3",
+        "text": "Training datasets and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Classical postprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of training using finitely-sampled measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Number of measurement samples for training versus inference"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations of classical postprocessing in the presence of sampling noise"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15845v1",
+    "url": "http://arxiv.org/abs/2507.15845v1"
+  },
+  {
+    "title": "Hierarchical Budget Policy Optimization for Adaptive Reasoning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Hierarchical Structure"
+      },
+      {
+        "level": "H2",
+        "text": "Reasoning Pattern Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Hierarchical Budget Exploration"
+      },
+      {
+        "level": "H2",
+        "text": "Budget-Aware Reward Design"
+      },
+      {
+        "level": "H3",
+        "text": "Intra-Budget Reward Function"
+      },
+      {
+        "level": "H3",
+        "text": "Inter-Budget Reward Differentiation"
+      },
+      {
+        "level": "H2",
+        "text": "Training Procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient Reasoning"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Reasoning"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15844v1",
+    "url": "http://arxiv.org/abs/2507.15844v1"
+  },
+  {
+    "title": "Closure Conversion, Flat Environments, and the Complexity of Abstract Machines",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Part 3: Complexity of the \\TAM, or, Tuples Raise the Overhead"
+      },
+      {
+        "level": "H1",
+        "text": "Part 1: The Source Calculus \\texorpdfstring{$\\soucal$"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work and Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Part 3 Preliminaries: Sharing, Size Explosion, and the Complexity of Abstract Machines"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\LTAM for the Intermediate Calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\LTAM for \\texorpdfstring{$\\intcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Part 1: the Intermediate Calculus \\texorpdfstring{$\\intcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries: %the Call-by-Value $\\l$-Calculus $\\cbvcal$, Plus Some Notations"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{target-calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Part 3: Complexity of the \\TTAM, or, Closure Conversion Preserves the Overhead"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2 Preliminaries: Abstract Machines"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the Tupled Abstract Machine for the Source Calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\TAM for \\texorpdfstring{$\\soucal$"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{prelim-am"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{TAM"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{source-complexity"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{int-complexity"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs of \\refsect{sharing"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\TTAM for the Target Calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2: the \\TTAM for \\texorpdfstring{$\\tarcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{LTAM"
+      },
+      {
+        "level": "H1",
+        "text": "Part 1: Outline of the Target Calculus \\texorpdfstring{$\\tarcal$"
+      },
+      {
+        "level": "H1",
+        "text": "Part 3: Size Explosion and Sharing for Tuples"
+      },
+      {
+        "level": "H1",
+        "text": "Part 2 Preliminaries: Local Environments"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{intermediate-calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\Cref{sect:source-calculus"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs and Auxiliary Notions of \\refsect{TTAM"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation in OCaml of the \\TTAM"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15843v1",
+    "url": "http://arxiv.org/abs/2507.15843v1"
+  },
+  {
+    "title": "Some Lagrangian quiver Grassmannians for the equioriented cycle",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H3",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Quiver Grassmannians"
+      },
+      {
+        "level": "H2",
+        "text": "The Juggling variety"
+      },
+      {
+        "level": "H2",
+        "text": "The symplectic subvariety"
+      },
+      {
+        "level": "H1",
+        "text": "Combinatorics"
+      },
+      {
+        "level": "H2",
+        "text": "Bounded affine permutations"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic bounded affine permutations"
+      },
+      {
+        "level": "H1",
+        "text": "Torus action"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic torus action"
+      },
+      {
+        "level": "H1",
+        "text": "Main results"
+      },
+      {
+        "level": "H2",
+        "text": "Closure inclusion order"
+      },
+      {
+        "level": "H2",
+        "text": "Dimension of the cells"
+      },
+      {
+        "level": "H1",
+        "text": "Equivariant cohomology"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15841v1",
+    "url": "http://arxiv.org/abs/2507.15841v1"
+  },
+  {
+    "title": "TASI/CERN/KITP Lecture Notes on \"Toward Quantum Computing Gauge Theories of Nature\"",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction\n\\label{sec:introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Hamiltonian formulation of gauge theories\n\\label{sec:Hamiltonian"
+      },
+      {
+        "level": "H2",
+        "text": "Kogut-Susskind Hamiltonian of lattice gauge theories\n\\label{sec:KS"
+      },
+      {
+        "level": "H3",
+        "text": "U(1) lattice gauge theory\n\\label{sec:U(1)"
+      },
+      {
+        "level": "H3",
+        "text": "SU(2) lattice gauge theory\n\\label{sec:SU(2)"
+      },
+      {
+        "level": "H3",
+        "text": "SU(3) lattice gauge theory\n\\label{sec:SU(3)"
+      },
+      {
+        "level": "H2",
+        "text": "Basis choices, Hilbert space, local constraints\n\\label{sec:basis"
+      },
+      {
+        "level": "H3",
+        "text": "U(1) lattice gauge theory\n\\label{sec:U(1)-basis"
+      },
+      {
+        "level": "H3",
+        "text": "SU(2) lattice gauge theory\n\\label{sec:SU(2)-basis"
+      },
+      {
+        "level": "H3",
+        "text": "SU(3) lattice gauge theory\n\\label{sec:SU(3)-basis"
+      },
+      {
+        "level": "H2",
+        "text": "On Hamiltonian-simulation methods\n\\label{sec:KS"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum computation of gauge theories\n\\label{sec:simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum-computing basics\n\\label{sec:QC-basics"
+      },
+      {
+        "level": "H3",
+        "text": "Qubits, gates, and circuits\n\\label{sec:qubits"
+      },
+      {
+        "level": "H3",
+        "text": "Mapping fermions and bosons\n\\label{sec:mapping"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum-simulation steps in nutshell\n\\label{sec:QS-steps"
+      },
+      {
+        "level": "H3",
+        "text": "State preparation\n\\label{sec:state-prep"
+      },
+      {
+        "level": "H3",
+        "text": "Time evolution\n\\label{sec:evolution"
+      },
+      {
+        "level": "H3",
+        "text": "Observable measurement\n\\label{sec:measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Time evolution in gauge theories\n\\label{sec:LGT-evolution"
+      },
+      {
+        "level": "H3",
+        "text": "In-depth study: (1+1)D U(1) lattice gauge theory\n\\label{sec:U(1)-warm-up"
+      },
+      {
+        "level": "H3",
+        "text": "An overview: (3+1)D SU(3) lattice gauge theory\n\\label{sec:QCD"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and conclusions\n\\label{sec:summary"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15840v1",
+    "url": "http://arxiv.org/abs/2507.15840v1"
+  },
+  {
+    "title": "Electron-Transfer and Exchange-Interaction Model of the Ligand Hyperfine Structure of Alkylated Iron-Sulfur Clusters",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Spin Wavefunctions and Hamiltonian"
+      },
+      {
+        "level": "H2",
+        "text": "Bound Ligand Case"
+      },
+      {
+        "level": "H2",
+        "text": "Radical-Cluster Exchange Interaction"
+      },
+      {
+        "level": "H1",
+        "text": "Computational Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15838v1",
+    "url": "http://arxiv.org/abs/2507.15838v1"
+  },
+  {
+    "title": "Data-driven optimal approximation on Hardy spaces in simply connected domains",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal model order reduction on Hardy spaces"
+      },
+      {
+        "level": "H1",
+        "text": "The $\\etwod$ and $\\durenhardy$ spaces"
+      },
+      {
+        "level": "H1",
+        "text": "The $\\etwod$ and $\\durenhardy$ approximation frameworks"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal interpolation conditons in the $\\etwod$ and $\\durenhardy$ frameworks"
+      },
+      {
+        "level": "H3",
+        "text": "Connection to the Schwarz function"
+      },
+      {
+        "level": "H2",
+        "text": "A TF-IRKA based algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Model order reduction of discrete-time time invariant delay systems"
+      },
+      {
+        "level": "H3",
+        "text": "Implicit Euler"
+      },
+      {
+        "level": "H3",
+        "text": "Midpoint method"
+      },
+      {
+        "level": "H3",
+        "text": "BDF methods"
+      },
+      {
+        "level": "H1",
+        "text": "Numerics"
+      },
+      {
+        "level": "H2",
+        "text": "Half plane region"
+      },
+      {
+        "level": "H2",
+        "text": "BDF2 method"
+      },
+      {
+        "level": "H2",
+        "text": "BDF4 method"
+      },
+      {
+        "level": "H1",
+        "text": "Proof \\cref{th:E2Dintcond"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15837v1",
+    "url": "http://arxiv.org/abs/2507.15837v1"
+  },
+  {
+    "title": "Optimizing Canaries for Privacy Auditing with Metagradient Descent",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Various notes (remove later)"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-run DP Auditing"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Canary Optimization with Metagradient Descent"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Auditing Differential Privacy"
+      },
+      {
+        "level": "H3",
+        "text": "Last-iterate black-box auditing"
+      },
+      {
+        "level": "H3",
+        "text": "One-run auditing"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15836v1",
+    "url": "http://arxiv.org/abs/2507.15836v1"
+  },
+  {
+    "title": "Gauge dependence of momentum running in higher-derivative gravity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The framework"
+      },
+      {
+        "level": "H1",
+        "text": "Gauge dependence"
+      },
+      {
+        "level": "H2",
+        "text": "Quadratic Gravity"
+      },
+      {
+        "level": "H2",
+        "text": "conformal gravity"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15835v1",
+    "url": "http://arxiv.org/abs/2507.15835v1"
+  },
+  {
+    "title": "SDSO1 is a Ghost Planetary Nebula Bow Shock in Front of M31",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Narrowband Imaging Observations and Data Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 is a Hypersonic GPN"
+      },
+      {
+        "level": "H2",
+        "text": "The SDSO1 GPN Central Star EG Andromedae"
+      },
+      {
+        "level": "H2",
+        "text": "Density and ionization of the surrounding ISM"
+      },
+      {
+        "level": "H2",
+        "text": "The GPN Tail"
+      },
+      {
+        "level": "H2",
+        "text": "GPN Expansion and Energetics"
+      },
+      {
+        "level": "H2",
+        "text": "Photoionization by EG And"
+      },
+      {
+        "level": "H2",
+        "text": "Shock Models"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 Bow Shock Structure and Kinematics"
+      },
+      {
+        "level": "H2",
+        "text": "Statistics and Fates of the Old PNe and GPNe Populations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15834v1",
+    "url": "http://arxiv.org/abs/2507.15834v1"
+  },
+  {
+    "title": "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision Transformers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Biologically-Inspired Visual Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Gaze for Robotics"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Data Collection with Eye Tracking"
+      },
+      {
+        "level": "H2",
+        "text": "Flow Matching Policy"
+      },
+      {
+        "level": "H2",
+        "text": "Policy Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Gaze Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Foveated Tokenization"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Success Rates"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15833v1",
+    "url": "http://arxiv.org/abs/2507.15833v1"
+  },
+  {
+    "title": "Observing Fine-Grained Changes in Jupyter Notebooks During Development Time",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Designing Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "Data Analysis Task"
+      },
+      {
+        "level": "H3",
+        "text": "Machine Learning Task"
+      },
+      {
+        "level": "H2",
+        "text": "Choosing Participants"
+      },
+      {
+        "level": "H2",
+        "text": "Executing the Experiment"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Empirical Analysis Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1: Nature of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2: The Purposes of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3: Changes in Data Science Steps"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Tooling"
+      },
+      {
+        "level": "H2",
+        "text": "Activity Plugin"
+      },
+      {
+        "level": "H2",
+        "text": "Server"
+      },
+      {
+        "level": "H2",
+        "text": "Post-processing Scripts"
+      },
+      {
+        "level": "H2",
+        "text": "Browsing the Notebook Versions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Findings"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ1:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ2:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ3:"
+      },
+      {
+        "level": "H3",
+        "text": "Stages of different data science steps"
+      },
+      {
+        "level": "H3",
+        "text": "Transitions between data science steps"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Code Evolution in Software Engineering"
+      },
+      {
+        "level": "H2",
+        "text": "Coding in Jupyter Notebooks"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Threats to Validity"
+      },
+      {
+        "level": "H2",
+        "text": "Implications"
+      },
+      {
+        "level": "H1",
+        "text": "Possible Future Research"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Analysis of the Workflow"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Code Dynamics"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15831v1",
+    "url": "http://arxiv.org/abs/2507.15831v1"
+  },
+  {
+    "title": "AutoWISP: Automated Processing of Wide-Field Color Images",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Project PANOPTES"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges"
+      },
+      {
+        "level": "H2",
+        "text": "Future Endeavors"
+      },
+      {
+        "level": "H3",
+        "text": "Browser-user-interface"
+      },
+      {
+        "level": "H3",
+        "text": "More features and functionalities"
+      },
+      {
+        "level": "H1",
+        "text": "Example Application of AutoWISP"
+      },
+      {
+        "level": "H2",
+        "text": "Observations"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Example light curves:"
+      },
+      {
+        "level": "H3",
+        "text": "GQ Dra"
+      },
+      {
+        "level": "H3",
+        "text": "GG Dra"
+      },
+      {
+        "level": "H3",
+        "text": "V0551 Dra"
+      },
+      {
+        "level": "H3",
+        "text": "TX UMa"
+      },
+      {
+        "level": "H3",
+        "text": "GW UMa"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H3",
+        "text": "#1"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Current state of the art:"
+      },
+      {
+        "level": "H2",
+        "text": "Breakdown"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Calibration:"
+      },
+      {
+        "level": "H3",
+        "text": "Mask creation"
+      },
+      {
+        "level": "H3",
+        "text": "Overscan corrections"
+      },
+      {
+        "level": "H3",
+        "text": "Subtraction of bias level and dark current"
+      },
+      {
+        "level": "H3",
+        "text": "Flat field corrections are applied"
+      },
+      {
+        "level": "H3",
+        "text": "Individual pixel errors are calculated"
+      },
+      {
+        "level": "H2",
+        "text": "Source Extraction"
+      },
+      {
+        "level": "H2",
+        "text": "Astrometry Based Photometry:"
+      },
+      {
+        "level": "H2",
+        "text": "Photometry:"
+      },
+      {
+        "level": "H2",
+        "text": "Magnitude Fitting:"
+      },
+      {
+        "level": "H2",
+        "text": "Light Curves:"
+      },
+      {
+        "level": "H2",
+        "text": "Post Processing:"
+      },
+      {
+        "level": "H3",
+        "text": "External Parameter Decorrelation (EPD)"
+      },
+      {
+        "level": "H3",
+        "text": "Trend Filtering Algorithm (TFA)"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation of AutoWISP"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15830v1",
+    "url": "http://arxiv.org/abs/2507.15830v1"
+  },
+  {
+    "title": "Rigorous dense graph limit of a model for biological transportation networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Notation and preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Main assumptions"
+      },
+      {
+        "level": "H1",
+        "text": "Reformulation of the model and main results"
+      },
+      {
+        "level": "H1",
+        "text": "The Kirchhoff law and the Poisson equation"
+      },
+      {
+        "level": "H1",
+        "text": "The energy functionals"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem \\ref{thm:1"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem \\ref{thm:2"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15829v1",
+    "url": "http://arxiv.org/abs/2507.15829v1"
+  },
+  {
+    "title": "Investigating the Use of LLMs for Evidence Briefings Generation in Software Engineering",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Evidence Briefings in SE"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs for Research Synthesis"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Study Plan"
+      },
+      {
+        "level": "H2",
+        "text": "Goal Definition"
+      },
+      {
+        "level": "H2",
+        "text": "Context Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Hypothesis Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Variable Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Selection of Subjects"
+      },
+      {
+        "level": "H2",
+        "text": "Choice of Design Type"
+      },
+      {
+        "level": "H2",
+        "text": "Instrumentation"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{Consent form"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{Participant Characterization Form"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{Main Section"
+      },
+      {
+        "level": "H2",
+        "text": "Operation and Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Threats to validity"
+      },
+      {
+        "level": "H3",
+        "text": "Construct Validity"
+      },
+      {
+        "level": "H3",
+        "text": "Internal Validity"
+      },
+      {
+        "level": "H3",
+        "text": "External Validity"
+      },
+      {
+        "level": "H3",
+        "text": "Conclusion Validity"
+      },
+      {
+        "level": "H1",
+        "text": "Next Steps"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15828v1",
+    "url": "http://arxiv.org/abs/2507.15828v1"
+  },
+  {
+    "title": "Astrotourism for Development: An Overview of Resources from the IAU Office of Astronomy for Development",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Context and Motivation"
+      },
+      {
+        "level": "H1",
+        "text": "Openness, Accessibility, and Evolving Resources"
+      },
+      {
+        "level": "H1",
+        "text": "Overview of OAD Astrotourism Resources"
+      },
+      {
+        "level": "H2",
+        "text": "Navigating the Resources"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 1 - Night Sky Tourism: A Quick Start Guide"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 2 - A Night Sky Tourism Guide"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 3 - Night Sky Tourism for Communities Around Observatories"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15827v1",
+    "url": "http://arxiv.org/abs/2507.15827v1"
+  },
+  {
+    "title": "Just Ask for Music (JAM): Multimodal and Personalized Natural Language Music Recommendation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15826v1",
+    "url": "http://arxiv.org/abs/2507.15826v1"
+  },
+  {
+    "title": "ACS: An interactive framework for conformal selection",
+    "outline": [
+      {
+        "level": "H2",
+        "text": "Warm-up: CS as a screening procedure"
+      },
+      {
+        "level": "H2",
+        "text": "ACS: the general framework"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical guarantees"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Conformal Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Organization of the paper"
+      },
+      {
+        "level": "H2",
+        "text": "Experiments for question answering (QA) datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Experiments for chest X-ray report generation"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Adaptive conformal selection"
+      },
+      {
+        "level": "H1",
+        "text": "Instantiation of ACS"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical simulations"
+      },
+      {
+        "level": "H1",
+        "text": "Real data application: LLM deployment"
+      },
+      {
+        "level": "H1",
+        "text": "Real data application: Drug discovery"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Reproducibility"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation setup"
+      },
+      {
+        "level": "H2",
+        "text": "ACS with model-refitting: individual base models"
+      },
+      {
+        "level": "H2",
+        "text": "ACS with model-refitting: adaptive model selection"
+      },
+      {
+        "level": "H2",
+        "text": "Diversified selection"
+      },
+      {
+        "level": "H2",
+        "text": "Incorporating new labels"
+      },
+      {
+        "level": "H2",
+        "text": "Boosting power"
+      },
+      {
+        "level": "H2",
+        "text": "Diversifying selection"
+      },
+      {
+        "level": "H3",
+        "text": "Diversity-aware ordering"
+      },
+      {
+        "level": "H2",
+        "text": "Incorporating new labels"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive choice of local tests"
+      },
+      {
+        "level": "H2",
+        "text": "Problem setup"
+      },
+      {
+        "level": "H2",
+        "text": "Background: conformal selection"
+      },
+      {
+        "level": "H2",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Proofs of the main results"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem~\\ref{thm:fdr_control"
+      },
+      {
+        "level": "H1",
+        "text": "Deferred proofs"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma~\\ref{lemma:equal_prob"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Proposition~\\ref{prop:diversity"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Additional Lemmas"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma~\\ref{lemma:equal_prob"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Lemma~\\ref{hypergeom-lemma"
+      },
+      {
+        "level": "H1",
+        "text": "Additional simulation results"
+      },
+      {
+        "level": "H2",
+        "text": "Additional results with individual base models"
+      },
+      {
+        "level": "H2",
+        "text": "Model selection"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity-aware selection"
+      },
+      {
+        "level": "H2",
+        "text": "The effect of $k$"
+      },
+      {
+        "level": "H1",
+        "text": "Additional real data results"
+      },
+      {
+        "level": "H2",
+        "text": "Additional details and results for LLM deployment"
+      },
+      {
+        "level": "H3",
+        "text": "Feature engineering for prediction model training"
+      },
+      {
+        "level": "H3",
+        "text": "Additional experimental results"
+      },
+      {
+        "level": "H2",
+        "text": "Additional drug discovery results"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15825v1",
+    "url": "http://arxiv.org/abs/2507.15825v1"
+  },
+  {
+    "title": "Operationalizing AI for Good: Spotlight on Deployment and Integration of AI Models in Humanitarian Work",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Ethical Considerations"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation and Deployment"
+      },
+      {
+        "level": "H2",
+        "text": "Offline Experimentation"
+      },
+      {
+        "level": "H2",
+        "text": "Staging Deployment Calibration"
+      },
+      {
+        "level": "H2",
+        "text": "Post-Deployment Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Partnership Case Study"
+      },
+      {
+        "level": "H2",
+        "text": "Partner Details"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Scope"
+      },
+      {
+        "level": "H2",
+        "text": "Resource Constraints"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Threshold Tuning across 3 Languages"
+      },
+      {
+        "level": "H2",
+        "text": "Categorization Model Performance"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15823v1",
+    "url": "http://arxiv.org/abs/2507.15823v1"
+  },
+  {
+    "title": "Do AI models help produce verified bug fixes?",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "#1"
+      },
+      {
+        "level": "H2",
+        "text": "#1"
+      },
+      {
+        "level": "H3",
+        "text": "#1"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Terminology"
+      },
+      {
+        "level": "H1",
+        "text": "Research questions"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Surveys of automated program repair"
+      },
+      {
+        "level": "H2",
+        "text": "Developer studies and tool adoption"
+      },
+      {
+        "level": "H2",
+        "text": "LLM-based repair techniques"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs and formal verification"
+      },
+      {
+        "level": "H1",
+        "text": "Tool stack"
+      },
+      {
+        "level": "H1",
+        "text": "Threats to validity"
+      },
+      {
+        "level": "H2",
+        "text": "Goal W: In turning a buggy program into a correct one, is it fruitful to use an LLM?"
+      },
+      {
+        "level": "H2",
+        "text": "Goal H: If programmers do use an LLM for debugging, what is an effective process?"
+      },
+      {
+        "level": "H2",
+        "text": "General observations"
+      },
+      {
+        "level": "H2",
+        "text": "Advice for LLM usage"
+      },
+      {
+        "level": "H2",
+        "text": "Lessons on the use of LLMs for debugging"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15822v1",
+    "url": "http://arxiv.org/abs/2507.15822v1"
+  },
+  {
+    "title": "Just Put a Human in the Loop? Investigating LLM-Assisted Annotation for Subjective Tasks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Data and Codebook"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Survey experiment"
+      },
+      {
+        "level": "H3",
+        "text": "Attention checks"
+      },
+      {
+        "level": "H3",
+        "text": "Survey measures"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "LLM assistance did not decrease annotation time"
+      },
+      {
+        "level": "H2",
+        "text": "Assistance improves self-reported understanding of task and content"
+      },
+      {
+        "level": "H2",
+        "text": "Annotators overwhelmingly like and take the suggestions"
+      },
+      {
+        "level": "H2",
+        "text": "Using human-reviewed, LLM-assisted labels as ground truth significantly inflates reported model performance"
+      },
+      {
+        "level": "H2",
+        "text": "Distracted annotators take suggestions more strongly"
+      },
+      {
+        "level": "H2",
+        "text": "Annotators align more strongly with AI on ambiguous codes"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Calculating overlap metric"
+      },
+      {
+        "level": "H1",
+        "text": "Corpus details"
+      },
+      {
+        "level": "H1",
+        "text": "Additional results"
+      },
+      {
+        "level": "H2",
+        "text": "Additional results"
+      },
+      {
+        "level": "H1",
+        "text": "Interface screenshots"
+      },
+      {
+        "level": "H2",
+        "text": "Prompts to GPT-4"
+      },
+      {
+        "level": "H1",
+        "text": "NYC Conversation Corpus Details"
+      },
+      {
+        "level": "H2",
+        "text": "Conversation guide"
+      },
+      {
+        "level": "H2",
+        "text": "NYC Codebook"
+      },
+      {
+        "level": "H1",
+        "text": "RTFC Conversation Corpus Details"
+      },
+      {
+        "level": "H2",
+        "text": "RTFC Conversation guide"
+      },
+      {
+        "level": "H2",
+        "text": "RTFC Codebook"
+      },
+      {
+        "level": "H2",
+        "text": "Prompts to GPT-4 and Llama"
+      },
+      {
+        "level": "H1",
+        "text": "Crowdworker recruitment"
+      },
+      {
+        "level": "H2",
+        "text": "Annotator \"understanding\" questions"
+      },
+      {
+        "level": "H2",
+        "text": "Instructions to annotators"
+      },
+      {
+        "level": "H1",
+        "text": "AI Assistance"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15821v1",
+    "url": "http://arxiv.org/abs/2507.15821v1"
+  },
+  {
+    "title": "Euclid preparation: Expected constraints on initial conditions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "{\\it Euclid"
+      },
+      {
+        "level": "H2",
+        "text": "Spectroscopic galaxy clustering"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric galaxy clustering and weak lensing"
+      },
+      {
+        "level": "H2",
+        "text": "Probe combination"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on $\\Omega_K$"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on the scalar spectral index and its running"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on isocurvature contribution"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation and background"
+      },
+      {
+        "level": "H2",
+        "text": "CDI models we consider and their observational aspects"
+      },
+      {
+        "level": "H2",
+        "text": "{\\em Euclid"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on primordial non-Gaussianity"
+      },
+      {
+        "level": "H2",
+        "text": "Fisher analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Matter bispectrum"
+      },
+      {
+        "level": "H3",
+        "text": "Galaxy power spectrum and bispectrum"
+      },
+      {
+        "level": "H3",
+        "text": "Fisher forecasts"
+      },
+      {
+        "level": "H2",
+        "text": "Bayesian analysis (\\borg)"
+      },
+      {
+        "level": "H1",
+        "text": "Beyond slow roll: searches for primordial features"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Combination with current and future CMB measurements"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15819v1",
+    "url": "http://arxiv.org/abs/2507.15819v1"
+  },
+  {
+    "title": "The Capacity of Semantic Private Information Retrieval with Colluding Servers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Main Result"
+      },
+      {
+        "level": "H1",
+        "text": "Corollaries and Discussions"
+      },
+      {
+        "level": "H1",
+        "text": "Achievable Scheme"
+      },
+      {
+        "level": "H1",
+        "text": "Illustrative Examples"
+      },
+      {
+        "level": "H2",
+        "text": "Example 1"
+      },
+      {
+        "level": "H2",
+        "text": "Example 2"
+      },
+      {
+        "level": "H1",
+        "text": "Privacy Proof"
+      },
+      {
+        "level": "H1",
+        "text": "Converse Proof"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15818v1",
+    "url": "http://arxiv.org/abs/2507.15818v1"
+  },
+  {
+    "title": "Federated Split Learning with Improved Communication and Storage Efficiency",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "References Cited"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Federated and Split Learning Paradigms"
+      },
+      {
+        "level": "H2",
+        "text": "The Distributed SGD Problem"
+      },
+      {
+        "level": "H2",
+        "text": "Federated and Split Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges"
+      },
+      {
+        "level": "H1",
+        "text": "Communication and Storage Efficient Federated Split Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Auxiliary Network"
+      },
+      {
+        "level": "H2",
+        "text": "CSE-FSL"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Communication and Storage Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Accuracy Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Impact of Auxiliary Network Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Load"
+      },
+      {
+        "level": "H2",
+        "text": "Storage Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Comprehensive Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of \\Cref{{prop:conv_c"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of \\Cref{{prop:conv_s"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15816v1",
+    "url": "http://arxiv.org/abs/2507.15816v1"
+  },
+  {
+    "title": "LLM Economist: Large Population Models and Mechanism Design in Multi-Agent Generative Simulacra",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "LLM Economist"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Economic Background"
+      },
+      {
+        "level": "H1",
+        "text": "Optimal Tax Rate Derivation for Piecewise Linear Tax"
+      },
+      {
+        "level": "H2",
+        "text": "Basic Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Mechanical Tax Increase"
+      },
+      {
+        "level": "H2",
+        "text": "Social Welfare Effect"
+      },
+      {
+        "level": "H2",
+        "text": "Behavioral Response"
+      },
+      {
+        "level": "H2",
+        "text": "Optimality Condition"
+      },
+      {
+        "level": "H2",
+        "text": "Key Equation Derivation"
+      },
+      {
+        "level": "H2",
+        "text": "Continuous Limit Case"
+      },
+      {
+        "level": "H1",
+        "text": "Background Economic Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Top Income Tax Rate~(\\citet{saez2001using"
+      },
+      {
+        "level": "H2",
+        "text": "Non-Linear Income Tax Rate~(\\citet{saez2001using"
+      },
+      {
+        "level": "H2",
+        "text": "Piecewise Linear Income Tax Rate"
+      },
+      {
+        "level": "H1",
+        "text": "Worker Personas"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Basic components"
+      },
+      {
+        "level": "H3",
+        "text": "In-Context Reinforcement Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Planner's Social Welfare Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Multiple Worker Utility Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Workers' Utility Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "LLM Economist"
+      },
+      {
+        "level": "H2",
+        "text": "Tax-Planning Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Tax Policy Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Voting Simulacra"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Scaling"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15815v1",
+    "url": "http://arxiv.org/abs/2507.15815v1"
+  },
+  {
+    "title": "The fundamental group of the complement of a generic fiber-type curve",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Admissible maps"
+      },
+      {
+        "level": "H2",
+        "text": "Fundamental groups of curve complements"
+      },
+      {
+        "level": "H2",
+        "text": "Orbifold fundamental groups"
+      },
+      {
+        "level": "H2",
+        "text": "Fundamental groups of fiber-type curve complements"
+      },
+      {
+        "level": "H1",
+        "text": "Characterization of Oka's $G(p;q;r)$ groups"
+      },
+      {
+        "level": "H1",
+        "text": "Main Theorem"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15814v1",
+    "url": "http://arxiv.org/abs/2507.15814v1"
+  },
+  {
+    "title": "Hyperelastic nature of the Hoek-Brown criterion",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Notations"
+      },
+      {
+        "level": "H1",
+        "text": "Hyperelasticity coupled to plasticity"
+      },
+      {
+        "level": "H2",
+        "text": "Thermodynamics of perfect plasticity"
+      },
+      {
+        "level": "H2",
+        "text": "Beyond the linear approximation"
+      },
+      {
+        "level": "H1",
+        "text": "Hyperelastic enrichment of perfect plasticity"
+      },
+      {
+        "level": "H2",
+        "text": "Mapping thermodynamics to observables"
+      },
+      {
+        "level": "H2",
+        "text": "The yield criterion transformation"
+      },
+      {
+        "level": "H1",
+        "text": "Responses on typical tests"
+      },
+      {
+        "level": "H2",
+        "text": "Hydrostatic tests"
+      },
+      {
+        "level": "H2",
+        "text": "Triaxial compression test with a confining pressure"
+      },
+      {
+        "level": "H2",
+        "text": "Cyclic triaxial test"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with the linear elasto-plastic model"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with an experimental uniaxial compression test"
+      },
+      {
+        "level": "H1",
+        "text": "Finite element simulation example"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Hoek--Brown type quadratic yield criteria"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical integration procedure of the model"
+      },
+      {
+        "level": "H3",
+        "text": "Increment of the plastic strain on the smooth portion"
+      },
+      {
+        "level": "H3",
+        "text": "Increment of the plastic strain at the apex"
+      },
+      {
+        "level": "H3",
+        "text": "Expression of the stress and of the consistent tangent operator"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15813v1",
+    "url": "http://arxiv.org/abs/2507.15813v1"
+  },
+  {
+    "title": "Mpemba effect in self-contained quantum refrigerators: accelerated cooling",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "The quantum refrigerator model"
+      },
+      {
+        "level": "H2",
+        "text": "The Mpemba effect"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamics of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamical equations of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Steady state of self-contained refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "Mpemba Effect in quantum refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in absence of cold bath"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in presence of cold bath"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Lindblad operators of quantum refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "\\texorpdfstring{The expression of $D_{i"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15811v1",
+    "url": "http://arxiv.org/abs/2507.15811v1"
+  },
+  {
+    "title": "Empirical Likelihood Based Inference for a Divergence Measure Based on Survival Extropy",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Estimation  of $D$"
+      },
+      {
+        "level": "H2",
+        "text": "U-statistics-based estimator"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical distribution function-based estimator"
+      },
+      {
+        "level": "H2",
+        "text": "Kernel-based estimator"
+      },
+      {
+        "level": "H2",
+        "text": "Normal approximation with Jackknife pseudo-values for C.I. of $D$"
+      },
+      {
+        "level": "H2",
+        "text": "Jackknife empirical likelihood (JEL) based C.I. of $D$"
+      },
+      {
+        "level": "H1",
+        "text": "Monte Carlo Simulations"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison of MSEs for $D$ and estimators of existing measures"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison of estimators for $D$"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison of confidence intervals for $D$"
+      },
+      {
+        "level": "H1",
+        "text": "Concluding Remarks"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15810v1",
+    "url": "http://arxiv.org/abs/2507.15810v1"
+  },
+  {
+    "title": "True Multimodal In-Context Learning Needs Attention to the Visual Context",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "DARA as a constrained version of LoRA"
+      },
+      {
+        "level": "H1",
+        "text": "TrueMICL"
+      },
+      {
+        "level": "H1",
+        "text": "More Details of Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "MLLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "More Experimental Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion on the Performance between DARA and LoRA"
+      },
+      {
+        "level": "H2",
+        "text": "Closed-source model performances"
+      },
+      {
+        "level": "H2",
+        "text": "Amounts of params in DARA"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of Prompt Design"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on TrueMICL"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of the DARA's Reallocation Effects"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on Standard VL Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Attention Reallocation"
+      },
+      {
+        "level": "H2",
+        "text": "TrueMICL, a MICL-dedicated Dataset"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15807v1",
+    "url": "http://arxiv.org/abs/2507.15807v1"
+  },
+  {
+    "title": "Power-Constrained Policy Gradient Methods for LQR",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Formulation:"
+      },
+      {
+        "level": "H1",
+        "text": "Optimization Problem"
+      },
+      {
+        "level": "H2",
+        "text": "Global Constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Optimization Problem: Locally Constrained"
+      },
+      {
+        "level": "H1",
+        "text": "Solution to LQR problem"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Solution to the Optimization Problem"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem~\\ref{thm:PL"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem~\\ref{thm:local_conv"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15806v1",
+    "url": "http://arxiv.org/abs/2507.15806v1"
+  },
+  {
+    "title": "Identifying Solution Constraints for ODE Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Identification of Conserved Quantities"
+      },
+      {
+        "level": "H1",
+        "text": "Algorithm"
+      },
+      {
+        "level": "H1",
+        "text": "Applications"
+      },
+      {
+        "level": "H2",
+        "text": "Enzyme Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Glycolytic oscillator model"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "MATLAB Codes"
+      },
+      {
+        "level": "H2",
+        "text": "MATLAB function {\\tt solution\\_constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Function {\\tt enzyme"
+      },
+      {
+        "level": "H2",
+        "text": "Function {\\tt glycolytic"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15805v1",
+    "url": "http://arxiv.org/abs/2507.15805v1"
+  },
+  {
+    "title": "ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Experimental Details"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Existing Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of SEEM-Generated Masks in SSSS"
+      },
+      {
+        "level": "H2",
+        "text": "ConformalSAM"
+      },
+      {
+        "level": "H3",
+        "text": "CP-Calibrated Foundation Model for Supervised Training (Stage \\uppercase\\expandafter{\\romannumeral1"
+      },
+      {
+        "level": "H3",
+        "text": "Self-Reliance Training (Stage \\uppercase\\expandafter{\\romannumeral2"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15803v1",
+    "url": "http://arxiv.org/abs/2507.15803v1"
+  },
+  {
+    "title": "Hypergraphs on high dimensional time series sets using signature transform",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction: Computing hypergraph on a multivariate time series using signature transform."
+      },
+      {
+        "level": "H2",
+        "text": "Motivation and Background"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work."
+      },
+      {
+        "level": "H2",
+        "text": "The signature transform."
+      },
+      {
+        "level": "H2",
+        "text": "Hypergraph on multivariate time series."
+      },
+      {
+        "level": "H1",
+        "text": "Modifications of the algorithm."
+      },
+      {
+        "level": "H2",
+        "text": "Fitting the new data format."
+      },
+      {
+        "level": "H2",
+        "text": "Bringing randomness in the algorithm."
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and perspectives."
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15802v1",
+    "url": "http://arxiv.org/abs/2507.15802v1"
+  },
+  {
+    "title": "Approximating Rockafellians Mitigate Distributional Perturbations: Discontinuous Integrands and Chance-Constrained Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence of Approximating Rockafellians"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion"
+      },
+      {
+        "level": "H3",
+        "text": "Finite Distribution"
+      },
+      {
+        "level": "H3",
+        "text": "Discrete Distribution"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence of Probability Distributions"
+      },
+      {
+        "level": "H2",
+        "text": "Weak Convergence"
+      },
+      {
+        "level": "H3",
+        "text": "Epigraphical  Regularization"
+      },
+      {
+        "level": "H2",
+        "text": "Setwise Convergence"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence in Probability Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Bounded Lipschitz, Fortet-Mourier, and Wasserstein"
+      },
+      {
+        "level": "H3",
+        "text": "Minimal Information, TV, and Other  Discrepancies"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical Approximation"
+      },
+      {
+        "level": "H1",
+        "text": "Chance-Constrained Programs"
+      },
+      {
+        "level": "H2",
+        "text": "Variational Convergence"
+      },
+      {
+        "level": "H3",
+        "text": "Setting (S1): Absence of Approximating Mappings $G^\\nu$"
+      },
+      {
+        "level": "H3",
+        "text": "Setting (S2): With Approximating Mappings $G^\\nu$"
+      },
+      {
+        "level": "H2",
+        "text": "Rate of Convergence"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15801v1",
+    "url": "http://arxiv.org/abs/2507.15801v1"
+  },
+  {
+    "title": "Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Semantic Communication for Emerging Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "List of Notations:"
+      },
+      {
+        "level": "H1",
+        "text": "System Model"
+      },
+      {
+        "level": "H2",
+        "text": "Signal Transmission Model"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Model"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Model"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Measures"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication"
+      },
+      {
+        "level": "H2",
+        "text": "Computing"
+      },
+      {
+        "level": "H1",
+        "text": "Joint Design of FA-enabled NF-ISCSC System"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Joint Beamforming and Computation Optimisation"
+      },
+      {
+        "level": "H2",
+        "text": "FA Position Optimisation"
+      },
+      {
+        "level": "H3",
+        "text": "Benchmark method (second-order Taylor expansion)"
+      },
+      {
+        "level": "H3",
+        "text": "Projected BFGS"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Extraction Ratio Optimisation"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Results"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Computing Performance"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Direction"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of FIM"
+      },
+      {
+        "level": "H1",
+        "text": "Proof and Derivation of Equation \\eqref{fim"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of FIM for a Point Target"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence Analysis"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15800v1",
+    "url": "http://arxiv.org/abs/2507.15800v1"
+  },
+  {
+    "title": "Quantum logic operations and algorithms in a single 25-level atomic qudit",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "System Hamiltonian, Frequencies, and Transition Strengths"
+      },
+      {
+        "level": "H2",
+        "text": "System Hamiltonian"
+      },
+      {
+        "level": "H2",
+        "text": "Transition Frequencies"
+      },
+      {
+        "level": "H3",
+        "text": "Ramsey-Based Calibration Scheme"
+      },
+      {
+        "level": "H3",
+        "text": "Finding detunings from Ramsey accumulated phase"
+      },
+      {
+        "level": "H3",
+        "text": "Frequency calibration uncertainty"
+      },
+      {
+        "level": "H2",
+        "text": "Transition Strengths"
+      },
+      {
+        "level": "H1",
+        "text": "NBOP Initialisation"
+      },
+      {
+        "level": "H1",
+        "text": "25-level SPAM Error Calculations"
+      },
+      {
+        "level": "H2",
+        "text": "Decay from meta-stable states"
+      },
+      {
+        "level": "H2",
+        "text": "Off-resonant driving"
+      },
+      {
+        "level": "H2",
+        "text": "Bright/dark state discrimination"
+      },
+      {
+        "level": "H1",
+        "text": "Noise Measurements and Modelling"
+      },
+      {
+        "level": "H2",
+        "text": "Magnetic Field Noise"
+      },
+      {
+        "level": "H3",
+        "text": "Laser Frequency Noise Decoherence Cancellation"
+      },
+      {
+        "level": "H2",
+        "text": "Laser Noise"
+      },
+      {
+        "level": "H2",
+        "text": "A/C Line Signal"
+      },
+      {
+        "level": "H1",
+        "text": "Towards High-Fidelity Qudits"
+      },
+      {
+        "level": "H2",
+        "text": "High-Fidelity SPAM"
+      },
+      {
+        "level": "H2",
+        "text": "High-contrast qudit Ramsey control"
+      },
+      {
+        "level": "H2",
+        "text": "Qudit control with known noise levels"
+      },
+      {
+        "level": "H1",
+        "text": "Pulse Sequences and Encodings for Gates and Algorithms"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Qudit encoding and SPAM"
+      },
+      {
+        "level": "H1",
+        "text": "Multi-level coherence"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum processing with virtual qubits"
+      },
+      {
+        "level": "H1",
+        "text": "Outlook"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "METHODS"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental setup"
+      },
+      {
+        "level": "H2",
+        "text": "Narrow-band optical pumping"
+      },
+      {
+        "level": "H2",
+        "text": "State choices for encoding SPAM, qudits, and virtual qubits"
+      },
+      {
+        "level": "H2",
+        "text": "Qudit Ramsey-type experiment - analytic expressions"
+      },
+      {
+        "level": "H2",
+        "text": "Monte-Carlo simulation of noisy multi-level system"
+      },
+      {
+        "level": "H2",
+        "text": "Unitary decomposition with Star-Topology constraint"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15799v1",
+    "url": "http://arxiv.org/abs/2507.15799v1"
+  },
+  {
+    "title": "Exploring Superposition and Interference in State-of-the-Art Low-Parameter Vision Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "State-of-the-Art Deep Neural Network Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Prior Definitions"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Method"
+      },
+      {
+        "level": "H3",
+        "text": "Models vessel"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Depthwise convolution should stay in the input dimensional space"
+      },
+      {
+        "level": "H2",
+        "text": "Preventing superposition significantly disrupts neural network representational structure."
+      },
+      {
+        "level": "H2",
+        "text": "Proof of concept: NoDepth Bottleneck"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15798v1",
+    "url": "http://arxiv.org/abs/2507.15798v1"
+  },
+  {
+    "title": "Deterministic Quantum Search via Recursive Oracle Expansion",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Deterministic Quantum Search"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis and Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Complexity"
+      },
+      {
+        "level": "H2",
+        "text": "Partial Database Search"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Complexity"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Grover's Algorithm"
+      }
+    ],
+    "query": "climate change impact on biodiversity",
+    "arxiv_id": "2507.15797v1",
+    "url": "http://arxiv.org/abs/2507.15797v1"
+  }
+]

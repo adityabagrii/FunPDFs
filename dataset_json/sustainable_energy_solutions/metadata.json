@@ -1,0 +1,3590 @@
+[
+  {
+    "title": "TASI/CERN/KITP Lecture Notes on \"Toward Quantum Computing Gauge Theories of Nature\"",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction\n\\label{sec:introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Hamiltonian formulation of gauge theories\n\\label{sec:Hamiltonian"
+      },
+      {
+        "level": "H2",
+        "text": "Kogut-Susskind Hamiltonian of lattice gauge theories\n\\label{sec:KS"
+      },
+      {
+        "level": "H3",
+        "text": "U(1) lattice gauge theory\n\\label{sec:U(1)"
+      },
+      {
+        "level": "H3",
+        "text": "SU(2) lattice gauge theory\n\\label{sec:SU(2)"
+      },
+      {
+        "level": "H3",
+        "text": "SU(3) lattice gauge theory\n\\label{sec:SU(3)"
+      },
+      {
+        "level": "H2",
+        "text": "Basis choices, Hilbert space, local constraints\n\\label{sec:basis"
+      },
+      {
+        "level": "H3",
+        "text": "U(1) lattice gauge theory\n\\label{sec:U(1)-basis"
+      },
+      {
+        "level": "H3",
+        "text": "SU(2) lattice gauge theory\n\\label{sec:SU(2)-basis"
+      },
+      {
+        "level": "H3",
+        "text": "SU(3) lattice gauge theory\n\\label{sec:SU(3)-basis"
+      },
+      {
+        "level": "H2",
+        "text": "On Hamiltonian-simulation methods\n\\label{sec:KS"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum computation of gauge theories\n\\label{sec:simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum-computing basics\n\\label{sec:QC-basics"
+      },
+      {
+        "level": "H3",
+        "text": "Qubits, gates, and circuits\n\\label{sec:qubits"
+      },
+      {
+        "level": "H3",
+        "text": "Mapping fermions and bosons\n\\label{sec:mapping"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum-simulation steps in nutshell\n\\label{sec:QS-steps"
+      },
+      {
+        "level": "H3",
+        "text": "State preparation\n\\label{sec:state-prep"
+      },
+      {
+        "level": "H3",
+        "text": "Time evolution\n\\label{sec:evolution"
+      },
+      {
+        "level": "H3",
+        "text": "Observable measurement\n\\label{sec:measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Time evolution in gauge theories\n\\label{sec:LGT-evolution"
+      },
+      {
+        "level": "H3",
+        "text": "In-depth study: (1+1)D U(1) lattice gauge theory\n\\label{sec:U(1)-warm-up"
+      },
+      {
+        "level": "H3",
+        "text": "An overview: (3+1)D SU(3) lattice gauge theory\n\\label{sec:QCD"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and conclusions\n\\label{sec:summary"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15840v1",
+    "url": "http://arxiv.org/abs/2507.15840v1"
+  },
+  {
+    "title": "FASTGEN: Fast and Cost-Effective Synthetic Tabular Data Generation with LLMs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Sampling Script Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Identify Distribution"
+      },
+      {
+        "level": "H2",
+        "text": "Script Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Data Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Lessons, Limitation and Future Works"
+      },
+      {
+        "level": "H2",
+        "text": "Human Feedback for Continuous Improvement"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges and Opportunities in LLM-assisted Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Insights on LLM Behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Limitation on Cross-field Relationship"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Configuration"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity"
+      },
+      {
+        "level": "H3",
+        "text": "Vocabulary"
+      },
+      {
+        "level": "H3",
+        "text": "Inter Sample N-gram Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Realism"
+      },
+      {
+        "level": "H3",
+        "text": "Kullback-Leibler Divergence"
+      },
+      {
+        "level": "H3",
+        "text": "Optimal Transport"
+      },
+      {
+        "level": "H3",
+        "text": "Distance to Closest Record"
+      },
+      {
+        "level": "H2",
+        "text": "Exploratory Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Vocabulary"
+      },
+      {
+        "level": "H3",
+        "text": "Inter Sample N-gram Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15839v1",
+    "url": "http://arxiv.org/abs/2507.15839v1"
+  },
+  {
+    "title": "Gauge dependence of momentum running in higher-derivative gravity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The framework"
+      },
+      {
+        "level": "H1",
+        "text": "Gauge dependence"
+      },
+      {
+        "level": "H2",
+        "text": "Quadratic Gravity"
+      },
+      {
+        "level": "H2",
+        "text": "conformal gravity"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15835v1",
+    "url": "http://arxiv.org/abs/2507.15835v1"
+  },
+  {
+    "title": "SDSO1 is a Ghost Planetary Nebula Bow Shock in Front of M31",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Narrowband Imaging Observations and Data Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 is a Hypersonic GPN"
+      },
+      {
+        "level": "H2",
+        "text": "The SDSO1 GPN Central Star EG Andromedae"
+      },
+      {
+        "level": "H2",
+        "text": "Density and ionization of the surrounding ISM"
+      },
+      {
+        "level": "H2",
+        "text": "The GPN Tail"
+      },
+      {
+        "level": "H2",
+        "text": "GPN Expansion and Energetics"
+      },
+      {
+        "level": "H2",
+        "text": "Photoionization by EG And"
+      },
+      {
+        "level": "H2",
+        "text": "Shock Models"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 Bow Shock Structure and Kinematics"
+      },
+      {
+        "level": "H2",
+        "text": "Statistics and Fates of the Old PNe and GPNe Populations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15834v1",
+    "url": "http://arxiv.org/abs/2507.15834v1"
+  },
+  {
+    "title": "Rigorous dense graph limit of a model for biological transportation networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Notation and preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Main assumptions"
+      },
+      {
+        "level": "H1",
+        "text": "Reformulation of the model and main results"
+      },
+      {
+        "level": "H1",
+        "text": "The Kirchhoff law and the Poisson equation"
+      },
+      {
+        "level": "H1",
+        "text": "The energy functionals"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem \\ref{thm:1"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of Theorem \\ref{thm:2"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15829v1",
+    "url": "http://arxiv.org/abs/2507.15829v1"
+  },
+  {
+    "title": "Astrotourism for Development: An Overview of Resources from the IAU Office of Astronomy for Development",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Context and Motivation"
+      },
+      {
+        "level": "H1",
+        "text": "Openness, Accessibility, and Evolving Resources"
+      },
+      {
+        "level": "H1",
+        "text": "Overview of OAD Astrotourism Resources"
+      },
+      {
+        "level": "H2",
+        "text": "Navigating the Resources"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 1 - Night Sky Tourism: A Quick Start Guide"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 2 - A Night Sky Tourism Guide"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 3 - Night Sky Tourism for Communities Around Observatories"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15827v1",
+    "url": "http://arxiv.org/abs/2507.15827v1"
+  },
+  {
+    "title": "Factorization and Resummation for the Nearside Energy-Energy Correlators",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Di-hadron Fragmentation in a Jet"
+      },
+      {
+        "level": "H1",
+        "text": "IR Behavior at Small Angle and the Factorization in Fourier Transform $b_T$-space"
+      },
+      {
+        "level": "H1",
+        "text": "All Order Resummation and Compare to the fixed-order Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Resummation of EEC and perturbative matching with collinear calculations"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15820v1",
+    "url": "http://arxiv.org/abs/2507.15820v1"
+  },
+  {
+    "title": "Euclid preparation: Expected constraints on initial conditions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "{\\it Euclid"
+      },
+      {
+        "level": "H2",
+        "text": "Spectroscopic galaxy clustering"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric galaxy clustering and weak lensing"
+      },
+      {
+        "level": "H2",
+        "text": "Probe combination"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on $\\Omega_K$"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on the scalar spectral index and its running"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on isocurvature contribution"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation and background"
+      },
+      {
+        "level": "H2",
+        "text": "CDI models we consider and their observational aspects"
+      },
+      {
+        "level": "H2",
+        "text": "{\\em Euclid"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on primordial non-Gaussianity"
+      },
+      {
+        "level": "H2",
+        "text": "Fisher analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Matter bispectrum"
+      },
+      {
+        "level": "H3",
+        "text": "Galaxy power spectrum and bispectrum"
+      },
+      {
+        "level": "H3",
+        "text": "Fisher forecasts"
+      },
+      {
+        "level": "H2",
+        "text": "Bayesian analysis (\\borg)"
+      },
+      {
+        "level": "H1",
+        "text": "Beyond slow roll: searches for primordial features"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Combination with current and future CMB measurements"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15819v1",
+    "url": "http://arxiv.org/abs/2507.15819v1"
+  },
+  {
+    "title": "Federated Split Learning with Improved Communication and Storage Efficiency",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "References Cited"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Federated and Split Learning Paradigms"
+      },
+      {
+        "level": "H2",
+        "text": "The Distributed SGD Problem"
+      },
+      {
+        "level": "H2",
+        "text": "Federated and Split Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges"
+      },
+      {
+        "level": "H1",
+        "text": "Communication and Storage Efficient Federated Split Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Auxiliary Network"
+      },
+      {
+        "level": "H2",
+        "text": "CSE-FSL"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Communication and Storage Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Accuracy Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Impact of Auxiliary Network Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Load"
+      },
+      {
+        "level": "H2",
+        "text": "Storage Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Comprehensive Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of \\Cref{{prop:conv_c"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of \\Cref{{prop:conv_s"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15816v1",
+    "url": "http://arxiv.org/abs/2507.15816v1"
+  },
+  {
+    "title": "LLM Economist: Large Population Models and Mechanism Design in Multi-Agent Generative Simulacra",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "LLM Economist"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Economic Background"
+      },
+      {
+        "level": "H1",
+        "text": "Optimal Tax Rate Derivation for Piecewise Linear Tax"
+      },
+      {
+        "level": "H2",
+        "text": "Basic Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Mechanical Tax Increase"
+      },
+      {
+        "level": "H2",
+        "text": "Social Welfare Effect"
+      },
+      {
+        "level": "H2",
+        "text": "Behavioral Response"
+      },
+      {
+        "level": "H2",
+        "text": "Optimality Condition"
+      },
+      {
+        "level": "H2",
+        "text": "Key Equation Derivation"
+      },
+      {
+        "level": "H2",
+        "text": "Continuous Limit Case"
+      },
+      {
+        "level": "H1",
+        "text": "Background Economic Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Top Income Tax Rate~(\\citet{saez2001using"
+      },
+      {
+        "level": "H2",
+        "text": "Non-Linear Income Tax Rate~(\\citet{saez2001using"
+      },
+      {
+        "level": "H2",
+        "text": "Piecewise Linear Income Tax Rate"
+      },
+      {
+        "level": "H1",
+        "text": "Worker Personas"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Basic components"
+      },
+      {
+        "level": "H3",
+        "text": "In-Context Reinforcement Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Planner's Social Welfare Optimization"
+      },
+      {
+        "level": "H3",
+        "text": "Multiple Worker Utility Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Workers' Utility Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "LLM Economist"
+      },
+      {
+        "level": "H2",
+        "text": "Tax-Planning Optimization"
+      },
+      {
+        "level": "H2",
+        "text": "Tax Policy Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Voting Simulacra"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Scaling"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15815v1",
+    "url": "http://arxiv.org/abs/2507.15815v1"
+  },
+  {
+    "title": "The Inflationary Quartic Hilltop Model in a Modified Gravity and Its Comparison with the Observations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The inflation via the $f(\\phi,T)$ theory"
+      },
+      {
+        "level": "H1",
+        "text": "The quartic hilltop inflation and the slow-roll"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions and discussion"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15812v1",
+    "url": "http://arxiv.org/abs/2507.15812v1"
+  },
+  {
+    "title": "Mpemba effect in self-contained quantum refrigerators: accelerated cooling",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "The quantum refrigerator model"
+      },
+      {
+        "level": "H2",
+        "text": "The Mpemba effect"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamics of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamical equations of self-contained refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Steady state of self-contained refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "Mpemba Effect in quantum refrigerator"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in absence of cold bath"
+      },
+      {
+        "level": "H2",
+        "text": "Accelerated cooling in presence of cold bath"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Lindblad operators of quantum refrigerator"
+      },
+      {
+        "level": "H1",
+        "text": "\\texorpdfstring{The expression of $D_{i"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15811v1",
+    "url": "http://arxiv.org/abs/2507.15811v1"
+  },
+  {
+    "title": "True Multimodal In-Context Learning Needs Attention to the Visual Context",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "DARA as a constrained version of LoRA"
+      },
+      {
+        "level": "H1",
+        "text": "TrueMICL"
+      },
+      {
+        "level": "H1",
+        "text": "More Details of Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "MLLMs"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "More Experimental Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion on the Performance between DARA and LoRA"
+      },
+      {
+        "level": "H2",
+        "text": "Closed-source model performances"
+      },
+      {
+        "level": "H2",
+        "text": "Amounts of params in DARA"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of Prompt Design"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on TrueMICL"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of the DARA's Reallocation Effects"
+      },
+      {
+        "level": "H2",
+        "text": "Result Analysis on Standard VL Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Attention Reallocation"
+      },
+      {
+        "level": "H2",
+        "text": "TrueMICL, a MICL-dedicated Dataset"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15807v1",
+    "url": "http://arxiv.org/abs/2507.15807v1"
+  },
+  {
+    "title": "Identifying Solution Constraints for ODE Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Identification of Conserved Quantities"
+      },
+      {
+        "level": "H1",
+        "text": "Algorithm"
+      },
+      {
+        "level": "H1",
+        "text": "Applications"
+      },
+      {
+        "level": "H2",
+        "text": "Enzyme Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Glycolytic oscillator model"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "MATLAB Codes"
+      },
+      {
+        "level": "H2",
+        "text": "MATLAB function {\\tt solution\\_constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Function {\\tt enzyme"
+      },
+      {
+        "level": "H2",
+        "text": "Function {\\tt glycolytic"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15805v1",
+    "url": "http://arxiv.org/abs/2507.15805v1"
+  },
+  {
+    "title": "1D Vlasov Simulations of QED Cascades Over Pulsar Polar Caps",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Overview of the Physical Model"
+      },
+      {
+        "level": "H2",
+        "text": "Radiation and Radiative Reaction"
+      },
+      {
+        "level": "H2",
+        "text": "Magnetic Pair Production"
+      },
+      {
+        "level": "H1",
+        "text": "1D simulations of QED cascade"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of the RS Model"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of the SCLF Model"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Energy Budget and Surface Heating by Returning Particles"
+      },
+      {
+        "level": "H2",
+        "text": "The Spatiotemporal and Spectral Structures of the Electric Field Energy"
+      },
+      {
+        "level": "H2",
+        "text": "Scope of Quantitative Estimates in Millisecond Pulsars"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical methods"
+      },
+      {
+        "level": "H2",
+        "text": "1D Vlasov–Maxwell System"
+      },
+      {
+        "level": "H2",
+        "text": "Validation: Two Stream Instability"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15804v1",
+    "url": "http://arxiv.org/abs/2507.15804v1"
+  },
+  {
+    "title": "ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Experimental Details"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Existing Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of SEEM-Generated Masks in SSSS"
+      },
+      {
+        "level": "H2",
+        "text": "ConformalSAM"
+      },
+      {
+        "level": "H3",
+        "text": "CP-Calibrated Foundation Model for Supervised Training (Stage \\uppercase\\expandafter{\\romannumeral1"
+      },
+      {
+        "level": "H3",
+        "text": "Self-Reliance Training (Stage \\uppercase\\expandafter{\\romannumeral2"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15803v1",
+    "url": "http://arxiv.org/abs/2507.15803v1"
+  },
+  {
+    "title": "Challenges of Trustworthy Federated Learning: What's Done, Current Trends and Remaining Work",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction to Federated Learning"
+      },
+      {
+        "level": "H2",
+        "text": "\\paco{Why?"
+      },
+      {
+        "level": "H2",
+        "text": "\\paco{How?"
+      },
+      {
+        "level": "H1",
+        "text": "Challenges of Trustworthy Federated Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 1: Human agency and oversight"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 2: Technical robustness and safety"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 3: Privacy and data governance"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 4: Transparency"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 5: Diversity, non-discrimination \\& fairness"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 6: Societal and environmental well-being"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 7: Accountability"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Dimension Frontiers"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Collective Intelligence as a Dimension Frontier"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15796v1",
+    "url": "http://arxiv.org/abs/2507.15796v1"
+  },
+  {
+    "title": "Quantum gravity black holes as dark matter?",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15795v1",
+    "url": "http://arxiv.org/abs/2507.15795v1"
+  },
+  {
+    "title": "Decadal evolution of a repeating fast radio burst source",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Observation Campaign and Data Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "DM Variation"
+      },
+      {
+        "level": "H1",
+        "text": "Burst Rate and Energy Distribution"
+      },
+      {
+        "level": "H1",
+        "text": "Time-Domain Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Active Periodicity and Time Difference Algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Short Timescale Period Search"
+      },
+      {
+        "level": "H2",
+        "text": "Long Timescale Period Search"
+      },
+      {
+        "level": "H1",
+        "text": "A Comprehensive Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Morphology"
+      },
+      {
+        "level": "H1",
+        "text": "Polarization Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Physical Origin of the Evolution of DM and RM of FRB 20121102A"
+      },
+      {
+        "level": "H2",
+        "text": "Observation of FRB 20121102A"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of DM and RM from a Young Supernova Remnant"
+      },
+      {
+        "level": "H2",
+        "text": "Extra DM from Pair Injection by Enhanced Wind"
+      },
+      {
+        "level": "H1",
+        "text": "Contribution of Binary Star Orbital Motion to the DM Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Data availability"
+      },
+      {
+        "level": "H2",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Table"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15790v1",
+    "url": "http://arxiv.org/abs/2507.15790v1"
+  },
+  {
+    "title": "Missing Physics Discovery through Fully Differentiable Finite Element-Based Machine Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Framework"
+      },
+      {
+        "level": "H3",
+        "text": "Operator Learning over Finite Element Spaces"
+      },
+      {
+        "level": "H2",
+        "text": "Learning Materials Constitutive Models"
+      },
+      {
+        "level": "H3",
+        "text": "Learning from Loads in Displacement-Controlled Experiments"
+      },
+      {
+        "level": "H3",
+        "text": "Learning from Displacements in Load-Controlled Experiments"
+      },
+      {
+        "level": "H3",
+        "text": "Zero Shot Inference with a Foundational Model"
+      },
+      {
+        "level": "H2",
+        "text": "Learning in Transient Thermodynamics Problems"
+      },
+      {
+        "level": "H3",
+        "text": "Learning Thermal Properties from Temperature Measurements"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Coupling between Firedrake and PyTorch/JAX"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Displacement-Controlled Uniaxial Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Load-Controlled Brazilian Disc Experiements"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Torsional Behaviour in Thin Plates"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating Transient Heat Conduction Experiments"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15787v1",
+    "url": "http://arxiv.org/abs/2507.15787v1"
+  },
+  {
+    "title": "Density control of multi-agent swarms via bio-inspired leader-follower plasticity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Statement"
+      },
+      {
+        "level": "H2",
+        "text": "Problem statement"
+      },
+      {
+        "level": "H1",
+        "text": "Bio-inspired Control"
+      },
+      {
+        "level": "H2",
+        "text": "Design of the leaders' velocity field"
+      },
+      {
+        "level": "H2",
+        "text": "Design of the reacting term"
+      },
+      {
+        "level": "H2",
+        "text": "Stability analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Bimodal regulation"
+      },
+      {
+        "level": "H2",
+        "text": "Robustness analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Agent-based Model"
+      },
+      {
+        "level": "H1",
+        "text": "Higher-Dimensional Extension"
+      },
+      {
+        "level": "H2",
+        "text": "Bio-inspired Control"
+      },
+      {
+        "level": "H2",
+        "text": "Stability Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical validation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Non-plastic followers at steady-state"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15781v1",
+    "url": "http://arxiv.org/abs/2507.15781v1"
+  },
+  {
+    "title": "Reservoir Computing as a Language Model",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Task Formulation and Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Model Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Reservoir Computing"
+      },
+      {
+        "level": "H2",
+        "text": "Attention-Enhanced Reservoir Computing"
+      },
+      {
+        "level": "H2",
+        "text": "Transformer Architectures"
+      },
+      {
+        "level": "H1",
+        "text": "Architectures"
+      },
+      {
+        "level": "H1",
+        "text": "Training"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics and Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{N"
+      },
+      {
+        "level": "H3",
+        "text": "Mathematical Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "\\textit{N"
+      },
+      {
+        "level": "H2",
+        "text": "Inference Time Comparison"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15779v1",
+    "url": "http://arxiv.org/abs/2507.15779v1"
+  },
+  {
+    "title": "Deep-Learning Investigation of Vibrational Raman Spectra for Plant-Stress Analysis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "DIVA to analyze Raman spectra."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding light stress responses in diverse plant species."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding gene-specific shade avoidance stress responses."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding high-temperature stress responses."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding bacterial-infection induced stress responses."
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Figures"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Tables"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Notes"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary~Note~1: Decoding gene-specific shade stress responses from petiole Raman spectra."
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary~Note~2: Decoding high-temperature stress responses from petiole Raman spectra in diverse plants."
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15772v1",
+    "url": "http://arxiv.org/abs/2507.15772v1"
+  },
+  {
+    "title": "Toward an event-level analysis of hadron structure using differential programming",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Physics of Quantum Correlation Functions"
+      },
+      {
+        "level": "H1",
+        "text": "Differentiable sampling algorithm"
+      },
+      {
+        "level": "H1",
+        "text": "Inference using differential sampling and GANs"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Double half-moon distribution~\\label{app:halfmoon"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15768v1",
+    "url": "http://arxiv.org/abs/2507.15768v1"
+  },
+  {
+    "title": "Meson mass spectrum in Ising Field Theory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Bethe-Salpeter Equation and Integrability"
+      },
+      {
+        "level": "H2",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "\\texorpdfstring{$Q$"
+      },
+      {
+        "level": "H2",
+        "text": "Spectral sums and spectral determinants"
+      },
+      {
+        "level": "H1",
+        "text": "Solutions of TQ equation"
+      },
+      {
+        "level": "H2",
+        "text": "Small \\texorpdfstring{$\\lambda$"
+      },
+      {
+        "level": "H2",
+        "text": "Large \\texorpdfstring{$\\lambda$"
+      },
+      {
+        "level": "H1",
+        "text": "Relation between \\texorpdfstring{$Q$"
+      },
+      {
+        "level": "H2",
+        "text": "Resolvent and integral relations"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Wronskian and rational relations"
+      },
+      {
+        "level": "H2",
+        "text": "Log-derivative relations"
+      },
+      {
+        "level": "H1",
+        "text": "Analytical results"
+      },
+      {
+        "level": "H2",
+        "text": "Spectral sums"
+      },
+      {
+        "level": "H2",
+        "text": "WKB expansion"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of results in limiting cases"
+      },
+      {
+        "level": "H2",
+        "text": "Near \\texorpdfstring{$E_8$"
+      },
+      {
+        "level": "H2",
+        "text": "Expansion around the free fermion theory: \\texorpdfstring{$\\alpha\\to\\infty$"
+      },
+      {
+        "level": "H1",
+        "text": "Bethe-Salpeter equation in the complex \\texorpdfstring{$\\alpha$"
+      },
+      {
+        "level": "H2",
+        "text": "Analytical continuation"
+      },
+      {
+        "level": "H2",
+        "text": "Critical points on the second sheet"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Supplemental material"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Matrix elements of spectral operator \\texorpdfstring{$\\hat{K"
+      },
+      {
+        "level": "H1",
+        "text": "Asymptotics of the integrals \\texorpdfstring{$\\mathtt{u"
+      },
+      {
+        "level": "H2",
+        "text": "Chiral limit: \\texorpdfstring{$\\alpha \\rightarrow0$"
+      },
+      {
+        "level": "H2",
+        "text": "Heavy quark limit: \\texorpdfstring{$\\alpha\\to\\infty$"
+      },
+      {
+        "level": "H2",
+        "text": "Critical points: \\texorpdfstring{$\\alpha\\to\\alpha^*_k\\ne0$"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15766v1",
+    "url": "http://arxiv.org/abs/2507.15766v1"
+  },
+  {
+    "title": "GasAgent: A Multi-Agent Framework for Automated Gas Optimization in Smart Contracts",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs and Multi-Agent Systems"
+      },
+      {
+        "level": "H2",
+        "text": "Smart Contracts and Gas Optimizations"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Design Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "System Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Seeker"
+      },
+      {
+        "level": "H2",
+        "text": "Innovator"
+      },
+      {
+        "level": "H2",
+        "text": "Executor"
+      },
+      {
+        "level": "H2",
+        "text": "Manager"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Research Questions (RQs)"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1 - Effectiveness"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2 - Pattern Incorporation"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3 - Design Rationality (Ablation Study)"
+      },
+      {
+        "level": "H2",
+        "text": "RQ4 - Broader Usability"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conculsion"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15761v1",
+    "url": "http://arxiv.org/abs/2507.15761v1"
+  },
+  {
+    "title": "LAPO: Internalizing Reasoning Efficiency via Length-Adaptive Policy Optimization",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Technical Appendices and Supplementary Material"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Discovery Stage: Learning Natural Reasoning Patterns"
+      },
+      {
+        "level": "H2",
+        "text": "Internalization Stage: Length-Aware Efficient Reasoning"
+      },
+      {
+        "level": "H2",
+        "text": "Training Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Training Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Selection of Training Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study on the Length Guidance for LAPO-I"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study on the Statistical Metrics for Target Length Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Difficulty-Aware Computational Allocation"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Refinement of Reasoning Behaviors"
+      },
+      {
+        "level": "H2",
+        "text": "Test-Time Scaling in Large Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient Long Chain-of-Thought LLM"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15758v1",
+    "url": "http://arxiv.org/abs/2507.15758v1"
+  },
+  {
+    "title": "Simulating a Gaussian stochastic gravitational wave background signal in pulsar timing arrays",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Summary of the main results"
+      },
+      {
+        "level": "H1",
+        "text": "The unpolarized signal: Spectrum $\\times$ HD curve $\\times$ Transfer functions"
+      },
+      {
+        "level": "H2",
+        "text": "Pulsar Timing Residual from GWs"
+      },
+      {
+        "level": "H2",
+        "text": "Timing Residual Correlation due to a SGWB"
+      },
+      {
+        "level": "H2",
+        "text": "Transfer Functions"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with simulation"
+      },
+      {
+        "level": "H1",
+        "text": "The polarized signal: simulating circular polarization in a PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Circularly Polarized Basis Tensors and Stokes Parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Timing Residual Power Spectrum and Correlation"
+      },
+      {
+        "level": "H2",
+        "text": "Correlation in the Computational Frame"
+      },
+      {
+        "level": "H2",
+        "text": "Kinematic Dipole"
+      },
+      {
+        "level": "H2",
+        "text": "Transfer Functions"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with simulation"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Why are the variances of the sine- and cosine-Fourier coefficients different?"
+      },
+      {
+        "level": "H2",
+        "text": "Are the so-called transfer functions discussed throughout special for PTA?"
+      },
+      {
+        "level": "H2",
+        "text": "What are the prospects for detecting circular polarization in the SGWB?"
+      },
+      {
+        "level": "H2",
+        "text": "Can a PTA be used to probe the cosmic dipole?"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "A choice of basis functions"
+      },
+      {
+        "level": "H1",
+        "text": "Spin-Weighted Spherical Harmonics"
+      },
+      {
+        "level": "H1",
+        "text": "Pulsar timing residuals due to a Gaussian SGWB signal"
+      },
+      {
+        "level": "H1",
+        "text": "Number of pulsars"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15756v1",
+    "url": "http://arxiv.org/abs/2507.15756v1"
+  },
+  {
+    "title": "Dynamical analysis of bulk viscous cosmological model in $F(T)$ gravity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Field Equations in $F(T)$ gravity theory"
+      },
+      {
+        "level": "H1",
+        "text": "Cosmological  Solutions"
+      },
+      {
+        "level": "H2",
+        "text": "Eckart Theory ($\\tau=0$):"
+      },
+      {
+        "level": "H2",
+        "text": "Truncated Israel Stewart Theory $(\\epsilon =0)$ :"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15754v1",
+    "url": "http://arxiv.org/abs/2507.15754v1"
+  },
+  {
+    "title": "DiffuMeta: Algebraic Language Models for Inverse Design of Metamaterials via Diffusion Transformers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Shell metamaterial design space"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion-based generative modeling framework"
+      },
+      {
+        "level": "H2",
+        "text": "Guided design of shell metamaterials"
+      },
+      {
+        "level": "H2",
+        "text": "Inverse design of shell metamaterials for unseen target properties"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-target conditional generation of shell metamaterials"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental validation"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Denoising diffusion models"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion transformer architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Finite element simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Fabrication and experimental validation"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Information"
+      },
+      {
+        "level": "H1",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Authors contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Declaration of competing interests"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15753v1",
+    "url": "http://arxiv.org/abs/2507.15753v1"
+  },
+  {
+    "title": "Infinitely many non-radial solutions to a critical Choquard equation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The finite dimensional reduction"
+      },
+      {
+        "level": "H2",
+        "text": "The linear theory"
+      },
+      {
+        "level": "H2",
+        "text": "Estimate of the error term"
+      },
+      {
+        "level": "H2",
+        "text": "Estimate of the nonlinear term"
+      },
+      {
+        "level": "H1",
+        "text": "The reduced problem"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of the Theorem \\ref{main"
+      },
+      {
+        "level": "H1",
+        "text": "Useful Estimates"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15747v1",
+    "url": "http://arxiv.org/abs/2507.15747v1"
+  },
+  {
+    "title": "Superlinear gradient growth for 2D Euler equation without boundary",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "\\@startsection{section"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Previous works on gradient growth"
+      },
+      {
+        "level": "H2",
+        "text": "\\text{Small"
+      },
+      {
+        "level": "H2",
+        "text": "Small scale formation on $\\RR^2$"
+      },
+      {
+        "level": "H2",
+        "text": "small scale formation inside the disc $D \\subset \\RR^2$"
+      },
+      {
+        "level": "H2",
+        "text": "Organization of the paper"
+      },
+      {
+        "level": "H2",
+        "text": "Notations"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Superlinear growth on the torus for an open set of initial data"
+      },
+      {
+        "level": "H2",
+        "text": "Constructing an approximate translation vector $\\mathbf{p"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Proposition~\\ref{prop_p"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution in the moving frame centered at $\\mathbf{p"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of superlinear growth in the torus"
+      },
+      {
+        "level": "H1",
+        "text": "Superlinear growth on the whole plane"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries on the Lamb dipole"
+      },
+      {
+        "level": "H2",
+        "text": "Constructing an approximate translation $p(t)$"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution in the moving frame centered at $(p(t)+t)\\mathbf{e"
+      },
+      {
+        "level": "H1",
+        "text": "Superlinear growth under flux assumptions"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15739v1",
+    "url": "http://arxiv.org/abs/2507.15739v1"
+  },
+  {
+    "title": "Symplectic coherence: a measure of position-momentum correlations in quantum states",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "CV quantum information"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum discord"
+      },
+      {
+        "level": "H2",
+        "text": "Matrix norms"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Resource Theories"
+      },
+      {
+        "level": "H1",
+        "text": "Measure of position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Operational interpretation of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Properties of symplectic coherence"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence and quantum discord"
+      },
+      {
+        "level": "H1",
+        "text": "Maximal symplectic coherence"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence in quantum information processing"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and entanglement"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum metrology"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum channel discrimination"
+      },
+      {
+        "level": "H3",
+        "text": "Single-shot discrimination"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-shot discrimination"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Proof that $\\Tr[V] \\geq 2m$:"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum discord for computational basis measurements"
+      },
+      {
+        "level": "H1",
+        "text": "Properties of symplectic coherence and position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Operational interpretation of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Faithfulness and monotonicity of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Some important non-free operations for symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "A no-go result for the monotonicity of faithful measures of position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum discord"
+      },
+      {
+        "level": "H1",
+        "text": "Robutness under perturbations of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Maximal symplectic coherence of quantum states"
+      },
+      {
+        "level": "H3",
+        "text": "Maximal symplectic coherence of pure Gaussian states"
+      },
+      {
+        "level": "H3",
+        "text": "Structure of states with maximal symplectic coherence"
+      },
+      {
+        "level": "H3",
+        "text": "Maximal symplectic coherence of mixed Gaussian states"
+      },
+      {
+        "level": "H2",
+        "text": "Behavior of symplectic coherence under perturbations of the state"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence under photon loss"
+      },
+      {
+        "level": "H2",
+        "text": "Position-momentum correlations enhances the average entanglement of pure Gaussian states"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence in quantum information processing"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence enhances quantum metrology"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence lower bounds optimal success probability of certain channel discrimination tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence is necessary for computational advantage"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence underlines the efficiency of certain channel discrimination tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence for loss channels discrimination"
+      },
+      {
+        "level": "H2",
+        "text": "Position-momentum correlations determine the distinguishability of certain Gaussian channels"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence upper bounds Fisher information in particular tasks"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15738v1",
+    "url": "http://arxiv.org/abs/2507.15738v1"
+  },
+  {
+    "title": "Cryogenic light detectors with thermal signal amplification for $0νββ$ search experiments",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Ten-crystal prototype tower of CROSS"
+      },
+      {
+        "level": "H2",
+        "text": "Mechanical structure of a detector array"
+      },
+      {
+        "level": "H2",
+        "text": "10-crystal demonstrator"
+      },
+      {
+        "level": "H2",
+        "text": "Light detectors with thermal signal amplification"
+      },
+      {
+        "level": "H3",
+        "text": "NTL-effect-based devices in a nutshell"
+      },
+      {
+        "level": "H3",
+        "text": "Fabrication of NTL-assisted light detectors"
+      },
+      {
+        "level": "H1",
+        "text": "Test of the 10-crystal array at the Canfranc underground laboratory"
+      },
+      {
+        "level": "H2",
+        "text": "Detector installation in the CROSS cryogenic facility"
+      },
+      {
+        "level": "H2",
+        "text": "Data taking and processing"
+      },
+      {
+        "level": "H1",
+        "text": "Results and discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of reference Li$_2$$^{100"
+      },
+      {
+        "level": "H2",
+        "text": "Characterization of bolometric Ge light detectors"
+      },
+      {
+        "level": "H2",
+        "text": "Detection of scintillation light"
+      },
+      {
+        "level": "H2",
+        "text": "NTL amplification for light detectors"
+      },
+      {
+        "level": "H1",
+        "text": "Prospects for large-scale $0\\nu\\beta\\beta$ search experiments"
+      },
+      {
+        "level": "H2",
+        "text": "CROSS detector structure and NTL-LD technology"
+      },
+      {
+        "level": "H2",
+        "text": "Background reduction with NTL-LDs"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of pile-up induced background"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15732v1",
+    "url": "http://arxiv.org/abs/2507.15732v1"
+  },
+  {
+    "title": "Qualitative properties of solutions to parabolic anisotropic equations: Part II -- The anisotropic Trudinger's equation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction and Main results"
+      },
+      {
+        "level": "H2",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H3",
+        "text": "The Method"
+      },
+      {
+        "level": "H3",
+        "text": "Structure of the paper"
+      },
+      {
+        "level": "H1",
+        "text": "Notation"
+      },
+      {
+        "level": "H1",
+        "text": "Functional Setting and Auxiliary Results"
+      },
+      {
+        "level": "H2",
+        "text": "Functional Anisotropic Setting and Parabolic Embeddings"
+      },
+      {
+        "level": "H2",
+        "text": "Auxiliary Lemmas"
+      },
+      {
+        "level": "H2",
+        "text": "Definition of weak solution"
+      },
+      {
+        "level": "H2",
+        "text": "Local Energy Estimates"
+      },
+      {
+        "level": "H2",
+        "text": "Local Upper Bound"
+      },
+      {
+        "level": "H2",
+        "text": "Expansion of Positivity for Anisotropic $p$-Laplace Evolution Equation"
+      },
+      {
+        "level": "H1",
+        "text": "A De Giorgi Type Lemma"
+      },
+      {
+        "level": "H1",
+        "text": "Expansion of Positivity"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Proposition \\ref{pr4.1"
+      },
+      {
+        "level": "H2",
+        "text": "Propagation of Positivity in time"
+      },
+      {
+        "level": "H2",
+        "text": "A Measure Shrinking Lemma"
+      },
+      {
+        "level": "H1",
+        "text": "Harnack's Inequality: proving Theorem \\ref{th1.1"
+      },
+      {
+        "level": "H1",
+        "text": "H\\\"{o"
+      },
+      {
+        "level": "H2",
+        "text": "Degenerate Case - $p_+>2$"
+      },
+      {
+        "level": "H2",
+        "text": "Singular Case - $p_+\\leqslant 2$"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15730v1",
+    "url": "http://arxiv.org/abs/2507.15730v1"
+  },
+  {
+    "title": "TokensGen: Harnessing Condensed Tokens for Long Video Generation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "More Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Details of Comparison Study"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt Splitting"
+      },
+      {
+        "level": "H2",
+        "text": "User Study"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Comparisons and Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations and Discussions"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Visual Results"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Baseline comparisons"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation studies"
+      },
+      {
+        "level": "H2",
+        "text": "Long Video Editing"
+      },
+      {
+        "level": "H1",
+        "text": "TokensGen for Long Video Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "To2V Model: Inner-clip content control"
+      },
+      {
+        "level": "H2",
+        "text": "T2To Model: Long-term content consistency"
+      },
+      {
+        "level": "H2",
+        "text": "Inter-clip temporal consistency"
+      },
+      {
+        "level": "H2",
+        "text": "Training strategy"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15728v1",
+    "url": "http://arxiv.org/abs/2507.15728v1"
+  },
+  {
+    "title": "Sidorenko-Type Inequalities for Even Subdivisions over Finite Abelian Groups",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Fourier-analytic approach"
+      },
+      {
+        "level": "H2",
+        "text": "The circuit matrix"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of the main result"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15723v1",
+    "url": "http://arxiv.org/abs/2507.15723v1"
+  },
+  {
+    "title": "Schauder estimates for parabolic $p$-Laplace systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Method of proof"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries and notation"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H2",
+        "text": "Parabolic function spaces"
+      },
+      {
+        "level": "H2",
+        "text": "Auxiliary lemmas"
+      },
+      {
+        "level": "H2",
+        "text": "Existence of weak solutions"
+      },
+      {
+        "level": "H1",
+        "text": "Gradient bound for \\texorpdfstring{$p$-"
+      },
+      {
+        "level": "H2",
+        "text": "Energy estimates for second order derivatives"
+      },
+      {
+        "level": "H2",
+        "text": "\\texorpdfstring{$L^m$-"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative gradient bound in the sub-quadratic case"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative gradient bound\nin the sub-quadratic case"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative gradient bound in the super-quadratic case"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative gradient bound in the super-quadratic case"
+      },
+      {
+        "level": "H1",
+        "text": "\\texorpdfstring{$p$-"
+      },
+      {
+        "level": "H2",
+        "text": "Zero order energy estimates"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison principle"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison estimates"
+      },
+      {
+        "level": "H2",
+        "text": "Gluing Lemma and oscillation estimates for Lipschitz solutions"
+      },
+      {
+        "level": "H1",
+        "text": "Schauder-type estimates"
+      },
+      {
+        "level": "H2",
+        "text": "Freezing coefficients"
+      },
+      {
+        "level": "H2",
+        "text": "A Campanato-type estimate"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative local gradient bound"
+      },
+      {
+        "level": "H2",
+        "text": "H\\\"older continuity of the gradient"
+      },
+      {
+        "level": "H2",
+        "text": "Schauder estimates for parabolic \n\\texorpdfstring{$p$-"
+      },
+      {
+        "level": "H1",
+        "text": "Applications to doubly non-linear equations"
+      },
+      {
+        "level": "H2",
+        "text": "Regularity for doubly non-linear parabolic equations"
+      },
+      {
+        "level": "H2",
+        "text": "Notation and notion of solutions"
+      },
+      {
+        "level": "H2",
+        "text": "Strategy"
+      },
+      {
+        "level": "H2",
+        "text": "Remarks on the literature"
+      },
+      {
+        "level": "H2",
+        "text": "Optimality"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem~\\ref{THM:REGULARITY-INTRO"
+      },
+      {
+        "level": "H2",
+        "text": "Decay estimates at the extinction time"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15722v1",
+    "url": "http://arxiv.org/abs/2507.15722v1"
+  },
+  {
+    "title": "Explainable Anomaly Detection for Electric Vehicles Charging Stations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A summary of Latin grammar"
+      },
+      {
+        "level": "H1",
+        "text": "Some Latin vocabulary"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset and Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Global feature ranking and selection"
+      },
+      {
+        "level": "H2",
+        "text": "Local interpretation of individual predictions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Explainable Anomaly Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Isolation Forest"
+      },
+      {
+        "level": "H2",
+        "text": "DIFFI algorithm"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15718v1",
+    "url": "http://arxiv.org/abs/2507.15718v1"
+  },
+  {
+    "title": "GW231123 Mass Gap Event and the Primordial Black Hole Scenario",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "PBH formation during the MD era and SIGW"
+      },
+      {
+        "level": "H1",
+        "text": "PBH Scenario for GW231123"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and discussion"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15701v1",
+    "url": "http://arxiv.org/abs/2507.15701v1"
+  },
+  {
+    "title": "Estimating Rate-Distortion Functions Using the Energy-Based Model",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Models"
+      },
+      {
+        "level": "H2",
+        "text": "Rate-Distortion Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Connection between Rate-Distortion Problem and Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Energy-Based Model of Rate-Distortion Function"
+      },
+      {
+        "level": "H2",
+        "text": "Energy-Based Rate-Distortion Model"
+      },
+      {
+        "level": "H2",
+        "text": "Relation with Classical Energy-Based Models"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results and Discussions"
+      },
+      {
+        "level": "H2",
+        "text": "Cases with Scalar Classical Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation for Vector Gaussian Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Visualization of Conditional Sampling"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Estimation of rate and distortion"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15700v1",
+    "url": "http://arxiv.org/abs/2507.15700v1"
+  },
+  {
+    "title": "A MeerKAT study of a neutral hydrogen rich grouping of galaxies with megaparsec-scale filamentary-like structure",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data, calibration, and ancillary data"
+      },
+      {
+        "level": "H2",
+        "text": "MeerKAT observations"
+      },
+      {
+        "level": "H2",
+        "text": "Calibration and imaging"
+      },
+      {
+        "level": "H2",
+        "text": "MeerKAT data properties"
+      },
+      {
+        "level": "H2",
+        "text": "Ancillary data"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Source finding"
+      },
+      {
+        "level": "H2",
+        "text": "Grouping of galaxies"
+      },
+      {
+        "level": "H2",
+        "text": "\\textsc{H\\,i"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Scaling relations"
+      },
+      {
+        "level": "H2",
+        "text": "Compact group"
+      },
+      {
+        "level": "H2",
+        "text": "Individual sources of interest"
+      },
+      {
+        "level": "H2",
+        "text": "Group properties"
+      },
+      {
+        "level": "H2",
+        "text": "Large-scale structure context with \\textsc{Simba"
+      },
+      {
+        "level": "H3",
+        "text": "Detection criteria"
+      },
+      {
+        "level": "H3",
+        "text": "Analogue criteria"
+      },
+      {
+        "level": "H3",
+        "text": "Lightcone generation"
+      },
+      {
+        "level": "H3",
+        "text": "Scaling relations of \\textsc{Simba"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "\\hi spectra"
+      },
+      {
+        "level": "H1",
+        "text": "Multiwavelength imaging of group galaxies/sources"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15699v1",
+    "url": "http://arxiv.org/abs/2507.15699v1"
+  },
+  {
+    "title": "Examining the Gap in the Chirp Mass Distribution of Binary Black Holes",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H1",
+        "text": "investigation"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing $\\mathbb{M"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing $\\mathbb{M"
+      },
+      {
+        "level": "H1",
+        "text": "A Unique Correlation"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Simulating Gravitational Wave Catalog"
+      },
+      {
+        "level": "H1",
+        "text": "Models Used in Population Inference"
+      },
+      {
+        "level": "H1",
+        "text": "Suggestion"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15697v1",
+    "url": "http://arxiv.org/abs/2507.15697v1"
+  },
+  {
+    "title": "Using stochastic thermodynamics with internal variables to capture orientational spreading in cell populations undergoing cyclic stretch",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Cell reorientation under cyclic strain"
+      },
+      {
+        "level": "H2",
+        "text": "An approximation scheme for the Fokker--Planck equation"
+      },
+      {
+        "level": "H1",
+        "text": "The reduced model"
+      },
+      {
+        "level": "H2",
+        "text": "Approximation through the von Mises probability distribution"
+      },
+      {
+        "level": "H2",
+        "text": "The coefficients of the ODE system that governs the average angle and the order parameter"
+      },
+      {
+        "level": "H2",
+        "text": "Setting the initial conditions"
+      },
+      {
+        "level": "H1",
+        "text": "The qualitative behaviour of the reduced model"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical tests"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with experimental data"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix."
+      },
+      {
+        "level": "H2",
+        "text": "The evolution of $\\mu(t)$"
+      },
+      {
+        "level": "H2",
+        "text": "The evolution of $\\kappa(t)$."
+      },
+      {
+        "level": "H2",
+        "text": "The set $\\dot\\kappa=0$."
+      },
+      {
+        "level": "H1",
+        "text": "Notes for ourselves"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotics of modified bessel functions"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic behavior of $G(\\kappa)$ (AI generated from file \\texttt{Asymptotics\\_G.nb"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting the choice of one well"
+      },
+      {
+        "level": "H2",
+        "text": "How the energetic landscape depends on $r$"
+      },
+      {
+        "level": "H2",
+        "text": "Is the approximation good?"
+      },
+      {
+        "level": "H2",
+        "text": "Derivation of normalized energy \\color{black"
+      },
+      {
+        "level": "H2",
+        "text": "Entropy Production Rate"
+      },
+      {
+        "level": "H2",
+        "text": "Proof that $I_1(z) > I_2(z)$ for $z > 0$"
+      },
+      {
+        "level": "H2",
+        "text": ""
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15694v1",
+    "url": "http://arxiv.org/abs/2507.15694v1"
+  },
+  {
+    "title": "GeoHNNs: Geometric Hamiltonian Neural Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "An Overview of Differential Geometry"
+      },
+      {
+        "level": "H2",
+        "text": "Configuration Manifold and Lagrangian Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Hamiltonian Formulation on the Cotangent Bundle"
+      },
+      {
+        "level": "H2",
+        "text": "Model Order Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "A short introduction to Smooth Manifolds"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical Proofs"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Numerical Results"
+      },
+      {
+        "level": "H1",
+        "text": "Reduced-Order Geometric Hamiltonian Neural Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Riemannian Geometry of Inertia Matrix"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic geometry of the Phase Space"
+      },
+      {
+        "level": "H2",
+        "text": "Training Objective and Optimization Procedure"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Models Description"
+      },
+      {
+        "level": "H3",
+        "text": "Low-Dimensional Setting"
+      },
+      {
+        "level": "H3",
+        "text": "High Dimensional Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Description"
+      },
+      {
+        "level": "H3",
+        "text": "Low-Dimensional Systems"
+      },
+      {
+        "level": "H3",
+        "text": "High-Dimensional Systems"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical Results"
+      },
+      {
+        "level": "H3",
+        "text": "Low Dimensional Setting"
+      },
+      {
+        "level": "H3",
+        "text": "High Dimensional Setting"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15678v1",
+    "url": "http://arxiv.org/abs/2507.15678v1"
+  },
+  {
+    "title": "Data-Driven MPC with Data Selection for Flexible Cable-Driven Robotic Arms",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Overview"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "DSA Verification Experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation-based Hyperparameter Tuning Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Position Repeatability"
+      },
+      {
+        "level": "H2",
+        "text": "Tracking Performance"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Construction of Data-Driven MPC"
+      },
+      {
+        "level": "H2",
+        "text": "Data-Driven Motion Planner"
+      },
+      {
+        "level": "H2",
+        "text": "Data Search Algorithm (DSA)"
+      },
+      {
+        "level": "H2",
+        "text": "Equivalent Model Reference"
+      },
+      {
+        "level": "H2",
+        "text": "Quintic Polynomial Interpolation"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15677v1",
+    "url": "http://arxiv.org/abs/2507.15677v1"
+  },
+  {
+    "title": "Characterization of downward Terrestrial Gamma-ray Flashes detected at the Pierre Auger Observatory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "The observation of downward TGFs at the Pierre Auger Observatory"
+      },
+      {
+        "level": "H1",
+        "text": "Characterization of TGF footprint and theoretical implications"
+      },
+      {
+        "level": "H1",
+        "text": "Performance of the long-signal algorithm for identification of TGF traces"
+      },
+      {
+        "level": "H1",
+        "text": "Future Lightning Local Network at the Auger Observatory"
+      },
+      {
+        "level": "H2",
+        "text": "BOLT General Information"
+      },
+      {
+        "level": "H1",
+        "text": "The Pierre Auger Collaboration"
+      },
+      {
+        "level": "H1",
+        "text": "Full Authors List: \\Coll\\ Collaboration"
+      }
+    ],
+    "query": "sustainable energy solutions",
+    "arxiv_id": "2507.15669v1",
+    "url": "http://arxiv.org/abs/2507.15669v1"
+  }
+]

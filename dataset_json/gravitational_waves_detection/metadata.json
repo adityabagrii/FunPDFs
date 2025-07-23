@@ -1,0 +1,3618 @@
+[
+  {
+    "title": "Quantum computational sensing using quantum signal processing, quantum neural networks, and Hamiltonian engineering",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of main results"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum computational sensing using qubit-based sensors"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using a single qubit for binary classification tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Dependence on task complexity"
+      },
+      {
+        "level": "H2",
+        "text": "QCS using multiple qubits: binary and multi-class discrimination of multi-dimensional signals"
+      },
+      {
+        "level": "H2",
+        "text": "QCS of spatiotemporal signals using multiple qubits"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of QCS using qubit-only sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using bosonic sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Function-approximation tasks"
+      },
+      {
+        "level": "H2",
+        "text": "QS approach: linear phase-preserving amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum computational-sensing advantage"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum Computational Sensing using hybrid sensors"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of our work"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental prospects and future research directions"
+      },
+      {
+        "level": "H1",
+        "text": "Data and code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Author contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Classical postprocessing and error scaling with nonlinearity: unbiased estimation of nonlinear polynomials of a classical Gaussian random variable"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of static signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architectures for qubit-based quantum computational sensors of static signals"
+      },
+      {
+        "level": "H2",
+        "text": "Bayes (optimal) classifier for binary classification using a single qubit"
+      },
+      {
+        "level": "H2",
+        "text": "Approximate Gaussian classifier for binary classification using a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "Role of sampling noise in QCSA using a single-variable example"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for simplified tasks: approximate analytic error probability for a single-qubit conventional quantum sensor"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA vs. task complexity for more general tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-variate sensing: comparing quantum computational sensors against multiple Ramsey interferometers"
+      },
+      {
+        "level": "H2",
+        "text": "QCSA for multi-variable binary discrimination tasks using a single qubit"
+      },
+      {
+        "level": "H1",
+        "text": "QCS of spatiotemporal signals using qubit-based quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and classification task"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Neural Network architecture for QCS"
+      },
+      {
+        "level": "H2",
+        "text": "Training details"
+      },
+      {
+        "level": "H2",
+        "text": "Additional results"
+      },
+      {
+        "level": "H1",
+        "text": "QCS for function approximation using bosonic quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture: $\\Udec$ and quadrature measurements"
+      },
+      {
+        "level": "H3",
+        "text": "Initial state and expectation values"
+      },
+      {
+        "level": "H3",
+        "text": "Heterodyne measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Function approximation task: target polynomials $\\Ft$ and expected mean-squared-error as a metric"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a linear phase-preserving amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear function approximation using a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Quantum dynamics of a nonlinear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "Two-variable function estimation using heterodyne measurement"
+      },
+      {
+        "level": "H2",
+        "text": "Worked example: \\XOR{"
+      },
+      {
+        "level": "H3",
+        "text": "Conventional QS approach: phase-preserving linear amplifier"
+      },
+      {
+        "level": "H3",
+        "text": "QCS approach: nonlinear amplifier"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: 1D polynomial approximation"
+      },
+      {
+        "level": "H2",
+        "text": "QS and QCS protocols: Higher-order \\spirals{"
+      },
+      {
+        "level": "H1",
+        "text": "QCS using hybrid quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture for hybrid qubit-cavity quantum computational sensors"
+      },
+      {
+        "level": "H2",
+        "text": "Hilbert space truncation"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing hybrid quantum computational sensors against phase-preserving amplifiers"
+      },
+      {
+        "level": "H1",
+        "text": "General training details"
+      },
+      {
+        "level": "H2",
+        "text": "Trainable models, classical postprocessing, and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Differentiable models and measurement results"
+      },
+      {
+        "level": "H3",
+        "text": "Training datasets and loss functions"
+      },
+      {
+        "level": "H3",
+        "text": "Classical postprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of training using finitely-sampled measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Number of measurement samples for training versus inference"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations of classical postprocessing in the presence of sampling noise"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15845v1",
+    "url": "http://arxiv.org/abs/2507.15845v1"
+  },
+  {
+    "title": "SDSO1 is a Ghost Planetary Nebula Bow Shock in Front of M31",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Narrowband Imaging Observations and Data Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 is a Hypersonic GPN"
+      },
+      {
+        "level": "H2",
+        "text": "The SDSO1 GPN Central Star EG Andromedae"
+      },
+      {
+        "level": "H2",
+        "text": "Density and ionization of the surrounding ISM"
+      },
+      {
+        "level": "H2",
+        "text": "The GPN Tail"
+      },
+      {
+        "level": "H2",
+        "text": "GPN Expansion and Energetics"
+      },
+      {
+        "level": "H2",
+        "text": "Photoionization by EG And"
+      },
+      {
+        "level": "H2",
+        "text": "Shock Models"
+      },
+      {
+        "level": "H2",
+        "text": "SDSO1 Bow Shock Structure and Kinematics"
+      },
+      {
+        "level": "H2",
+        "text": "Statistics and Fates of the Old PNe and GPNe Populations"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15834v1",
+    "url": "http://arxiv.org/abs/2507.15834v1"
+  },
+  {
+    "title": "Euclid preparation: Expected constraints on initial conditions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "{\\it Euclid"
+      },
+      {
+        "level": "H2",
+        "text": "Spectroscopic galaxy clustering"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric galaxy clustering and weak lensing"
+      },
+      {
+        "level": "H2",
+        "text": "Probe combination"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on $\\Omega_K$"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on the scalar spectral index and its running"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on isocurvature contribution"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation and background"
+      },
+      {
+        "level": "H2",
+        "text": "CDI models we consider and their observational aspects"
+      },
+      {
+        "level": "H2",
+        "text": "{\\em Euclid"
+      },
+      {
+        "level": "H1",
+        "text": "Expected constraints on primordial non-Gaussianity"
+      },
+      {
+        "level": "H2",
+        "text": "Fisher analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Matter bispectrum"
+      },
+      {
+        "level": "H3",
+        "text": "Galaxy power spectrum and bispectrum"
+      },
+      {
+        "level": "H3",
+        "text": "Fisher forecasts"
+      },
+      {
+        "level": "H2",
+        "text": "Bayesian analysis (\\borg)"
+      },
+      {
+        "level": "H1",
+        "text": "Beyond slow roll: searches for primordial features"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Combination with current and future CMB measurements"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15819v1",
+    "url": "http://arxiv.org/abs/2507.15819v1"
+  },
+  {
+    "title": "Charge density wave in intermetallic oxides R$_5$Pb$_3$O (R = La and Ce)",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental details"
+      },
+      {
+        "level": "H2",
+        "text": "Single crystal growth"
+      },
+      {
+        "level": "H2",
+        "text": "X-ray diffraction"
+      },
+      {
+        "level": "H2",
+        "text": "Physical property measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Density functional theory calculations"
+      },
+      {
+        "level": "H1",
+        "text": "Results and discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Summary"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary information"
+      },
+      {
+        "level": "H2",
+        "text": "Powder X-ray diffraction and phase indexing"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison of Ce$_5$Pb$_3$O single crystals grown in Al$_2$O$_3$ and Ta crucibles"
+      },
+      {
+        "level": "H2",
+        "text": "Crystalographic refinement details"
+      },
+      {
+        "level": "H1",
+        "text": ""
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15817v1",
+    "url": "http://arxiv.org/abs/2507.15817v1"
+  },
+  {
+    "title": "1D Vlasov Simulations of QED Cascades Over Pulsar Polar Caps",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Overview of the Physical Model"
+      },
+      {
+        "level": "H2",
+        "text": "Radiation and Radiative Reaction"
+      },
+      {
+        "level": "H2",
+        "text": "Magnetic Pair Production"
+      },
+      {
+        "level": "H1",
+        "text": "1D simulations of QED cascade"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of the RS Model"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of the SCLF Model"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Energy Budget and Surface Heating by Returning Particles"
+      },
+      {
+        "level": "H2",
+        "text": "The Spatiotemporal and Spectral Structures of the Electric Field Energy"
+      },
+      {
+        "level": "H2",
+        "text": "Scope of Quantitative Estimates in Millisecond Pulsars"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical methods"
+      },
+      {
+        "level": "H2",
+        "text": "1D Vlasov–Maxwell System"
+      },
+      {
+        "level": "H2",
+        "text": "Validation: Two Stream Instability"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15804v1",
+    "url": "http://arxiv.org/abs/2507.15804v1"
+  },
+  {
+    "title": "Fluid Antenna-enabled Near-Field Integrated Sensing, Computing and Semantic Communication for Emerging Applications",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "List of Notations:"
+      },
+      {
+        "level": "H1",
+        "text": "System Model"
+      },
+      {
+        "level": "H2",
+        "text": "Signal Transmission Model"
+      },
+      {
+        "level": "H2",
+        "text": "Communication Model"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Model"
+      },
+      {
+        "level": "H1",
+        "text": "Performance Measures"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication"
+      },
+      {
+        "level": "H2",
+        "text": "Computing"
+      },
+      {
+        "level": "H1",
+        "text": "Joint Design of FA-enabled NF-ISCSC System"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Joint Beamforming and Computation Optimisation"
+      },
+      {
+        "level": "H2",
+        "text": "FA Position Optimisation"
+      },
+      {
+        "level": "H3",
+        "text": "Benchmark method (second-order Taylor expansion)"
+      },
+      {
+        "level": "H3",
+        "text": "Projected BFGS"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Extraction Ratio Optimisation"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Results"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Semantic Communication Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Sensing Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Computing Performance"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Direction"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of FIM"
+      },
+      {
+        "level": "H1",
+        "text": "Proof and Derivation of Equation \\eqref{fim"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of FIM for a Point Target"
+      },
+      {
+        "level": "H1",
+        "text": "Convergence Analysis"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15800v1",
+    "url": "http://arxiv.org/abs/2507.15800v1"
+  },
+  {
+    "title": "\\texttt{GWBird}: a toolkit for the characterization of the Stochastic Gravitational Wave Background for Ground, Space, and Pulsar Timing Array detectors",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "\\refname"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Detector response"
+      },
+      {
+        "level": "H2",
+        "text": "Detector Tensor and Angular Pattern Function"
+      },
+      {
+        "level": "H2",
+        "text": "Overlap Reduction Function"
+      },
+      {
+        "level": "H3",
+        "text": "Chiral Overlap Reduction Function"
+      },
+      {
+        "level": "H2",
+        "text": "Angular Response"
+      },
+      {
+        "level": "H2",
+        "text": "Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "SGWB made of Tensor, Vector and Scalar modes"
+      },
+      {
+        "level": "H3",
+        "text": "SGWB made of Tensor and X-polarization modes"
+      },
+      {
+        "level": "H2",
+        "text": "Sensitivity to \\texorpdfstring{$\\ell$"
+      },
+      {
+        "level": "H2",
+        "text": "Pulsar Timing Array Response and Angular Response"
+      },
+      {
+        "level": "H3",
+        "text": "Pulsar Timing Array Noise treatment"
+      },
+      {
+        "level": "H1",
+        "text": "Description of the code"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{detectors.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{skymap.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{overlap.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{pls.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{anisotropy.py"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{snr.py"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Overlap Reduction Function"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO-Virgo"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Angular Power Law Integrated Sensitivity Curves"
+      },
+      {
+        "level": "H3",
+        "text": "LIGO-Virgo"
+      },
+      {
+        "level": "H3",
+        "text": "Einstein Telescope"
+      },
+      {
+        "level": "H3",
+        "text": "LISA"
+      },
+      {
+        "level": "H3",
+        "text": "PTA"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Ground based detectors coordinates"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15791v1",
+    "url": "http://arxiv.org/abs/2507.15791v1"
+  },
+  {
+    "title": "Decadal evolution of a repeating fast radio burst source",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Observation Campaign and Data Reduction"
+      },
+      {
+        "level": "H1",
+        "text": "DM Variation"
+      },
+      {
+        "level": "H1",
+        "text": "Burst Rate and Energy Distribution"
+      },
+      {
+        "level": "H1",
+        "text": "Time-Domain Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Active Periodicity and Time Difference Algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Short Timescale Period Search"
+      },
+      {
+        "level": "H2",
+        "text": "Long Timescale Period Search"
+      },
+      {
+        "level": "H1",
+        "text": "A Comprehensive Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Morphology"
+      },
+      {
+        "level": "H1",
+        "text": "Polarization Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Physical Origin of the Evolution of DM and RM of FRB 20121102A"
+      },
+      {
+        "level": "H2",
+        "text": "Observation of FRB 20121102A"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of DM and RM from a Young Supernova Remnant"
+      },
+      {
+        "level": "H2",
+        "text": "Extra DM from Pair Injection by Enhanced Wind"
+      },
+      {
+        "level": "H1",
+        "text": "Contribution of Binary Star Orbital Motion to the DM Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Data availability"
+      },
+      {
+        "level": "H2",
+        "text": "Code availability"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Table"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15790v1",
+    "url": "http://arxiv.org/abs/2507.15790v1"
+  },
+  {
+    "title": "Learning Null Geodesics for Gravitational Lensing Rendering in General Relativity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Geodesic Approximation"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Distribution"
+      },
+      {
+        "level": "H3",
+        "text": "Geodesic Visualization"
+      },
+      {
+        "level": "H2",
+        "text": "Rendering Results"
+      },
+      {
+        "level": "H3",
+        "text": "Convergence Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H3",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Impact Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Physics-informed Neural Network"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Superposed Black Hole Metric"
+      },
+      {
+        "level": "H1",
+        "text": "Proof for $l^{\\text{straight"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Classical Black Hole Rendering"
+      },
+      {
+        "level": "H2",
+        "text": "Learning Geodesics"
+      },
+      {
+        "level": "H2",
+        "text": "Ray Tracing in Curved Spacetime"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15775v1",
+    "url": "http://arxiv.org/abs/2507.15775v1"
+  },
+  {
+    "title": "Deep-Learning Investigation of Vibrational Raman Spectra for Plant-Stress Analysis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "DIVA to analyze Raman spectra."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding light stress responses in diverse plant species."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding gene-specific shade avoidance stress responses."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding high-temperature stress responses."
+      },
+      {
+        "level": "H2",
+        "text": "Decoding bacterial-infection induced stress responses."
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Figures"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Tables"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Notes"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary~Note~1: Decoding gene-specific shade stress responses from petiole Raman spectra."
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary~Note~2: Decoding high-temperature stress responses from petiole Raman spectra in diverse plants."
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15772v1",
+    "url": "http://arxiv.org/abs/2507.15772v1"
+  },
+  {
+    "title": "Multi-Modal Sensor Fusion for Proactive Blockage Prediction in mmWave Vehicular Networks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "System Model and Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Proactive Multi-Modal Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Data Augmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Class Imbalance Handling"
+      },
+      {
+        "level": "H3",
+        "text": "Camera Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "GPS Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "LiDAR Preprocessing"
+      },
+      {
+        "level": "H3",
+        "text": "Radar Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Camera Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "GPS-Based Blockage Prediction Model"
+      },
+      {
+        "level": "H2",
+        "text": "LiDAR Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Radar Blockage Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Modal Fusion"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15769v1",
+    "url": "http://arxiv.org/abs/2507.15769v1"
+  },
+  {
+    "title": "Discovery of a transiting hot water-world candidate orbiting Ross 176 with TESS and CARMENES",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "\\textit{TESS"
+      },
+      {
+        "level": "H1",
+        "text": "Ground-based follow-up observations"
+      },
+      {
+        "level": "H2",
+        "text": "Ground-based photometry"
+      },
+      {
+        "level": "H2",
+        "text": "Spectroscopy with CARMENES"
+      },
+      {
+        "level": "H1",
+        "text": "Host star"
+      },
+      {
+        "level": "H2",
+        "text": "Stellar parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Activity indicators and stellar rotation"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis and results"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric modeling"
+      },
+      {
+        "level": "H2",
+        "text": "RV modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Joint fit"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Is Ross~176\\,b a water-world planet?"
+      },
+      {
+        "level": "H2",
+        "text": "Interior composition of Ross~176\\,b"
+      },
+      {
+        "level": "H2",
+        "text": "Prospective atmosphere characterization with JWST"
+      },
+      {
+        "level": "H2",
+        "text": "Implication of the orbital eccentricity"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Data aviability"
+      },
+      {
+        "level": "H1",
+        "text": "Additional figures and tables"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15763v1",
+    "url": "http://arxiv.org/abs/2507.15763v1"
+  },
+  {
+    "title": "Simulating a Gaussian stochastic gravitational wave background signal in pulsar timing arrays",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Summary of the main results"
+      },
+      {
+        "level": "H1",
+        "text": "The unpolarized signal: Spectrum $\\times$ HD curve $\\times$ Transfer functions"
+      },
+      {
+        "level": "H2",
+        "text": "Pulsar Timing Residual from GWs"
+      },
+      {
+        "level": "H2",
+        "text": "Timing Residual Correlation due to a SGWB"
+      },
+      {
+        "level": "H2",
+        "text": "Transfer Functions"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with simulation"
+      },
+      {
+        "level": "H1",
+        "text": "The polarized signal: simulating circular polarization in a PTA"
+      },
+      {
+        "level": "H2",
+        "text": "Circularly Polarized Basis Tensors and Stokes Parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Timing Residual Power Spectrum and Correlation"
+      },
+      {
+        "level": "H2",
+        "text": "Correlation in the Computational Frame"
+      },
+      {
+        "level": "H2",
+        "text": "Kinematic Dipole"
+      },
+      {
+        "level": "H2",
+        "text": "Transfer Functions"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with simulation"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Why are the variances of the sine- and cosine-Fourier coefficients different?"
+      },
+      {
+        "level": "H2",
+        "text": "Are the so-called transfer functions discussed throughout special for PTA?"
+      },
+      {
+        "level": "H2",
+        "text": "What are the prospects for detecting circular polarization in the SGWB?"
+      },
+      {
+        "level": "H2",
+        "text": "Can a PTA be used to probe the cosmic dipole?"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "A choice of basis functions"
+      },
+      {
+        "level": "H1",
+        "text": "Spin-Weighted Spherical Harmonics"
+      },
+      {
+        "level": "H1",
+        "text": "Pulsar timing residuals due to a Gaussian SGWB signal"
+      },
+      {
+        "level": "H1",
+        "text": "Number of pulsars"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15756v1",
+    "url": "http://arxiv.org/abs/2507.15756v1"
+  },
+  {
+    "title": "Dynamical analysis of bulk viscous cosmological model in $F(T)$ gravity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Field Equations in $F(T)$ gravity theory"
+      },
+      {
+        "level": "H1",
+        "text": "Cosmological  Solutions"
+      },
+      {
+        "level": "H2",
+        "text": "Eckart Theory ($\\tau=0$):"
+      },
+      {
+        "level": "H2",
+        "text": "Truncated Israel Stewart Theory $(\\epsilon =0)$ :"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15754v1",
+    "url": "http://arxiv.org/abs/2507.15754v1"
+  },
+  {
+    "title": "The Probable Direct-Imaging Detection of the Stellar Companion to Betelgeuse",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction \\label{sec:Intro"
+      },
+      {
+        "level": "H1",
+        "text": "Observations"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Optical Angular Diameter Measurements of $\\alpha$ Ori A"
+      },
+      {
+        "level": "H2",
+        "text": "The Probable Direct-Imaging Detection of $\\alpha$ Ori B"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Likelihood That the Companion Is Real and Bound"
+      },
+      {
+        "level": "H2",
+        "text": "Nature of the Companion"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Future Work"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15749v1",
+    "url": "http://arxiv.org/abs/2507.15749v1"
+  },
+  {
+    "title": "Towards relativistic inspirals into black holes surrounded by matter",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "The Teukolsky equation and environmental effects"
+      },
+      {
+        "level": "H2",
+        "text": "Phase contribution analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Previous work on extensions of the Teukolsky formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Research goal and organization of this paper"
+      },
+      {
+        "level": "H1",
+        "text": "Teukolsky formalism and its modification"
+      },
+      {
+        "level": "H2",
+        "text": "Perturbation formalism in   type D vacuum spacetimes"
+      },
+      {
+        "level": "H2",
+        "text": "The NP and the GHP formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Teukolsky formalism in Kerr spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Deriving a modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "Terms in the modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "Perturbing a black hole enclosed by a ring"
+      },
+      {
+        "level": "H2",
+        "text": "The pole-dipole ring-hole model"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities in hole-ring background"
+      },
+      {
+        "level": "H2",
+        "text": "Decomposition of the Teukolsky equation in the hole-ring spacetime"
+      },
+      {
+        "level": "H1",
+        "text": "Solution of the modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "The smooth part of the solution"
+      },
+      {
+        "level": "H2",
+        "text": "Reconstruction of the metric \\texorpdfstring{$h^{(0,1)"
+      },
+      {
+        "level": "H2",
+        "text": "The source on the shell"
+      },
+      {
+        "level": "H2",
+        "text": "Solving the \\texorpdfstring{$(1,1)$"
+      },
+      {
+        "level": "H2",
+        "text": "The complete solution"
+      },
+      {
+        "level": "H1",
+        "text": "Summary"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Generating inspiral waveforms"
+      },
+      {
+        "level": "H2",
+        "text": "Technical simplifications?"
+      },
+      {
+        "level": "H2",
+        "text": "Extensions and generalizations"
+      },
+      {
+        "level": "H1",
+        "text": "NP and GHP formalism"
+      },
+      {
+        "level": "H1",
+        "text": "Spin-weighted spherical harmonics"
+      },
+      {
+        "level": "H1",
+        "text": "Full modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "The background spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Justification of the pole-dipole approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion of the thinness condition"
+      },
+      {
+        "level": "H2",
+        "text": "Israel junction conditions for the (1,0) metric"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities on the background"
+      },
+      {
+        "level": "H2",
+        "text": "Multipole expansion of the ring"
+      },
+      {
+        "level": "H2",
+        "text": "The transition from \\texorpdfstring{${"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15720v1",
+    "url": "http://arxiv.org/abs/2507.15720v1"
+  },
+  {
+    "title": "Explainable Anomaly Detection for Electric Vehicles Charging Stations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A summary of Latin grammar"
+      },
+      {
+        "level": "H1",
+        "text": "Some Latin vocabulary"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset and Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Global feature ranking and selection"
+      },
+      {
+        "level": "H2",
+        "text": "Local interpretation of individual predictions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Explainable Anomaly Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Isolation Forest"
+      },
+      {
+        "level": "H2",
+        "text": "DIFFI algorithm"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15718v1",
+    "url": "http://arxiv.org/abs/2507.15718v1"
+  },
+  {
+    "title": "Chinchunmei at SemEval-2025 Task 11: Boosting the Large Language Model's Capability of Emotion Perception using Contrastive Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Standard prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Sample-based contrastive learning"
+      },
+      {
+        "level": "H2",
+        "text": "Generation-based contrastive learning"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Multilingual influence"
+      },
+      {
+        "level": "H2",
+        "text": "Sample-based vs generation-based contrastive learning"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Engines"
+      },
+      {
+        "level": "H1",
+        "text": "Preamble"
+      },
+      {
+        "level": "H1",
+        "text": "Document Body"
+      },
+      {
+        "level": "H2",
+        "text": "Footnotes"
+      },
+      {
+        "level": "H2",
+        "text": "Tables and figures"
+      },
+      {
+        "level": "H2",
+        "text": "Hyperlinks"
+      },
+      {
+        "level": "H2",
+        "text": "Citations"
+      },
+      {
+        "level": "H2",
+        "text": "References"
+      },
+      {
+        "level": "H2",
+        "text": "Equations"
+      },
+      {
+        "level": "H2",
+        "text": "Appendices"
+      },
+      {
+        "level": "H1",
+        "text": "Bib\\TeX{"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Example Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt templates"
+      },
+      {
+        "level": "H2",
+        "text": "Development set discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Test results of SP multilingual model on all languages"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15714v1",
+    "url": "http://arxiv.org/abs/2507.15714v1"
+  },
+  {
+    "title": "GW231123 Mass Gap Event and the Primordial Black Hole Scenario",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "PBH formation during the MD era and SIGW"
+      },
+      {
+        "level": "H1",
+        "text": "PBH Scenario for GW231123"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and discussion"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15701v1",
+    "url": "http://arxiv.org/abs/2507.15701v1"
+  },
+  {
+    "title": "Examining the Gap in the Chirp Mass Distribution of Binary Black Holes",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H1",
+        "text": "investigation"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing $\\mathbb{M"
+      },
+      {
+        "level": "H2",
+        "text": "Comparing $\\mathbb{M"
+      },
+      {
+        "level": "H1",
+        "text": "A Unique Correlation"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Simulating Gravitational Wave Catalog"
+      },
+      {
+        "level": "H1",
+        "text": "Models Used in Population Inference"
+      },
+      {
+        "level": "H1",
+        "text": "Suggestion"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15697v1",
+    "url": "http://arxiv.org/abs/2507.15697v1"
+  },
+  {
+    "title": "Surfacing Variations to Calibrate Perceived Reliability of MLLM-generated Image Descriptions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "User Study"
+      },
+      {
+        "level": "H2",
+        "text": "Participants"
+      },
+      {
+        "level": "H2",
+        "text": "Materials"
+      },
+      {
+        "level": "H2",
+        "text": "Task"
+      },
+      {
+        "level": "H2",
+        "text": "Procedure"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "What Makes Image Descriptions Appear Unreliable?"
+      },
+      {
+        "level": "H3",
+        "text": "Identifying unreliable claims with single descriptions."
+      },
+      {
+        "level": "H3",
+        "text": "Identifying unreliable claims with variations."
+      },
+      {
+        "level": "H2",
+        "text": "What are Effective Design Strategies for Surfacing Variations?"
+      },
+      {
+        "level": "H3",
+        "text": "Presentation style"
+      },
+      {
+        "level": "H3",
+        "text": "Support Indicator"
+      },
+      {
+        "level": "H3",
+        "text": "Modality"
+      },
+      {
+        "level": "H2",
+        "text": "When do Variations in MLLM-generated Image Description Matter?"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Prototype Design and Development"
+      },
+      {
+        "level": "H2",
+        "text": "Surfacing MLLM Variations: A Design Space"
+      },
+      {
+        "level": "H3",
+        "text": "Elicitation of Variants"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison Support"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison Granularity"
+      },
+      {
+        "level": "H3",
+        "text": "Support indicator"
+      },
+      {
+        "level": "H3",
+        "text": "Provenance indicator"
+      },
+      {
+        "level": "H3",
+        "text": "Modality"
+      },
+      {
+        "level": "H2",
+        "text": "Prototype"
+      },
+      {
+        "level": "H3",
+        "text": "Interface"
+      },
+      {
+        "level": "H3",
+        "text": "Automatic Variation Summary Pipeline"
+      },
+      {
+        "level": "H3",
+        "text": "Implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Pipeline Prompts"
+      },
+      {
+        "level": "H1",
+        "text": "Study Image Details"
+      },
+      {
+        "level": "H1",
+        "text": "Image-Prompt Pairs in Open-end Use Session"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Visual Access Technology"
+      },
+      {
+        "level": "H2",
+        "text": "Visual Description Verification Strategies for BLV People"
+      },
+      {
+        "level": "H2",
+        "text": "Variations in Large Language Model Outputs"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Usage of Variations in MLLM-generated Image Descriptions"
+      },
+      {
+        "level": "H3",
+        "text": "Empower BLV people to surface capabilities and limitations of MLLMs"
+      },
+      {
+        "level": "H3",
+        "text": "Provide comprehensive understanding of images"
+      },
+      {
+        "level": "H2",
+        "text": "Implications for Accessible Interfaces to Surface Variations"
+      },
+      {
+        "level": "H2",
+        "text": "Beyond Image Descriptions"
+      },
+      {
+        "level": "H3",
+        "text": "Video"
+      },
+      {
+        "level": "H3",
+        "text": "Computer Use Agent"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15692v1",
+    "url": "http://arxiv.org/abs/2507.15692v1"
+  },
+  {
+    "title": "Wave-induced drift in third-order deep-water theory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "The water wave problem and Hamiltonian formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic analysis and the water wave problem"
+      },
+      {
+        "level": "H2",
+        "text": "Constant magnitude approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Recovery of the third-order solution"
+      },
+      {
+        "level": "H3",
+        "text": "Recovery of the bulk potential"
+      },
+      {
+        "level": "H1",
+        "text": "Particle kinematics for monochromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Linear theory"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear theory"
+      },
+      {
+        "level": "H1",
+        "text": "Bichromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Linear theory"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear theory"
+      },
+      {
+        "level": "H3",
+        "text": "Second order"
+      },
+      {
+        "level": "H3",
+        "text": "Difference harmonics and particle drift"
+      },
+      {
+        "level": "H3",
+        "text": "Third order"
+      },
+      {
+        "level": "H1",
+        "text": "Multichromatic waves"
+      },
+      {
+        "level": "H2",
+        "text": "Focused linear wave groups"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear focused waves"
+      },
+      {
+        "level": "H2",
+        "text": "Random waves"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "On the non-uniqueness of Stokes expansion"
+      },
+      {
+        "level": "H1",
+        "text": "Coefficients of the higher-order potential"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15688v1",
+    "url": "http://arxiv.org/abs/2507.15688v1"
+  },
+  {
+    "title": "BugScope: Learn to Find Bugs Like Human",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Approach"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Context Retrieval Agent"
+      },
+      {
+        "level": "H2",
+        "text": "Bug Detection Agent"
+      },
+      {
+        "level": "H1",
+        "text": "Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity of Software Bugs"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations of Existing Techniques"
+      },
+      {
+        "level": "H2",
+        "text": "Our Vision"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of \\toolname{"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Baselines"
+      },
+      {
+        "level": "H2",
+        "text": "Real-World Impact"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of BugBot and CodeRabbit"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Result"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of False Negatives"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of False Positives"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15671v1",
+    "url": "http://arxiv.org/abs/2507.15671v1"
+  },
+  {
+    "title": "Characterization of downward Terrestrial Gamma-ray Flashes detected at the Pierre Auger Observatory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "The observation of downward TGFs at the Pierre Auger Observatory"
+      },
+      {
+        "level": "H1",
+        "text": "Characterization of TGF footprint and theoretical implications"
+      },
+      {
+        "level": "H1",
+        "text": "Performance of the long-signal algorithm for identification of TGF traces"
+      },
+      {
+        "level": "H1",
+        "text": "Future Lightning Local Network at the Auger Observatory"
+      },
+      {
+        "level": "H2",
+        "text": "BOLT General Information"
+      },
+      {
+        "level": "H1",
+        "text": "The Pierre Auger Collaboration"
+      },
+      {
+        "level": "H1",
+        "text": "Full Authors List: \\Coll\\ Collaboration"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15669v1",
+    "url": "http://arxiv.org/abs/2507.15669v1"
+  },
+  {
+    "title": "The New Architecture of the Online Observation Quality System for the ASTRI Mini-Array Project",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "OOQS New Software Architecture"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15656v1",
+    "url": "http://arxiv.org/abs/2507.15656v1"
+  },
+  {
+    "title": "A comprehensive approach to the physics of mesons",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Quark propagator and quark-gluon vertex"
+      },
+      {
+        "level": "H1",
+        "text": "Axial vertices and their Ward-Takahashi identities"
+      },
+      {
+        "level": "H2",
+        "text": "Axial-vector vertex \\texorpdfstring{$\\ga^\\mu$"
+      },
+      {
+        "level": "H2",
+        "text": "Gluon-axial-vector vertex \\texorpdfstring{$G_5^{\\mu\\nu"
+      },
+      {
+        "level": "H1",
+        "text": "The axial WTI from the vertex SDE: exact derivation"
+      },
+      {
+        "level": "H1",
+        "text": "Dynamical realization of the chiral limit"
+      },
+      {
+        "level": "H2",
+        "text": "Chiral limit in the RL approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Chiral limit with full quark-gluon vertex"
+      },
+      {
+        "level": "H1",
+        "text": "Unfolding the \\texorpdfstring{$G_5^{\\mu\\nu"
+      },
+      {
+        "level": "H1",
+        "text": "Symmetry-preserving  truncation of  the vertex  \n\\texorpdfstring{$\\ga^\\mu$"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of the WTIs"
+      },
+      {
+        "level": "H2",
+        "text": "The \\texorpdfstring{$[{\\rm WTI"
+      },
+      {
+        "level": "H2",
+        "text": "The \\texorpdfstring{$[{\\rm WTI"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15646v1",
+    "url": "http://arxiv.org/abs/2507.15646v1"
+  },
+  {
+    "title": "Exact soliton solutions and long-time asymptotics of the Yajima-Oikawa equation via Riemann-Hilbert approach",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Main results"
+      },
+      {
+        "level": "H1",
+        "text": "One-soliton solution"
+      },
+      {
+        "level": "H2",
+        "text": "One-soliton for $\\xi>0$"
+      },
+      {
+        "level": "H2",
+        "text": "One solitary wave solution for $\\xi<0$"
+      },
+      {
+        "level": "H1",
+        "text": "Long-time asymptotics for $1<\\zeta<\\infty$"
+      },
+      {
+        "level": "H2",
+        "text": "First transformation"
+      },
+      {
+        "level": "H2",
+        "text": "Second transformation"
+      },
+      {
+        "level": "H2",
+        "text": "Local parametrix at $\\pm k_1$"
+      },
+      {
+        "level": "H2",
+        "text": "A small-norm RH problem"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotics of $\\phi(x,t)$ and $n(x,t)$"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H2",
+        "text": "Conflict of interest declaration"
+      },
+      {
+        "level": "H1",
+        "text": "The model problems $M^{X_1"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15645v1",
+    "url": "http://arxiv.org/abs/2507.15645v1"
+  },
+  {
+    "title": "Towards Explainable Anomaly Detection in Shared Mobility Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "A summary of Latin grammar"
+      },
+      {
+        "level": "H1",
+        "text": "Some Latin vocabulary"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Directions"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Importance Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Neighborhood and Station-Level Spatial Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Case Study: Anomaly Spikes and External Influences"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15643v1",
+    "url": "http://arxiv.org/abs/2507.15643v1"
+  },
+  {
+    "title": "Uncovering Critical Features for Deepfake Detection through the Lottery Ticket Hypothesis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "Deepfake Detection Models and Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Pruning Algorithms and Their Applications"
+      },
+      {
+        "level": "H2",
+        "text": "Pruning Algorithm in AI"
+      },
+      {
+        "level": "H1",
+        "text": "Exploring the Lottery Ticket Hypothesis for Deepfake Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Identifying Winning Tickets"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges in Applying LTH to Deepfake Detection"
+      },
+      {
+        "level": "H3",
+        "text": "Preserving Rare Feature Sensitivity"
+      },
+      {
+        "level": "H3",
+        "text": "Mitigating Pruning Bias"
+      },
+      {
+        "level": "H2",
+        "text": "Iterative Magnitude Pruning (IMP)"
+      },
+      {
+        "level": "H2",
+        "text": "Transferability of Sparse Subnetworks Across Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Analyzing Pruning Effects Using Grad-CAM"
+      },
+      {
+        "level": "H3",
+        "text": "Feature Activation Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Heatmap Generation"
+      },
+      {
+        "level": "H3",
+        "text": "Comparative Attention Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Datasets and Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Network Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Training Protocol"
+      },
+      {
+        "level": "H1",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Across Pruning Rates"
+      },
+      {
+        "level": "H2",
+        "text": "Impact of Pruning Strategies"
+      },
+      {
+        "level": "H2",
+        "text": "Architecture-Specific Behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Grad-CAM Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Transfer Ticket"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations, Conclusions, and Future Work"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15636v1",
+    "url": "http://arxiv.org/abs/2507.15636v1"
+  },
+  {
+    "title": "Caustics in a Near-Resonant Quantum Kicked Rotor",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Recurring Cusp Caustics in QKR"
+      },
+      {
+        "level": "H1",
+        "text": "Theoretical Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Path Integral Method"
+      },
+      {
+        "level": "H2",
+        "text": "Semiclassical Caustic Trajectory"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Caustics and Scaling Law"
+      },
+      {
+        "level": "H2",
+        "text": "The Effects of Chaos and Nonlinearity"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15634v1",
+    "url": "http://arxiv.org/abs/2507.15634v1"
+  },
+  {
+    "title": "Multi-Stage Prompt Inference Attacks on Enterprise LLM Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Threat Model and Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "System Model: Enterprise LLM Integration"
+      },
+      {
+        "level": "H2",
+        "text": "Attack Modeling via Information Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Example Scenario"
+      },
+      {
+        "level": "H1",
+        "text": "Multi-Stage Prompt Inference Attacks"
+      },
+      {
+        "level": "H2",
+        "text": "Attack Stages and Tactics"
+      },
+      {
+        "level": "H2",
+        "text": "Information-Theoretic Analysis of Leakage"
+      },
+      {
+        "level": "H1",
+        "text": "Defenses Against Prompt Inference Attacks"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection for Multi-Turn Attacks"
+      },
+      {
+        "level": "H2",
+        "text": "Access Control and Context Separation"
+      },
+      {
+        "level": "H2",
+        "text": "Prompt Sanitization and Content Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Architectural and Training-Time Defenses"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15613v1",
+    "url": "http://arxiv.org/abs/2507.15613v1"
+  },
+  {
+    "title": "Optimizing Force Signals from Human Demonstrations of In-Contact Motions",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction and Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Error Criterion"
+      },
+      {
+        "level": "H2",
+        "text": "Contact Peak Removal"
+      },
+      {
+        "level": "H2",
+        "text": "Application of Filtering Techniques"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Contact Peak Detection"
+      },
+      {
+        "level": "H2",
+        "text": "Filtering Techniques"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15608v1",
+    "url": "http://arxiv.org/abs/2507.15608v1"
+  },
+  {
+    "title": "Improving Functional Reliability of Near-Field Monitoring for Emergency Braking in Autonomous Vehicles",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Statement"
+      },
+      {
+        "level": "H2",
+        "text": "System Description"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H1",
+        "text": "Advanced Monitoring Strategies"
+      },
+      {
+        "level": "H2",
+        "text": "Dynamic Spatial Range Adaptation"
+      },
+      {
+        "level": "H3",
+        "text": "Spatial Filtering via Driving Corridor Constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Size-based Object Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Motion-aware Predictive Monitoring"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Size-based Filter Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Motion-aware Monitoring Evaluation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "APPENDIX"
+      },
+      {
+        "level": "H1",
+        "text": "ACKNOWLEDGMENT"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15594v1",
+    "url": "http://arxiv.org/abs/2507.15594v1"
+  },
+  {
+    "title": "A One-sided Witness for the Quantumness of Gravitational Dynamics",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Quantum memory rules out LOCC gravity"
+      },
+      {
+        "level": "H1",
+        "text": "Proof of the quantum memory witness"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical witness"
+      },
+      {
+        "level": "H1",
+        "text": "Qubit and oscillator"
+      },
+      {
+        "level": "H1",
+        "text": "Qubit and oscillator {examples"
+      },
+      {
+        "level": "H2",
+        "text": "Thermal initial state"
+      },
+      {
+        "level": "H2",
+        "text": "Coupling strength \\(g\\)"
+      },
+      {
+        "level": "H2",
+        "text": "Numbers and problems"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix C: Concurrences for the vacuum case"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix D: Time evolution"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15588v1",
+    "url": "http://arxiv.org/abs/2507.15588v1"
+  },
+  {
+    "title": "We Need to Rethink Benchmarking in Anomaly Detection",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Scenario-specific Benchmarking"
+      },
+      {
+        "level": "H2",
+        "text": "From Applications to a Taxonomy for Anomaly Detection Scenarios"
+      },
+      {
+        "level": "H2",
+        "text": "Partially Scenario-specific Benchmarks"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of Anomaly Detection Scenarios"
+      },
+      {
+        "level": "H1",
+        "text": "Scenario-specific Anomaly Detection Components"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Model Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection Ensembles"
+      },
+      {
+        "level": "H1",
+        "text": "Scenario-specific Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Objectives"
+      },
+      {
+        "level": "H2",
+        "text": "Robust Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Centralized Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Theoretical Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Alternative Views"
+      },
+      {
+        "level": "H2",
+        "text": "Number versus Relevance of Benchmarking Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Anomaly Detection Pipelines vs. Components"
+      },
+      {
+        "level": "H2",
+        "text": "One vs. Multiple Evaluation Objectives"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15584v1",
+    "url": "http://arxiv.org/abs/2507.15584v1"
+  },
+  {
+    "title": "Non-perturbative macroscopic theory of interfaces with discontinuous dielectric constant",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Boundary conditions for interfaces with discontinuous dielectric constant"
+      },
+      {
+        "level": "H1",
+        "text": "Exact solutions \\label{sec:Coulomb"
+      },
+      {
+        "level": "H1",
+        "text": "Scattering, resonances, and discrete spectrum \\label{sec:Eregs"
+      },
+      {
+        "level": "H2",
+        "text": "Reflection and propagation  for $E>V$"
+      },
+      {
+        "level": "H2",
+        "text": "Reflection and tunneling under the barrier for $V > E >0$"
+      },
+      {
+        "level": "H2",
+        "text": "Surface states \n%\\addAnna{\\sout{created by attractive  mirror force potential"
+      },
+      {
+        "level": "H1",
+        "text": "Applications: photoemission and surface quantum well"
+      },
+      {
+        "level": "H2",
+        "text": "Electron photoemission"
+      },
+      {
+        "level": "H2",
+        "text": "Discrete spectrum of electrons in a surface quantum well"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability Statement"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15580v1",
+    "url": "http://arxiv.org/abs/2507.15580v1"
+  },
+  {
+    "title": "Compress-Align-Detect: onboard change detection from unregistered images",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Image compression"
+      },
+      {
+        "level": "H2",
+        "text": "Image co-registration"
+      },
+      {
+        "level": "H2",
+        "text": "Change Detection"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "Overall Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Image compression module"
+      },
+      {
+        "level": "H2",
+        "text": "Image co-registration module"
+      },
+      {
+        "level": "H2",
+        "text": "Change detection module"
+      },
+      {
+        "level": "H2",
+        "text": "Training Procedure"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental results"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Framework main results"
+      },
+      {
+        "level": "H2",
+        "text": "Change detection module results"
+      },
+      {
+        "level": "H2",
+        "text": "Registration module results"
+      },
+      {
+        "level": "H2",
+        "text": "Compression module results"
+      },
+      {
+        "level": "H2",
+        "text": "\\ourmodel\\ complexity and performance ablations"
+      },
+      {
+        "level": "H2",
+        "text": "Effectiveness of Pretraining"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15578v1",
+    "url": "http://arxiv.org/abs/2507.15578v1"
+  },
+  {
+    "title": "GeMix: Conditional GAN-Based Mixup for Improved Medical Image Augmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Background %and Preliminaries\n%"
+      },
+      {
+        "level": "H2",
+        "text": "Data augmentation"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Traditional Mixup"
+      },
+      {
+        "level": "H1",
+        "text": "GeMix Augmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Background: Generative Adversarial Networks"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of GeMix"
+      },
+      {
+        "level": "H2",
+        "text": "Conditional GAN Training"
+      },
+      {
+        "level": "H2",
+        "text": "GAN-Based Mixup Augmentation"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H2",
+        "text": "Training Setups"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative analysis"
+      },
+      {
+        "level": "H3",
+        "text": "GeMix leads to more realistic images"
+      },
+      {
+        "level": "H3",
+        "text": "GeMix expands the data distribution"
+      },
+      {
+        "level": "H3",
+        "text": "GeMix provides a lower false negative rate"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15577v1",
+    "url": "http://arxiv.org/abs/2507.15577v1"
+  },
+  {
+    "title": "Quantum Optical Electron Pulse Shaper",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Electron Pulse Shaping Principle"
+      },
+      {
+        "level": "H1",
+        "text": "Theoretical model"
+      },
+      {
+        "level": "H3",
+        "text": "Before interaction"
+      },
+      {
+        "level": "H3",
+        "text": "Interaction"
+      },
+      {
+        "level": "H3",
+        "text": "After interaction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Chirp Inversion Induced Pulse Compression"
+      },
+      {
+        "level": "H2",
+        "text": "Nonlinear Electron Chirp Correction"
+      },
+      {
+        "level": "H2",
+        "text": "Short Pulse Gating"
+      },
+      {
+        "level": "H2",
+        "text": "Periodic Gating"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Supplemental Material"
+      },
+      {
+        "level": "H1",
+        "text": "Feasibility considerations"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15573v1",
+    "url": "http://arxiv.org/abs/2507.15573v1"
+  },
+  {
+    "title": "Gravitational waveforms from inspiraling compact binaries in quadratic gravity and their parameterized post-Einstein characterization",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "INTRODUCTION"
+      },
+      {
+        "level": "H1",
+        "text": "QUADRATIC GRAVITY"
+      },
+      {
+        "level": "H1",
+        "text": "Gravitational waveforms in quadratic gravity"
+      },
+      {
+        "level": "H2",
+        "text": "Time-domain GW waveforms"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of binary systems"
+      },
+      {
+        "level": "H2",
+        "text": "Frequency-domain gravitational waveforms"
+      },
+      {
+        "level": "H3",
+        "text": "GR + massive spin-0 mode"
+      },
+      {
+        "level": "H3",
+        "text": "GR + massive spin-2 mode"
+      },
+      {
+        "level": "H1",
+        "text": "Parametrized post-Einsteinian parameters and observational\nconstraints"
+      },
+      {
+        "level": "H2",
+        "text": "GR + massive spin-0 mode"
+      },
+      {
+        "level": "H2",
+        "text": "GR + massive spin-2 mode"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15571v1",
+    "url": "http://arxiv.org/abs/2507.15571v1"
+  },
+  {
+    "title": "Can Static Black Holes in Massive Gravity Serve as Candidates for Aschenbach-Like Phenomena?",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Topological Photon Sphere"
+      },
+      {
+        "level": "H2",
+        "text": "Time-like Circular Orbits (TCOs)"
+      },
+      {
+        "level": "H1",
+        "text": "Black holes in Massive Gravity: Advantages and disadvantages"
+      },
+      {
+        "level": "H2",
+        "text": "Bardeen AdS Black Holes in Massive Gravity"
+      },
+      {
+        "level": "H2",
+        "text": "Non-linear charged AdS black hole in massive gravity"
+      },
+      {
+        "level": "H2",
+        "text": "ModMax-dRGT-like Black hole in massive gravity"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15563v1",
+    "url": "http://arxiv.org/abs/2507.15563v1"
+  },
+  {
+    "title": "Signatures of Exploding Supermassive PopIII Stars at High Redshift in JWST, EUCLID and Roman Space Telescope",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Light Curve Model"
+      },
+      {
+        "level": "H1",
+        "text": "Old models (remove later) \\label{sec:old-theory"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix \\label{sec:appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Model Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Bolometric Light Curve Properties of Supermassive Star Explosions"
+      },
+      {
+        "level": "H2",
+        "text": "Photometric Observational Properties"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Ionisation of the CSM"
+      },
+      {
+        "level": "H2",
+        "text": "Distinguishing SMS Explosions From Alternative Sources"
+      },
+      {
+        "level": "H2",
+        "text": "Rate Estimation of High-z SMS Transients"
+      },
+      {
+        "level": "H2",
+        "text": "Further Investigation Topics and Future Model Improvements"
+      },
+      {
+        "level": "H2",
+        "text": "Light Curve Model"
+      },
+      {
+        "level": "H2",
+        "text": "Ejecta and Circumstellar Medium Properties"
+      },
+      {
+        "level": "H2",
+        "text": "Evolution of the Shock Shell"
+      },
+      {
+        "level": "H2",
+        "text": "Energy Evolution and Emission From the Shock Region"
+      },
+      {
+        "level": "H2",
+        "text": "Initial Conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Computation of Radiation Flux and Apparent Magnitude"
+      },
+      {
+        "level": "H1",
+        "text": "Analytic Form of the ejecta Energy and Mass Integrals"
+      },
+      {
+        "level": "H1",
+        "text": "Light Curve Model Validation"
+      },
+      {
+        "level": "H1",
+        "text": "Colour Magnitude plot including early-time peak"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15556v1",
+    "url": "http://arxiv.org/abs/2507.15556v1"
+  },
+  {
+    "title": "HOLa: Zero-Shot HOI Detection with Low-Rank Decomposed VLM Feature Adaptation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "VLM Feature Decomposition and Adaptation"
+      },
+      {
+        "level": "H2",
+        "text": "Language Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Vision Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Training and Inference"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Zero-Shot HOI Detection Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      },
+      {
+        "level": "H1",
+        "text": "Vision Branch"
+      },
+      {
+        "level": "H1",
+        "text": "Language Branch"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Results"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Controlability"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work Exploration"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15542v1",
+    "url": "http://arxiv.org/abs/2507.15542v1"
+  },
+  {
+    "title": "Inclination Effect on Observational Identification of Outflow Rotation in Magnetohydrodynamics Simulations",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Magnetohydrodynamics Simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Radiative Transfer and Synthetic Observation"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Snapshot for CB 26"
+      },
+      {
+        "level": "H2",
+        "text": "Observable Signatures of Outflow Rotation"
+      },
+      {
+        "level": "H2",
+        "text": "Effects of Inclination Angles"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Difference between Outflow and Infall"
+      },
+      {
+        "level": "H2",
+        "text": "Inclination Effects during Protostellar Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Complex Outflow Axes in Observational Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of High Vertical Velocity"
+      },
+      {
+        "level": "H2",
+        "text": "Optical Depth and Mass Estimation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "gravitational waves detection",
+    "arxiv_id": "2507.15535v1",
+    "url": "http://arxiv.org/abs/2507.15535v1"
+  }
+]

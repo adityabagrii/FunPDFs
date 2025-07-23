@@ -10,7 +10,7 @@ import seaborn as sns
 import joblib
 
 # Load CSV
-df = pd.read_csv("data.csv") 
+df = pd.read_csv("data.csv")
 df = df.dropna(subset=['text', 'label'])
 
 train_df, temp_df = train_test_split(df, test_size=0.3, stratify=df['label'], random_state=42)

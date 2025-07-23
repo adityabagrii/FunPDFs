@@ -1,0 +1,4166 @@
+[
+  {
+    "title": "Latent Denoising Makes Good Visual Tokenizers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H1",
+        "text": "Training and Inference Details"
+      },
+      {
+        "level": "H2",
+        "text": "Tokenizer"
+      },
+      {
+        "level": "H2",
+        "text": "Generative Models"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Results"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Main Properties"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of Latent Noising"
+      },
+      {
+        "level": "H3",
+        "text": "Properties of Masking"
+      },
+      {
+        "level": "H3",
+        "text": "Joint Denoising"
+      },
+      {
+        "level": "H2",
+        "text": "Generalization Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Benchmarking with Previous Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries of Generative Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Latent Denoising Tokenizers"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15856v1",
+    "url": "http://arxiv.org/abs/2507.15856v1"
+  },
+  {
+    "title": "Iterative thresholding low-rank time integration",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Rationale and main result"
+      },
+      {
+        "level": "H2",
+        "text": "Novelty and relation to previous work"
+      },
+      {
+        "level": "H2",
+        "text": "Outline"
+      },
+      {
+        "level": "H1",
+        "text": "Iterative fixed-point methods"
+      },
+      {
+        "level": "H2",
+        "text": "Modified fixed-point formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Fixed-point formulations"
+      },
+      {
+        "level": "H3",
+        "text": "Gauss-Legendre-Picard iteration"
+      },
+      {
+        "level": "H3",
+        "text": "Spectral Deferred Correction"
+      },
+      {
+        "level": "H2",
+        "text": "Reformulation in matrix form"
+      },
+      {
+        "level": "H2",
+        "text": "Collocation method limit of the fixed-point iterations"
+      },
+      {
+        "level": "H2",
+        "text": "Convergence analysis of the fixed-point iterations"
+      },
+      {
+        "level": "H1",
+        "text": "Thresholding strategy and resulting algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Rank reduction"
+      },
+      {
+        "level": "H2",
+        "text": "Iterative schemes"
+      },
+      {
+        "level": "H2",
+        "text": "Quasi-optimal ranks"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of the Picard iteration"
+      },
+      {
+        "level": "H2",
+        "text": "Local accuracy bound"
+      },
+      {
+        "level": "H2",
+        "text": "Local rank bounds"
+      },
+      {
+        "level": "H2",
+        "text": "Global bounds"
+      },
+      {
+        "level": "H1",
+        "text": "Adaptation to parabolic problems"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Schrödinger equation"
+      },
+      {
+        "level": "H2",
+        "text": "Parabolic problem"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15848v1",
+    "url": "http://arxiv.org/abs/2507.15848v1"
+  },
+  {
+    "title": "GUI-G$^2$: Gaussian Reward Modeling for GUI Grounding",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Gaussian Reward Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning with \\methodname"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "GUI Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Fine-Tuning"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Reward Design Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Spurious Rewards"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Error Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15846v1",
+    "url": "http://arxiv.org/abs/2507.15846v1"
+  },
+  {
+    "title": "TASI/CERN/KITP Lecture Notes on \"Toward Quantum Computing Gauge Theories of Nature\"",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction\n\\label{sec:introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Hamiltonian formulation of gauge theories\n\\label{sec:Hamiltonian"
+      },
+      {
+        "level": "H2",
+        "text": "Kogut-Susskind Hamiltonian of lattice gauge theories\n\\label{sec:KS"
+      },
+      {
+        "level": "H3",
+        "text": "U(1) lattice gauge theory\n\\label{sec:U(1)"
+      },
+      {
+        "level": "H3",
+        "text": "SU(2) lattice gauge theory\n\\label{sec:SU(2)"
+      },
+      {
+        "level": "H3",
+        "text": "SU(3) lattice gauge theory\n\\label{sec:SU(3)"
+      },
+      {
+        "level": "H2",
+        "text": "Basis choices, Hilbert space, local constraints\n\\label{sec:basis"
+      },
+      {
+        "level": "H3",
+        "text": "U(1) lattice gauge theory\n\\label{sec:U(1)-basis"
+      },
+      {
+        "level": "H3",
+        "text": "SU(2) lattice gauge theory\n\\label{sec:SU(2)-basis"
+      },
+      {
+        "level": "H3",
+        "text": "SU(3) lattice gauge theory\n\\label{sec:SU(3)-basis"
+      },
+      {
+        "level": "H2",
+        "text": "On Hamiltonian-simulation methods\n\\label{sec:KS"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum computation of gauge theories\n\\label{sec:simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum-computing basics\n\\label{sec:QC-basics"
+      },
+      {
+        "level": "H3",
+        "text": "Qubits, gates, and circuits\n\\label{sec:qubits"
+      },
+      {
+        "level": "H3",
+        "text": "Mapping fermions and bosons\n\\label{sec:mapping"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum-simulation steps in nutshell\n\\label{sec:QS-steps"
+      },
+      {
+        "level": "H3",
+        "text": "State preparation\n\\label{sec:state-prep"
+      },
+      {
+        "level": "H3",
+        "text": "Time evolution\n\\label{sec:evolution"
+      },
+      {
+        "level": "H3",
+        "text": "Observable measurement\n\\label{sec:measurements"
+      },
+      {
+        "level": "H2",
+        "text": "Time evolution in gauge theories\n\\label{sec:LGT-evolution"
+      },
+      {
+        "level": "H3",
+        "text": "In-depth study: (1+1)D U(1) lattice gauge theory\n\\label{sec:U(1)-warm-up"
+      },
+      {
+        "level": "H3",
+        "text": "An overview: (3+1)D SU(3) lattice gauge theory\n\\label{sec:QCD"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and conclusions\n\\label{sec:summary"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15840v1",
+    "url": "http://arxiv.org/abs/2507.15840v1"
+  },
+  {
+    "title": "FASTGEN: Fast and Cost-Effective Synthetic Tabular Data Generation with LLMs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Sampling Script Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Identify Distribution"
+      },
+      {
+        "level": "H2",
+        "text": "Script Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Data Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Lessons, Limitation and Future Works"
+      },
+      {
+        "level": "H2",
+        "text": "Human Feedback for Continuous Improvement"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges and Opportunities in LLM-assisted Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Insights on LLM Behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Limitation on Cross-field Relationship"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Algorithm Configuration"
+      },
+      {
+        "level": "H2",
+        "text": "Baselines"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity"
+      },
+      {
+        "level": "H3",
+        "text": "Vocabulary"
+      },
+      {
+        "level": "H3",
+        "text": "Inter Sample N-gram Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Realism"
+      },
+      {
+        "level": "H3",
+        "text": "Kullback-Leibler Divergence"
+      },
+      {
+        "level": "H3",
+        "text": "Optimal Transport"
+      },
+      {
+        "level": "H3",
+        "text": "Distance to Closest Record"
+      },
+      {
+        "level": "H2",
+        "text": "Exploratory Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Vocabulary"
+      },
+      {
+        "level": "H3",
+        "text": "Inter Sample N-gram Frequency"
+      },
+      {
+        "level": "H2",
+        "text": "Efficiency Analysis"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15839v1",
+    "url": "http://arxiv.org/abs/2507.15839v1"
+  },
+  {
+    "title": "Electron-Transfer and Exchange-Interaction Model of the Ligand Hyperfine Structure of Alkylated Iron-Sulfur Clusters",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Spin Wavefunctions and Hamiltonian"
+      },
+      {
+        "level": "H2",
+        "text": "Bound Ligand Case"
+      },
+      {
+        "level": "H2",
+        "text": "Radical-Cluster Exchange Interaction"
+      },
+      {
+        "level": "H1",
+        "text": "Computational Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15838v1",
+    "url": "http://arxiv.org/abs/2507.15838v1"
+  },
+  {
+    "title": "Data-driven optimal approximation on Hardy spaces in simply connected domains",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Notation"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal model order reduction on Hardy spaces"
+      },
+      {
+        "level": "H1",
+        "text": "The $\\etwod$ and $\\durenhardy$ spaces"
+      },
+      {
+        "level": "H1",
+        "text": "The $\\etwod$ and $\\durenhardy$ approximation frameworks"
+      },
+      {
+        "level": "H2",
+        "text": "Optimal interpolation conditons in the $\\etwod$ and $\\durenhardy$ frameworks"
+      },
+      {
+        "level": "H3",
+        "text": "Connection to the Schwarz function"
+      },
+      {
+        "level": "H2",
+        "text": "A TF-IRKA based algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Model order reduction of discrete-time time invariant delay systems"
+      },
+      {
+        "level": "H3",
+        "text": "Implicit Euler"
+      },
+      {
+        "level": "H3",
+        "text": "Midpoint method"
+      },
+      {
+        "level": "H3",
+        "text": "BDF methods"
+      },
+      {
+        "level": "H1",
+        "text": "Numerics"
+      },
+      {
+        "level": "H2",
+        "text": "Half plane region"
+      },
+      {
+        "level": "H2",
+        "text": "BDF2 method"
+      },
+      {
+        "level": "H2",
+        "text": "BDF4 method"
+      },
+      {
+        "level": "H1",
+        "text": "Proof \\cref{th:E2Dintcond"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15837v1",
+    "url": "http://arxiv.org/abs/2507.15837v1"
+  },
+  {
+    "title": "Observing Fine-Grained Changes in Jupyter Notebooks During Development Time",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Designing Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "Data Analysis Task"
+      },
+      {
+        "level": "H3",
+        "text": "Machine Learning Task"
+      },
+      {
+        "level": "H2",
+        "text": "Choosing Participants"
+      },
+      {
+        "level": "H2",
+        "text": "Executing the Experiment"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Empirical Analysis Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1: Nature of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2: The Purposes of Code Changes"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3: Changes in Data Science Steps"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Tooling"
+      },
+      {
+        "level": "H2",
+        "text": "Activity Plugin"
+      },
+      {
+        "level": "H2",
+        "text": "Server"
+      },
+      {
+        "level": "H2",
+        "text": "Post-processing Scripts"
+      },
+      {
+        "level": "H2",
+        "text": "Browsing the Notebook Versions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Findings"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ1:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ2:"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{RQ3:"
+      },
+      {
+        "level": "H3",
+        "text": "Stages of different data science steps"
+      },
+      {
+        "level": "H3",
+        "text": "Transitions between data science steps"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Code Evolution in Software Engineering"
+      },
+      {
+        "level": "H2",
+        "text": "Coding in Jupyter Notebooks"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Threats to Validity"
+      },
+      {
+        "level": "H2",
+        "text": "Implications"
+      },
+      {
+        "level": "H1",
+        "text": "Possible Future Research"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Analysis of the Workflow"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis of Code Dynamics"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15831v1",
+    "url": "http://arxiv.org/abs/2507.15831v1"
+  },
+  {
+    "title": "AutoWISP: Automated Processing of Wide-Field Color Images",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Project PANOPTES"
+      },
+      {
+        "level": "H2",
+        "text": "Challenges"
+      },
+      {
+        "level": "H2",
+        "text": "Future Endeavors"
+      },
+      {
+        "level": "H3",
+        "text": "Browser-user-interface"
+      },
+      {
+        "level": "H3",
+        "text": "More features and functionalities"
+      },
+      {
+        "level": "H1",
+        "text": "Example Application of AutoWISP"
+      },
+      {
+        "level": "H2",
+        "text": "Observations"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Example light curves:"
+      },
+      {
+        "level": "H3",
+        "text": "GQ Dra"
+      },
+      {
+        "level": "H3",
+        "text": "GG Dra"
+      },
+      {
+        "level": "H3",
+        "text": "V0551 Dra"
+      },
+      {
+        "level": "H3",
+        "text": "TX UMa"
+      },
+      {
+        "level": "H3",
+        "text": "GW UMa"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H3",
+        "text": "#1"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Current state of the art:"
+      },
+      {
+        "level": "H2",
+        "text": "Breakdown"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Calibration:"
+      },
+      {
+        "level": "H3",
+        "text": "Mask creation"
+      },
+      {
+        "level": "H3",
+        "text": "Overscan corrections"
+      },
+      {
+        "level": "H3",
+        "text": "Subtraction of bias level and dark current"
+      },
+      {
+        "level": "H3",
+        "text": "Flat field corrections are applied"
+      },
+      {
+        "level": "H3",
+        "text": "Individual pixel errors are calculated"
+      },
+      {
+        "level": "H2",
+        "text": "Source Extraction"
+      },
+      {
+        "level": "H2",
+        "text": "Astrometry Based Photometry:"
+      },
+      {
+        "level": "H2",
+        "text": "Photometry:"
+      },
+      {
+        "level": "H2",
+        "text": "Magnitude Fitting:"
+      },
+      {
+        "level": "H2",
+        "text": "Light Curves:"
+      },
+      {
+        "level": "H2",
+        "text": "Post Processing:"
+      },
+      {
+        "level": "H3",
+        "text": "External Parameter Decorrelation (EPD)"
+      },
+      {
+        "level": "H3",
+        "text": "Trend Filtering Algorithm (TFA)"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation of AutoWISP"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15830v1",
+    "url": "http://arxiv.org/abs/2507.15830v1"
+  },
+  {
+    "title": "Investigating the Use of LLMs for Evidence Briefings Generation in Software Engineering",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background and Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Evidence Briefings in SE"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs for Research Synthesis"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Study Plan"
+      },
+      {
+        "level": "H2",
+        "text": "Goal Definition"
+      },
+      {
+        "level": "H2",
+        "text": "Context Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Hypothesis Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Variable Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Selection of Subjects"
+      },
+      {
+        "level": "H2",
+        "text": "Choice of Design Type"
+      },
+      {
+        "level": "H2",
+        "text": "Instrumentation"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{Consent form"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{Participant Characterization Form"
+      },
+      {
+        "level": "H3",
+        "text": "\\textit{Main Section"
+      },
+      {
+        "level": "H2",
+        "text": "Operation and Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Threats to validity"
+      },
+      {
+        "level": "H3",
+        "text": "Construct Validity"
+      },
+      {
+        "level": "H3",
+        "text": "Internal Validity"
+      },
+      {
+        "level": "H3",
+        "text": "External Validity"
+      },
+      {
+        "level": "H3",
+        "text": "Conclusion Validity"
+      },
+      {
+        "level": "H1",
+        "text": "Next Steps"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15828v1",
+    "url": "http://arxiv.org/abs/2507.15828v1"
+  },
+  {
+    "title": "Astrotourism for Development: An Overview of Resources from the IAU Office of Astronomy for Development",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Context and Motivation"
+      },
+      {
+        "level": "H1",
+        "text": "Openness, Accessibility, and Evolving Resources"
+      },
+      {
+        "level": "H1",
+        "text": "Overview of OAD Astrotourism Resources"
+      },
+      {
+        "level": "H2",
+        "text": "Navigating the Resources"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 1 - Night Sky Tourism: A Quick Start Guide"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 2 - A Night Sky Tourism Guide"
+      },
+      {
+        "level": "H2",
+        "text": "Resource 3 - Night Sky Tourism for Communities Around Observatories"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15827v1",
+    "url": "http://arxiv.org/abs/2507.15827v1"
+  },
+  {
+    "title": "Operationalizing AI for Good: Spotlight on Deployment and Integration of AI Models in Humanitarian Work",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Ethical Considerations"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation and Deployment"
+      },
+      {
+        "level": "H2",
+        "text": "Offline Experimentation"
+      },
+      {
+        "level": "H2",
+        "text": "Staging Deployment Calibration"
+      },
+      {
+        "level": "H2",
+        "text": "Post-Deployment Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Partnership Case Study"
+      },
+      {
+        "level": "H2",
+        "text": "Partner Details"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Scope"
+      },
+      {
+        "level": "H2",
+        "text": "Resource Constraints"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Threshold Tuning across 3 Languages"
+      },
+      {
+        "level": "H2",
+        "text": "Categorization Model Performance"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15823v1",
+    "url": "http://arxiv.org/abs/2507.15823v1"
+  },
+  {
+    "title": "Identifying Solution Constraints for ODE Systems",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Identification of Conserved Quantities"
+      },
+      {
+        "level": "H1",
+        "text": "Algorithm"
+      },
+      {
+        "level": "H1",
+        "text": "Applications"
+      },
+      {
+        "level": "H2",
+        "text": "Enzyme Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Glycolytic oscillator model"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "MATLAB Codes"
+      },
+      {
+        "level": "H2",
+        "text": "MATLAB function {\\tt solution\\_constraints"
+      },
+      {
+        "level": "H2",
+        "text": "Function {\\tt enzyme"
+      },
+      {
+        "level": "H2",
+        "text": "Function {\\tt glycolytic"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15805v1",
+    "url": "http://arxiv.org/abs/2507.15805v1"
+  },
+  {
+    "title": "1D Vlasov Simulations of QED Cascades Over Pulsar Polar Caps",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Overview of the Physical Model"
+      },
+      {
+        "level": "H2",
+        "text": "Radiation and Radiative Reaction"
+      },
+      {
+        "level": "H2",
+        "text": "Magnetic Pair Production"
+      },
+      {
+        "level": "H1",
+        "text": "1D simulations of QED cascade"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of the RS Model"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of the SCLF Model"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Energy Budget and Surface Heating by Returning Particles"
+      },
+      {
+        "level": "H2",
+        "text": "The Spatiotemporal and Spectral Structures of the Electric Field Energy"
+      },
+      {
+        "level": "H2",
+        "text": "Scope of Quantitative Estimates in Millisecond Pulsars"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical methods"
+      },
+      {
+        "level": "H2",
+        "text": "1D Vlasov–Maxwell System"
+      },
+      {
+        "level": "H2",
+        "text": "Validation: Two Stream Instability"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15804v1",
+    "url": "http://arxiv.org/abs/2507.15804v1"
+  },
+  {
+    "title": "Hypergraphs on high dimensional time series sets using signature transform",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction: Computing hypergraph on a multivariate time series using signature transform."
+      },
+      {
+        "level": "H2",
+        "text": "Motivation and Background"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work."
+      },
+      {
+        "level": "H2",
+        "text": "The signature transform."
+      },
+      {
+        "level": "H2",
+        "text": "Hypergraph on multivariate time series."
+      },
+      {
+        "level": "H1",
+        "text": "Modifications of the algorithm."
+      },
+      {
+        "level": "H2",
+        "text": "Fitting the new data format."
+      },
+      {
+        "level": "H2",
+        "text": "Bringing randomness in the algorithm."
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and perspectives."
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15802v1",
+    "url": "http://arxiv.org/abs/2507.15802v1"
+  },
+  {
+    "title": "Challenges of Trustworthy Federated Learning: What's Done, Current Trends and Remaining Work",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction to Federated Learning"
+      },
+      {
+        "level": "H2",
+        "text": "\\paco{Why?"
+      },
+      {
+        "level": "H2",
+        "text": "\\paco{How?"
+      },
+      {
+        "level": "H1",
+        "text": "Challenges of Trustworthy Federated Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 1: Human agency and oversight"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 2: Technical robustness and safety"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 3: Privacy and data governance"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 4: Transparency"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 5: Diversity, non-discrimination \\& fairness"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 6: Societal and environmental well-being"
+      },
+      {
+        "level": "H2",
+        "text": "Requirement 7: Accountability"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Dimension Frontiers"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Collective Intelligence as a Dimension Frontier"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15796v1",
+    "url": "http://arxiv.org/abs/2507.15796v1"
+  },
+  {
+    "title": "Regularized Low-Rank Adaptation for Few-Shot Organ Segmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15793v1",
+    "url": "http://arxiv.org/abs/2507.15793v1"
+  },
+  {
+    "title": "Small LLMs Do Not Learn a Generalizable Theory of Mind via Reinforcement Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "Training Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Reward Function Design"
+      },
+      {
+        "level": "H2",
+        "text": "Training Algorithm: REINFORCE++"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H3",
+        "text": "RL Performance on In-Distribution Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "RL Performance on Out-Of-Distribution Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "Performance on Different ToM Orders"
+      },
+      {
+        "level": "H2",
+        "text": "Performance On Task Variations"
+      },
+      {
+        "level": "H3",
+        "text": "Training Behavior Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15788v1",
+    "url": "http://arxiv.org/abs/2507.15788v1"
+  },
+  {
+    "title": "A Robust COTS Objective for Diffraction-Limited, High-NA, Long Front Working Distance Imaging",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H1",
+        "text": "Design and Construction of Example Objective"
+      },
+      {
+        "level": "H1",
+        "text": "Diffraction limited performance"
+      },
+      {
+        "level": "H1",
+        "text": "FOV measurement"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15786v1",
+    "url": "http://arxiv.org/abs/2507.15786v1"
+  },
+  {
+    "title": "Romance, Relief, and Regret: Teen Narratives of Chatbot Overreliance",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Adolescent Technology Use and Behavioral Addiction"
+      },
+      {
+        "level": "H2",
+        "text": "Platform Design, Moderation, and Youth Safety"
+      },
+      {
+        "level": "H2",
+        "text": "Chatbots and Socio-Emotional Dependency"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Data Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Codebook Development and Thematic Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1"
+      },
+      {
+        "level": "H3",
+        "text": "Emotional \\& Psychological Support"
+      },
+      {
+        "level": "H3",
+        "text": "Creative or Entertainment Based Engagement"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2"
+      },
+      {
+        "level": "H3",
+        "text": "Salience"
+      },
+      {
+        "level": "H3",
+        "text": "Mood Modification"
+      },
+      {
+        "level": "H3",
+        "text": "Tolerance"
+      },
+      {
+        "level": "H3",
+        "text": "Withdrawal"
+      },
+      {
+        "level": "H3",
+        "text": "Conflict"
+      },
+      {
+        "level": "H3",
+        "text": "Relapse"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3"
+      },
+      {
+        "level": "H3",
+        "text": "Realizing use is unhealthy"
+      },
+      {
+        "level": "H3",
+        "text": "Forming new social interactions in real life"
+      },
+      {
+        "level": "H3",
+        "text": "Frustration with Restrictive Updates"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Chatbots Overreliance is distinct from other forms of technology attachments"
+      },
+      {
+        "level": "H2",
+        "text": "The impact of Platform Restrictions"
+      },
+      {
+        "level": "H2",
+        "text": "Future Direction for Chatbot Design"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Ethical Considerations"
+      },
+      {
+        "level": "H1",
+        "text": "Researchers Positionality"
+      },
+      {
+        "level": "H1",
+        "text": "Impact Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Adolescent Technology Behavioral Addiction"
+      },
+      {
+        "level": "H2",
+        "text": "Platform Design, Moderation, and Youth Safety"
+      },
+      {
+        "level": "H2",
+        "text": "Chatbots and Socio-Emotional Dependency"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Character-based AI Companions as Outlets for Support, Not Just Entertainment"
+      },
+      {
+        "level": "H2",
+        "text": "Attachment Informed Design for Parasocial Relationships between Teens and Chatbots"
+      },
+      {
+        "level": "H2",
+        "text": "Teen-Centered Design for GenAI Moderation"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Data Collection, Preprocessing, and Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Data Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Data Filtering"
+      },
+      {
+        "level": "H2",
+        "text": "Data Analysis Approaches"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Reasons for engaging with Character.AI (RQ1)"
+      },
+      {
+        "level": "H3",
+        "text": "Emotional \\& Psychological Support"
+      },
+      {
+        "level": "H3",
+        "text": "Creative or Entertainment Based Engagement"
+      },
+      {
+        "level": "H2",
+        "text": "Behavioral Addiction Components (RQ2)"
+      },
+      {
+        "level": "H3",
+        "text": "Conflict"
+      },
+      {
+        "level": "H3",
+        "text": "Salience"
+      },
+      {
+        "level": "H3",
+        "text": "Withdrawal"
+      },
+      {
+        "level": "H3",
+        "text": "Tolerance"
+      },
+      {
+        "level": "H3",
+        "text": "Relapse"
+      },
+      {
+        "level": "H3",
+        "text": "Mood Modification"
+      },
+      {
+        "level": "H2",
+        "text": "Decisions to Disengage from Character.AI (RQ3)"
+      },
+      {
+        "level": "H3",
+        "text": "Internal Recognition of Problematic Use"
+      },
+      {
+        "level": "H3",
+        "text": "Reduced Use due\nto External Factors"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix A: Relevancy Coding Prompt"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15783v1",
+    "url": "http://arxiv.org/abs/2507.15783v1"
+  },
+  {
+    "title": "Density control of multi-agent swarms via bio-inspired leader-follower plasticity",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Problem Statement"
+      },
+      {
+        "level": "H2",
+        "text": "Problem statement"
+      },
+      {
+        "level": "H1",
+        "text": "Bio-inspired Control"
+      },
+      {
+        "level": "H2",
+        "text": "Design of the leaders' velocity field"
+      },
+      {
+        "level": "H2",
+        "text": "Design of the reacting term"
+      },
+      {
+        "level": "H2",
+        "text": "Stability analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Bimodal regulation"
+      },
+      {
+        "level": "H2",
+        "text": "Robustness analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Agent-based Model"
+      },
+      {
+        "level": "H1",
+        "text": "Higher-Dimensional Extension"
+      },
+      {
+        "level": "H2",
+        "text": "Bio-inspired Control"
+      },
+      {
+        "level": "H2",
+        "text": "Stability Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Numerical validation"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Non-plastic followers at steady-state"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15781v1",
+    "url": "http://arxiv.org/abs/2507.15781v1"
+  },
+  {
+    "title": "Dynamics is what you need for time-series forecasting!",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H1",
+        "text": "Systemic analysis through the lens of dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "The \\texttt{PRO-DYN"
+      },
+      {
+        "level": "H2",
+        "text": "Linear dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "TSF models through the \\texttt{PRO-DYN"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental setup"
+      },
+      {
+        "level": "H2",
+        "text": "First analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation study"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and future work"
+      },
+      {
+        "level": "H1",
+        "text": "NeurIPS Paper Checklist"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15774v1",
+    "url": "http://arxiv.org/abs/2507.15774v1"
+  },
+  {
+    "title": "Learning Climate Sensitivity from Future Observations, Fast and Slow",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Materials and Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Summary of our modeling approach"
+      },
+      {
+        "level": "H2",
+        "text": "2-layer energy balance model"
+      },
+      {
+        "level": "H3",
+        "text": "Eigenmode decomposition"
+      },
+      {
+        "level": "H3",
+        "text": "Fast and slow mode contributions to equilibrium warming"
+      },
+      {
+        "level": "H2",
+        "text": "Ensemble of data assimilations"
+      },
+      {
+        "level": "H3",
+        "text": "Tangent linear model"
+      },
+      {
+        "level": "H3",
+        "text": "Cost function"
+      },
+      {
+        "level": "H3",
+        "text": "Connecting the TLM and the cost function gradient"
+      },
+      {
+        "level": "H3",
+        "text": "Verification of TLM, ADJM, and cost function gradient"
+      },
+      {
+        "level": "H3",
+        "text": "Synthesis"
+      },
+      {
+        "level": "H2",
+        "text": "Details on prior"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H2",
+        "text": "Data Availability Statement"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary Information"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15767v1",
+    "url": "http://arxiv.org/abs/2507.15767v1"
+  },
+  {
+    "title": "Meson mass spectrum in Ising Field Theory",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Bethe-Salpeter Equation and Integrability"
+      },
+      {
+        "level": "H2",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "\\texorpdfstring{$Q$"
+      },
+      {
+        "level": "H2",
+        "text": "Spectral sums and spectral determinants"
+      },
+      {
+        "level": "H1",
+        "text": "Solutions of TQ equation"
+      },
+      {
+        "level": "H2",
+        "text": "Small \\texorpdfstring{$\\lambda$"
+      },
+      {
+        "level": "H2",
+        "text": "Large \\texorpdfstring{$\\lambda$"
+      },
+      {
+        "level": "H1",
+        "text": "Relation between \\texorpdfstring{$Q$"
+      },
+      {
+        "level": "H2",
+        "text": "Resolvent and integral relations"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Wronskian and rational relations"
+      },
+      {
+        "level": "H2",
+        "text": "Log-derivative relations"
+      },
+      {
+        "level": "H1",
+        "text": "Analytical results"
+      },
+      {
+        "level": "H2",
+        "text": "Spectral sums"
+      },
+      {
+        "level": "H2",
+        "text": "WKB expansion"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of results in limiting cases"
+      },
+      {
+        "level": "H2",
+        "text": "Near \\texorpdfstring{$E_8$"
+      },
+      {
+        "level": "H2",
+        "text": "Expansion around the free fermion theory: \\texorpdfstring{$\\alpha\\to\\infty$"
+      },
+      {
+        "level": "H1",
+        "text": "Bethe-Salpeter equation in the complex \\texorpdfstring{$\\alpha$"
+      },
+      {
+        "level": "H2",
+        "text": "Analytical continuation"
+      },
+      {
+        "level": "H2",
+        "text": "Critical points on the second sheet"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H2",
+        "text": "Supplemental material"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Matrix elements of spectral operator \\texorpdfstring{$\\hat{K"
+      },
+      {
+        "level": "H1",
+        "text": "Asymptotics of the integrals \\texorpdfstring{$\\mathtt{u"
+      },
+      {
+        "level": "H2",
+        "text": "Chiral limit: \\texorpdfstring{$\\alpha \\rightarrow0$"
+      },
+      {
+        "level": "H2",
+        "text": "Heavy quark limit: \\texorpdfstring{$\\alpha\\to\\infty$"
+      },
+      {
+        "level": "H2",
+        "text": "Critical points: \\texorpdfstring{$\\alpha\\to\\alpha^*_k\\ne0$"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15766v1",
+    "url": "http://arxiv.org/abs/2507.15766v1"
+  },
+  {
+    "title": "GasAgent: A Multi-Agent Framework for Automated Gas Optimization in Smart Contracts",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "LLMs and Multi-Agent Systems"
+      },
+      {
+        "level": "H2",
+        "text": "Smart Contracts and Gas Optimizations"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Design Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "System Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Seeker"
+      },
+      {
+        "level": "H2",
+        "text": "Innovator"
+      },
+      {
+        "level": "H2",
+        "text": "Executor"
+      },
+      {
+        "level": "H2",
+        "text": "Manager"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Research Questions (RQs)"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setting"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "RQ1 - Effectiveness"
+      },
+      {
+        "level": "H2",
+        "text": "RQ2 - Pattern Incorporation"
+      },
+      {
+        "level": "H2",
+        "text": "RQ3 - Design Rationality (Ablation Study)"
+      },
+      {
+        "level": "H2",
+        "text": "RQ4 - Broader Usability"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conculsion"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15761v1",
+    "url": "http://arxiv.org/abs/2507.15761v1"
+  },
+  {
+    "title": "LAPO: Internalizing Reasoning Efficiency via Length-Adaptive Policy Optimization",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Technical Appendices and Supplementary Material"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Discovery Stage: Learning Natural Reasoning Patterns"
+      },
+      {
+        "level": "H2",
+        "text": "Internalization Stage: Length-Aware Efficient Reasoning"
+      },
+      {
+        "level": "H2",
+        "text": "Training Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Training Dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Selection of Training Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study on the Length Guidance for LAPO-I"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study on the Statistical Metrics for Target Length Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Difficulty-Aware Computational Allocation"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Refinement of Reasoning Behaviors"
+      },
+      {
+        "level": "H2",
+        "text": "Test-Time Scaling in Large Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient Long Chain-of-Thought LLM"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15758v1",
+    "url": "http://arxiv.org/abs/2507.15758v1"
+  },
+  {
+    "title": "The Feasibility of a Spacecraft Flyby with the Third Interstellar Object 3I/ATLAS from Earth or Mars",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Identification of Optimal Trajectories"
+      },
+      {
+        "level": "H1",
+        "text": "Optimal Trajectories from Earth"
+      },
+      {
+        "level": "H1",
+        "text": "Optimal Trajectories from Mars"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "acknowledgments"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15755v1",
+    "url": "http://arxiv.org/abs/2507.15755v1"
+  },
+  {
+    "title": "Asymptotic normality of embedding distributions of some families of graphs",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminary"
+      },
+      {
+        "level": "H1",
+        "text": "Tree-like graphs and central limit theorem"
+      },
+      {
+        "level": "H1",
+        "text": "Asymptotic normality via perturbation"
+      },
+      {
+        "level": "H2",
+        "text": "Ring-like graph families"
+      },
+      {
+        "level": "H2",
+        "text": "Strictly monotone sequences of graphs"
+      },
+      {
+        "level": "H1",
+        "text": "Double-edge cycle graphs via analytic combinatorics"
+      },
+      {
+        "level": "H2",
+        "text": "Genus distribution for double-edge cycle graphs"
+      },
+      {
+        "level": "H2",
+        "text": "Euler-genus distribution for double-edge cycle graphs"
+      },
+      {
+        "level": "H1",
+        "text": "Genus generating functions of \\texorpdfstring{$H$"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Recurrence relations"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix I"
+      },
+      {
+        "level": "H2",
+        "text": "Adding a pair of parallel edges"
+      },
+      {
+        "level": "H2",
+        "text": "Edge-adding rules"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix B"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix C"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix D"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15751v1",
+    "url": "http://arxiv.org/abs/2507.15751v1"
+  },
+  {
+    "title": "Inside the Iron Curtain: A Long Term Look at the Iron Stars XX Oph and AS 325",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Observations"
+      },
+      {
+        "level": "H2",
+        "text": "AS 325"
+      },
+      {
+        "level": "H3",
+        "text": "Long-Term photometry"
+      },
+      {
+        "level": "H3",
+        "text": "High-Resolution Imaging"
+      },
+      {
+        "level": "H3",
+        "text": "Historical Spectroscopy"
+      },
+      {
+        "level": "H3",
+        "text": "GHOST Spectroscopy"
+      },
+      {
+        "level": "H2",
+        "text": "XX Oph"
+      },
+      {
+        "level": "H3",
+        "text": "Long Term Photometry"
+      },
+      {
+        "level": "H3",
+        "text": "High-Resolution Imaging"
+      },
+      {
+        "level": "H3",
+        "text": "Historical Spectroscopy"
+      },
+      {
+        "level": "H3",
+        "text": "GHOST spectroscopy"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "AS 325"
+      },
+      {
+        "level": "H3",
+        "text": "Light Curve"
+      },
+      {
+        "level": "H3",
+        "text": "Orbital Period"
+      },
+      {
+        "level": "H3",
+        "text": "Spectral Properties"
+      },
+      {
+        "level": "H2",
+        "text": "Nature and Evolution of the Systems"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15750v1",
+    "url": "http://arxiv.org/abs/2507.15750v1"
+  },
+  {
+    "title": "The Probable Direct-Imaging Detection of the Stellar Companion to Betelgeuse",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction \\label{sec:Intro"
+      },
+      {
+        "level": "H1",
+        "text": "Observations"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Optical Angular Diameter Measurements of $\\alpha$ Ori A"
+      },
+      {
+        "level": "H2",
+        "text": "The Probable Direct-Imaging Detection of $\\alpha$ Ori B"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Likelihood That the Companion Is Real and Bound"
+      },
+      {
+        "level": "H2",
+        "text": "Nature of the Companion"
+      },
+      {
+        "level": "H1",
+        "text": "Summary and Future Work"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15749v1",
+    "url": "http://arxiv.org/abs/2507.15749v1"
+  },
+  {
+    "title": "Robust and Smooth Estimation of the Extreme Tail Index via Weighted Minimum Density Power Divergence",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "\\textbf{Introduction\\label{sec1"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Minimum density power divergence\\label{sec2"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Weighted MDPD estimation of the tail index\\label{sec3"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Main results\\label{sec4"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Simulation study\\label{sec5"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Proofs\\label{sec6"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem $\\ref{Theorem1"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Theorem $\\ref{Theorem2"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Declarations"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Appendix A\\label{sec7"
+      },
+      {
+        "level": "H1",
+        "text": "\\textbf{Appendix B\\label{sec8"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15744v1",
+    "url": "http://arxiv.org/abs/2507.15744v1"
+  },
+  {
+    "title": "Conformal and kNN Predictive Uncertainty Quantification Algorithms in Metric Spaces",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Motivation and goal"
+      },
+      {
+        "level": "H2",
+        "text": "Notation and problem definition"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      },
+      {
+        "level": "H2",
+        "text": "General view of existing uncertainty quantification methods"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical models"
+      },
+      {
+        "level": "H2",
+        "text": "Homoscedastic case"
+      },
+      {
+        "level": "H3",
+        "text": "Statistical consistency"
+      },
+      {
+        "level": "H2",
+        "text": "Heteroscedastic case"
+      },
+      {
+        "level": "H3",
+        "text": "Statistical Theory"
+      },
+      {
+        "level": "H2",
+        "text": "Optimized kNN algorithm with parameter selection"
+      },
+      {
+        "level": "H2",
+        "text": "Regression algorithms in metric spaces: Random Forest, Global Fréchet regression method, and \\(k\\)NN"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Conditional Coverage Examination"
+      },
+      {
+        "level": "H2",
+        "text": "Effects of Dimension: Homoscedastic vs. Heteroscedastic Algorithms"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of real-world clinical data"
+      },
+      {
+        "level": "H2",
+        "text": "Shape Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Data Description"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Multidimensional Euclidean data"
+      },
+      {
+        "level": "H3",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Data Description"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Distributional Representation of Biosensor Time Series"
+      },
+      {
+        "level": "H3",
+        "text": "Motivation"
+      },
+      {
+        "level": "H3",
+        "text": "Data Description"
+      },
+      {
+        "level": "H3",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Related Literature"
+      },
+      {
+        "level": "H3",
+        "text": "Statistical modeling in metric spaces"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15741v1",
+    "url": "http://arxiv.org/abs/2507.15741v1"
+  },
+  {
+    "title": "Symplectic coherence: a measure of position-momentum correlations in quantum states",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H2",
+        "text": "CV quantum information"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum discord"
+      },
+      {
+        "level": "H2",
+        "text": "Matrix norms"
+      },
+      {
+        "level": "H2",
+        "text": "Quantum Resource Theories"
+      },
+      {
+        "level": "H1",
+        "text": "Measure of position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Operational interpretation of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Properties of symplectic coherence"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence and quantum discord"
+      },
+      {
+        "level": "H1",
+        "text": "Maximal symplectic coherence"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence in quantum information processing"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and entanglement"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum metrology"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum channel discrimination"
+      },
+      {
+        "level": "H3",
+        "text": "Single-shot discrimination"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-shot discrimination"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Proof that $\\Tr[V] \\geq 2m$:"
+      },
+      {
+        "level": "H1",
+        "text": "Quantum discord for computational basis measurements"
+      },
+      {
+        "level": "H1",
+        "text": "Properties of symplectic coherence and position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Operational interpretation of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Faithfulness and monotonicity of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Some important non-free operations for symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "A no-go result for the monotonicity of faithful measures of position-momentum correlations"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence and quantum discord"
+      },
+      {
+        "level": "H1",
+        "text": "Robutness under perturbations of symplectic coherence"
+      },
+      {
+        "level": "H2",
+        "text": "Maximal symplectic coherence of quantum states"
+      },
+      {
+        "level": "H3",
+        "text": "Maximal symplectic coherence of pure Gaussian states"
+      },
+      {
+        "level": "H3",
+        "text": "Structure of states with maximal symplectic coherence"
+      },
+      {
+        "level": "H3",
+        "text": "Maximal symplectic coherence of mixed Gaussian states"
+      },
+      {
+        "level": "H2",
+        "text": "Behavior of symplectic coherence under perturbations of the state"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence under photon loss"
+      },
+      {
+        "level": "H2",
+        "text": "Position-momentum correlations enhances the average entanglement of pure Gaussian states"
+      },
+      {
+        "level": "H1",
+        "text": "Symplectic coherence in quantum information processing"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence enhances quantum metrology"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence lower bounds optimal success probability of certain channel discrimination tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence is necessary for computational advantage"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence underlines the efficiency of certain channel discrimination tasks"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence for loss channels discrimination"
+      },
+      {
+        "level": "H2",
+        "text": "Position-momentum correlations determine the distinguishability of certain Gaussian channels"
+      },
+      {
+        "level": "H2",
+        "text": "Symplectic coherence upper bounds Fisher information in particular tasks"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15738v1",
+    "url": "http://arxiv.org/abs/2507.15738v1"
+  },
+  {
+    "title": "Understanding Large Language Models' Ability on Interdisciplinary Research",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "The IDRBench"
+      },
+      {
+        "level": "H2",
+        "text": "The IDRBench Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "The IDRBench Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "IDR Paper Identification (IPI)"
+      },
+      {
+        "level": "H3",
+        "text": "IDR Idea Integration (I3)"
+      },
+      {
+        "level": "H3",
+        "text": "IDR Idea Recommendation (I2R)"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation with IDRBench"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Detailed Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Details"
+      },
+      {
+        "level": "H3",
+        "text": "Dataset Collection"
+      },
+      {
+        "level": "H3",
+        "text": "Annotation Platform"
+      },
+      {
+        "level": "H3",
+        "text": "Human Annotation"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Details"
+      },
+      {
+        "level": "H3",
+        "text": "Models"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Prompts"
+      },
+      {
+        "level": "H3",
+        "text": "Experiment Cost"
+      },
+      {
+        "level": "H2",
+        "text": "Analysis"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15736v1",
+    "url": "http://arxiv.org/abs/2507.15736v1"
+  },
+  {
+    "title": "Cryogenic light detectors with thermal signal amplification for $0νββ$ search experiments",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Ten-crystal prototype tower of CROSS"
+      },
+      {
+        "level": "H2",
+        "text": "Mechanical structure of a detector array"
+      },
+      {
+        "level": "H2",
+        "text": "10-crystal demonstrator"
+      },
+      {
+        "level": "H2",
+        "text": "Light detectors with thermal signal amplification"
+      },
+      {
+        "level": "H3",
+        "text": "NTL-effect-based devices in a nutshell"
+      },
+      {
+        "level": "H3",
+        "text": "Fabrication of NTL-assisted light detectors"
+      },
+      {
+        "level": "H1",
+        "text": "Test of the 10-crystal array at the Canfranc underground laboratory"
+      },
+      {
+        "level": "H2",
+        "text": "Detector installation in the CROSS cryogenic facility"
+      },
+      {
+        "level": "H2",
+        "text": "Data taking and processing"
+      },
+      {
+        "level": "H1",
+        "text": "Results and discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of reference Li$_2$$^{100"
+      },
+      {
+        "level": "H2",
+        "text": "Characterization of bolometric Ge light detectors"
+      },
+      {
+        "level": "H2",
+        "text": "Detection of scintillation light"
+      },
+      {
+        "level": "H2",
+        "text": "NTL amplification for light detectors"
+      },
+      {
+        "level": "H1",
+        "text": "Prospects for large-scale $0\\nu\\beta\\beta$ search experiments"
+      },
+      {
+        "level": "H2",
+        "text": "CROSS detector structure and NTL-LD technology"
+      },
+      {
+        "level": "H2",
+        "text": "Background reduction with NTL-LDs"
+      },
+      {
+        "level": "H2",
+        "text": "Simulations of pile-up induced background"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15732v1",
+    "url": "http://arxiv.org/abs/2507.15732v1"
+  },
+  {
+    "title": "Relationship between Structure and Dynamics of an Icosahedral Quasicrystal using Unsupervised Machine Learning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "\\label{sec:intro"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:methods"
+      },
+      {
+        "level": "H2",
+        "text": "Model"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation details"
+      },
+      {
+        "level": "H2",
+        "text": "\\label{sec:order"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:phases"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:uml"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:nucleation"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:dynamics"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion Mechanisms"
+      },
+      {
+        "level": "H2",
+        "text": "\\label{sec:heterogeneity"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:structure-dynamics"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{sec:conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Author Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of interest"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{ap:nucleation"
+      },
+      {
+        "level": "H1",
+        "text": "\\label{appendix:umap"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15731v1",
+    "url": "http://arxiv.org/abs/2507.15731v1"
+  },
+  {
+    "title": "Gaze-supported Large Language Model Framework for Bi-directional Human-Robot Interaction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "INTRODUCTION"
+      },
+      {
+        "level": "H1",
+        "text": "RELATED WORK"
+      },
+      {
+        "level": "H1",
+        "text": "DEVELOPED FRAMEWORK"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Framework Overview"
+      },
+      {
+        "level": "H3",
+        "text": "Input Fusion Module"
+      },
+      {
+        "level": "H3",
+        "text": "..."
+      },
+      {
+        "level": "H3",
+        "text": "Reasoning Module"
+      },
+      {
+        "level": "H3",
+        "text": "Action Module"
+      },
+      {
+        "level": "H1",
+        "text": "VALIDATION METHODS"
+      },
+      {
+        "level": "H2",
+        "text": "Development with Dissemination in the Wild"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Validation"
+      },
+      {
+        "level": "H1",
+        "text": "RESULTS"
+      },
+      {
+        "level": "H2",
+        "text": "Quantitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Qualitative Results"
+      },
+      {
+        "level": "H2",
+        "text": "Lessons Learned"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Future work"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15729v1",
+    "url": "http://arxiv.org/abs/2507.15729v1"
+  },
+  {
+    "title": "Efficiently Generation of Cluster States via Time-Delayed Feedback in Matrix Representation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Matrix representation of cluster states"
+      },
+      {
+        "level": "H2",
+        "text": "One-dimensional Cluster States"
+      },
+      {
+        "level": "H2",
+        "text": "Complete-like Cluster States"
+      },
+      {
+        "level": "H1",
+        "text": "Protocol"
+      },
+      {
+        "level": "H1",
+        "text": "Optimization based on matrix representation"
+      },
+      {
+        "level": "H2",
+        "text": "General Optimization of Tree Cluster States"
+      },
+      {
+        "level": "H2",
+        "text": "Further Optimization of Binary TCSs"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments."
+      },
+      {
+        "level": "H1",
+        "text": "Physical implementation of the circulator"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15725v1",
+    "url": "http://arxiv.org/abs/2507.15725v1"
+  },
+  {
+    "title": "A Practical Investigation of Spatially-Controlled Image Generation with Transformers",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Preliminaries"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation Setup"
+      },
+      {
+        "level": "H1",
+        "text": "Prefilling -- a Baseline for Transformer-Based Controllable Generation"
+      },
+      {
+        "level": "H1",
+        "text": "The Impact of Sampling Parameters"
+      },
+      {
+        "level": "H2",
+        "text": "Control Guidance (ctrl-G)"
+      },
+      {
+        "level": "H2",
+        "text": "Sampling Distribution Truncation"
+      },
+      {
+        "level": "H1",
+        "text": "Adapters for Spatial Control"
+      },
+      {
+        "level": "H2",
+        "text": "Adapter Architectures"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Concluding Remarks"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Distribution Truncation"
+      },
+      {
+        "level": "H2",
+        "text": "Learning with Limited Data"
+      },
+      {
+        "level": "H1",
+        "text": "Example Generations"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15724v1",
+    "url": "http://arxiv.org/abs/2507.15724v1"
+  },
+  {
+    "title": "Towards relativistic inspirals into black holes surrounded by matter",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "The Teukolsky equation and environmental effects"
+      },
+      {
+        "level": "H2",
+        "text": "Phase contribution analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Previous work on extensions of the Teukolsky formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Research goal and organization of this paper"
+      },
+      {
+        "level": "H1",
+        "text": "Teukolsky formalism and its modification"
+      },
+      {
+        "level": "H2",
+        "text": "Perturbation formalism in   type D vacuum spacetimes"
+      },
+      {
+        "level": "H2",
+        "text": "The NP and the GHP formalism"
+      },
+      {
+        "level": "H2",
+        "text": "Teukolsky formalism in Kerr spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Deriving a modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "Terms in the modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "Perturbing a black hole enclosed by a ring"
+      },
+      {
+        "level": "H2",
+        "text": "The pole-dipole ring-hole model"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities in hole-ring background"
+      },
+      {
+        "level": "H2",
+        "text": "Decomposition of the Teukolsky equation in the hole-ring spacetime"
+      },
+      {
+        "level": "H1",
+        "text": "Solution of the modified Teukolsky equation"
+      },
+      {
+        "level": "H2",
+        "text": "The smooth part of the solution"
+      },
+      {
+        "level": "H2",
+        "text": "Reconstruction of the metric \\texorpdfstring{$h^{(0,1)"
+      },
+      {
+        "level": "H2",
+        "text": "The source on the shell"
+      },
+      {
+        "level": "H2",
+        "text": "Solving the \\texorpdfstring{$(1,1)$"
+      },
+      {
+        "level": "H2",
+        "text": "The complete solution"
+      },
+      {
+        "level": "H1",
+        "text": "Summary"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and outlook"
+      },
+      {
+        "level": "H2",
+        "text": "Generating inspiral waveforms"
+      },
+      {
+        "level": "H2",
+        "text": "Technical simplifications?"
+      },
+      {
+        "level": "H2",
+        "text": "Extensions and generalizations"
+      },
+      {
+        "level": "H1",
+        "text": "NP and GHP formalism"
+      },
+      {
+        "level": "H1",
+        "text": "Spin-weighted spherical harmonics"
+      },
+      {
+        "level": "H1",
+        "text": "Full modified Teukolsky equation"
+      },
+      {
+        "level": "H1",
+        "text": "The background spacetime"
+      },
+      {
+        "level": "H2",
+        "text": "Justification of the pole-dipole approximation"
+      },
+      {
+        "level": "H2",
+        "text": "Discussion of the thinness condition"
+      },
+      {
+        "level": "H2",
+        "text": "Israel junction conditions for the (1,0) metric"
+      },
+      {
+        "level": "H2",
+        "text": "NP quantities on the background"
+      },
+      {
+        "level": "H2",
+        "text": "Multipole expansion of the ring"
+      },
+      {
+        "level": "H2",
+        "text": "The transition from \\texorpdfstring{${"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15720v1",
+    "url": "http://arxiv.org/abs/2507.15720v1"
+  },
+  {
+    "title": "Efficient Face Image Quality Assessment via Self-training and Knowledge Distillation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Image Quality Assessment"
+      },
+      {
+        "level": "H2",
+        "text": "Face Image Quality Assessment"
+      },
+      {
+        "level": "H2",
+        "text": "Self-training and Knowledge Distillation"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "Teacher Model Optimization via Self-Training"
+      },
+      {
+        "level": "H2",
+        "text": "Student Model Optimization via Knowledge Distillation"
+      },
+      {
+        "level": "H2",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment Setups"
+      },
+      {
+        "level": "H2",
+        "text": "Compared Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Performance on the FIQA Challenge"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15709v1",
+    "url": "http://arxiv.org/abs/2507.15709v1"
+  },
+  {
+    "title": "Polarization Vortex for Enhanced Refractive Index Sensing",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "BIC migration"
+      },
+      {
+        "level": "H1",
+        "text": "Sensitivity"
+      },
+      {
+        "level": "H1",
+        "text": "CONCLUSION"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Funding"
+      },
+      {
+        "level": "H1",
+        "text": "Derivation of \\texorpdfstring{$\\Delta\\phi$"
+      },
+      {
+        "level": "H1",
+        "text": "Merging and annihilation of BICs"
+      },
+      {
+        "level": "H1",
+        "text": "Polarization"
+      },
+      {
+        "level": "H1",
+        "text": "Overlap integral"
+      },
+      {
+        "level": "H1",
+        "text": "Band diagram"
+      },
+      {
+        "level": "H1",
+        "text": "Sensitivity"
+      },
+      {
+        "level": "H1",
+        "text": "Reflectance"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Corresponding author"
+      },
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Assessing final manuscript length"
+      },
+      {
+        "level": "H1",
+        "text": "Figures, tables, and supplementary materials"
+      },
+      {
+        "level": "H2",
+        "text": "Figures and tables"
+      },
+      {
+        "level": "H2",
+        "text": "Supplementary materials in Optica Publishing Group journals"
+      },
+      {
+        "level": "H2",
+        "text": "Sample Dataset Citation"
+      },
+      {
+        "level": "H2",
+        "text": "Sample Code Citation"
+      },
+      {
+        "level": "H1",
+        "text": "Mathematical and scientific notation"
+      },
+      {
+        "level": "H2",
+        "text": "Displayed equations"
+      },
+      {
+        "level": "H1",
+        "text": "Back matter"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H2",
+        "text": "Formatting reference items"
+      },
+      {
+        "level": "H2",
+        "text": "Formatting reference citations"
+      },
+      {
+        "level": "H2",
+        "text": "Bib\\TeX"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15705v1",
+    "url": "http://arxiv.org/abs/2507.15705v1"
+  },
+  {
+    "title": "Simulating Partial Sky Cosmic Microwave Background Maps with 3D Fast Fourier Transforms",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Formalism"
+      },
+      {
+        "level": "H2",
+        "text": "The Power Spectrum In the Box"
+      },
+      {
+        "level": "H2",
+        "text": "Linear Programming"
+      },
+      {
+        "level": "H2",
+        "text": "Making the Box"
+      },
+      {
+        "level": "H2",
+        "text": "Simulating in the Box"
+      },
+      {
+        "level": "H3",
+        "text": "The 3-D Fourier Method"
+      },
+      {
+        "level": "H3",
+        "text": "The 2-D Fourier Method"
+      },
+      {
+        "level": "H1",
+        "text": "Tests"
+      },
+      {
+        "level": "H2",
+        "text": "Initial tests"
+      },
+      {
+        "level": "H2",
+        "text": "Cholesky Decomposition and Kolmogorov - Smirnov test"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15703v1",
+    "url": "http://arxiv.org/abs/2507.15703v1"
+  },
+  {
+    "title": "Using stochastic thermodynamics with internal variables to capture orientational spreading in cell populations undergoing cyclic stretch",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Cell reorientation under cyclic strain"
+      },
+      {
+        "level": "H2",
+        "text": "An approximation scheme for the Fokker--Planck equation"
+      },
+      {
+        "level": "H1",
+        "text": "The reduced model"
+      },
+      {
+        "level": "H2",
+        "text": "Approximation through the von Mises probability distribution"
+      },
+      {
+        "level": "H2",
+        "text": "The coefficients of the ODE system that governs the average angle and the order parameter"
+      },
+      {
+        "level": "H2",
+        "text": "Setting the initial conditions"
+      },
+      {
+        "level": "H1",
+        "text": "The qualitative behaviour of the reduced model"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical tests"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison with experimental data"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix."
+      },
+      {
+        "level": "H2",
+        "text": "The evolution of $\\mu(t)$"
+      },
+      {
+        "level": "H2",
+        "text": "The evolution of $\\kappa(t)$."
+      },
+      {
+        "level": "H2",
+        "text": "The set $\\dot\\kappa=0$."
+      },
+      {
+        "level": "H1",
+        "text": "Notes for ourselves"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotics of modified bessel functions"
+      },
+      {
+        "level": "H2",
+        "text": "Asymptotic behavior of $G(\\kappa)$ (AI generated from file \\texttt{Asymptotics\\_G.nb"
+      },
+      {
+        "level": "H2",
+        "text": "Supporting the choice of one well"
+      },
+      {
+        "level": "H2",
+        "text": "How the energetic landscape depends on $r$"
+      },
+      {
+        "level": "H2",
+        "text": "Is the approximation good?"
+      },
+      {
+        "level": "H2",
+        "text": "Derivation of normalized energy \\color{black"
+      },
+      {
+        "level": "H2",
+        "text": "Entropy Production Rate"
+      },
+      {
+        "level": "H2",
+        "text": "Proof that $I_1(z) > I_2(z)$ for $z > 0$"
+      },
+      {
+        "level": "H2",
+        "text": ""
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15694v1",
+    "url": "http://arxiv.org/abs/2507.15694v1"
+  },
+  {
+    "title": "Data-Driven MPC with Data Selection for Flexible Cable-Driven Robotic Arms",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Acknowledgement"
+      },
+      {
+        "level": "H1",
+        "text": "Overview"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion and Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "DSA Verification Experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation-based Hyperparameter Tuning Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Position Repeatability"
+      },
+      {
+        "level": "H2",
+        "text": "Tracking Performance"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Modeling"
+      },
+      {
+        "level": "H2",
+        "text": "Construction of Data-Driven MPC"
+      },
+      {
+        "level": "H2",
+        "text": "Data-Driven Motion Planner"
+      },
+      {
+        "level": "H2",
+        "text": "Data Search Algorithm (DSA)"
+      },
+      {
+        "level": "H2",
+        "text": "Equivalent Model Reference"
+      },
+      {
+        "level": "H2",
+        "text": "Quintic Polynomial Interpolation"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15677v1",
+    "url": "http://arxiv.org/abs/2507.15677v1"
+  },
+  {
+    "title": "BugScope: Learn to Find Bugs Like Human",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Approach"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Context Retrieval Agent"
+      },
+      {
+        "level": "H2",
+        "text": "Bug Detection Agent"
+      },
+      {
+        "level": "H1",
+        "text": "Motivation"
+      },
+      {
+        "level": "H2",
+        "text": "Diversity of Software Bugs"
+      },
+      {
+        "level": "H2",
+        "text": "Limitations of Existing Techniques"
+      },
+      {
+        "level": "H2",
+        "text": "Our Vision"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Performance of \\toolname{"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Baselines"
+      },
+      {
+        "level": "H2",
+        "text": "Real-World Impact"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Analysis of BugBot and CodeRabbit"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Result"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of False Negatives"
+      },
+      {
+        "level": "H2",
+        "text": "Examples of False Positives"
+      }
+    ],
+    "query": "organic solar cells development",
+    "arxiv_id": "2507.15671v1",
+    "url": "http://arxiv.org/abs/2507.15671v1"
+  }
+]

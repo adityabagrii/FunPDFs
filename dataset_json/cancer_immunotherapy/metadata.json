@@ -1,0 +1,3194 @@
+[
+  {
+    "title": "SegDT: A Diffusion Transformer-Based Segmentation Model for Medical Imaging",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "CNN-based Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Transformer-based Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Hybrid Architectures: CNN-Transformers"
+      },
+      {
+        "level": "H2",
+        "text": "Diffusion Models for Segmentation"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "Rectified Flow for Efficient Inference"
+      },
+      {
+        "level": "H2",
+        "text": "Transformer-Based Diffusion Model (SegDT)"
+      },
+      {
+        "level": "H3",
+        "text": "VAE Encoder"
+      },
+      {
+        "level": "H3",
+        "text": "Patch Embedder"
+      },
+      {
+        "level": "H3",
+        "text": "Time Step Embedder"
+      },
+      {
+        "level": "H3",
+        "text": "DiT Blocks"
+      },
+      {
+        "level": "H3",
+        "text": "Linear and Reshape"
+      },
+      {
+        "level": "H3",
+        "text": "VAE Decoder"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Results and Discussion"
+      },
+      {
+        "level": "H3",
+        "text": "Segmentation Performance"
+      },
+      {
+        "level": "H3",
+        "text": "Qualitative Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.15595v1",
+    "url": "http://arxiv.org/abs/2507.15595v1"
+  },
+  {
+    "title": "MedSR-Impact: Transformer-Based Super-Resolution for Lung CT Segmentation, Radiomics, Classification, and Prognosis",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "CT Resolution in Lung Cancer"
+      },
+      {
+        "level": "H2",
+        "text": "SR Techniques for CT"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "SR Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Datasets for Evaluating the Impact of SR on Feature Robustness"
+      },
+      {
+        "level": "H3",
+        "text": "Datasets for Evaluating the Impact of SR on  Lung Segmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Datasets for Evaluating the Impact of SR on Classification and Prognosis"
+      },
+      {
+        "level": "H2",
+        "text": "TVSRN-V2: Volumetric CT SR with Swin Transformer V2"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Protocols for Downstream Tasks"
+      },
+      {
+        "level": "H3",
+        "text": "Radiomic and TMR-CT Feature Reproducibility"
+      },
+      {
+        "level": "H3",
+        "text": "Segmentation on Real Low-Resolution CTs"
+      },
+      {
+        "level": "H3",
+        "text": "Segmentation on Pseudo Paired CTs"
+      },
+      {
+        "level": "H3",
+        "text": "Cross-Resolution Evaluation with Real CT Pairs"
+      },
+      {
+        "level": "H3",
+        "text": "Impact on Classification and Prognosis Models"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation"
+      },
+      {
+        "level": "H2",
+        "text": "SR Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Post-SR Lobar Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluating SR for Histology Classification and Prognosis in NSCLC"
+      },
+      {
+        "level": "H3",
+        "text": "Histology Classification Results"
+      },
+      {
+        "level": "H3",
+        "text": "Prognosis Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      },
+      {
+        "level": "H1",
+        "text": "Prognosis and Histology Dataset Details"
+      },
+      {
+        "level": "H1",
+        "text": "Lung Segmentation Dataset Details"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Description"
+      },
+      {
+        "level": "H2",
+        "text": "Training Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Validation and Test Datasets"
+      },
+      {
+        "level": "H2",
+        "text": "Disease-Specific External Test Set"
+      },
+      {
+        "level": "H2",
+        "text": "Segmentation Details"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.15340v1",
+    "url": "http://arxiv.org/abs/2507.15340v1"
+  },
+  {
+    "title": "Mammo-SAE: Interpreting Breast Cancer Concept Learning with Sparse Autoencoders",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "\\texttt{Mammo-SAE"
+      },
+      {
+        "level": "H2",
+        "text": "Probing Mammo-SAE Latents to Identify Breast Concepts"
+      },
+      {
+        "level": "H2",
+        "text": "Intervention on Mammo-SAE Latent Neurons"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Intervention on Class-level Latent Neurons"
+      },
+      {
+        "level": "H2",
+        "text": "Analyzing Top Activated Latent Neurons"
+      },
+      {
+        "level": "H2",
+        "text": "\\small Latent Neuron Separation: Finetuned vs. Pretrained Mammo-CLIP"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Details"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Results"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.15227v1",
+    "url": "http://arxiv.org/abs/2507.15227v1"
+  },
+  {
+    "title": "Paired Image Generation with Diffusion-Guided Diffusion Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Revisiting Diffusion Models"
+      },
+      {
+        "level": "H3",
+        "text": "The Forward Process."
+      },
+      {
+        "level": "H3",
+        "text": "The Reverse Process."
+      },
+      {
+        "level": "H3",
+        "text": "Limitations."
+      },
+      {
+        "level": "H2",
+        "text": "Paired Image Generation"
+      },
+      {
+        "level": "H3",
+        "text": "The Forward Process."
+      },
+      {
+        "level": "H3",
+        "text": "The Reverse Process."
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Experimental Setup"
+      },
+      {
+        "level": "H3",
+        "text": "DBTMassSeg."
+      },
+      {
+        "level": "H3",
+        "text": "Experimental Setup."
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H3",
+        "text": "Focused Generation of Lesion Regions."
+      },
+      {
+        "level": "H3",
+        "text": "Comparative Experiments with Unconditional Diffusion Models."
+      },
+      {
+        "level": "H3",
+        "text": "Comparative Experiments with Conditional Diffusion Models."
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.14833v1",
+    "url": "http://arxiv.org/abs/2507.14833v1"
+  },
+  {
+    "title": "Deep Learning-Based Survival Analysis with Copula-Based Activation Functions for Multivariate Response Prediction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Bridging the Gap Between Machine Learning and Classical Survival Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Copula-Based Activation Functions"
+      },
+      {
+        "level": "H2",
+        "text": "LSTM Model and CNN-LSTM Model for Multivariate Prediction"
+      },
+      {
+        "level": "H2",
+        "text": "Censoring Mechanisms in Survival Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Rationale for Using CNN-LSTM with Learnable Copula\nin Survival Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Model Evaluation and Residual Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Breast Cancer Real Data Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.14641v1",
+    "url": "http://arxiv.org/abs/2507.14641v1"
+  },
+  {
+    "title": "A Hybrid Mixture Approach for Clustering and Characterizing Cancer Data",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Methods and Algorithms"
+      },
+      {
+        "level": "H2",
+        "text": "Background and preliminaries"
+      },
+      {
+        "level": "H3",
+        "text": "Gaussian mixture model"
+      },
+      {
+        "level": "H3",
+        "text": "Mixture of factor analyzers"
+      },
+      {
+        "level": "H2",
+        "text": "A hybrid ECM algorithm for MFA"
+      },
+      {
+        "level": "H2",
+        "text": "Initialization, stopping criteria and model selection"
+      },
+      {
+        "level": "H2",
+        "text": "Generalized MFA with varying $q_k$"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison studies between GMMFAD and EMMIX"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Figures for Methods and Algorithms"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Figures for Statistical Analysis of Cancer Data"
+      },
+      {
+        "level": "H1",
+        "text": "statistical analysis of cancer data"
+      },
+      {
+        "level": "H2",
+        "text": "Wisconsin breast cancer data"
+      },
+      {
+        "level": "H2",
+        "text": "Lymphoma gene expression data"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Materials"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of Interest"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability statement"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.14380v1",
+    "url": "http://arxiv.org/abs/2507.14380v1"
+  },
+  {
+    "title": "UGPL: Uncertainty-Guided Progressive Learning for Evidence-Based Classification in Computed Tomography",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Extended Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Global Uncertainty Estimation and Evidential Learning"
+      },
+      {
+        "level": "H3",
+        "text": "Global Model Architecture"
+      },
+      {
+        "level": "H3",
+        "text": "Evidential Uncertainty Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Uncertainty-Guided Patch Selection and Local Refinement"
+      },
+      {
+        "level": "H3",
+        "text": "Progressive Patch Extraction"
+      },
+      {
+        "level": "H3",
+        "text": "Local Refinement Network Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Fusion and Training Objectives"
+      },
+      {
+        "level": "H3",
+        "text": "Adaptive Fusion Module"
+      },
+      {
+        "level": "H3",
+        "text": "Multi-component Loss Function"
+      },
+      {
+        "level": "H1",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H1",
+        "text": "Additional Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Feature Space Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Uncertainty Calibration Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Evolution"
+      },
+      {
+        "level": "H2",
+        "text": "Computational Efficiency Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Evaluation"
+      },
+      {
+        "level": "H2",
+        "text": "Component Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "Component Ablation"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Component Weights"
+      },
+      {
+        "level": "H3",
+        "text": "Patch Extraction Parameters"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Global Uncertainty Estimation and Evidential Learning"
+      },
+      {
+        "level": "H2",
+        "text": "Uncertainty-Guided Patch Selection and Local Refinement"
+      },
+      {
+        "level": "H2",
+        "text": "Adaptive Fusion and Training Objectives"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.14102v1",
+    "url": "http://arxiv.org/abs/2507.14102v1"
+  },
+  {
+    "title": "Leveraging Pathology Foundation Models for Panoptic Segmentation of Melanoma in H&E Images",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Main Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "PUMA Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Training Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Test Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Tissue Classes"
+      },
+      {
+        "level": "H2",
+        "text": "Overview of the Proposed Framework"
+      },
+      {
+        "level": "H2",
+        "text": "Progressive Transposed Convolution (PTC) Module"
+      },
+      {
+        "level": "H2",
+        "text": "Efficient-UNet"
+      },
+      {
+        "level": "H2",
+        "text": "Dual Stage Loss"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Function"
+      },
+      {
+        "level": "H3",
+        "text": "Loss Computation"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H3",
+        "text": "Hardware"
+      },
+      {
+        "level": "H3",
+        "text": "Data Pre-Processing"
+      },
+      {
+        "level": "H3",
+        "text": "Training"
+      },
+      {
+        "level": "H3",
+        "text": "Weighted Sampling"
+      },
+      {
+        "level": "H3",
+        "text": "Data Augmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Post-Processing"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Internal Cross-Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminary Test Phase"
+      },
+      {
+        "level": "H2",
+        "text": "Final Test Phase"
+      },
+      {
+        "level": "H2",
+        "text": "Visualisation"
+      },
+      {
+        "level": "H1",
+        "text": "Inference Time"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.13974v1",
+    "url": "http://arxiv.org/abs/2507.13974v1"
+  },
+  {
+    "title": "Quantification of head and neck cancer patients' anatomical changes during radiotherapy: prediction of replanning need",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Materials and methods"
+      },
+      {
+        "level": "H2",
+        "text": "Patient cohort and study sample"
+      },
+      {
+        "level": "H2",
+        "text": "Data collection"
+      },
+      {
+        "level": "H2",
+        "text": "Image registration and contouring of structures"
+      },
+      {
+        "level": "H3",
+        "text": "Body structure preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Metrics to describe patient anatomy"
+      },
+      {
+        "level": "H3",
+        "text": "Body-related metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Treatment mask-related metrics"
+      },
+      {
+        "level": "H3",
+        "text": "PTV-related metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Mandible-related metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Neck-related metrics"
+      },
+      {
+        "level": "H3",
+        "text": "Submandibular-related metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Univariate analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Linear regression analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Delta analysis"
+      },
+      {
+        "level": "H2",
+        "text": "ML models to predict if replanning will be needed"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Study sample"
+      },
+      {
+        "level": "H2",
+        "text": "Univariate analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Machine learning analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Author Contribution Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Conflict of Interest Statement"
+      },
+      {
+        "level": "H1",
+        "text": "References"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Machine Learning"
+      },
+      {
+        "level": "H2",
+        "text": "ML specifications"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.13630v1",
+    "url": "http://arxiv.org/abs/2507.13630v1"
+  },
+  {
+    "title": "BreastSegNet: Multi-label Segmentation of Breast MRI",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Model Architecture Details"
+      },
+      {
+        "level": "H2",
+        "text": "Segmentation methods"
+      },
+      {
+        "level": "H3",
+        "text": "U-Net"
+      },
+      {
+        "level": "H3",
+        "text": "Foundation model"
+      },
+      {
+        "level": "H3",
+        "text": "nnU-Net-based"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Data Selection"
+      },
+      {
+        "level": "H2",
+        "text": "Annotation Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Segmentation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Results"
+      },
+      {
+        "level": "H3",
+        "text": "U-Net"
+      },
+      {
+        "level": "H3",
+        "text": "Foundation model"
+      },
+      {
+        "level": "H3",
+        "text": "nnU-Net-based"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.13604v1",
+    "url": "http://arxiv.org/abs/2507.13604v1"
+  },
+  {
+    "title": "Improving Diagnostic Accuracy of Pigmented Skin Lesions With CNNs: an Application on the DermaMNIST Dataset",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Datasets"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H1",
+        "text": "Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment 1: Classification on DermaMNIST dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment 2: Classification on DermaMNIST-C dataset"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.12961v1",
+    "url": "http://arxiv.org/abs/2507.12961v1"
+  },
+  {
+    "title": "Modeling Feasible Locomotion of Nanobots for Cancer Detection and Treatment",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Related Work"
+      },
+      {
+        "level": "H1",
+        "text": "Model"
+      },
+      {
+        "level": "H2",
+        "text": "Passive Agent Model"
+      },
+      {
+        "level": "H2",
+        "text": "Active Agent Model"
+      },
+      {
+        "level": "H2",
+        "text": "Orientation-Biased Movement Model"
+      },
+      {
+        "level": "H2",
+        "text": "Model Validation"
+      },
+      {
+        "level": "H1",
+        "text": "Results for the Passive Agent Model"
+      },
+      {
+        "level": "H2",
+        "text": "Analytical Results for a Single Passive Agent"
+      },
+      {
+        "level": "H2",
+        "text": "Proof Idea for \\texorpdfstring{Theorem~\\ref{thm:singleAgentBound"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Results for a  Single Passive Agent"
+      },
+      {
+        "level": "H2",
+        "text": "Results for Multiple Passive Agents"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Results for Multiple Passive Agents"
+      },
+      {
+        "level": "H1",
+        "text": "Results for the Active Agent Model"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Information"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of \\texorpdfstring{Theorem~\\ref{thm:singleAgentBound"
+      },
+      {
+        "level": "H3",
+        "text": "Analysis Overview for Passive Agent Model"
+      },
+      {
+        "level": "H3",
+        "text": "Analysis overview"
+      },
+      {
+        "level": "H3",
+        "text": "Analysis of the Hitting Times for Passive Agent Mode"
+      },
+      {
+        "level": "H2",
+        "text": "Auxiliary Lemmas"
+      },
+      {
+        "level": "H2",
+        "text": "Proof of Corollary~\\ref{cor:multi"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.12400v1",
+    "url": "http://arxiv.org/abs/2507.12400v1"
+  },
+  {
+    "title": "Trustworthy Tree-based Machine Learning by $MoS_2$ Flash-based Analog CAM with Inherent Soft Boundaries",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Soft tree models in analog CAM with soft boundaries"
+      },
+      {
+        "level": "H2",
+        "text": "Soft tree model inference experiment with 2D \\ce{MoS2"
+      },
+      {
+        "level": "H2",
+        "text": "Breast cancer diagnostic experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Variation and attack resilience of soft tree models in analog CAM"
+      },
+      {
+        "level": "H2",
+        "text": "Scalable architecture and performance benchmarks"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Device fabrication of \\ce{MoS2"
+      },
+      {
+        "level": "H2",
+        "text": "Circuit simulation"
+      },
+      {
+        "level": "H2",
+        "text": "Circuit model for calculating probability with analog CAM"
+      },
+      {
+        "level": "H2",
+        "text": "Training algorithm of tree models"
+      },
+      {
+        "level": "H2",
+        "text": "Differences between mapping ``smaller than'' and ``larger than'' soft thresholds"
+      },
+      {
+        "level": "H1",
+        "text": "Data availability"
+      },
+      {
+        "level": "H1",
+        "text": "Code availability"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.12384v1",
+    "url": "http://arxiv.org/abs/2507.12384v1"
+  },
+  {
+    "title": "GLOMIA-Pro: A Generalizable Longitudinal Medical Image Analysis Framework for Disease Progression Prediction",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "METHODS"
+      },
+      {
+        "level": "H2",
+        "text": "Spatiotemporal Embeddings"
+      },
+      {
+        "level": "H2",
+        "text": "Progression Representation Extraction"
+      },
+      {
+        "level": "H3",
+        "text": "Piecewise Orthogonal Attention"
+      },
+      {
+        "level": "H3",
+        "text": "Ordinal Progression Contraint"
+      },
+      {
+        "level": "H2",
+        "text": "Progressive-aware Fusion"
+      },
+      {
+        "level": "H1",
+        "text": "EXPERIMENTS AND RESULTS"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "KOA Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "ESCC Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Settings"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with Other Longitudinal Methods and generalize GLOMIA-Pro to Other Vision Backobones"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "Task-specific weight sharing strategies for Feature Embedding"
+      },
+      {
+        "level": "H3",
+        "text": "Effectiveness of spatiotemporal embedding (LSTE)"
+      },
+      {
+        "level": "H3",
+        "text": "Impact of Orthogonal Attention and Piecewise Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Effectiveness of the Ordinal Progression Constraint"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.12500v1",
+    "url": "http://arxiv.org/abs/2507.12500v1"
+  },
+  {
+    "title": "Interpretable Prediction of Lymph Node Metastasis in Rectal Cancer MRI Using Variational Autoencoders",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "First Section"
+      },
+      {
+        "level": "H2",
+        "text": "A Subsection Sample"
+      },
+      {
+        "level": "H3",
+        "text": "Sample Heading (Third Level)"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "MRI Preprocessing and Augmentation"
+      },
+      {
+        "level": "H2",
+        "text": "VAE Model Description and Training"
+      },
+      {
+        "level": "H2",
+        "text": "Lymph Node Metastasis Classification"
+      },
+      {
+        "level": "H2",
+        "text": "Post-Hoc Explainability"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset Description"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "VAE MRI Lymph Node Patch Reconstruction Results"
+      },
+      {
+        "level": "H2",
+        "text": "Classification Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H2",
+        "text": "Error Analysis and Uncertainty"
+      },
+      {
+        "level": "H2",
+        "text": "Interpretability and Clustering"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.11638v1",
+    "url": "http://arxiv.org/abs/2507.11638v1"
+  },
+  {
+    "title": "Demographic Distribution Matching between real world and virtual phantom population",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Statistical Metrics for Assessing Distributional Differences"
+      },
+      {
+        "level": "H2",
+        "text": "Demographic Matching via the DISTINCT Algorithm"
+      },
+      {
+        "level": "H2",
+        "text": "Demographic Comparison and Subsampling for Virtual Clinical Trials"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix"
+      },
+      {
+        "level": "H2",
+        "text": "Baseline comparability of LDCT and CXR arms in NLST"
+      },
+      {
+        "level": "H2",
+        "text": "Stratified AUC analysis of NLST risk scores by demographic subgroup"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.11511v3",
+    "url": "http://arxiv.org/abs/2507.11511v3"
+  },
+  {
+    "title": "LRMR: LLM-Driven Relational Multi-node Ranking for Lymph Node Metastasis Assessment in Rectal Cancer",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Structured Feature Extraction"
+      },
+      {
+        "level": "H2",
+        "text": "Relational Risk Ranking"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Compared Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Performance Comparison"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.11457v1",
+    "url": "http://arxiv.org/abs/2507.11457v1"
+  },
+  {
+    "title": "Regression modeling for cure factors on uterine cancer data using the reparametrized defective generalized Gompertz distribution",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "The defective Gompertz distribution"
+      },
+      {
+        "level": "H2",
+        "text": "The defective generalized Gompertz distribution"
+      },
+      {
+        "level": "H2",
+        "text": "Model with covariates"
+      },
+      {
+        "level": "H2",
+        "text": "Bayesian inference"
+      },
+      {
+        "level": "H2",
+        "text": "Residual analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation"
+      },
+      {
+        "level": "H1",
+        "text": "Motivating data"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Model Estimation of the Defective Generalized Gompertz Distribution After Removing Influential and Outlier Observations"
+      },
+      {
+        "level": "H1",
+        "text": "Model Estimation and Diagnostic Assessment for the Weibull Cure Rate Model"
+      },
+      {
+        "level": "H1",
+        "text": "Model Selection Criteria in Bayesian Models"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.10902v1",
+    "url": "http://arxiv.org/abs/2507.10902v1"
+  },
+  {
+    "title": "Focus on Texture: Rethinking Pre-training in Masked Autoencoders for Medical Image Classification",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Proposed Method"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{\\myarch"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.10869v1",
+    "url": "http://arxiv.org/abs/2507.10869v1"
+  },
+  {
+    "title": "Flexible Modeling of Multivariate Skewed and Heavy-Tailed Data via a Non-Central Skew t Distribution: Application to Tumor Shape Data",
+    "outline": [
+      {
+        "level": "H2",
+        "text": "The Multivariate Skew Normal Distribution"
+      },
+      {
+        "level": "H2",
+        "text": "Novelty and Contribution"
+      },
+      {
+        "level": "H2",
+        "text": "Quadratic Form Validation"
+      },
+      {
+        "level": "H2",
+        "text": "Skewness and Tail Behavior"
+      },
+      {
+        "level": "H2",
+        "text": "Effect of Degrees of Freedom"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison to Misspecified Models"
+      },
+      {
+        "level": "H2",
+        "text": "Moments and Expectations"
+      },
+      {
+        "level": "H2",
+        "text": "Affine Transformations"
+      },
+      {
+        "level": "H2",
+        "text": "Quadratic Forms and Their Distribution"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H2",
+        "text": "Literature Review And Motivation"
+      },
+      {
+        "level": "H1",
+        "text": "A Multivariate Non-Central Skew \\textit{t"
+      },
+      {
+        "level": "H1",
+        "text": "Theoretical Properties"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Application: Modeling Skewed Tumor Shape Features"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Appendix: Related Definition and Results"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.10465v1",
+    "url": "http://arxiv.org/abs/2507.10465v1"
+  },
+  {
+    "title": "DepViT-CAD: Deployable Vision Transformer-Based Cancer Diagnosis in Histopathology",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Abstract"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Literature Review"
+      },
+      {
+        "level": "H1",
+        "text": "\\method{"
+      },
+      {
+        "level": "H2",
+        "text": "Pre-processing"
+      },
+      {
+        "level": "H3",
+        "text": "Model Training Phase"
+      },
+      {
+        "level": "H3",
+        "text": "Clinical Deployment Phase"
+      },
+      {
+        "level": "H3",
+        "text": "Discussion on Pre-Processing"
+      },
+      {
+        "level": "H2",
+        "text": "Image Classification with \\mavit{"
+      },
+      {
+        "level": "H3",
+        "text": "Backbone"
+      },
+      {
+        "level": "H3",
+        "text": "VTM"
+      },
+      {
+        "level": "H3",
+        "text": "Prediction Layers"
+      },
+      {
+        "level": "H3",
+        "text": "DFS"
+      },
+      {
+        "level": "H2",
+        "text": "Decision-Making"
+      },
+      {
+        "level": "H3",
+        "text": "Aggregating Predictions"
+      },
+      {
+        "level": "H3",
+        "text": "Visual Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Model Predictions Measurement by \\dgraph{"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset and Training Strategy"
+      },
+      {
+        "level": "H3",
+        "text": "Dataset Acquisition"
+      },
+      {
+        "level": "H3",
+        "text": "Dataset Partitioning"
+      },
+      {
+        "level": "H3",
+        "text": "Model Training Strategy and Computational Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Prediction Performance"
+      },
+      {
+        "level": "H2",
+        "text": "Model Robustness"
+      },
+      {
+        "level": "H2",
+        "text": "Workflow for Patch Generation"
+      },
+      {
+        "level": "H2",
+        "text": "Class Prediction and Probability Heatmap"
+      },
+      {
+        "level": "H2",
+        "text": "Model’s Time Complexity"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.10250v1",
+    "url": "http://arxiv.org/abs/2507.10250v1"
+  },
+  {
+    "title": "A PBN-RL-XAI Framework for Discovering a \"Hit-and-Run\" Therapeutic Strategy in Melanoma",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Data Acquisition and Binarization"
+      },
+      {
+        "level": "H2",
+        "text": "Introduction of PBN"
+      },
+      {
+        "level": "H2",
+        "text": "PKN-constrained PBN construction"
+      },
+      {
+        "level": "H3",
+        "text": "Initial network foundation"
+      },
+      {
+        "level": "H3",
+        "text": "Hybrid gene selection strategy"
+      },
+      {
+        "level": "H3",
+        "text": "PBN inference methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning for Optimal Dynamic Control"
+      },
+      {
+        "level": "H2",
+        "text": "Sequential Intervention and Explainable AI Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Optimal ``Hit-and-Run'' Strategy Identification"
+      },
+      {
+        "level": "H3",
+        "text": "Mechanistic Policy Explanation via SHAP"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Discussions"
+      },
+      {
+        "level": "H2",
+        "text": "The Resistant Network is Characterized by a Rigid and Canalized Attractor Landscape"
+      },
+      {
+        "level": "H2",
+        "text": "Network Rewiring Establishes a JUN/LOXL2 Regulatory Axis"
+      },
+      {
+        "level": "H2",
+        "text": "Reinforcement Learning Identifies the MAP2K3/LOXL2 Axis as the Optimal Dynamic Control Target"
+      },
+      {
+        "level": "H2",
+        "text": "Temporal Inhibition Reveals a ``Hit-and-Run'' Therapeutic Strategy"
+      },
+      {
+        "level": "H2",
+        "text": "Mechanistic Policy Explanation via SHAP"
+      },
+      {
+        "level": "H3",
+        "text": "Context-Dependent Intervention Choice"
+      },
+      {
+        "level": "H3",
+        "text": "Validation of the ``Hit-and-Run'' Mechanism"
+      },
+      {
+        "level": "H3",
+        "text": "Dynamic Visualization of the Control Strategy"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Code Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgment"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.10136v3",
+    "url": "http://arxiv.org/abs/2507.10136v3"
+  },
+  {
+    "title": "Advanced U-Net Architectures with CNN Backbones for Automated Lung Cancer Detection and Segmentation in Chest CT Images",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Material and Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Data Collection"
+      },
+      {
+        "level": "H2",
+        "text": "Preprocessing of CT Scan Data"
+      },
+      {
+        "level": "H3",
+        "text": "Local Contrast Enhancement with CLAHE"
+      },
+      {
+        "level": "H3",
+        "text": "Uniform Image Rescaling"
+      },
+      {
+        "level": "H3",
+        "text": "Pixel Value Normalization"
+      },
+      {
+        "level": "H1",
+        "text": "Automatic Lung Segmentation Using Morphological Techniques"
+      },
+      {
+        "level": "H1",
+        "text": "U-Net Architectures with Pre-trained Backbones for Lung Segmentation"
+      },
+      {
+        "level": "H3",
+        "text": "U-Net with VGG16 Backbone for Lung Segmentation"
+      },
+      {
+        "level": "H3",
+        "text": "U-Net with ResNet50 Backbone for Lung Segmentation"
+      },
+      {
+        "level": "H3",
+        "text": "U-Net with Xception Backbone for Lung Segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Classification using a combination of CNN and machine learning"
+      },
+      {
+        "level": "H3",
+        "text": "Independent CNN Model"
+      },
+      {
+        "level": "H3",
+        "text": "Hybrid Models: CNN with SVM, RF, and GB"
+      },
+      {
+        "level": "H1",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Cross-Validation"
+      },
+      {
+        "level": "H1",
+        "text": "Result"
+      },
+      {
+        "level": "H3",
+        "text": "Overview of Image Preprocessing and Dataset"
+      },
+      {
+        "level": "H3",
+        "text": "Segmentation Results Using U-Net with Various CNN Backbones"
+      },
+      {
+        "level": "H3",
+        "text": "Classification Performance of CNN Models Trained on U-Net Segmentations"
+      },
+      {
+        "level": "H3",
+        "text": "Machine Learning Classifiers Combined with CNN Features for Lung Cancer Detection"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation of Pre-trained CNN Backbones in Lung Cancer Classification"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H1",
+        "text": "Author Contributions"
+      },
+      {
+        "level": "H1",
+        "text": "Declarations"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.09898v1",
+    "url": "http://arxiv.org/abs/2507.09898v1"
+  },
+  {
+    "title": "A Phase-field Model for Apoptotic Cell Death",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Conclusions"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Data Availability"
+      },
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "A continuum theory for apoptotic processes"
+      },
+      {
+        "level": "H2",
+        "text": "Variational chemo-mechanical formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Configurational mechanics"
+      },
+      {
+        "level": "H2",
+        "text": "Thermodynamic potential"
+      },
+      {
+        "level": "H2",
+        "text": "Specialisation to directional apoptosis"
+      },
+      {
+        "level": "H2",
+        "text": "Dimensionless Form"
+      },
+      {
+        "level": "H1",
+        "text": "Numerical Simulations"
+      },
+      {
+        "level": "H2",
+        "text": "Physical and Numeric Parameter list"
+      },
+      {
+        "level": "H2",
+        "text": "Initial conditions"
+      },
+      {
+        "level": "H2",
+        "text": "Finger formation and nucleation during apoptosis"
+      },
+      {
+        "level": "H2",
+        "text": "Interface width influence"
+      },
+      {
+        "level": "H2",
+        "text": "Varying the rate of reaction and annihilation"
+      },
+      {
+        "level": "H3",
+        "text": "Rate of apoptosis when varying the rate of reaction parameters"
+      },
+      {
+        "level": "H3",
+        "text": "Varying the rate of annihilation for the cell"
+      },
+      {
+        "level": "H2",
+        "text": "Internal configurational forces"
+      },
+      {
+        "level": "H1",
+        "text": "Qualitative comparison of electron microscopy images and simulations"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.09038v1",
+    "url": "http://arxiv.org/abs/2507.09038v1"
+  },
+  {
+    "title": "Generation of structure-guided pMHC-I libraries using Diffusion Models",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Data and Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Hot-spot identification"
+      },
+      {
+        "level": "H2",
+        "text": "Generative Pipeline"
+      },
+      {
+        "level": "H2",
+        "text": "Models Evaluated"
+      },
+      {
+        "level": "H2",
+        "text": "Additional Benchmarking Datasets"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Allele-aware motif similarity."
+      },
+      {
+        "level": "H2",
+        "text": "Experimental Validation with orthogonal unbiased data"
+      },
+      {
+        "level": "H2",
+        "text": "Full ROC curve performance across peptide classes"
+      },
+      {
+        "level": "H2",
+        "text": "Performance on Experimentally Validated Binders"
+      },
+      {
+        "level": "H2",
+        "text": "Performance on Random-Sampled Peptides"
+      },
+      {
+        "level": "H2",
+        "text": "Performance on Permutation-Test Peptides"
+      },
+      {
+        "level": "H2",
+        "text": "Performance on Structure-Guided Diffusion Designs"
+      },
+      {
+        "level": "H2",
+        "text": "Sequence Novelty and Latent Space of Generated Designs"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion and limitations"
+      },
+      {
+        "level": "H1",
+        "text": "Supplemental Figures"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.08902v1",
+    "url": "http://arxiv.org/abs/2507.08902v1"
+  },
+  {
+    "title": "Single-Domain Generalization for Multimodal Cross-Cancer Prognosis via Dirac Rebalancer and Distribution Entanglement",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Domain Generalization"
+      },
+      {
+        "level": "H2",
+        "text": "Single Domain Generalization"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-Modal Prognosis Prediction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Preliminaries \\& Framework Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Sparse Dirac Information Rebalancer"
+      },
+      {
+        "level": "H2",
+        "text": "Cancer-Aware Distribution Entanglement"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details \\& Optimization"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets \\& Evaluation Protocols"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison with State-of-the-art"
+      },
+      {
+        "level": "H3",
+        "text": "Baselines"
+      },
+      {
+        "level": "H3",
+        "text": "Generalization analysis of different unimodal methods"
+      },
+      {
+        "level": "H3",
+        "text": "Generalization analysis of multimodal methods"
+      },
+      {
+        "level": "H2",
+        "text": "Ablation Study"
+      },
+      {
+        "level": "H3",
+        "text": "Effectiveness analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Synergy analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Compatibility with Multimodal Prognosis Methods"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.08340v1",
+    "url": "http://arxiv.org/abs/2507.08340v1"
+  },
+  {
+    "title": "Predictive Causal Inference via Spatio-Temporal Modeling and Penalized Empirical Likelihood",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work and Literature Review"
+      },
+      {
+        "level": "H2",
+        "text": "Propensity Score Estimation and Covariate Balance"
+      },
+      {
+        "level": "H2",
+        "text": "Variable Selection via Penalization"
+      },
+      {
+        "level": "H2",
+        "text": "Doubly Robust Estimation and Semiparametric Efficiency"
+      },
+      {
+        "level": "H2",
+        "text": "Spatio-Temporal Modeling in Biomedical Inference"
+      },
+      {
+        "level": "H2",
+        "text": "Our Contribution and Distinction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Spatio-Temporal Structure"
+      },
+      {
+        "level": "H2",
+        "text": "Propensity Score Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Outcome Regression Model"
+      },
+      {
+        "level": "H2",
+        "text": "Penalized Empirical Likelihood Objective"
+      },
+      {
+        "level": "H2",
+        "text": "Joint Estimation Procedure"
+      },
+      {
+        "level": "H1",
+        "text": "Simulation Studies"
+      },
+      {
+        "level": "H2",
+        "text": "Simulation Design"
+      },
+      {
+        "level": "H2",
+        "text": "Competitor Models"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Results and Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H2",
+        "text": "Future Work"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.08896v1",
+    "url": "http://arxiv.org/abs/2507.08896v1"
+  },
+  {
+    "title": "Predictive Representativity: Uncovering Racial Bias in AI-based Skin Cancer Detection",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Comparison of Predictive Representativity with Related Concepts"
+      },
+      {
+        "level": "H1",
+        "text": "Case Study: Uncovering Racial Disparities in AI-Based Imaging Classifiers for Skin Cancer Detection"
+      },
+      {
+        "level": "H1",
+        "text": "Theoretical Framework of Predictive Representativity"
+      },
+      {
+        "level": "H2",
+        "text": "Modelling set-up"
+      },
+      {
+        "level": "H2",
+        "text": "Divergence as a Fairness Perspective"
+      },
+      {
+        "level": "H2",
+        "text": "Predictive Representativity"
+      },
+      {
+        "level": "H2",
+        "text": "External Transportability Criterion"
+      },
+      {
+        "level": "H2",
+        "text": "Empirical Estimation"
+      },
+      {
+        "level": "H2",
+        "text": "Connection to Robustness and Fairness"
+      },
+      {
+        "level": "H2",
+        "text": "Operationalising Predictive Representativity"
+      },
+      {
+        "level": "H2",
+        "text": "Acknowledgements"
+      },
+      {
+        "level": "H2",
+        "text": "Author Contributions"
+      },
+      {
+        "level": "H2",
+        "text": "Conflict of interest and funding"
+      },
+      {
+        "level": "H2",
+        "text": "Data protection and privacy"
+      },
+      {
+        "level": "H2",
+        "text": "Data Availability Statement"
+      },
+      {
+        "level": "H2",
+        "text": "Ethics Statement"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.14176v1",
+    "url": "http://arxiv.org/abs/2507.14176v1"
+  },
+  {
+    "title": "Deep Survival Analysis in Multimodal Medical Data: A Parametric and Probabilistic Approach with Competing Risks",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Background"
+      },
+      {
+        "level": "H2",
+        "text": "Survival Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Competing Risks"
+      },
+      {
+        "level": "H2",
+        "text": "Related Works"
+      },
+      {
+        "level": "H3",
+        "text": "Survival Analysis Models"
+      },
+      {
+        "level": "H3",
+        "text": "Competing Risks Models"
+      },
+      {
+        "level": "H3",
+        "text": "State of the Art: Multimodal Survival Approaches in Medical Data"
+      },
+      {
+        "level": "H1",
+        "text": "Architecture: from Unimodal to Multimodal VAEs for Survival"
+      },
+      {
+        "level": "H2",
+        "text": "Unimodal SAVAE for Single and Competing Risks"
+      },
+      {
+        "level": "H2",
+        "text": "SAMVAE Architecture for Single and Competing Risks"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Analysis"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Preprocessing"
+      },
+      {
+        "level": "H2",
+        "text": "Performance metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Parameter and Modality Selection"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "Multimodal Survival Analysis"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison with State-of-the-Art Multimodal Models"
+      },
+      {
+        "level": "H2",
+        "text": "Multimodal Competing Risks"
+      },
+      {
+        "level": "H2",
+        "text": "Personalized medicine"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Declarations"
+      },
+      {
+        "level": "H1",
+        "text": "Notation"
+      },
+      {
+        "level": "H1",
+        "text": "Parameters Tested and Optimals"
+      },
+      {
+        "level": "H1",
+        "text": "Intermediate Results"
+      },
+      {
+        "level": "H2",
+        "text": "Hyperparameter Tuning"
+      },
+      {
+        "level": "H2",
+        "text": "Intermediate Configurations"
+      },
+      {
+        "level": "H1",
+        "text": "Multimedia Materials"
+      },
+      {
+        "level": "H2",
+        "text": "Interactive Survival Curves by Model"
+      },
+      {
+        "level": "H2",
+        "text": "Best vs Worst Prognosis Patients"
+      },
+      {
+        "level": "H1",
+        "text": "Clinical Explainability"
+      },
+      {
+        "level": "H1",
+        "text": "Example of another appendix section"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.07804v1",
+    "url": "http://arxiv.org/abs/2507.07804v1"
+  },
+  {
+    "title": "Breast Ultrasound Tumor Generation via Mask Generator and Text-Guided Network:A Clinically Controllable Framework with Downstream Evaluation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Work"
+      },
+      {
+        "level": "H2",
+        "text": "Generative Models in Medical Image Synthesis"
+      },
+      {
+        "level": "H2",
+        "text": "Conditional Diffusion Models"
+      },
+      {
+        "level": "H2",
+        "text": "Image Synthesis for Data Augmentation"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Clinically Controllable BUS Synthesis Framework"
+      },
+      {
+        "level": "H3",
+        "text": "Latent Space Construction"
+      },
+      {
+        "level": "H3",
+        "text": "BI-RADS-Guided Text Prompt Design"
+      },
+      {
+        "level": "H3",
+        "text": "BUS Synthesis with Structural and Textural Guidance"
+      },
+      {
+        "level": "H2",
+        "text": "Clinically Guided Tumor Mask Generation"
+      },
+      {
+        "level": "H3",
+        "text": "Architecture Overview"
+      },
+      {
+        "level": "H3",
+        "text": "SCMG Design"
+      },
+      {
+        "level": "H3",
+        "text": "Curvature-Aware Clinical Prior"
+      },
+      {
+        "level": "H3",
+        "text": "Adversarial Training with Clinical Priors"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments and Results"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Implementations"
+      },
+      {
+        "level": "H3",
+        "text": "Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "Implementations"
+      },
+      {
+        "level": "H3",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Comparison on BUS Tumor Generation"
+      },
+      {
+        "level": "H3",
+        "text": "Quantitative Assessment"
+      },
+      {
+        "level": "H3",
+        "text": "Qualitative Assessment"
+      },
+      {
+        "level": "H3",
+        "text": "Visual Turing Test"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation on Mask Generator"
+      },
+      {
+        "level": "H2",
+        "text": "Downstream Evaluation of Synthetic Data"
+      },
+      {
+        "level": "H3",
+        "text": "Performance Gains Across Tasks and Architectures"
+      },
+      {
+        "level": "H3",
+        "text": "Comparison with Ordinary Augmentation"
+      },
+      {
+        "level": "H3",
+        "text": "Optimal Ratios and Non-Monotonic Trends"
+      },
+      {
+        "level": "H3",
+        "text": "Cross-Dataset Generalization"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H1",
+        "text": "Acknowledgments"
+      },
+      {
+        "level": "H1",
+        "text": "Supplementary Material"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.07721v1",
+    "url": "http://arxiv.org/abs/2507.07721v1"
+  },
+  {
+    "title": "Label-free microscope for rheological imaging of cells",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H2",
+        "text": "rheoSCAT microscopy"
+      },
+      {
+        "level": "H2",
+        "text": "Label-free microrheology at high bandwidth"
+      },
+      {
+        "level": "H2",
+        "text": "rheoSCAT imaging"
+      },
+      {
+        "level": "H2",
+        "text": "Imaging cellular changes"
+      },
+      {
+        "level": "H1",
+        "text": "Discussion"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{Cell culture conditions"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{PSD fits"
+      },
+      {
+        "level": "H2",
+        "text": "\\textbf{Cell fixation"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.07470v1",
+    "url": "http://arxiv.org/abs/2507.07470v1"
+  },
+  {
+    "title": "GNN-ViTCap: GNN-Enhanced Multiple Instance Learning with Vision Transformers for Whole Slide Image Classification and Captioning",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related Works"
+      },
+      {
+        "level": "H2",
+        "text": "Multiple Instance Learning in Histopathology"
+      },
+      {
+        "level": "H2",
+        "text": "Vision Language Pretraining"
+      },
+      {
+        "level": "H2",
+        "text": "Biomedical Language Model for Image Captioning"
+      },
+      {
+        "level": "H1",
+        "text": "Method: GNN-ViTCap Architecture"
+      },
+      {
+        "level": "H2",
+        "text": "MIL Formulation"
+      },
+      {
+        "level": "H2",
+        "text": "Large Language Models"
+      },
+      {
+        "level": "H2",
+        "text": "Vision Encodings"
+      },
+      {
+        "level": "H2",
+        "text": "Attention-based Deep Embedded Clustering"
+      },
+      {
+        "level": "H3",
+        "text": "Deep Embedded Clustering"
+      },
+      {
+        "level": "H3",
+        "text": "Attention-Based Representative Images"
+      },
+      {
+        "level": "H2",
+        "text": "Graph-Based Aggregation (GNN-MIL)"
+      },
+      {
+        "level": "H3",
+        "text": "Constructing Graph"
+      },
+      {
+        "level": "H3",
+        "text": "Graph Neural Network (GNN)"
+      },
+      {
+        "level": "H2",
+        "text": "Projection to LLM Input Space"
+      },
+      {
+        "level": "H2",
+        "text": "Visual Embedding Projection"
+      },
+      {
+        "level": "H2",
+        "text": "Traninging Procedure"
+      },
+      {
+        "level": "H3",
+        "text": "Image Classification"
+      },
+      {
+        "level": "H3",
+        "text": "Caption Generation"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets"
+      },
+      {
+        "level": "H3",
+        "text": "BreakHis"
+      },
+      {
+        "level": "H3",
+        "text": "PatchGastric"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details and Training Phase"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation Metrics"
+      },
+      {
+        "level": "H1",
+        "text": "Results and Discussions"
+      },
+      {
+        "level": "H2",
+        "text": "Image Classification Results"
+      },
+      {
+        "level": "H2",
+        "text": "Image Captioning Results"
+      },
+      {
+        "level": "H2",
+        "text": "Discussions"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusions and Future Work"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.07006v1",
+    "url": "http://arxiv.org/abs/2507.07006v1"
+  },
+  {
+    "title": "Cross-Modality Masked Learning for Survival Prediction in ICI Treated NSCLC Patients",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Method"
+      },
+      {
+        "level": "H2",
+        "text": "Visual Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Tabular Branch"
+      },
+      {
+        "level": "H2",
+        "text": "Cross-Modality Completion"
+      },
+      {
+        "level": "H2",
+        "text": "Survival Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Experiments"
+      },
+      {
+        "level": "H2",
+        "text": "Dataset"
+      },
+      {
+        "level": "H2",
+        "text": "Implementation Details"
+      },
+      {
+        "level": "H2",
+        "text": "Main Results"
+      },
+      {
+        "level": "H2",
+        "text": "Model Analysis"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.06994v1",
+    "url": "http://arxiv.org/abs/2507.06994v1"
+  },
+  {
+    "title": "CL-Polyp: A Contrastive Learning-Enhanced Network for Accurate Polyp Segmentation",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Related work"
+      },
+      {
+        "level": "H2",
+        "text": "Polyp segmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Multi-task model"
+      },
+      {
+        "level": "H2",
+        "text": "Contrastive learning"
+      },
+      {
+        "level": "H1",
+        "text": "Methods"
+      },
+      {
+        "level": "H2",
+        "text": "Contrastive learning branch"
+      },
+      {
+        "level": "H3",
+        "text": "Selection of positive and negative samples"
+      },
+      {
+        "level": "H3",
+        "text": "Detailed structure"
+      },
+      {
+        "level": "H3",
+        "text": "Contrastive Learning Loss Function"
+      },
+      {
+        "level": "H3",
+        "text": "Choices for data augmentation"
+      },
+      {
+        "level": "H2",
+        "text": "Segmentation branch"
+      },
+      {
+        "level": "H3",
+        "text": "Modified ASPP module"
+      },
+      {
+        "level": "H3",
+        "text": "Using the CA module"
+      },
+      {
+        "level": "H3",
+        "text": "Segmentation branch loss function"
+      },
+      {
+        "level": "H2",
+        "text": "Hybrid loss function"
+      },
+      {
+        "level": "H1",
+        "text": "Experiment"
+      },
+      {
+        "level": "H2",
+        "text": "Datasets and Experiment Scenarios"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment settings"
+      },
+      {
+        "level": "H2",
+        "text": "Evaluation metrics"
+      },
+      {
+        "level": "H2",
+        "text": "Experiment result"
+      },
+      {
+        "level": "H3",
+        "text": "The result of Experiment Scenario I"
+      },
+      {
+        "level": "H3",
+        "text": "The results of Experiment Scenario II"
+      },
+      {
+        "level": "H3",
+        "text": "The results of Experiment Scenario III"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.07154v1",
+    "url": "http://arxiv.org/abs/2507.07154v1"
+  },
+  {
+    "title": "Learning from Sparse Point Labels for Dense Carcinosis Localization in Advanced Ovarian Cancer Assessment",
+    "outline": [
+      {
+        "level": "H1",
+        "text": "Introduction"
+      },
+      {
+        "level": "H1",
+        "text": "Methodology"
+      },
+      {
+        "level": "H2",
+        "text": "Problem Overview"
+      },
+      {
+        "level": "H2",
+        "text": "Learning from Sparse Point Annotations"
+      },
+      {
+        "level": "H1",
+        "text": "Experimental Setup"
+      },
+      {
+        "level": "H2",
+        "text": "Clinical Application"
+      },
+      {
+        "level": "H2",
+        "text": "Noisy Label Quality"
+      },
+      {
+        "level": "H1",
+        "text": "Results"
+      },
+      {
+        "level": "H1",
+        "text": "Conclusion"
+      },
+      {
+        "level": "H3",
+        "text": "\\ackname"
+      },
+      {
+        "level": "H3",
+        "text": "\\discintname"
+      }
+    ],
+    "query": "cancer immunotherapy",
+    "arxiv_id": "2507.06643v1",
+    "url": "http://arxiv.org/abs/2507.06643v1"
+  }
+]
