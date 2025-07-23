@@ -1,0 +1,7 @@
+fitz
+joblib
+scikit-learn
+numpy
+pandas
+matplotlib
+seaborn 
